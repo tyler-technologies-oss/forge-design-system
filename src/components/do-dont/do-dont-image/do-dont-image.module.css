@@ -1,0 +1,12 @@
+.container {
+  background-color: var(--forge-theme-image-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.container > span {
+  flex: 1;
+}

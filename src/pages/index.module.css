@@ -1,0 +1,45 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.bg {
+  background-color: #e8eaf6;
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 4rem 16rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("/img/forge-home-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contribution {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.quickLinksContainer {
+  padding: 2rem 16rem;
+}
+
+.quickLink {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner, .quickLinksContainer {
+    padding: 2rem;
+  }
+}
+
+[data-theme='dark'] .bg {
+  background-color: #424242;
+}

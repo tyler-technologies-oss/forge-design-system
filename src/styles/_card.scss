@@ -1,0 +1,9 @@
+.card {
+  border-radius: 4px;
+  box-shadow: var(--forge-theme-card-shadow);
+}
+
+.card--outlined {
+  box-shadow: none;
+  border: 1px solid var(--forge-theme-border);
+}

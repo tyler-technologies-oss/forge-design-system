@@ -1,0 +1,7 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
+  margin-bottom: 20px;
+}

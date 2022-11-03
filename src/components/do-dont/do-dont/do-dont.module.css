@@ -1,0 +1,67 @@
+/* @import '~@tylertech/tyler-components-web/styles/theme/mixins';
+@import '~@tylertech/tyler-components-web/styles/typography/mixins'; */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconLabel {
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.iconDo {
+  color: var(--forge-theme-success);
+}
+
+.iconDont {
+  color: var(--forge-theme-danger);
+}
+
+.iconCaution {
+  color: var(--forge-theme-text-secondary);
+}
+
+.iconContainerHorizontal {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 8px;
+}
+
+.iconHorizontal {
+  margin-right: 16px;
+}
+
+.captionTitle {
+  margin: 8px 0;
+}
+
+.caption {
+  color: var(--forge-theme-text-secondary);
+  margin: 8px 0;
+}
+
+.captionHorizontal {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto,sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  letter-spacing: .03125em;
+  text-decoration: inherit;
+  text-transform: inherit;
+}

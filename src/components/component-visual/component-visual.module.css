@@ -1,0 +1,24 @@
+.frame {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 100%;
+  min-height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: -12px;
+  bottom: -24px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
