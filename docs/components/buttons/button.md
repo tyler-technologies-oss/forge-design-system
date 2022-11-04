@@ -23,31 +23,31 @@ Forge also includes other types of buttons: [icon buttons](/components/icon-butt
 
 Raised  buttons have more emphasis, as they use a fill color and shadow. They contain actions that are primary to your application.
 
-<div class="live-demo">
-  <tcw-button type="raised">
-    <button type="button">Raised button</button>
-  </tcw-button>
-</div>
+```html
+<forge-button type="raised">
+  <button type="button">Raised button</button>
+</forge-button>
+```
 
 ### Outlined (Medium emphasis)
 
 Outlined buttons are used for more emphasis than text buttons due to the stroke. They contain actions that are important, but aren't the primary action in the app.
 
-<div class="live-demo">
-  <tcw-button type="outlined">
-    <button type="button">Outlined button</button>
-  </tcw-button>
-</div>
+```html
+<forge-button type="outlined">
+  <button type="button">Outlined button</button>
+</forge-button>
+```
 
 ### Flat (Low emphasis)
 
 Text buttons are typically used for less pronounced actions including those located in dialogs and cards. Text buttons help maintain an emphasis on card content. Use text only buttons more sparingly than outlined and raised buttons, for ADA compliance reasons.
 
-<div class="live-demo">
-  <tcw-button>
+```html
+  <forge-button>
     <button type="button">Flat button</button>
-  </tcw-button>
-</div>
+  </forge-button>
+```
 
 ---
 
@@ -85,7 +85,7 @@ When to use text buttons:
 </DoDontGrid>
 
 > **Note:** If you are using a stack of buttons and want the contents to be left-aligned for consistency (e.g., when using icons),
-> consider using a <ComponentLink>tcw-list</ComponentLink> instead.
+> consider using a [list](/components/list) instead.
 
 ---
 
@@ -132,10 +132,10 @@ When to use text buttons:
 
 Buttons may be used with:
 
-- <ComponentLink path="dialog">Dialogs</ComponentLink>
-- <ComponentLink path="list">Lists</ComponentLink>
-- <ComponentLink path="card">Cards</ComponentLink>
-- <ComponentLink path="toolbar">Toolbars</ComponentLink>
+- [Dialogs](/components/dialog)
+- [Lists](/components/list)
+- [Cards](/components/card
+- [Toolbars](/components/toolbar
 
 ### Patterns
 

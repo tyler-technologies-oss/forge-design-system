@@ -20,6 +20,7 @@
   --forge-theme-card-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
   --forge-theme-danger: #b00020;
   --forge-theme-success: #2e7d32;
+  --forge-theme-secondary: #ffc107;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -56,7 +57,7 @@ body {
 }
 
 /// Override the content sub-container to use a card design
-div[class*=docItemContainer_node_modules-] {
+div[class^=docItemContainer] {
   background-color: var(--forge-theme-surface);
   box-shadow: var(--forge-theme-card-shadow);
   border-radius: 4px;
@@ -69,7 +70,7 @@ div[class*=docItemContainer_node_modules-] {
     --forge-theme-background: var(--forge-theme-surface);
   }
 
-  div[class*=docItemContainer_node_modules-] {
+  div[class^=docItemContainer] {
     box-shadow: none;
     padding: 0;
   }

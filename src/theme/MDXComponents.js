@@ -1,3 +1,4 @@
+import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import ComponentVisual from '@site/src/components/component-visual/component-visual';
 import StatusBadges from '@site/src/components/status-badges/status-badges';
@@ -10,6 +11,7 @@ import DoDontRow from '@site/src/components/do-dont/do-dont-row/do-dont-row';
 
 export default {
   ...MDXComponents,
+  blockquote: props => <blockquote {...props} className="forge-blockquote" />,
   ComponentVisual,
   StatusBadges,
   ImageBlock,

@@ -9,10 +9,10 @@
     padding-top: 56px;
     margin-top: -4px !important;
   }
-}
 
-.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
-  top: calc(var(--ifm-navbar-height)) !important;
+  nav[class^=sidebar] {
+    top: calc(var(--ifm-navbar-height)) !important;
+  }
 }
 
 @media screen and (max-width: 996px) {

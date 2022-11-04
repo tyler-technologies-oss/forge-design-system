@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency: deploy-${{ github.ref }}
+
+jobs:
+  deploy-gh-pages:
+    name: Deploy GitHub Pages
+    uses: tyler-technologies-oss/forge-automation-shared/.github/workflows/wf-publish-gh-pages.yml@v2.2.1
+    with:
+      PRODUCTION_RELEASE: true
+      BUILD_DIRECTORY: build
+      BUILD_TARGET_DIRECTORY: docs
+      BUILD_NPM_SCRIPT: build
+    secrets:
+      GITHUB_DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{ secrets.FORGE_NPM_TOKEN }}
