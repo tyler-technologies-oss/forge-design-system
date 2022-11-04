@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkforge_design_system=self.webpackChunkforge_design_system||[]).push([[880],{7085:e=>{e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);

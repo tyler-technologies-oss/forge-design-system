@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkforge_design_system=self.webpackChunkforge_design_system||[]).push([[573],{9920:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/design","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog posts for designers and developers relating to the Tyler Forge design system","blogTitle":"Tyler Forge design system blog"}')}}]);

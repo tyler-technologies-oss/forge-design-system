@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://forge.tylertech.com/blog</id>
+    <title>Forge Blog</title>
+    <updated>2022-11-04T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://forge.tylertech.com/blog"/>
+    <subtitle>Forge Blog</subtitle>
+    <icon>https://forge.tylertech.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>/2022/11/04/welcome</id>
+        <link href="https://forge.tylertech.com/blog/2022/11/04/welcome"/>
+        <updated>2022-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the new Forge design system website!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the new Forge design system website!</p>]]></content>
+        <author>
+            <name>Kieran Nichols</name>
+            <uri>https://github.com/drifty17</uri>
+        </author>
+        <author>
+            <name>Nick Andrews</name>
+            <uri>https://github.com/nickonometry</uri>
+        </author>
+        <category label="forge" term="forge"/>
+        <category label="design" term="design"/>
+        <category label="welcome" term="welcome"/>
+    </entry>
+</feed>
