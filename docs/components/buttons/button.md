@@ -1,6 +1,5 @@
 # Button
 
-<!-- <StatusBadges badges={[{ type: 'warning', label: 'Experimental', tooltip: 'This component is experimental' }]} /> -->
 <ComponentVisual
   height="450"
   figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVFIsI7H3lTMQMqu7pG4qjq%2FForge-Content%3Fnode-id%3D487%253A915"
@@ -23,31 +22,13 @@ Forge also includes other types of buttons: [icon buttons](/components/icon-butt
 
 Raised  buttons have more emphasis, as they use a fill color and shadow. They contain actions that are primary to your application.
 
-```html
-<forge-button type="raised">
-  <button type="button">Raised button</button>
-</forge-button>
-```
-
 ### Outlined (Medium emphasis)
 
 Outlined buttons are used for more emphasis than text buttons due to the stroke. They contain actions that are important, but aren't the primary action in the app.
 
-```html
-<forge-button type="outlined">
-  <button type="button">Outlined button</button>
-</forge-button>
-```
-
 ### Flat (Low emphasis)
 
 Text buttons are typically used for less pronounced actions including those located in dialogs and cards. Text buttons help maintain an emphasis on card content. Use text only buttons more sparingly than outlined and raised buttons, for ADA compliance reasons.
-
-```html
-  <forge-button>
-    <button type="button">Flat button</button>
-  </forge-button>
-```
 
 ---
 

@@ -1,6 +1,3 @@
-/* @import '~@tylertech/tyler-components-web/styles/theme/mixins';
-@import '~@tylertech/tyler-components-web/styles/typography/mixins'; */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -36,12 +33,11 @@
 
 .iconContainerHorizontal {
   display: flex;
-  align-items: flex-start;
-  padding-bottom: 8px;
 }
 
 .iconHorizontal {
   margin-right: 16px;
+  align-self: flex-start;
 }
 
 .captionTitle {
@@ -55,13 +51,4 @@
 
 .captionHorizontal {
   margin: 0;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: Roboto,sans-serif;
-  font-size: 1rem;
-  line-height: 1rem;
-  font-weight: 400;
-  letter-spacing: .03125em;
-  text-decoration: inherit;
-  text-transform: inherit;
 }

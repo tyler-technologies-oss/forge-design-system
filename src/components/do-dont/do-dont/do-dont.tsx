@@ -46,7 +46,7 @@ export const DoDontText = ({ type = 'do', children }) => {
   return (
     <div className={styles.iconContainerHorizontal}>
       <i className={iconClasses}>{iconMap[type]}</i>
-      <p className={clsx('tyl-typography--body1', styles.captionHorizontal)}>{children}</p>
+      <p className={clsx(styles.captionHorizontal)}>{children}</p>
     </div>
   );
 };
