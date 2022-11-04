@@ -10,7 +10,7 @@ concurrency: deploy-${{ github.ref }}
 
 jobs:
   deploy-gh-pages:
-    name: Deploy GitHub Pages
+    name: Deploy
     uses: tyler-technologies-oss/forge-automation-shared/.github/workflows/wf-publish-gh-pages.yml@v2.2.1
     with:
       PRODUCTION_RELEASE: true
