@@ -1,5 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -35,6 +34,18 @@ const config = {
   plugins: [
     'docusaurus-plugin-sass',
   ],
+  
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      ({
+        hashed: true,
+        indexPages: true,
+        docsRouteBasePath: '/',
+        explicitSearchResultPath: true
+      }),
+    ],
+  ],
 
   presets: [
     [
@@ -67,13 +78,6 @@ const config = {
         sidebar: {
           autoCollapseCategories: true
         },
-      },
-      
-      algolia: {
-        appId: 'todo',
-        apiKey: 'todo',
-        indexName: 'tyler-forge',
-        contextualSearch: true,
       },
 
       colorMode: {
