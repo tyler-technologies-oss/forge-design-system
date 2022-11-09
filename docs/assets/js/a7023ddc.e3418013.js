@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkforge_design_system=self.webpackChunkforge_design_system||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"forge","permalink":"/blog/tags/forge","count":1},{"label":"design","permalink":"/blog/tags/design","count":1},{"label":"welcome","permalink":"/blog/tags/welcome","count":1}]')}}]);
