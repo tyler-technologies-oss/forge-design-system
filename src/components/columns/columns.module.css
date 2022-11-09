@@ -1,0 +1,50 @@
+.containerGrid {
+  display: grid;
+  grid-gap: 48px 16px;
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+
+.cardContainerGrid {
+  display: grid;
+  grid-gap: 16px;
+  margin-bottom: 32px;
+}
+
+.two.equal {
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+}
+
+.two.oneThird {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.two.oneThird div:first-child,
+.two.oneThird div:nth-child(n + 1) {
+  grid-column: span 1;
+}
+
+.two.oneThird div:nth-child(2n) {
+  grid-column: span 2;
+}
+
+.two.twoThird {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.two.twoThird div:first-child,
+.two.twoThird div:nth-child(n + 1) {
+  grid-column: span 1;
+}
+
+.two.twoThird div:nth-child(2n) {
+  grid-column: span 2;
+}
+
+.three.equal {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.four.equal {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

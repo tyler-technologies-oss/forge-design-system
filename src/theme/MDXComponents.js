@@ -8,6 +8,7 @@ import DoDontGrid from '@site/src/components/do-dont/do-dont-grid/do-dont-grid';
 import DoDontTextSection from '@site/src/components/do-dont/do-dont-text-section/do-dont-text-section';
 import DoDontImage from '@site/src/components/do-dont/do-dont-image/do-dont-image';
 import DoDontRow from '@site/src/components/do-dont/do-dont-row/do-dont-row';
+import Columns from '@site/src/components/columns/columns';
 
 export default {
   ...MDXComponents,
@@ -20,5 +21,6 @@ export default {
   DoDontGrid,
   DoDontTextSection,
   DoDontImage,
-  DoDontRow
+  DoDontRow,
+  Columns,
 };

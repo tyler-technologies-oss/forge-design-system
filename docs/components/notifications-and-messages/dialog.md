@@ -1,8 +1,13 @@
+---
+description: Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+keywords: ['modal', 'full', 'modality', 'stepper', 'simple', 'complex', 'full screen', 'confirm', 'alert', 'confirming']
+---
+
 # Dialog
 
 <ComponentVisual
   height="450"
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVFIsI7H3lTMQMqu7pG4qjq%2FForge-Content%3Fnode-id%3D487%253A915"
+  figmaUrl=""
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-dialog--default" />
 
 ## Overview

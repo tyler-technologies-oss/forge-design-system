@@ -55,12 +55,12 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
+          editUrl: 'https://github.com/tyler-technologies-oss/forge-design-system/blob/main/',
           showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
+          editUrl: 'https://github.com/tyler-technologies-oss/forge-design-system/blob/main/',
           blogTitle: 'Tyler Forge design system blog',
           blogDescription: 'Blog posts for designers and developers relating to the Tyler Forge design system',
         },
@@ -93,11 +93,11 @@ const config = {
           src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
         },
         items: [
-          { label: 'Getting started', to: '/getting-started' },
+          { label: 'Core', to: '/core' },
           { label: 'Styles', to: '/styles' },
-          { label: 'Resources', to: '/resources' },
+          { label: 'Content', to: '/content' },
+          { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
-          { label: 'Layouts', to: '/layouts' },
           { label: 'Patterns', to: '/patterns' },
           { to: '/blog', label: 'Blog' },
           {

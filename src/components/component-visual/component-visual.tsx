@@ -17,13 +17,12 @@ function ComponentDemoLink({ href }) {
 
 export default function ComponentVisual({
   height = '250',
-  hideDemoLink = false,
   figmaUrl,
   storybookUrl
 }): JSX.Element {
   return (
     <div className={styles.container}>
-      {!hideDemoLink &&
+      {storybookUrl &&
         <div className={clsx(styles.headerContainer)}>
           <ComponentDemoLink href={storybookUrl} />
         </div>}

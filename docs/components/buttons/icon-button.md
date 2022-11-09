@@ -1,8 +1,13 @@
+---
+description: Icon buttons communicate actions that users can take.
+keywords: ['button', 'icon', 'primary', 'mobile', 'button']
+---
+
 # Icon button
 
 <ComponentVisual
   height="450"
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVFIsI7H3lTMQMqu7pG4qjq%2FForge-Content%3Fnode-id%3D487%253A915"
+  figmaUrl=""
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-icon-button--default" />
 
 ## Overview
