@@ -1,0 +1,55 @@
+.group {
+  margin-bottom: 48px;
+}
+
+.group > h2 {
+  margin: 16px 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 290px));
+  gap: 16px;
+}
+
+.itemAnchor {
+  color: var(--ifm-heading-color);
+}
+
+.itemAnchor:hover {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+  outline: 2px solid var(--ifm-color-primary);
+  border-radius: 2px;
+}
+
+.componentCard {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  height: 125px;
+}
+
+.descriptionContainer {
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.headerText {
+  font-weight: bold;
+  margin: 0;
+}
+
+.descriptionContainerText {
+  flex: 1;
+  font-size: 12px;
+}
+
+.thumbnail {
+  height: 48px;
+  flex: 1;
+  height: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}

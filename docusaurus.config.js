@@ -14,7 +14,8 @@ const config = {
   favicon: 'img/favicon.ico',
   stylesheets: [
     'https://cdn.forge.tylertech.com/v1/css/tyler-font.css',
-    'https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css'
+    'https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css',
+    'https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css',
   ],
 
   

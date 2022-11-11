@@ -1,4 +1,7 @@
 ---
+sidebar_custom_props:
+  recipe: true
+  thumbnail: /img/components/nav-drawer/thumbnail.png
 description: The drawer component contains supplementary content that are anchored to the left or right edge of the screen. It is mostly commonly used for navigation drawers and filter sidesheets. 
 keywords: ['drawer', 'nav', 'navigation', 'dismissible', 'permanent', 'modal', 'left', 'right', 'filter', 'sidesheet', 'side', 'sheet', 'detail', 'title', 'lefthand']
 ---
@@ -90,7 +93,7 @@ A mini navigation drawer may be used when the main content of an desktop applica
 ![Image of a collapsed and expanded mini nav.](/img/components/navigation-drawer/mini-nav.png)
 </ImageBlock>
 
-See the mini nav in action in the <GatsbyLink to="/case-studies/asset-registry">Asset Registry case study</GatsbyLink>.
+See the mini nav in action in the [Asset Registry case study](/case-studies/asset-registry).
 
 --- 
 

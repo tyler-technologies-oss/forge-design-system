@@ -1,0 +1,21 @@
+.menuExternalLink {
+  align-items: center;
+}
+
+.menuExternalLinkContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 4px;
+}
+
+.menuExternalLinkEndContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.menuExternalLinkLabelContainer {
+  display: flex;
+  align-items: center;
+}

@@ -6,8 +6,8 @@ import styles from './status-badges.module.css';
 export default function StatusBadges({ badges }): JSX.Element {
   return (
     <div className={clsx(styles.container)}>
-      {badges.map(({ type = 'primary', label, tooltip }) => (
-        <span className={clsx('badge', `badge--${type}`)} title={tooltip}>{label}</span>
+      {badges.map(({ type = 'primary', label, tooltip }, index) => (
+        <span key={`status-badge-${index}`} className={clsx('badge', `badge--${type}`)} title={tooltip}>{label}</span>
       ))}
     </div>
   );

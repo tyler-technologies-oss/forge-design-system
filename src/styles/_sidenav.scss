@@ -24,3 +24,16 @@ aside[class*=theme-doc-sidebar-container] {
   width: 1.25rem;
   transition: transform var(--ifm-transition-fast) linear;
 }
+
+.menu__list-item-icon {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+  font-size: 20px;
+}
+
+.menu__list {
+  --ifm-menu-link-padding-horizontal: 28px; // Account for the custom leading icon
+}

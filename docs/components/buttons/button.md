@@ -1,4 +1,7 @@
 ---
+sidebar_custom_props:
+  thumbnail: https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg
+  shortDescription: Buttons allow users to take actions, and make choices, with a single tap.
 description: Buttons allow users to take actions, and make choices, with a single tap.
 keywords: ['button', 'action', 'raised', 'outlined', 'flat', 'icon']
 ---
