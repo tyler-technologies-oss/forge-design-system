@@ -1,3 +1,7 @@
+/**
+ * Swizzle: added container for recipe badge
+ */
+
 .menuExternalLink {
   align-items: center;
 }
@@ -13,9 +17,4 @@
   display: flex;
   align-items: center;
   gap: 4px;
-}
-
-.menuExternalLinkLabelContainer {
-  display: flex;
-  align-items: center;
 }

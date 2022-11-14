@@ -46,12 +46,9 @@ export default function DocSidebarItemLink({
         })}
         {...props}>
         <div className={styles.menuExternalLinkContainer}>
-          <div className={styles.menuExternalLinkLabelContainer}>
-            {customProps?.icon && <i className={clsx('menu__list-item-icon', customProps?.iconClass ?? 'tyler-icons')}>{customProps.icon}</i>}
-            {label}
-          </div>
+          {label}
           <div className={styles.menuExternalLinkEndContainer}>
-            {customProps?.recipe && <div className="badge badge--primary">R</div>}
+            {customProps?.recipe && <div className="badge badge--primary" title="This is a component recipe">R</div>}
             {!isInternalLink && <IconExternalLink />}
           </div>
         </div>

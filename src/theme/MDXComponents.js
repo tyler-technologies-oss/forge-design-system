@@ -10,6 +10,7 @@ import DoDontImage from '@site/src/components/do-dont/do-dont-image/do-dont-imag
 import DoDontRow from '@site/src/components/do-dont/do-dont-row/do-dont-row';
 import Columns from '@site/src/components/columns/columns';
 import PlayHelp from '@site/src/components/play-help/play-help';
+import ToneDef from '@site/src/components/tone-def/tone-def';
 
 export default {
   ...MDXComponents,
@@ -24,5 +25,6 @@ export default {
   DoDontImage,
   DoDontRow,
   Columns,
-  PlayHelp
+  PlayHelp,
+  ToneDef
 };
