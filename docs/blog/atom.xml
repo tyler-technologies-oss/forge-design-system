@@ -22,6 +22,10 @@
             <name>Nick Andrews</name>
             <uri>https://github.com/nickonometry</uri>
         </author>
+        <author>
+            <name>Jay McCormick</name>
+            <uri>https://github.com/jayexprs</uri>
+        </author>
         <category label="forge" term="forge"/>
         <category label="design" term="design"/>
         <category label="welcome" term="welcome"/>
