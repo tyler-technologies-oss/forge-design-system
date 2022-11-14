@@ -1,11 +1,17 @@
 kieran.nichols:
   name: Kieran Nichols
-  title: Software Engineer
+  title: Lead Software Engineer
   url: https://github.com/drifty17
   image_url: https://github.com/drifty17.png
 
 nick.andrews:
   name: Nick Andrews
-  title: Software Engineer
+  title: Senior UX Designer
   url: https://github.com/nickonometry
   image_url: https://github.com/nickonometry.png
+
+jay.mccormick:
+  name: Jay McCormick
+  title: Senior Product Owner
+  url: https://github.com/jayexprs
+  image_url: https://github.com/jayexprs.png

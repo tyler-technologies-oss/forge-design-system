@@ -34,6 +34,7 @@
   display: flex;
   gap: 8px;
   overflow: hidden;
+  height: 100%;
 }
 
 .headerText {
@@ -47,9 +48,11 @@
 }
 
 .thumbnail {
-  height: 48px;
   flex: 1;
   height: 100%;
   background-color: #e0e0e0;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

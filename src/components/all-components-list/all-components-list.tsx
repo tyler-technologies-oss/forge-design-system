@@ -16,14 +16,20 @@ export default function AllComponentsList({}): JSX.Element {
             <h2>{label}</h2>
             <div className={clsx(styles.gridContainer)}>
               {items.map(({ label, href, customProps }) => {
-                const { shortDescription, thumbnail = 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg' } = customProps ?? {};
+                let {
+                  shortDescription = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt vero ea necessitatibus suscipit voluptatem quisquam consectetur voluptate eveniet commodi provident blanditiis libero temporibus officiis, hic sint dignissimos illo. Natus, saepe.',
+                  thumbnail = '/img/components/all-components/icon_test.svg'
+                } = customProps ?? {};
+                if (shortDescription.length > 88) {
+                  shortDescription = shortDescription.substr(0, 85) + '...';
+                }
                 return (
                   <Link key={label} to={href} className={styles.itemAnchor}>
                     <div className={clsx('card', 'card--outlined', styles.componentCard)}>
                       <div className={clsx(styles.headerText)}>{label}</div>
                       <div className={clsx(styles.descriptionContainer)}>
                         {shortDescription && <div className={clsx(styles.descriptionContainerText)}>{shortDescription}</div>}
-                        {thumbnail && <img className={clsx(styles.thumbnail)} src={thumbnail} />}
+                        {thumbnail && <div className={clsx(styles.thumbnail)} style={{backgroundImage: `url(${thumbnail})`}} />}
                       </div>
                     </div>
                   </Link>

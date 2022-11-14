@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+}
+
+.imageBorder img {
+  border: 1px solid var(--forge-theme-border);
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer > a {  
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.imageContainer img {
+  height: 92px;
+}

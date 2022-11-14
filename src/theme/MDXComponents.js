@@ -9,6 +9,7 @@ import DoDontTextSection from '@site/src/components/do-dont/do-dont-text-section
 import DoDontImage from '@site/src/components/do-dont/do-dont-image/do-dont-image';
 import DoDontRow from '@site/src/components/do-dont/do-dont-row/do-dont-row';
 import Columns from '@site/src/components/columns/columns';
+import PlayHelp from '@site/src/components/play-help/play-help';
 
 export default {
   ...MDXComponents,
@@ -23,4 +24,5 @@ export default {
   DoDontImage,
   DoDontRow,
   Columns,
+  PlayHelp
 };
