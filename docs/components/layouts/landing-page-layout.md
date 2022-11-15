@@ -72,7 +72,11 @@ The landing page component is a layout component with slots for header and body 
 
 </ImageBlock>
 
-> Layout collapses to a single column layout on mobile.  
+:::info
+
+Layout collapses to a single column layout on mobile.
+
+:::
 
 ---
 

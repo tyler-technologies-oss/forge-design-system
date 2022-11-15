@@ -117,7 +117,11 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 
 "Uh oh, your browser is not supported by this application. Hang in there. Switching to the latest version of [supported browsers here] should do the trick."
 
-> Note: Avoid using exclamation points when delivering bad news.
+:::note
+
+Avoid using exclamation points when delivering bad news.
+
+:::
 
 ---
   

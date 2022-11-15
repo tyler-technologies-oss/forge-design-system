@@ -1,4 +1,6 @@
 ---
+sidebar_custom_props:
+  badge: recipe
 description: The filter sidesheet offers a standard filtering experience.
 keywords: ['drawer', 'dismissible', 'permanent', 'modal', 'left', 'right', 'filter', 'sidesheet', 'side', 'sheet', 'detail', 'title', 'search', 'facets', 'facet']
 ---
@@ -90,7 +92,11 @@ Facets may be displayed as [radio buttons](/components/radio-button), [checkboxe
 5. **[Date range](/components/date-range-picker):** Specific date ranges. 
 6. **[Date picker](/components/date-picker):** A single date. 
 
-> **Note:** If dynamic counts are used, a numeric badge with white text and tertiary background color should be used. See [numeric badge guidance](/components/badge#numeric-badges) for more information.
+:::note
+
+If dynamic counts are used, a numeric badge with white text and tertiary background color should be used. See [numeric badge guidance](/components/badge#numeric-badges) for more information.
+
+:::
 
 ### 4. Chips 
 

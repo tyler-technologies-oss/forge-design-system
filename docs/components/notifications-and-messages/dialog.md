@@ -31,9 +31,13 @@ A [backdrop](/components/backdrop) (scrim) is a temporary treatment that can be 
 - Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/banner) instead. 
 - Displaying information that pertains to the full page. Use a [banner](/components/banner) instead. 
 
-> Dialogs are purposefully interruptive, so they should be used sparingly.
->
-> To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/core-patterns/system-communication/) guidance.
+:::info
+
+Dialogs are purposefully interruptive, so they should be used sparingly.
+
+To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/core-patterns/system-communication/) guidance.
+
+:::
 
 ---
 
@@ -127,7 +131,11 @@ Dialogs may be dismissed by:
 - Tapping the close icon (complex dialogs only).
 - Tapping the system back button (Android only).
 
-> **Note:** Tapping outside a dialog to close it should not be used with dialogs that contain forms as it may cause accidental loss of user data.
+:::note
+
+Tapping outside a dialog to close it should not be used with dialogs that contain forms as it may cause accidental loss of user data.
+
+:::
 
 If the user must choose an action to proceed, the close icon may be hidden and the ability to tap outside the dialog to close it may be disabled. 
 

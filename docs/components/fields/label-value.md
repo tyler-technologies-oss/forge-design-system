@@ -46,13 +46,18 @@ A readonly state may be used when:
 - A component is active, but not editable; generally relates to a text field
 - The content is still relevant or important for task completion but cannot be changed
 
-> Be sure to communicate if editing is available, and how to enable it.
+
+:::info
+
+Be sure to communicate if editing is available, and how to enable it.
+
+:::
 
 ---
 
 <DoDontGrid>
   <DoDontTextSection>
-    <DoDontText type="do">Use the label value component for values that are displayed but non interactive. </DoDontText>
+    <DoDontText type="do">Use the label value component for values that are displayed but non interactive.</DoDontText>
   </DoDontTextSection>
   <DoDontTextSection>
     <DoDontText type="dont">Avoid large numbers of disabled text fields on a screen - consider using the label value instead to improve readability.</DoDontText>

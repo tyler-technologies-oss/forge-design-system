@@ -1,6 +1,6 @@
 ---
 sidebar_custom_props:
-  recipe: true
+  badge: recipe
   thumbnail: /img/components/nav-drawer/thumbnail.png
 description: The drawer component contains supplementary content that are anchored to the left or right edge of the screen. It is mostly commonly used for navigation drawers and filter sidesheets. 
 keywords: ['drawer', 'nav', 'navigation', 'dismissible', 'permanent', 'modal', 'left', 'right', 'filter', 'sidesheet', 'side', 'sheet', 'detail', 'title', 'lefthand']
@@ -20,7 +20,11 @@ Navigation drawers are recommended for:
 - Apps with two or more levels of navigation hierarchy
 - Quick navigation between unrelated destinations
 
-> **Note:** Navigation is tightly related to Information Architecture (IA). An intuitive IA is key to the success of any app, but can be difficult to get right. Reach out to the UX team for help creating an intuitive IA. Contact <a href="mailto:kathy.wolf@tylertech.com">Kathy Wolf</a> for more information.
+:::note
+
+Navigation is tightly related to Information Architecture (IA). An intuitive IA is key to the success of any app, but can be difficult to get right. Reach out to the UX team for help creating an intuitive IA. Contact <a href="mailto:kathy.wolf@tylertech.com">Kathy Wolf</a> for more information.
+
+:::
 
 ---
 

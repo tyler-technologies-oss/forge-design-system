@@ -25,7 +25,11 @@ Time pickers allow users to enter a specific time value. They can be used for a 
 - Users can only select from time descriptions (ie, "now," "in thirty minnutes," "in an hour"). Use a [select](/components/fields/select) instead.
 - Users can enter text or times. Use a [text field](/components/fields/text-field) instead.
 
-> **Note** Refer to the [data formatting guidance](/core-patterns/tone/data-formats) if using a custom mask. Both 12-hour and 24-hour time systems are allowed.
+:::info
+
+Refer to the [data formatting guidance](/core-patterns/tone/data-formats) if using a custom mask. Both 12-hour and 24-hour time systems are allowed.
+
+:::
 
 ---
 

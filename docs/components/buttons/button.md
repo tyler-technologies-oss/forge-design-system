@@ -48,7 +48,11 @@ When to use icon buttons:
 - In collections of data where actions where repeated text buttons may overwhelm a screen. 
 - For familiar toolbar actions in tables, lists, or cards.
 
-> Icon buttons should always be accompanied by a tooltip for clarity. 
+:::note
+
+Icon buttons should always be accompanied by a tooltip for clarity. 
+
+:::
 
 When to use text buttons:
 
@@ -71,8 +75,12 @@ When to use text buttons:
   </DoDontTextSection>
 </DoDontGrid>
 
-> **Note:** If you are using a stack of buttons and want the contents to be left-aligned for consistency (e.g., when using icons),
-> consider using a [list](/components/list) instead.
+:::note
+
+If you are using a stack of buttons and want the contents to be left-aligned for consistency (e.g., when using icons),
+consider using a [list](/components/list) instead.
+
+:::
 
 ---
 
@@ -121,8 +129,8 @@ Buttons may be used with:
 
 - [Dialogs](/components/dialog)
 - [Lists](/components/list)
-- [Cards](/components/card
-- [Toolbars](/components/toolbar
+- [Cards](/components/card)
+- [Toolbars](/components/toolbar)
 
 ### Patterns
 

@@ -34,6 +34,24 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: '/resources/upgrade-guides/forge-2-0', to: '/blog/2022/05/02/upgrade-guide-forge-2' },
+        ],
+        // createRedirects(existingPath) {
+        //   if (existingPath.includes('/community')) {
+        //     // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
+        //     return [
+        //       existingPath.replace('/community', '/docs/team'),
+        //       existingPath.replace('/community', '/docs/support'),
+        //     ];
+        //   }
+        //   return undefined; // Return a falsy value: no redirect created
+        // },
+      },
+    ],
   ],
   
   themes: [

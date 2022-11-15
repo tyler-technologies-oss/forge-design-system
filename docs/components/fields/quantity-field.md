@@ -1,4 +1,6 @@
 ---
+sidebar_custom_props:
+  badge: deprecated
 description: Quantity fields allow for incremental adjustments to a default numeric value.
 keywords: ['quantity', 'number', 'increment', 'decrement']
 ---
@@ -8,6 +10,12 @@ keywords: ['quantity', 'number', 'increment', 'decrement']
 <ComponentVisual
   figmaUrl=""
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-quantity-field--default" />
+
+:::caution
+
+This component is **deprecated** and will be removed in a future version.
+
+:::
 
 ## Overview
 

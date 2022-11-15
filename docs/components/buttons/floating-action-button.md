@@ -47,8 +47,6 @@ When pressed, a FAB can display three to six related actions in the form of a sp
 - Upon press, the FAB can transform into a menu containing related actions (Android only)
 - If more than six actions are needed, something other than a FAB should be used to present them.
 
-> TCW does not yet support the speed dial. A custom component will be needed. 
-
 <ImageBlock padded={false} max-width="600px" caption="A FAB displays a stack of related actions.<br> Taken from Material.io">
 
 ![Gif of a speed dial with 6 options](/img/components/floating-action-button/speed-dial.gif)

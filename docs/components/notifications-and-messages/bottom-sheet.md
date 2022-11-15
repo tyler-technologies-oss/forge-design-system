@@ -23,7 +23,11 @@ Bottom sheets provide contextual information, options, or actions in a way that'
 - confirming destructive actions. Use a [dialog](/components/dialog) instead.
 - displaying contextual information on a desktop form factor. Use a sidesheet instead.
 
-> To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/components/core-patterns/system-communication/) guidance.
+:::info
+
+To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/components/core-patterns/system-communication/) guidance.
+
+:::
 
 ---
 
@@ -54,9 +58,11 @@ Bottom sheets may contain more information than what's initially visible on the 
 
 Ensure that bottom sheets can be minimized again so that users can interact with the rest of the screen - either by an X icon, or dragged back down. 
 
-> **Interactive demo** 
->
-> **Drag** the bottom sheet up to expand it. Once expanded, the bottom sheet may be **scrolled** for more information. **Drag down or tap** the X icon to minimize the bottom sheet. 
+:::info Interactive demo
+
+**Drag** the bottom sheet up to expand it. Once expanded, the bottom sheet may be **scrolled** for more information. **Drag down or tap** the X icon to minimize the bottom sheet. 
+
+:::
 
 <iframe
   style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}

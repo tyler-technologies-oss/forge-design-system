@@ -5,7 +5,7 @@ import { useDocsSidebar } from '@docusaurus/theme-common/internal';
 import Link from '@docusaurus/Link';
 import styles from './all-components-list.module.css';
 
-export default function AllComponentsList({}): JSX.Element {
+export default function AllComponentsList(): JSX.Element {
   const sidebar = useDocsSidebar();
   const groups = generateData(sidebar);
   return (

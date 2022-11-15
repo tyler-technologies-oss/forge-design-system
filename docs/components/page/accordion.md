@@ -19,9 +19,13 @@ An accordion does not provide any visual styling, it is purely used to manage a 
 It is common to use an accordion with expandable list items, cards, sections... etc. where the user should
 be focused on a single section of information at a time.
 
-> The accordion is used together with the [expansion-panel](/components/expansion-panel) component.
-> If your design requires multiple panels to be open at a time, just remove the use of an accordion to allow
-> for the user to control which expansion panel is open at any given time.
+:::info
+
+The accordion is used together with the [expansion-panel](/components/expansion-panel) component.
+If your design requires multiple panels to be open at a time, just remove the use of an accordion to allow
+for the user to control which expansion panel is open at any given time.
+
+:::
 
 ---
 

@@ -9,8 +9,11 @@ import DoDontTextSection from '@site/src/components/do-dont/do-dont-text-section
 import DoDontImage from '@site/src/components/do-dont/do-dont-image/do-dont-image';
 import DoDontRow from '@site/src/components/do-dont/do-dont-row/do-dont-row';
 import Columns from '@site/src/components/columns/columns';
+import LeftColumn from '@site/src/components/right-column/right-column';
+import RightColumn from '@site/src/components/left-column/left-column';
 import PlayHelp from '@site/src/components/play-help/play-help';
 import ToneDef from '@site/src/components/tone-def/tone-def';
+import CheckboxListItem from '@site/src/components/utils/checkbox-list-item';
 
 export default {
   ...MDXComponents,
@@ -25,6 +28,9 @@ export default {
   DoDontImage,
   DoDontRow,
   Columns,
+  LeftColumn,
+  RightColumn,
   PlayHelp,
-  ToneDef
+  ToneDef,
+  CheckboxListItem
 };

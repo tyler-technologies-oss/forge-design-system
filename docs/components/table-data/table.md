@@ -11,9 +11,13 @@ keywords: ['table', 'chart', 'data']
 
 ## Overview
 
-> **Note:** The `<forge-table>` provides **basic data display and functionality** such as sorting, filtering, and selecting rows. It is not intended to be comprehensive or fully featured. 
->
-> If your team needs extensive data manipulation or editing capability, **a third-party table extension may be more appropriate.** See our guidance on [advanced tables](/patterns/external-libraries#advanced-tables) under External library guidance. 
+:::note
+
+The `<forge-table>` provides **basic data display and functionality** such as sorting, filtering, and selecting rows. It is not intended to be comprehensive or fully featured. 
+
+If your team needs extensive data manipulation or editing capability, **a third-party table extension may be more appropriate.** See our guidance on [advanced tables](/patterns/external-libraries#advanced-tables) under External library guidance. 
+
+:::
 
 Tables display information in a way that's easy to scan, so that users can look for patterns and insights. They can be embedded in primary content, such as cards.
 
@@ -172,7 +176,11 @@ Use **pagination** when records are sorted in a logical way (ie, chronologically
 
 **Infinite scroll** is best used to encourage discovery or exploration when users are casually browsing content.** Infinite scroll may also be a better option for mobile contexts. 
 
-> Don’t combine pagination and infinite scroll.
+:::caution
+
+Don’t combine pagination and infinite scroll.
+
+:::
 
 <ImageBlock maxWidth="700px">
 
@@ -262,7 +270,11 @@ Use a “chevron-right” icon to indicate navigating away to a separate page. T
 
 Designing readable tables for smaller mobile screens presents a unique challenge. In general, tables aren’t well adapted for mobile and should be avoided when possible. 
 
-> **When converting table data for mobile, consider what would be most important to users in a mobile context.** If possible, table data can be displayed in a different component entirely on mobile devices - perhaps on a mobile phone, users just need some high level information on a record instead of a full row of complex details. Or perhaps a data visualization or chart could achieve the same goal. For more information on optimizing applications for different contexts, check out the guidance on [adaptive design](/core-patterns/adaptive-design).
+:::info
+
+**When converting table data for mobile, consider what would be most important to users in a mobile context.** If possible, table data can be displayed in a different component entirely on mobile devices - perhaps on a mobile phone, users just need some high level information on a record instead of a full row of complex details. Or perhaps a data visualization or chart could achieve the same goal. For more information on optimizing applications for different contexts, check out the guidance on [adaptive design](/core-patterns/adaptive-design).
+
+:::
 
 ### Recommended approach 
 
@@ -276,7 +288,7 @@ Adapt the table for mobile by presenting rows as cards instead.
 - For tables with content underneath, use a simplified paginator for mobile. Ensure that touch targets for the icon buttons are 48px by 48px. 
 - For tables with no additional content underneath, infinite scroll may be used on mobile.
 
-> Hit **Run project** below and choose **Preview** to view the demo, or either **Editor **or **Both** to view the HTML.
+<!-- > Hit **Run project** below and choose **Preview** to view the demo, or either **Editor **or **Both** to view the HTML. -->
 
 <!-- <RecipeDemo
   header="Basic mobile table"

@@ -41,13 +41,21 @@ There are three types of badges: 1. dot badges, 2. numeric badges, 3. text badge
 
 Dot badges are used to indicated that unread content exists. They are used most frequently on navigation items or tabs to indicate content inside, but may also be used with lists and tables. Dot badges don't contain text or numbers.
 
-> Dot badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+:::info
+
+Dot badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+
+:::
 
 ### Numeric badges 
 
 Numeric badges are used for counts, such as a number of unread messages, new records, or total records in a category. 
 
-> Numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+:::info
+
+Numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+
+:::
 
 Numeric badges should be used to highlight new items, such as notifications or new tasks. **Don't use** numeric badges to indicate static counts, such as search results or total records in a table. 
 

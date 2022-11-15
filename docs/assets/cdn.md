@@ -2,28 +2,30 @@
 
 Here you will find information about the Tyler Forge CDN, what it is, and how to get started using it.
 
-> **TL;DR**
->
-> If you’re just looking to find assets, please see one of the following pages to get CDN URLs:
-> 
-> * [Icons](/assets/icons)
-> * [Illustrations](/assets/illustrations)
->
-> Looking for the standard Tyler font and icon URLs to reference in your applications?
-> 
-> * Tyler font: https://cdn.forge.tylertech.com/v1/css/tyler-font.css
->   * This loads the Roboto font and is required for the proper typography.
-> * Tyler icons
->   * Standard: https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css
->     * Loads the customized Tyler icon set from the standard material icons.
->     * Use the `tyler-icons` class when referencing icons from this pack.
->   * Extended: https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css
->     * Loads the customized icon set from the community material design icons.
->     * Use the `tyler-icons-ext` class when referencing icons from this pack.
->   * Custom: https://cdn.forge.tylertech.com/v1/css/tyler-icons-custom.css
->     * These are custom icons created by Tyler.
->     * Use the `tyler-icons-custom` class when referencing icons from this pack.
->   * Tyler logo favicon: https://cdn.forge.tylertech.com/favicon.ico
+:::info TL;DR
+
+If you’re just looking to find assets, please see one of the following pages to get CDN URLs:
+
+- [Icons](/assets/icons)
+- [Illustrations](/assets/illustrations)
+
+Looking for the standard Tyler font and icon URLs to reference in your applications?
+
+- Tyler font: https://cdn.forge.tylertech.com/v1/css/tyler-font.css
+  - This loads the Roboto font and is required for the proper typography.
+- Tyler icons
+  - Standard: https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css
+    - Loads the customized Tyler icon set from the standard material icons.
+    - Use the `tyler-icons` class when referencing icons from this pack.
+  - Extended: https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css
+    - Loads the customized icon set from the community material design icons.
+    - Use the `tyler-icons-ext` class when referencing icons from this pack.
+  - Custom: https://cdn.forge.tylertech.com/v1/css/tyler-icons-custom.css
+    - These are custom icons created by Tyler.
+    - Use the `tyler-icons-custom` class when referencing icons from this pack.
+  - Tyler logo favicon: https://cdn.forge.tylertech.com/favicon.ico
+
+:::
 
 ## What is it?
 

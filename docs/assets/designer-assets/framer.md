@@ -14,8 +14,15 @@ Framer is an all-in-one tool that helps teams design every part of the product e
 
 In Framer, interactions are first-class throughout your whole workflow—wireframing, visual design, prototyping, design systems, handoff, and user testing. Create prototypes in the canvas with animations, transitions, and Smart Components and get better feedback from user tests, useful handoff code for engineers, and quicker buy-in from stakeholders.
 
-**Use the TCW components directly in Framer!** Tyler has pulled in native TCW components with their full functionality that can be used in live prototypes. 
+**Use the Forge components directly in Framer!** Tyler has pulled in native Forge components with their full functionality that can be used in live prototypes. 
 
 <a href="https://www.framer.com/" target="_blank" rel="noopener noreferrer">Learn more about Framer.</a>
 
-> To learn more about getting started with Framer, [submit a request](/consulting/) for "Low engagement consulting" from the Forge team and mention "Framer" in your request.
+<br/>
+<br/>
+
+:::info
+
+To learn more about getting started with Framer, [submit a request](/consulting/) for "Low engagement consulting" from the Forge team and mention "Framer" in your request.
+
+:::

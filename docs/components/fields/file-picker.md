@@ -76,7 +76,7 @@ Uploaded files should:
 - Allow files to be deleted.
 - Truncate long file names with an ellipsis.
 
-> Hit **Run project** and **Preview** to view the examples below.
+<!-- > Hit **Run project** and **Preview** to view the examples below. -->
 
 <!-- 
 <RecipeDemo

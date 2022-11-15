@@ -28,8 +28,13 @@ They should be easy to scan for relevant and actionable information. Elements, l
 - Scannability is key.
 - Comparing or ordering homogenous data is important. 
 
-> Cards should use the default 1dp elevation, for consistency and better usability.
-> [Read more](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/) from NN Group on how flat design can attract less attention and cause uncertainty.
+:::info
+
+Cards should use the default 1dp elevation, for consistency and better usability.
+
+[Read more](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/) from NN Group on how flat design can attract less attention and cause uncertainty.
+
+:::
 
 ---
 

@@ -6,6 +6,7 @@ import Link from '@docusaurus/Link';
 import isInternalUrl from '@docusaurus/isInternalUrl';
 import IconExternalLink from '@theme/Icon/ExternalLink';
 import styles from './styles.module.css';
+import BADGE_TYPES from '@site/src/utils/badge-types';
 
 /**
  * Swizzle: added a way to read `sidebar_custom_props` from a pages frontmatter to display a recipe badge.
@@ -48,11 +49,19 @@ export default function DocSidebarItemLink({
         <div className={styles.menuExternalLinkContainer}>
           {label}
           <div className={styles.menuExternalLinkEndContainer}>
-            {customProps?.recipe && <div className="badge badge--primary" title="This is a component recipe">R</div>}
+            {customProps?.badge && <SidebarItemBadge type={customProps.badge} />}
             {!isInternalLink && <IconExternalLink />}
           </div>
         </div>
       </Link>
     </li>
   );
+}
+
+function SidebarItemBadge({ type }) {
+  if (!BADGE_TYPES[type]) {
+    return null;
+  }
+  const { shortLabel, tooltip, className } = BADGE_TYPES[type];
+  return <div className={clsx('badge', className)} title={tooltip}>{shortLabel}</div>;
 }

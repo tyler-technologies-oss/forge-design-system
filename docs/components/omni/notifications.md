@@ -22,7 +22,11 @@ Notifications may be clickable. Clickable notifications may deep link within an 
 
 Check out notifications in action in our gallery examples. (Coming soon)
 
-> Dot and numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance) for specific hex values.
+:::info
+
+Dot and numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance) for specific hex values.
+
+:::
 
 <ImageBlock maxWidth="600px">
 
