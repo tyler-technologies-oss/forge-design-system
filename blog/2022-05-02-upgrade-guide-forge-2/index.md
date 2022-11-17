@@ -1,10 +1,11 @@
 ---
 authors: [kieran.nichols]
-description: How to upgrade applications & libraries from TCW (1.x) to Forge 2.0
-keywords: ['upgrade', 'tcw', 'forge', 'guide', 'components', 'library', '2.0']
+tags: [forge, components, upgrade]
 ---
 
-# Upgrade Guide: Forge 2.0
+# Forge 2.0 Upgrade
+
+How to upgrade applications & libraries from TCW (1.x) to Forge 2.x.
 
 ## Overview
 
@@ -16,15 +17,15 @@ questions about how to upgrade, what is happening with the previous version, wha
 to walk you through the process of upgrading your applications and libraries, and answer all of the questions above and much more.
 
 :::info
-
-Yes, there are breaking changes that come with this upgrade, but we can assure you the process is not as daunting
+Yes, there are **breaking changes** that come with this upgrade, but we can assure you the process is not as daunting
 as it may seem.
 
 Please let us know if you run into any problems that are not documented in this guide!
-
 :::
 
 Let's get started!
+
+<!-- truncate -->
 
 ---
 
@@ -36,9 +37,7 @@ TCW as it stands today is being **deprecated** and **replaced** with a new Forge
 as the next generation evolution of the TCW library.
 
 :::info
-
 Essentially `@tylertech/tyler-components-web` is being replaced with an equivalent package called `@tylertech/forge`
-
 :::
 
 This likely doesn't come as a surprise to most, given that's how many have referred to the project over the years anyway. But,
@@ -47,9 +46,7 @@ tightly coupled with our Forge design system. This coupling will help ensure tha
 and make it feel more cohesive going forward.
 
 :::note
-
 The functionality and design of the components has been largely left **unchanged** during this migration.
-
 :::
 
 As you may have guessed, this means that our naming convention across the library is changing from anything `tcw` or `tyl`-related,
@@ -167,10 +164,8 @@ The vast majority of the changes can be handled with some good ol' fashioned fin
 Let's get into the details!
 
 :::note
-
 Expand the various sections below to view the detailed list of changes. There are checkboxes next to each item to help you ensure you have evaluate
 everything as you make progress. Some of the items themselves have more information that can be further expanded to view extra details about a specific change.
-
 :::
 
 ### Breaking changes 💥
@@ -180,21 +175,17 @@ please remember to review the other sections to ensure you don't miss anything. 
 important that you validate whether you are using the changed features or not.
 
 :::tip
-
 Reference your application/library to see which TCW/Forge components you have defined and are using. This can help you pare down the breaking
 changes to only the components you know you're using.
 
 Please let us know if you have any questions!
-
 :::
 
 <details>
   <summary><b>Highlights</b></summary>
 
 :::note
-
 Make sure to expand certain items below to view more details!
-
 :::
 
   <CheckboxListItem heading="Busy indicator" description="The usage expectation for this component has changed. The APIs have been adjusted, and the implementation no longer ensures a single instance of the component anymore and it will no longer handle multiple messages automatically. It is up to you to manage your instances and message updates, much like you do with the dialog component (as this is a derivative of the dialog pattern).">
@@ -212,11 +203,9 @@ The `hide()` method has been refactored to remove the `messageId` parameter. Bus
 This responsibility has been moved to developers to ensure flexibility, familiarity, and consistency with the usage of other Forge components such as the dialog.
 
 :::note
-
 If you need to ensure one instance of the busy-indicator is visible across multiple components but you only need to update the message or progress, you may want
 to wrap that up into a reusable service for your application. This can allow you to essentially replicate the previous functionality by housing it in a central
 location that your components can communicate with instead of interacting with the component directly.
-
 :::
 
   </CheckboxListItem>
@@ -319,9 +308,7 @@ element anymore. There is a `ControlValueAccessor` directive in the Angular adap
 `ngModel` and `formControl`/`formControlName` on the `<forge-switch>` element now.
 
 :::info
-
 Additionally, we added a new `label-position` property/attribute that you can set to `"start"` if you want the label positioned in front of the switch.
-
 :::
 
   </CheckboxListItem>
@@ -362,11 +349,9 @@ new TextFieldComponentDelegate({
 ```
 
 :::info
-
 The configuration object has been updated to an object that has two properties `options` and `props`:
 - `options` contains configuration for the delegate itself which may vary.
 - `props` are properties that will be passed to the underlying Forge component
-
 :::
 
   </CheckboxListItem>
@@ -500,9 +485,7 @@ The configuration object has been updated to an object that has two properties `
   <summary><b>CSS Custom Properties</b></summary>
 
 :::note
-
 All component-specific theme CSS custom properties (any properties related to color) have been renamed using the following convention: `--forge-<component name>-theme-<style name>`.
-
 :::
 
   <CheckboxListItem heading="Tyler-specific theme CSS custom properties" description="Separated from MDC and renamed. MDC variables will use `--mdc-*` prefixes and Tyler (formerly `--tyl-*`) variables will use `--forge-*` prefixes." />
@@ -548,9 +531,7 @@ All component-specific theme CSS custom properties (any properties related to co
 The upgrade process can be broken down into several well-defined steps.
 
 :::note
-
 Please note that in [step 2](#step-2-find--replace-automated) we have created an automated upgrade utility that you can use on your projects to do most of the heavy lifting!
-
 :::
 
 ### Step 1: dependencies
@@ -579,10 +560,8 @@ the package to access a new icon that will be used in the app-bar later on. If y
 this because this version is already installed as a dependency of `@tylertech/forge` with the correct minimum version for you.
 
 :::info
-
 It's worth noting that all of the new Forge-branded packages will be starting at version 2.0 to keep consistent with being an
 evolution of the TCW library, we're just using new packages for better organization per the branding requirements.
-
 :::
 
 ### Step 2: find & replace (automated)
@@ -598,10 +577,8 @@ that you will need to evaluate after this utility is run, but it should get you 
   <summary>View instructions</summary>
 
 :::info Important
-
 Before continuing with the automated utility, please ensure that you have source control configured or a backup created
 as this is a one-way street...
-
 :::
 
   Please run the following to install the utility globally on your machine:
@@ -611,13 +588,11 @@ as this is a one-way street...
   ```
 
 :::info
-
 If you receive an error during installation, it is likely due to you not having a global `.npmrc` file on set up on your system
 OR you're not logged in to the registry from the command line.
 
 to fix this, either configure an `.npmrc` in your user-level directory on your system, or log in to the registry with
 npm login --registry https://tylertech.jfrog.io/tylertech/api/npm/npm/` using your Artifactory credentials.
-
 :::
 
   The `forge-upgrade` utility will take `--path` as an argument and find all files in your project and attempt to replace the usages with the new APIs.
@@ -637,12 +612,10 @@ npm login --registry https://tylertech.jfrog.io/tylertech/api/npm/npm/` using yo
     - Note: separate multiple values with a comma.
 
   :::info Important
-
   It is recommended that you run the utility initially with the `--dry-run` argument to evaluate which files will be adjusted to get an idea
   about whether the `--ignore` argument should be used.
   
   The utility will automatically ignore `node_modules` directories.
-
   :::
 
   To get a better idea of what it is doing, or if you need to manually upgrade, see below.
@@ -668,10 +641,8 @@ npm login --registry https://tylertech.jfrog.io/tylertech/api/npm/npm/` using yo
   ```
 
 :::info
-
 All MDC-related CSS custom properties have been left unchanged (for now). In a future update, we will be
 abstracting those items and renaming them as well!
-
 :::
 
   Finally, wherever we can, various interfaces, APIs, component names... etc. will be updated as well. There are many changes
@@ -691,10 +662,8 @@ that could affect your application, but we expect that most applications will on
 [View breaking changes](#breaking-changes-)
 
 :::info
-
 The breaking changes list includes changes that the automated utility handles, but please validate that the changes were made successfully
 and accurately during your evaluation.
-
 :::
 
 ### Step 4: build and test application/library
@@ -704,10 +673,8 @@ I can assure you that you are very close! Any build errors you get at this point
 didn't realize you were using from the list of breaking changes above.
 
 :::info Important
-
 If you come across any problems that are not noted in the breaking changes list, please let us know ASAP so we can help you get it fixed and update
 this guide for others that may also come across it.
-
 :::
 
 Once you get your application building and running locally, it's time to manually validate everything by testing it out from a user's perspective. Navigate around your
@@ -748,9 +715,7 @@ generic enough, there are a few components that are still specific to Tyler, and
 This will also provide us a library to share more domain specific components as we need them in the future!
 
 :::info
-
 We converted the omnibar component to app-bar to make it generic enough for public consumption.
-
 :::
 
 The Forge 2.0 internal components can be installed via the `@tylertech/forge-internal` package, and is used exactly the same way the standard Forge components are.
@@ -762,12 +727,10 @@ The following are the only components available in the internal package (as of M
 - `<forge-landing-page-layout>`
 
 :::info
-
 For those of you that are using React, we also created a corresponding `@tylertech/forge-react-internal` package that you can install to access the
 React wrapper components for these internal components.
 
 There is no need for an Angular adapter library for the internal components at this time!
-
 :::
 
 ---
@@ -796,9 +759,7 @@ Here are some details that you may find helpful during this process:
 </details>
 
 :::info
-
 There is another great article regarding Sass modules on CSS-Tricks [here](https://css-tricks.com/introducing-sass-modules/) that you may find helpful.
-
 :::
 
 Please reach out to the Forge team if you need assistance!
@@ -846,11 +807,9 @@ Expand the example below to see how the app-bar is expected to be used now:
   ```
 
 :::info
-
 When setting up the icon for the logo. We have added the same Tyler Talking T logo that was built-in before to the `@tylertech/tyler-icons` package. You will
 need at least version `1.12.0` of this package to have access to that icon. The only other requirement on top of the snippet above is to ensure you define
 the icon within the `IconRegistry`. Note: This version is set as a dependency of `@tylertech/forge` package for you.
-
 :::
 
 </details>

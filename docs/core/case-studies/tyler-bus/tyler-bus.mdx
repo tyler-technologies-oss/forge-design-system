@@ -1,0 +1,63 @@
+# Tyler Bus
+
+_"We just took the Forge website and ran with it. We were able to build the mobile apps that we wanted to without making them completely native, just using Forge."_
+
+\- Nathan Westfall, developer
+
+<iframe width="100%" height="500" src="https://web.microsoftstream.com/embed/video/06a3332d-b35b-47d2-a23e-7dc4583d84fd?autoplay=false&amp;showinfo=true" allowFullScreen style={{border: 'none'}}></iframe>
+
+---
+
+## Overview & design decisions
+
+Meet the new Tyler Bus suite, built with TCW components on a Blazor and progressive web app framework. The apps are used by bus drivers for local school systems,
+enabling them to clock in and out, track students, and track regular maintenance for local buses.
+
+As COVID hit and the team responded to new business requirements such as additional inspections and cleanings and remote clock-ins, the team opted to split a legacy
+hardware device into a suite of smaller apps that could be used on clients' own devices.
+
+The applications are multi-tenant progressive web apps (PWAs) built on Blazor, using Web Assembly. Blazor helped to bridge the gap for .NET developers. The team took
+the pure Javascript TCW components and created a Blazor library of TCW components, contributing them back to the Forge team. The multi-tenant PWA framework allows the
+apps to run in offline scenarios and be specific to an individual tenant. 
+
+To ensure that the apps could be used on drivers' mobile devices, including tablets and phones, the team adapted some TCW components to accomodate larger touch targets
+and larger font sizes where needed. While the components are built to meet Google Material Design's recommended 48px by 48px touch targets for mobile devices, the team
+wanted to ensure a clean and effortless experience well adapted for mobile screens. Simplified data and the use of progressive disclosure through expansion panels and
+detail pages ensured a mobile friendly experience. 
+
+Additionally the team optimized the apps to support effortless switching between languages as needed, using Blazor language support.
+
+---
+
+<Columns columns="two" type="equal">
+
+<div>
+
+## Featured patterns & components
+
+- [adaptive design](/core-patterns/adaptive-design/)
+- [system communication](/core-patterns/system-communication/)
+- [responsive omnibar](/components/omnibar#responsive)
+- [app launcher](/components/omnibar-app-launcher)
+- [navigation drawer](/components/navigation/navigation-drawer)
+- [expansion panel](/components/page/expansion-panel)
+- language support
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank" rel="noopener noreferrer">progressive web app framework</a>
+- <a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor" target="_blank" rel="noopener noreferrer">Blazor</a>
+
+</div>
+
+<div>
+
+## Contacts & resources
+
+- <a href="mailto:nathan.westfall@tylertech.com">Nathan Westfall</a>, Developer
+- <a href="mailto:bryan.krufchinski@tylertech.com">Bryan Krufchinski</a>, Product Owner
+- <a href="https://confl.tylertech.com/x/rIaWCQ" target="_blank" rel="noopener noreferer">Tyler Bus Inspect Confluence space</a>
+- <a href="https://confl.tylertech.com/x/lQqDCg" target="_blank" rel="noopener noreferer">Tyler Bus Clock Confluence space</a>
+- <a href="https://xd.adobe.com/view/9e9c4e26-d140-4e04-b508-9c0a182ceb2e-cbcf/" target="_blank" rel="noopener noreferrer">Tyler Bus Clock Designs (Adobe XD)</a>
+- <a href="https://github.com/tyler-technologies/tyler-forge-blazor" target="_blank" rel="noopener noreferrer">Blazor TCW Github repo</a>
+ 
+</div>
+
+</Columns>

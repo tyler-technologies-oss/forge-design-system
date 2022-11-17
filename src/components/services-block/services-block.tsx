@@ -23,7 +23,7 @@ const ServicesBlock = ({ cardContainer = false, action, imageBorder = false, lin
       <div className={clsx(styles.imageContainer, { [styles.imageBorder]: imageBorder })}>
         {children}
         <ServicesLink link={link} target={target}>
-          <button type="button" class="button button--primary">{action}</button>
+          <button type="button" className="button button--primary">{action}</button>
         </ServicesLink>
       </div>
     </ConditionalWrapper >

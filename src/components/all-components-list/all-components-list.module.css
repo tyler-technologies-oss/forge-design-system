@@ -1,3 +1,20 @@
+.filterInput {
+  border: 1px solid var(--forge-theme-text-primary);
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.filterInput::placeholder {
+  color: var(--forge-theme-text-secondary);
+}
+
+.empty {
+  padding: 16px;
+}
+
 .group {
   margin-bottom: 48px;
 }
@@ -27,7 +44,7 @@
   display: flex;
   gap: 8px;
   padding: 8px;
-  height: 125px;
+  height: 130px;
 }
 
 .descriptionContainer {
@@ -40,11 +57,16 @@
 .headerText {
   font-weight: bold;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 2px;
 }
 
 .descriptionContainerText {
   flex: 1;
   font-size: 12px;
+  line-height: 0.875rem;
 }
 
 .thumbnail {

@@ -1,7 +1,5 @@
 ---
 title: Framer 
-description: Build beautiful and accessible experiences that express Tyler's core values using a component library that matches our TCW components to spec. Tyler uses Figma as a collaborative, web based design tool. For advanced functional prototypes, we recommend using Framer.
-keywords: ['designer', 'framer']
 ---
 
 # Designer assets: Framer
@@ -22,7 +20,6 @@ In Framer, interactions are first-class throughout your whole workflow—wirefra
 <br/>
 
 :::info
-
 To learn more about getting started with Framer, [submit a request](/consulting/) for "Low engagement consulting" from the Forge team and mention "Framer" in your request.
 
 :::

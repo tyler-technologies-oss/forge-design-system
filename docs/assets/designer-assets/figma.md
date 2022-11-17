@@ -1,7 +1,5 @@
 ---
 title: Figma
-description: Build beautiful and accessible experiences that express Tyler's core values using a component library that matches our Forge components to spec. Tyler uses Figma as a collaborative, web based design tool. For advanced functional prototypes, we recommend using Framer.
-keywords: ['figma', 'asset']
 ---
 
 # Designer assets: Figma
@@ -26,12 +24,10 @@ To request a viewer account, [submit a request](/consulting/) for "Low engagemen
 Once you have a Figma account, get started with Figma below!
 
 :::info
-
 Click "Getting started" in the preview below to open the project in Figma!
-
 :::
 
-<iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="910" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcEUIQB7oHEaOtHhfakUxYe%2FGetting-started%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+<iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="910" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcEUIQB7oHEaOtHhfakUxYe%2FGetting-started%3Fnode-id%3D0%253A1" allowFullScreen></iframe>
 
 ## Resources:
 

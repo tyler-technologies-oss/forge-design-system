@@ -14,6 +14,7 @@ import RightColumn from '@site/src/components/left-column/left-column';
 import PlayHelp from '@site/src/components/play-help/play-help';
 import ToneDef from '@site/src/components/tone-def/tone-def';
 import CheckboxListItem from '@site/src/components/utils/checkbox-list-item';
+import ServicesBlock from '@site/src/components/services-block/services-block';
 
 export default {
   ...MDXComponents,
@@ -32,5 +33,6 @@ export default {
   RightColumn,
   PlayHelp,
   ToneDef,
-  CheckboxListItem
+  CheckboxListItem,
+  ServicesBlock
 };
