@@ -6,28 +6,15 @@ sidebar_position: 1
 
 Here you will find information about the Tyler Forge CDN, what it is, and how to get started using it.
 
-:::info TL;DR
-If you’re just looking to find assets, please see one of the following pages to get CDN URLs:
+:::info
+If you’re looking for icons and/or illustrations, head over to the following pages:
 
-- [Icons](/assets/icons)
-- [Illustrations](/assets/illustrations)
+- [Icons](/assets/icon-library)
+- [Illustrations](/assets/illustration-library)
 
-Looking for the standard Tyler font and icon URLs to reference in your applications?
-
-- Tyler font: https://cdn.forge.tylertech.com/v1/css/tyler-font.css
-  - This loads the Roboto font and is required for the proper typography.
-- Tyler icons
-  - Standard: https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css
-    - Loads the customized Tyler icon set from the standard material icons.
-    - Use the `tyler-icons` class when referencing icons from this pack.
-  - Extended: https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css
-    - Loads the customized icon set from the community material design icons.
-    - Use the `tyler-icons-ext` class when referencing icons from this pack.
-  - Custom: https://cdn.forge.tylertech.com/v1/css/tyler-icons-custom.css
-    - These are custom icons created by Tyler.
-    - Use the `tyler-icons-custom` class when referencing icons from this pack.
-  - Tyler logo favicon: https://cdn.forge.tylertech.com/favicon.ico
+Looking for other types of assets, see the menu and choose the type of asset you're looking for.
 :::
+
 
 ## What is it?
 
@@ -35,10 +22,9 @@ A content delivery network (CDN) provides a static URL to host and access common
 stylesheets, fonts, icons, images, JavaScript files… etc. It provides a lightning fast response time to aid
 in performance, and removes the need to host many of these assets within each application.
 
-CDNs are just servers that host static content public to the internet, with a static URL. This means you can
-safely rely on this URL never changing, and use it while building your application, and when it’s in production.
-
-Need to use a Forge-approved icon or image? You will find all of these assets, and more, in the Forge CDN.
+CDNs are just servers that host static content public to the internet, with a static URL. These servers replicate
+the assets across many servers situated around the world to make accessing and loading them very fast. You can safely
+rely on this URL never changing, and use it while building your application, and when it’s in production.
 
 ## How do I use it?
 
@@ -51,6 +37,11 @@ Here is an example of loading the above image from the CDN:
 
 <img style={{width: '256px'}} src="https://cdn.forge.tylertech.com/v1/images/spot-hero/404-error-spot-hero-desktop.svg" />
 
+The image above is displayed using the following HTML:
+
+```html
+<img src="https://cdn.forge.tylertech.com/v1/images/spot-hero/404-error-spot-hero-desktop.svg" />
+```
 
 ## URL format
 

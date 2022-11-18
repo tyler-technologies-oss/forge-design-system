@@ -37,7 +37,6 @@ export default function AllComponentsList(): JSX.Element {
     setFilterText((evt.nativeEvent.target as HTMLInputElement).value);
   }
 
-  console.log('render AllComponentsList', filterText);
   const filteredGroups = filterText.trim().length ? filterGroups(groups, filterText) : groups;
 
   return (

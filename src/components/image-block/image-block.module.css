@@ -7,6 +7,13 @@
   margin: 0 auto;
 }
 
+.imageWrapper p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .captionContainer {
   box-sizing: border-box;
   margin: 0 auto;
