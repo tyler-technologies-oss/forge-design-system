@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkforge_design_system=self.webpackChunkforge_design_system||[]).push([[2315],{24687:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/tcw","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog posts for designers and developers relating to the Tyler Forge design system","blogTitle":"Tyler Forge design system blog"}')}}]);
