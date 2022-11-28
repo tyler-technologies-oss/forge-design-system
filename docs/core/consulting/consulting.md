@@ -52,7 +52,9 @@ Request a Forge team member to do design or research.
 
 ## Specific services
 
-> **Note:** Jump Starts now occur monthly - check out the <a href="https://confl.tylertech.com/display/TU/Jump+Start+2.0+Modules" target="_blank" rel="noopener">schedule</a> and be sure to sign up two weeks in advance.
+:::info
+Jump Starts now occur monthly - check out the <a href="https://confl.tylertech.com/display/TU/Jump+Start+2.0+Modules" target="_blank" rel="noopener">schedule</a> and be sure to sign up two weeks in advance.
+:::
 
 <Columns columns="three" type="equal">
 

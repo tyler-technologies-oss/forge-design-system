@@ -1,0 +1,77 @@
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  width: calc(100% - 2px);
+  margin-bottom: 1px;
+}
+
+.iconGridHeader {
+  margin-top: 48px;
+}
+
+.iconContainer {
+  background-color: var(--forge-theme-surface);
+  outline: 1px solid var(--forge-theme-border);
+  margin-left: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 150px;
+}
+
+.iconLabel {
+  margin: 0;
+  padding: 4px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--forge-theme-text-secondary);
+  font-size: 12px;
+  max-width: 150px;
+}
+
+.icon {
+  color: var(--forge-theme-text-primary);
+  font-size: 32px;
+}
+
+.icon > svg {
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer {
+  padding-top: 16px;
+}
+
+.iconActions {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+}
+
+.iconActions > button > svg {
+  fill: var(--forge-theme-text-secondary);
+  transition: fill linear 300ms;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+
+.iconActions > button > svg:hover {
+  fill: var(--forge-theme-text-primary);
+  opacity: 1;
+}
+
+.iconContainer:hover .iconActions {
+  visibility: visible;
+}

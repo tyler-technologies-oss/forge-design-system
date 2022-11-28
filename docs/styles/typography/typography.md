@@ -4,7 +4,7 @@
 
 Tyler Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations.
 
-<p><span class="tyl-typography--headline4">This is Roboto, our Tyler Forge typeface.</span></p>
+<p className="forge-typography--headline4">This is Roboto, our Tyler Forge typeface.</p>
 
 Roboto features friendly and open curves and allows letters to be settled into their natural width. This makes for a natural reading rhythm more commonly found in humanist and serif types.
 
@@ -14,7 +14,7 @@ See an example of typography in action in the [TCP Manager Apps case study](/cas
 
 To ensure proper screen reader navigation, use the native HTML semantic headers. Screen readers use an accessibility tree to read through a page, so they’ll follow the logical header order (H1 through H6) instead of the order seen visually on a page. Use headings to reflect page hierarchies, sections, and parent-child relationships, instead of for styling purposes. 
 
-**Do not use semantic headings for stylistic purposes.** Instead, use semantic headings to create a logical hierarchy on the page, and use the tyl-typography classes to style your text. The code snippets below include semantic headings as examples only; they’re not meant to be prescriptive. Be sure to use semantic headings that reflect your app’s logical hierarchy. 
+**Do not use semantic headings for stylistic purposes.** Instead, use semantic headings to create a logical hierarchy on the page, and use the Forge typography classes to style your text. The code snippets below include semantic headings as examples only; they’re not meant to be prescriptive. Be sure to use semantic headings that reflect your app’s logical hierarchy. 
 
 ---
 
@@ -28,7 +28,9 @@ Use these for titles and subsection titles within your app.
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Title" typeClass="tyl-typography--title">
+<LeftColumn>
+
+<div className="forge-typography--title">Title</div>
 
 Used for page titles.
 
@@ -54,7 +56,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Headline5" typeClass="tyl-typography--headline5">
+<LeftColumn>
+
+<div className="forge-typography--headline5">Headline 5</div>
 
 Used for the app name in the omnibar, primary page headers, card headers, and dialog headers.
 
@@ -80,7 +84,9 @@ Color: rgba(0,0,0,.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Subtitle 1" typeClass="tyl-typography--subtitle1">
+<LeftColumn>
+
+<div className="forge-typography--subtitle1">Subtitle 1</div>
 
 Used for page subsections and sections within cards.
 
@@ -106,7 +112,9 @@ Color: rgba(0,0,0, 0.54)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Subtitle 1, secondary" typeClass="tyl-typography--subtitle1-secondary">
+<LeftColumn>
+
+<div className="forge-typography--subtitle1-secondary">Subtitle 1, secondary</div>
 
 A visually heavier alternative to the default subtitle1 style.
 
@@ -132,7 +140,9 @@ Color: rgba(0,0,0, 0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Subtitle 2" typeClass="tyl-typography--subtitle2">
+<LeftColumn>
+
+<div className="forge-typography--subtitle2">Subtitle 2</div>
 
 Used for third-level page sections and subsections within cards.
 
@@ -158,7 +168,9 @@ Color: rgba(0,0,0,0.54)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Subtitle 2, secondary" typeClass="tyl-typography--subtitle2-secondary">
+<LeftColumn>
+
+<div className="forge-typography--subtitle2-secondary">Subtitle 2, secondary</div>
 
 A visually lighter alternative to the default subtitle2.
 
@@ -184,7 +196,9 @@ Color: rgba(0,0,0,0.54)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="OVERLINE" typeClass="tyl-typography--overline">
+<LeftColumn typeName="OVERLINE" typeClass="forge-typography--overline">
+
+<div className="forge-typography--overline">OVERLINE</div>
 
 Used as an alternate for sections within cards or navigation drawers. Use it for short titles or headers.
 
@@ -212,9 +226,14 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Body 1" typeClass="tyl-typography--body1">
-Used for primary body text. <br />
-<span class="secondary">Use black at 54% opacity for content that is less important or needs less emphasis.</span>
+<LeftColumn>
+
+<div className="forge-typography--body1">Body 1</div>
+
+Used for primary body text.
+
+Use black at 54% opacity for content that is less important or needs less emphasis.
+
 </LeftColumn>
 
 <RightColumn>
@@ -237,7 +256,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Body 2" typeClass="tyl-typography--body2">
+<LeftColumn>
+
+<div className="forge-typography--body2">Body 2</div>
 
 Used for secondary text, primarily as part of multi-line lists or less important body text.
 
@@ -265,7 +286,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Caption" typeClass="tyl-typography--caption">
+<LeftColumn>
+
+<div className="forge-typography--caption">Caption</div>
 
 Used for secondary text, primarily as part of multi-line lists or less important body text.
 
@@ -293,7 +316,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Headline1" typeClass="tyl-typography--headline1">
+<LeftColumn>
+
+<div className="forge-typography--headline1">Headline 1</div>
 
 </LeftColumn>
 
@@ -317,7 +342,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Headline2" typeClass="tyl-typography--headline2">
+<LeftColumn>
+
+<div className="forge-typography--headline2">Headline 2</div>
 
 </LeftColumn>
 
@@ -341,7 +368,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Headline3" typeClass="tyl-typography--headline3">
+<LeftColumn>
+
+<div className="forge-typography--headline3">Headline 3</div>
 
 </LeftColumn>
 
@@ -365,7 +394,9 @@ Color: rgba(0,0,0,0.87)
 
 <Columns type="equal" columns="two">
 
-<LeftColumn typeName="Headline4" typeClass="tyl-typography--headline4">
+<LeftColumn>
+
+<div className="forge-typography--headline4">Headline 4</div>
 
 </LeftColumn>
 

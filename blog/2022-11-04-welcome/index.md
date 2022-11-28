@@ -1,7 +1,7 @@
 ---
-title: Welcome
-decription: Welcome to the new Forge design system website.
-authors: [kieran.nichols, nick.andrews, jay.mccormick]
+title: Forge Website Redesign
+decription: Welcome to the new and improved Forge design system website.
+authors: [kieran.nichols]
 tags: [forge, design-system, welcome]
 ---
 
@@ -47,7 +47,7 @@ custom solution built with Gatsby to a configuration-based solution called [Docu
 
 ### Docusaurus
 
-We believe that moving to Docusaurus that it will not only allow us to focus on what matters most, design system guidance and content, but also
+We believe that moving to Docusaurus will not only allow us to focus on what matters most, design system guidance and content, but also
 enable us to make use of its great built-in features that will only provide benefits to our users that we were unable to provide without significant
 effort in our old Gatsby-based solution.
 
@@ -57,9 +57,9 @@ A quote from the Docusaurus docs:
 
 Docusaurus has many great benefits, but below are just a few that we'd like to highlight:
 
-- Removes the need to essentially build the site from scratch (aka site layout, navigation, search… etc.). It’s generated for us instead based on file structure and configuration.
+- Removes the need to build the website from scratch (aka site layout, navigation, search... etc.). It’s generated for us instead based on file structure and configuration.
 - Supports markdown and MDX, as well as custom React components
-- N-level navigation
+- N-level navigation (supporting our new IA)
 - Fully theme-able
 - Content versioning
 - Localization
@@ -80,13 +80,12 @@ of enterprise application design.
 
 ### Search
 
-**We have heard you!** The search functionality in the old Gatsby-based Forge website was sub-par at best... Docusaurus provides various built-in search options for us, and we are happy to announce that we now offer a much improved full-text search function. Give it a try in the header above!
+**We have heard you!** The search functionality in the old Gatsby-based Forge website was mediocre at best... Docusaurus provides various built-in search options for us, and we are happy to announce that we now offer a much improved full-text search function. Give it a try in the header above!
 
 ### Blog
 
 We have struggled in the past with keeping our users up to date with the happenings of Forge, and we want to improve that. A blog is natural way to allow for us to make announcements,
-and provide detailed information to you. We intend to use this blog section you're viewing right now to keep you up to date with everything from design to development as Forge 
-grows.
+and provide detailed information to you in a consistent location that you already use. We intend to use this blog section you're viewing right now to keep you up to date with everything from design to development as Forge grows and improves.
 
 :::info Please share!
 If you have any topics or announcements related to Forge, we would love for you to share it with everyone else! Please feel free to create posts here or reach out to us if you have questions.
@@ -94,7 +93,7 @@ If you have any topics or announcements related to Forge, we would love for you 
 
 ## Next steps
 
-As mentioned above, this is a conversion/translation from our old website to our new and improved one. This is just the first step as we look forward to open sourcing our design system
+As mentioned above, this is a conversion/translation from our old website to our new and improved one. This is just the first step as we look forward to open sourcing the design system
 
 Before we are able to do that, we have a few things need to take care of:
 

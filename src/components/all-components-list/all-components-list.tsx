@@ -1,9 +1,10 @@
 
-import React, { FormEventHandler, SyntheticEvent, useState } from 'react';
+import React, { SyntheticEvent, useState } from 'react';
 import clsx from 'clsx';
 import { useDocsSidebar } from '@docusaurus/theme-common/internal';
 import Link from '@docusaurus/Link';
 import styles from './all-components-list.module.css';
+import InputField from '../controls/text-input/text-input';
 
 const MAX_DESC_CHAR_COUNT = 135;
 
@@ -41,9 +42,7 @@ export default function AllComponentsList(): JSX.Element {
 
   return (
     <>
-      <div>
-        <input type="text" placeholder="Filter..." onInput={handleInput} className={styles.filterInput} />
-      </div>
+      <InputField onInput={handleInput} placeholder="Filter..." />
       {filteredGroups.map(({ label, items }, index) => {
         return (
           <div key={`${label}-${index}`} className={clsx(styles.group)}>
