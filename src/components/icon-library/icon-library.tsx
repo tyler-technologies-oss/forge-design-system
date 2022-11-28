@@ -69,12 +69,12 @@ function IconGrid({ header, iconSet, filterText }) {
   const [canShowMore, setCanShowMore] = useState(true);
   
   useEffect(() => {
-    calcVisibleIcons();
+    calcVisibleIcons([]);
   }, [filterText]);
 
-  function calcVisibleIcons() {
+  function calcVisibleIcons(currentIcons) {
     const filteredIcons = filterIcons(iconSet);
-    const renderIcons = filteredIcons.slice(0, visibleIcons.length + MORE_ICONS_INCREMENT);
+    const renderIcons = filteredIcons.slice(0, currentIcons.length + MORE_ICONS_INCREMENT);
     setVisibleIcons(renderIcons);
     setCanShowMore(filteredIcons.length > MORE_ICONS_INCREMENT);
   }
@@ -93,7 +93,7 @@ function IconGrid({ header, iconSet, filterText }) {
           </div>
           {canShowMore && 
             <div className={styles.buttonContainer}>
-              <button className="button button--primary" type="button" onClick={calcVisibleIcons}>Show more...</button>
+              <button className="button button--primary" type="button" onClick={() => calcVisibleIcons(visibleIcons)}>Show more...</button>
             </div>}
         </>}
       {visibleIcons.length === 0 && <div>No matching icons</div>}
