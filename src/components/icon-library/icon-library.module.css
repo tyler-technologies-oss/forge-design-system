@@ -9,6 +9,10 @@
   margin-top: 48px;
 }
 
+.loading {
+  padding: 16px;
+}
+
 .iconContainer {
   background-color: var(--forge-theme-surface);
   outline: 1px solid var(--forge-theme-border);

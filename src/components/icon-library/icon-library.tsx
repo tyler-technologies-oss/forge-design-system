@@ -53,7 +53,7 @@ export default function IconLibrary() {
   return (
     <div>
       <InputField onInput={handleFilter} placeholder="Filter..." />
-      {isLoading && <div>Loading...</div>}
+      {isLoading && <div className={styles.loading}>Loading icons...</div>}
       {!isLoading &&
         <>
           <IconGrid header="Standard icons" iconSet={standardIcons} filterText={filterText} />
