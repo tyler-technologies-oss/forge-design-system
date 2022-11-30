@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Tooltip
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjIaSWZuuakVJeFlT4oz3XF%2FTooltip%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-tooltip--default" />
 
 ## Overview

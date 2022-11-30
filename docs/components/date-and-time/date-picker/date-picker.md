@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Date picker
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDytPRR9cY0lGWJIe3szgPV%2FData-Picker%3Fnode-id%3D1%253A790%26scaling%3Dmin-zoom%26page-id%3D0%253A1"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-picker--default" />
 
 ## Overview

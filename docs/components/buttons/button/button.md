@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Button
 
 <ComponentVisual
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVFIsI7H3lTMQMqu7pG4qjq%2FForge-Content%3Fnode-id%3D487%253A915"
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWPE2FpowERugNB2JolFjZ6%2FButton%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button--default" />
 
 ## Overview

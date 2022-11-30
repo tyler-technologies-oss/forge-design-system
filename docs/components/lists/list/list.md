@@ -6,7 +6,7 @@ sidebar_custom_props:
 # List
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2JNO1A66XjtOM8JPIn6UgF%2FList%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-list--default" />
 
 ## Overview

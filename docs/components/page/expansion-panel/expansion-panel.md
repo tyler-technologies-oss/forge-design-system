@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Expansion panel
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F57V48imVCq2p8Yi3vClXs1%2FExpansion-Panel%3Fnode-id%3D1%253A790%26scaling%3Dmin-zoom%26page-id%3D0%253A1"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-expansion-panel--default" />
 
 ## Overview

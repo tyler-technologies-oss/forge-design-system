@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Footer
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3jVq9um5nh21vOVg7nYlql%2FFooter%3Fnode-id%3D1%253A790%26scaling%3Dmin-zoom%26page-id%3D0%253A1"
   storybookUrl="https://animated-doodle-7c7696e9.pages.github.io/main/?path=/story/components-footer--default" />
 
 ## Overview

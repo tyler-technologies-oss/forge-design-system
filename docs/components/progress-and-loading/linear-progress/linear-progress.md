@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Linear progress
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWr24CCVZlwPfWbzJuR405E%2FLinear-Progress-Indicator%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-linear-progress--default" />
 
 ## Overview: Progress indicators

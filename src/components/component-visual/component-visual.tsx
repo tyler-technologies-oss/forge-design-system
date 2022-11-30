@@ -16,10 +16,16 @@ function ComponentDemoLink({ href }) {
 }
 
 export default function ComponentVisual({
-  height = '250',
+  height = '288',
+  width = '308',
+  hideUi = 'true',
   figmaUrl,
   storybookUrl
 }): JSX.Element {
+
+  if (hideUi === 'true') figmaUrl = `${figmaUrl}&hide-ui=1`;
+
+  console.log(figmaUrl)
   return (
     <div className={styles.container}>
       {storybookUrl &&
@@ -31,6 +37,7 @@ export default function ComponentVisual({
         className={styles.frame}
         allowFullScreen
         height={height}
+        width={width}
         src={figmaUrl} />
     </div>
   );

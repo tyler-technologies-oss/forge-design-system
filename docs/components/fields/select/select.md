@@ -6,7 +6,7 @@ sidebar_custom_props:
 # Select
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2tPscC53OGwIWV5tLmvjRi%2FSelect%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D101%253A587"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-select--default" />
 
 ## Overview

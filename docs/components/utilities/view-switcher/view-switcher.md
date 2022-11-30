@@ -6,7 +6,7 @@ sidebar_custom_props:
 # View switcher
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRicJQjC6rhxxy8yuVb03i3%2FView-Switcher%3Ft%3DTcqErIxLSPJYPeze-1"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-view-switcher--default" />
 
 ## Overview

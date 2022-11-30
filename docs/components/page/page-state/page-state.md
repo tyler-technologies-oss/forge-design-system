@@ -5,6 +5,10 @@ sidebar_custom_props:
 
 # Page state
 
+<ComponentVisual
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0zWFCaTdfegMuuYsOVaBfd%2FPage-State%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
+  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-page-state--default" />
+
 ## Overview
 
 The page state component is a wrapper component facilitates full page states such as empty search result pages, error pages, and landing pages.

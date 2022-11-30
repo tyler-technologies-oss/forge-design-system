@@ -6,9 +6,8 @@ sidebar_custom_props:
 # Chips
 
 <ComponentVisual
-  figmaUrl=""
+  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWDIiNZAWPbyDwREFLKG71Y%2FChips%3Fnode-id%3D1%253A790"
   storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chips--default" />
-
 ## Overview
 
 Chips allow users to enter information, make selections, filter content, or trigger actions. Chips should appear dynamically as a group of
