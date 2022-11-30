@@ -8,10 +8,6 @@
 
 ## Overview
 
-<ComponentVisual
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F4k5ZGxstydiqBXilO8MBxu%2FScaffold%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A790"
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-skeleton--app" />
-
 The scaffold is used to create common page and component layouts with a header, scrollable body, and footer. 
 
 Tyler Forge provides default page layouts to ensure consistency between apps. 
