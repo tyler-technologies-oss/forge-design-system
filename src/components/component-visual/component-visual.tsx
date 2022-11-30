@@ -25,7 +25,6 @@ export default function ComponentVisual({
 
   if (hideUi === 'true') figmaUrl = `${figmaUrl}&hide-ui=1`;
 
-  console.log(figmaUrl)
   return (
     <div className={styles.container}>
       {storybookUrl &&
