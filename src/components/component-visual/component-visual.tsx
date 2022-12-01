@@ -18,12 +18,12 @@ function ComponentDemoLink({ href }) {
 export default function ComponentVisual({
   height = '288',
   width = '308',
-  hideUi = 'true',
+  hideUi = true,
   figmaUrl,
   storybookUrl
 }): JSX.Element {
 
-  if (hideUi === 'true') figmaUrl = `${figmaUrl}&hide-ui=1`;
+  if (hideUi) figmaUrl = `${figmaUrl}&hide-ui=1`;
 
   return (
     <div className={styles.container}>
