@@ -74,14 +74,14 @@ jobs:
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
-          uses: reggionick/s3-deploy@v3
-          with:
-            folder: build
-            bucket: ${{ secrets.AWS_S3_BUCKET_BETA }}
-            bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
-            dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_BETA }}
-            invalidation: /
-            delete-removed: true
-            no-cache: true
-            private: true
-            filesToInclude: ".*/*,*/*,**"
+        uses: reggionick/s3-deploy@v3
+        with:
+          folder: build
+          bucket: ${{ secrets.AWS_S3_BUCKET_BETA }}
+          bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
+          dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_BETA }}
+          invalidation: /
+          delete-removed: true
+          no-cache: true
+          private: true
+          filesToInclude: ".*/*,*/*,**"
