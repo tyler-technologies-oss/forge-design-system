@@ -15,11 +15,15 @@
   justify-content: flex-end;
   position: absolute;
   right: -12px;
-  bottom: -24px;
+  bottom: -32px;
 }
 
 .link {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+img {
+  border-radius: 4px;
 }
