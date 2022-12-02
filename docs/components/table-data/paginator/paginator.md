@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Paginator
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-paginator--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-paginator--default">
+
+![](./images/paginator.png)
+
+</ComponentVisual>
 
 ## Overview
 

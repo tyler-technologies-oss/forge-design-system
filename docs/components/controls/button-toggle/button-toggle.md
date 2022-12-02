@@ -19,7 +19,7 @@ The button toggle can also be used to create an icon toolbar.
 
 <ImageBlock caption="A button toggle can be used to create an icon toolbar." max-width="400px" padded="{false}">
 
-![Image of a toolbar with document viewer actions inside.](./images/button-toggle.png)
+![Image of a toolbar with document viewer actions inside.](./images/button-toggle-example.png)
 
 </ImageBlock>
 

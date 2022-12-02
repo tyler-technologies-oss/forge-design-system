@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # View switcher
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-view-switcher--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-view-switcher--default">
+
+![](./images/view-switcher.png)
+
+</ComponentVisual>
 
 ## Overview
 

@@ -40,11 +40,11 @@ In general, filters are applied after an initial search has been conducted.
 
 ---
 
-## Parts 
+## Parts
 
 <ImageBlock padded={false} max-width="700px">
 
-![Diagram of filter parts.](./images/filter-sidesheet.png)
+![Diagram of filter parts.](./images/filter-sidesheet-diagram.png)
 
 </ImageBlock>
 

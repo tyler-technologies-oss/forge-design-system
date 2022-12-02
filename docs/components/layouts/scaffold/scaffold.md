@@ -11,7 +11,7 @@ sidebar_custom_props:
 
 <ImageBlock padded={false}>
 
-![Diagram of a scaffold component.](./images/scaffold.png)
+![Diagram of a scaffold component.](./images/scaffold-diagram.png)
 
 </ImageBlock>
 

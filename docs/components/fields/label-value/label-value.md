@@ -17,7 +17,7 @@ The label value component does not contain any interactive indicators such as ho
 
 <ImageBlock padded={false} caption="1. Label value components may used in a card. <br>2. Label values used in task card search results.">
 
-![Image of card with label value pairs inside and task card search results that use label value pairs.](./images/label-value.png)
+![Image of card with label value pairs inside and task card search results that use label value pairs.](./images/label-value-example.png)
 
 </ImageBlock>
 
