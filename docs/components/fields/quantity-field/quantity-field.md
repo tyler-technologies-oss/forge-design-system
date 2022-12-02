@@ -6,9 +6,11 @@ sidebar_custom_props:
 
 # Quantity field
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-quantity-field--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-quantity-field--default">
+
+![](./images/quantity-field.png)
+
+</ComponentVisual>
 
 :::caution
 This component is **deprecated** and will be removed in a future version.

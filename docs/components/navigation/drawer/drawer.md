@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Drawer
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-drawer--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-drawer--default">
+
+![](./images/drawer.png)
+
+</ComponentVisual>
 
 ## Overview
 

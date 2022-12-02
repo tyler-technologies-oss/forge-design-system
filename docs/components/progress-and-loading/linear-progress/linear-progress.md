@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Linear progress
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-linear-progress--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-linear-progress--default">
+
+![](./images/linear-progress.png)
+
+</ComponentVisual>
 
 ## Overview: Progress indicators
 

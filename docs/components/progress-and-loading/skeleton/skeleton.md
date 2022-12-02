@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Skeleton
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-skeleton--app" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-skeleton--app">
+
+![](./images/skeleton.png)
+
+</ComponentVisual>
 
 ## Overview: Progress indicators
 

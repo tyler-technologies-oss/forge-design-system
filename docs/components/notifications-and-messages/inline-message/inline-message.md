@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Inline message
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-inline-message--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-inline-message--default">
+
+![](./images/inline-message.png)
+
+</ComponentVisual>
 
 ## Overview
 

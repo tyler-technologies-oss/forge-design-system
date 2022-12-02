@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Bottom sheet
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-bottom-sheet--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-bottom-sheet--default">
+
+![](./images/bottom-sheet.png)
+
+</ComponentVisual>
 
 ## Overview
 

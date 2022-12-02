@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Calendar
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-calendar--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-calendar--default">
+
+![](./images/calendar.png)
+
+</ComponentVisual>
 
 ## Overview
 

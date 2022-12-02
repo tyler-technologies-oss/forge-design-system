@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Landing page layout
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-badge--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-badge--default">
+
+![](./images/landing-page-layout.png)
+
+</ComponentVisual>
 
 ## Overview 
 

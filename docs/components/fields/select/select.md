@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Select
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-select--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-select--default">
+
+![](./images/select.png)
+
+</ComponentVisual>
 
 ## Overview
 

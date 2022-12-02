@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Toast
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toast--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toast--default">
+
+![Toast header image](./images/toast.png)
+
+</ComponentVisual>
 
 ## Overview
 

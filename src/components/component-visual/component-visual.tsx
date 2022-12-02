@@ -15,23 +15,14 @@ function ComponentDemoLink({ href }) {
   );
 }
 
-export default function ComponentVisual({
-  height = '250',
-  figmaUrl,
-  storybookUrl
-}): JSX.Element {
+export default function ComponentVisual({ storybookUrl, children }): JSX.Element {
   return (
     <div className={styles.container}>
       {storybookUrl &&
         <div className={clsx(styles.headerContainer)}>
           <ComponentDemoLink href={storybookUrl} />
         </div>}
-      <iframe
-        title="Component visual"
-        className={styles.frame}
-        allowFullScreen
-        height={height}
-        src={figmaUrl} />
+      {children}
     </div>
   );
 }

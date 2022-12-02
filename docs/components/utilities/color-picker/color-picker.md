@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Color picker
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-color-picker--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-color-picker--default">
+
+![](./images/color-picker.png)
+
+</ComponentVisual>
 
 ## Overview
 

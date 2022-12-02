@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Date picker
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-picker--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-picker--default">
+
+![](./images/date-picker.png)
+
+</ComponentVisual>
 
 ## Overview
 

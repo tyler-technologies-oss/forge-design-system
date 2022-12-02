@@ -6,9 +6,11 @@ sidebar_custom_props:
 
 # Omnibar profile
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-profile--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-profile--default">
+
+![](./images/profile.png)
+
+</ComponentVisual>
 
 ## Overview
 

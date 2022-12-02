@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Popup
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-popup--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-popup--default">
+
+![](./images/popup.png)
+
+</ComponentVisual>
 
 ## Overview
 

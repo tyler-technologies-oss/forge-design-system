@@ -6,9 +6,11 @@ sidebar_custom_props:
 
 # Omnibar help button
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-help-button--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-help-button--default">
+
+![](./images/help-button.png)
+
+</ComponentVisual>
 
 ## Overview
 

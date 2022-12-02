@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Switch
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-switch--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-switch--default">
+
+![](./images/switch.png)
+
+</ComponentVisual>
 
 ## Overview 
 

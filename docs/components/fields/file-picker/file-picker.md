@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # File picker
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-file-picker--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-file-picker--default">
+
+![](./images/file-picker.png)
+
+</ComponentVisual>
 
 ## Overview
 

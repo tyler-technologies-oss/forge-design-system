@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Circular progress
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-circular-progress--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-circular-progress--default">
+
+![](./images/circular-progress.png)
+
+</ComponentVisual>
 
 ## Overview: Progress indicators
 

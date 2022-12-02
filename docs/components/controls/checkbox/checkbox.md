@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Checkbox
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-checkbox--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-checkbox--default">
+
+![](./images/checkbox.png)
+
+</ComponentVisual>
 
 ## Overview 
 

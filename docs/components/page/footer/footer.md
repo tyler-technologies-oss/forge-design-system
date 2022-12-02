@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Footer
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://animated-doodle-7c7696e9.pages.github.io/main/?path=/story/components-footer--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-footer--default">
+
+![](./images/footer.png)
+
+</ComponentVisual>
 
 ## Overview
 
