@@ -13,7 +13,7 @@ sidebar_custom_props:
 
 ## Overview
 
-The view-switcher is used in combination with other TCW components to allow users to switch between related views or content containers. It uses a [shared axis pattern](https://material.io/design/motion/the-motion-system.html#shared-axis)
+The view-switcher is used in combination with other Forge components to allow users to switch between related views or content containers. It uses a [shared axis pattern](https://material.io/design/motion/the-motion-system.html#shared-axis)
 to display a transitions between UI elements that have a spatial or navigational relationship. This pattern uses a shared transformation on the x axis to reinforce the relationship between elements.
 
 For example, when tapping a new tab in a card, both the outgoing and incoming elements transform horizontally in unison. By moving in the same direction, elements are perceived to be related to each other.

@@ -10,7 +10,7 @@ Calendars allow users to view, schedule, and modify events, work, or other recor
 
 </ImageBlock>
 
-Calendars allow users to view, schedule, and modify events, work, or other records. The calendar is not a TCW component as it isn't atomic or composable. Instead we recommend using a third party library, such as <a href="https://fullcalendar.io/" target="_blank" rel="noopener noreferrer">Full Calendar</a>, and skinning it to match our color palettes and our [typography styles](/core-components/typography/guidance).
+Calendars allow users to view, schedule, and modify events, work, or other records. We recommend using a third party library, such as <a href="https://fullcalendar.io/" target="_blank" rel="noopener noreferrer">Full Calendar</a>, and skinning it to match our color palettes and our [typography styles](/core-components/typography/guidance).
 
 ## Styles
 

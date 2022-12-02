@@ -4,7 +4,7 @@ title: Figma
 
 # Designer assets: Figma
 
-Build beautiful and accessible experiences that express Tyler's core values using a component library that matches our TCW components to spec. Tyler uses Figma as a collaborative, web based design tool. For advanced functional prototypes, we recommend using Framer.
+Build beautiful and accessible experiences that express Tyler's core values using a component library that matches our Forge components to spec. Tyler uses Figma as a collaborative, web based design tool. For advanced functional prototypes, we recommend using Framer.
 
 ## Getting started with Figma
 

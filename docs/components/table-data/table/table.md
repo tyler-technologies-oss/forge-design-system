@@ -208,7 +208,7 @@ Once actions have been taken, records revert to their unselected state.
 
 ### Column sort 
 
-Table columns that have been set to sortable in `tcw-table` support ascending and descending sort. A user clicks once to sort ascending, a second time to sort descending, and third time to clear the sort. 
+Table columns that have been set to sortable in `<forge-table>` support ascending and descending sort. A user clicks once to sort ascending, a second time to sort descending, and third time to clear the sort. 
 
 [See the recipe](/recipes/table#httpsstackblitzcomeditforgetablerecipewithcolumnsort)
 
@@ -379,7 +379,7 @@ If the team requires a table with even more extensive manipulation (something cl
 
 ### Supported features
 
-The following options are included with `tcw-table` by default:
+The following options are included with `<forge-table>` by default:
 
 - Selection / multi selection
 - Dense / default spacing
@@ -397,7 +397,7 @@ The following options are included with `tcw-table` by default:
 
 ### Custom features
 
-The following features are considered “custom” and would need to be added to tcw-table by an app team. In general, additional functionality may be added to an overflow menu in the table’s header. 
+The following features are considered “custom” and would need to be added to `<forge-table>` by an app team. In general, additional functionality may be added to an overflow menu in the table’s header. 
 
 - Customizable columns
 - Remove all applied filters 
@@ -411,7 +411,7 @@ The following features are considered “custom” and would need to be added to
 
 </Columns>
 
-<ImageBlock padded={false} caption="An overflow menu may be used to contain additional functionality for the table. Although the header and overflow menu aren’t included in <forge-table> by default, they can be added with a tcw-toolbar just above the table.">
+<ImageBlock padded={false} caption="An overflow menu may be used to contain additional functionality for the table. Although the header and overflow menu aren’t included in <forge-table> by default, they can be added with a `<forge-toolbar>` just above the table.">
 
 ![Image of a table with an overflow menu.](./images/table-overflow.png)
 

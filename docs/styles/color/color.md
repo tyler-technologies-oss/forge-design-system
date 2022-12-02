@@ -17,7 +17,7 @@ The Tyler Forge color system is comprised of five parts: 1. Main palette, 2. Ico
 ### 1. Main palette 
 
 The main palette is used to establish Tyler’s theme and primary look & feel. It’s derived from Material’s color system. Tyler uses Indigo 500 as its primary color [feel associations] and amber 500 for its secondary color, used for visual accents [feel association]. The omnibar takes a darker hue of the primary indigo. Controls use our tertiary color of Indigo A200 to provide sufficient contrast for controls. 
-In general, the TCW components are already themed correctly to provide the appropriate colors needed. 
+In general, the Forge components are already themed correctly to provide the appropriate colors needed. 
 
 <!-- <div class="color-swatches">
     <div> 

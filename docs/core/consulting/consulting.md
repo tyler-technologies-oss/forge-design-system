@@ -90,7 +90,7 @@ Request a design review for completed or planned development work.
 
 <span class="secondary">Low engagement</span>
 
-A one hour introduction to the Forge design system and the TCW components. Recommended for teams starting out with Forge.
+A one hour introduction to the Forge design system and the Forge components. Recommended for teams starting out with Forge.
 
 </ServicesBlock>
 
