@@ -73,9 +73,9 @@ The header contains the steps and an optional title.
 
 Completed steps are indicated with a check. If previous steps may be edited, an edit icon may be used to draw additional attention to the fact. Steps with missing information are indicated with an error state. 
 
-<ImageBlock caption="Progress shown through a standard tcw-stepper. Completed steps are indicated with a check." padded={false}>
+<ImageBlock caption="Progress shown through a standard Forge stepper. Completed steps are indicated with a check." padded={false}>
 
-![Progress shown through a standard tcw-stepper. Completed steps are indicated with a check..](./images/stepper-linear.png)
+![Progress shown through a standard Forge stepper. Completed steps are indicated with a check..](./images/stepper-linear.png)
 
 </ImageBlock>
 

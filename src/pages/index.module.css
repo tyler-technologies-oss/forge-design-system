@@ -1,17 +1,16 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .bg {
   background-color: #e8eaf6;
 }
 
-.heroBanner {
-  display: flex;
+.gridContainer {
+  display: grid;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 275px));
   gap: 24px;
-  padding: 4rem 16rem;
+}
+
+.heroBanner {
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -27,11 +26,36 @@
 }
 
 .quickLinksContainer {
-  padding: 2rem 16rem;
+  padding: 2rem 0;
 }
 
-.quickLink {
-  margin-bottom: 24px;
+.quickLinkGridItem {
+  display: grid;
+  gap: 24px;
+}
+
+.quickLinkCard {
+  padding: 16px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.quickLinkCard:hover {
+  outline: 1px solid var(--ifm-color-primary);
+}
+
+.quickLinkCard h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.quickLinkAnchor {
+  color: unset;
+}
+.quickLinkAnchor:hover {
+  color: unset;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 996px) {
@@ -42,4 +66,54 @@
 
 [data-theme='dark'] .bg {
   background-color: #424242;
+}
+
+[data-theme='dark'] .heroCard {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme='dark'] .linkButton > svg {
+  fill: #000000;
+}
+
+.heroCard {
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.925);
+}
+
+.heroCardInner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  height: 100%;
+}
+
+.heroCard h2 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0;
+}
+
+.heroCard img {
+  height: 75px;
+}
+
+.heroCard p {
+  font-size: 0.875rem;
+  margin: 0;
+  flex: 1;
+}
+
+.linkButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.linkButton > svg {
+  height: 16px;
+  width: 16px;
+  fill: #ffffff;
 }

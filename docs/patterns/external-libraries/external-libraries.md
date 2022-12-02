@@ -20,7 +20,7 @@ Here are our recommendations:
 
 ## Calendar
 
-Calendars allow users to view, schedule, and modify events, work, or other records. The calendar is not a TCW component as it isn't atomic or composable. Instead we recommend using Full Calendar, a fully featured JavaScript calendar, and skinning it to use our recommended <a rel="noopener noreferrer" href="https://www.figma.com/file/wF374tcYJHbFqKxvVx9fkV/Forge-Calendar-palettes?node-id=0%3A1">calendar color palette</a> and our [typography styles](/core/typography/).
+Calendars allow users to view, schedule, and modify events, work, or other records. The calendar is not a Forge component as it isn't atomic or composable. Instead we recommend using Full Calendar, a fully featured JavaScript calendar, and skinning it to use our recommended <a rel="noopener noreferrer" href="https://www.figma.com/file/wF374tcYJHbFqKxvVx9fkV/Forge-Calendar-palettes?node-id=0%3A1">calendar color palette</a> and our [typography styles](/core/typography/).
 
 
 ### Examples
