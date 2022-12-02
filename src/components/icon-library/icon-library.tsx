@@ -28,7 +28,7 @@ export default function IconLibrary() {
 
   const fetchMetadata = async (): Promise<void> => {
     try {
-      const response = await window.fetch(METADATA_URI);
+      const response = await window.fetch(`${METADATA_URI}?t=${new Date().getTime()}`);
       const data = await response.json() as IconMetadata;
       setStandardIcons(data.find(({ name }) => name === 'Standard').icons);
       setExtendedIcons(data.find(({ name }) => name === 'Extended').icons);
@@ -107,7 +107,7 @@ function Icon({ name, data }) {
       <div className={styles.iconLabel}>{name}</div>
       <div className={styles.icon} dangerouslySetInnerHTML={{ __html: data }}></div>
       <div className={styles.iconActions}>
-        <button className="clean-btn" type="button" onClick={() => navigator.clipboard.writeText(name)}>
+        <button className="clean-btn" type="button" onClick={() => navigator.clipboard.writeText(data)} title="Copy SVG data">
           <svg viewBox="0 0 24 24">
             <path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z" />
           </svg>

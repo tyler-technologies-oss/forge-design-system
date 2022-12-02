@@ -18,6 +18,7 @@ import ServicesBlock from '@site/src/components/services-block/services-block';
 
 export default {
   ...MDXComponents,
+  img: (props) => <MDXComponents.img {...props} alt={props.alt ?? ''} />,
   blockquote: props => <blockquote {...props} className="forge-blockquote" />,
   ComponentVisual,
   StatusBadges,
