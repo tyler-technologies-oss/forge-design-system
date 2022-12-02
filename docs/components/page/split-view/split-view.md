@@ -5,3 +5,9 @@ sidebar_custom_props:
 ---
 
 # Split view
+
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-split-view--default">
+
+![](./images/split-view.png)
+
+</ComponentVisual>

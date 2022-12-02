@@ -6,9 +6,11 @@ sidebar_custom_props:
 
 # Omnibar search
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-search--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-search--default">
+
+![](./images/search.png)
+
+</ComponentVisual>
 
 ## Overview
 

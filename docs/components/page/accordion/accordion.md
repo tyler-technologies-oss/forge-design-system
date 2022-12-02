@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Accordion
 
-<ComponentVisual
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIdggENYSDwzrwgdvTD96KO%2FAccordion%3Fnode-id%3D0%253A1%26t%3D5W4166vn2e0C1Rhm-1"
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-accordion--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-accordion--default">
+
+![](./images/accordion.png)
+
+</ComponentVisual>
 
 ## Overview
 

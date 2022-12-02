@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Expansion panel
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-expansion-panel--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-expansion-panel--default">
+
+![](./images/expansion-panel.png)
+
+</ComponentVisual>
 
 ## Overview
 

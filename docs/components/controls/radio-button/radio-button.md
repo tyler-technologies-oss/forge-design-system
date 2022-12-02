@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Radio button
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-radio-button--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-radio-button--default">
+
+![](./images/radio-button.png)
+
+</ComponentVisual>
 
 ## Overview 
 

@@ -5,10 +5,11 @@ sidebar_custom_props:
 
 # Icon button
 
-<ComponentVisual
-  height="450"
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-icon-button--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-icon-button--default">
+
+![](./images/icon-button.png)
+
+</ComponentVisual>
 
 ## Overview
 

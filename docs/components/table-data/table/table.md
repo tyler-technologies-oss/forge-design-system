@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Table
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-table--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-table--default">
+
+![](./images/table.png)
+
+</ComponentVisual>
 
 ## Overview
 

@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Stepper
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-stepper--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-stepper--default">
+
+![](./images/stepper.png)
+
+</ComponentVisual>
 
 ## Overview 
 

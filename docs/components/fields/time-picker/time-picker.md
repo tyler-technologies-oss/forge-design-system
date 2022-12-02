@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Time picker
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-time-picker--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-time-picker--default">
+
+![](./images/time-picker.png)
+
+</ComponentVisual>
 
 ## Overview 
 

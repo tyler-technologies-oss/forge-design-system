@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Floating action button
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-floating-action-button--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-floating-action-button--default">
+
+![](./images/floating-action-button.png)
+
+</ComponentVisual>
 
 ## Overview
 

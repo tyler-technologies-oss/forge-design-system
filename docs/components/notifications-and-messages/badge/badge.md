@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Badge
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-badge--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-badge--default">
+
+![](./images/badge.png)
+
+</ComponentVisual>
 
 ## Overview
 

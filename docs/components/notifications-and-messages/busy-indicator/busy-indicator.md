@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Busy indicator
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-busy-indicator--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-busy-indicator--default">
+
+![](./images/busy-indicator.png)
+
+</ComponentVisual>
 
 ## Overview: Progress indicators
 

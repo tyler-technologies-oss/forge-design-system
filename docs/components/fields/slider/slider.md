@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Slider
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-slider--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-slider--default">
+
+![](./images/slider.png)
+
+</ComponentVisual>
 
 ## Overview
 

@@ -5,6 +5,12 @@ sidebar_custom_props:
 
 # Page state
 
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-page-state--default">
+
+![](./images/page-state.png)
+
+</ComponentVisual>
+
 ## Overview
 
 The page state component is a wrapper component facilitates full page states such as empty search result pages, error pages, and landing pages.

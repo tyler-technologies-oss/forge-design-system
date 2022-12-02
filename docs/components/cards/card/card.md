@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Card
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-card--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-card--default">
+
+![](./images/card.png)
+
+</ComponentVisual>
 
 ## Overview
 

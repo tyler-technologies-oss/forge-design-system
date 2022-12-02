@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Date range picker
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-range-picker--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-range-picker--default">
+
+![](./images/date-range-picker.png)
+
+</ComponentVisual>
 
 ## Overview
 

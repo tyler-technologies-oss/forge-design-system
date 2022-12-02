@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Button toggle
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button-toggle--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button-toggle--default">
+
+![](./images/button-toggle.png)
+
+</ComponentVisual>
 
 ## Overview
 

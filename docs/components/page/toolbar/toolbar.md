@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Toolbar
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toolbar--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toolbar--default">
+
+![](./images/toolbar.png)
+
+</ComponentVisual>
 
 ## Overview
 

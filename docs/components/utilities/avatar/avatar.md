@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Avatar
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-avatar--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-avatar--default">
+
+![](./images/avatar.png)
+
+</ComponentVisual>
 
 ## Overview
 

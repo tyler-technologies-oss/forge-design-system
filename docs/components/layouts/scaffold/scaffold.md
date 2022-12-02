@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Scaffold
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-scaffold--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-scaffold--default">
+
+![](./images/scaffold.png)
+
+</ComponentVisual>
 
 <ImageBlock padded={false}>
 

@@ -6,9 +6,11 @@ sidebar_custom_props:
 
 # Omnibar menu button
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-menu-button--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-menu-button--default">
+
+![](./images/menu-button.png)
+
+</ComponentVisual>
 
 ## Overview
 

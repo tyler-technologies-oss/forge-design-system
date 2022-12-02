@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Chip field
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chip-field--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chip-field--default">
+
+![](./images/chip-field.png)
+
+</ComponentVisual>
 
 ## Overview
 

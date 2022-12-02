@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Divider
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-divider--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-divider--default">
+
+![](./images/divider.png)
+
+</ComponentVisual>
 
 ## Overview
 

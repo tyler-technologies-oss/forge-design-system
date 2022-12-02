@@ -5,10 +5,11 @@ sidebar_custom_props:
 
 # Dialog
 
-<ComponentVisual
-  height="450"
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-dialog--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-dialog--default">
+
+![](./images/dialog.png)
+
+</ComponentVisual>
 
 ## Overview
 

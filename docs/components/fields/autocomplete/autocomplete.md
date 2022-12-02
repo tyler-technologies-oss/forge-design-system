@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Autocomplete
 
-<ComponentVisual
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVFIsI7H3lTMQMqu7pG4qjq%2FForge-Content%3Fnode-id%3D270%253A445"
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-autocomplete--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-autocomplete--default">
+
+![](./images/autocomplete.png)
+
+</ComponentVisual>
 
 ## Overview
 
