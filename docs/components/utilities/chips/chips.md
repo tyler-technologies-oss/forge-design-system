@@ -5,9 +5,11 @@ sidebar_custom_props:
 
 # Chips
 
-<ComponentVisual
-  figmaUrl=""
-  storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chips--default" />
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chips--default">
+
+![](./images/chips.png)
+
+</ComponentVisual>
 
 ## Overview
 
