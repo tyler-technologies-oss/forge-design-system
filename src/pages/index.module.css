@@ -20,11 +20,6 @@
   background-position: center;
 }
 
-.contribution {
-  text-align: center;
-  padding-bottom: 48px;
-}
-
 .quickLinksContainer {
   padding: 2rem 0;
 }
@@ -35,9 +30,15 @@
 }
 
 .quickLinkCard {
-  padding: 16px 10px;
+  padding: 16px;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  gap: 16px;
+}
+
+.quickLinkCard i {
+  color: var(--forge-theme-text-secondary);
 }
 
 .quickLinkCard:hover {
@@ -56,24 +57,6 @@
 .quickLinkAnchor:hover {
   color: unset;
   text-decoration: none;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner, .quickLinksContainer {
-    padding: 2rem;
-  }
-}
-
-[data-theme='dark'] .bg {
-  background-color: #424242;
-}
-
-[data-theme='dark'] .heroCard {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-[data-theme='dark'] .linkButton > svg {
-  fill: #000000;
 }
 
 .heroCard {
@@ -96,10 +79,12 @@
   margin: 0;
 }
 
+.contributionCard img,
 .heroCard img {
   height: 75px;
 }
 
+.contributionCard p,
 .heroCard p {
   font-size: 0.875rem;
   margin: 0;
@@ -116,4 +101,76 @@
   height: 16px;
   width: 16px;
   fill: #ffffff;
+}
+
+.contributionCategories {
+  text-align: center;
+  padding: 0 16px 48px;
+}
+
+.contributionCategoriesContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.contributionCard {
+  width: 300px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contributionCard h2 {
+  align-self: start;
+  margin: 0;
+  font-size: 1rem;
+  margin: 0;
+}
+
+[data-theme='dark'] .bg {
+  background-color: #424242;
+}
+
+[data-theme='dark'] .heroCard {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme='dark'] .linkButton > svg {
+  fill: #000000;
+}
+
+@media screen and (max-width: 1186px) {
+  .heroBanner {
+    padding: 1rem;
+  }
+
+  .gridContainer > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .heroBanner {
+    background-image: none;
+  }
+
+  .quickLinksContainer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .contributionCard {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
 }
