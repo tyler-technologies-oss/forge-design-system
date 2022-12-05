@@ -118,7 +118,7 @@ function ContributionCategories() {
       <div className={styles.contributionCategoriesContainer}>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
           <h2>Designers</h2>
-          <img src="https://cdn.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/pencil-spot.svg" alt="" />
           <p>Do you have some ideas on how various components or layouts look and feel?</p>
           <Link to="/assets/designer-assets/figma">
             <button type="button" className="button button--primary">Contribute as a designer</button>
@@ -126,7 +126,7 @@ function ContributionCategories() {
         </div>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
           <h2>Developers</h2>
-          <img src="https://cdn.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/blueprints-spot.svg" alt="" />
           <p>Have you or your team created something new with our components and want to share it with Forge?</p>
           <LinkButton href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page">Contribute as a developer</LinkButton>
         </div>
