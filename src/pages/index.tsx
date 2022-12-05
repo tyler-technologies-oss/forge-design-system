@@ -85,25 +85,26 @@ function QuickLinks() {
         </p>
       </div>
       <div className={styles.quickLinkGridItem}>
-        <QuickLinkCard title="Components" path="/components" />
-        <QuickLinkCard title="Forge 101" path="/core" />
+        <QuickLinkCard title="Components" path="/components" icon="category" />
+        <QuickLinkCard title="Forge 101" path="/core" icon="school" />
       </div>
       <div className={styles.quickLinkGridItem}>
-        <QuickLinkCard title="Icon library" path="/assets/icon-library" />
-        <QuickLinkCard title="UX writing" path="/content" />
+        <QuickLinkCard title="Icon library" path="/assets/icon-library" icon="photo_library" />
+        <QuickLinkCard title="UX writing" path="/content" icon="keyboard" />
       </div>
       <div className={styles.quickLinkGridItem}>
-        <QuickLinkCard title="Illustration library" path="/assets/illustration-library" />
-        <QuickLinkCard title="Blog" path="/blog" />
+        <QuickLinkCard title="Illustration library" path="/assets/illustration-library" icon="brush" />
+        <QuickLinkCard title="Blog" path="/blog" icon="menu_book" />
       </div>
     </div>
   );
 }
 
-function QuickLinkCard({ title, path }) {
+function QuickLinkCard({ title, path, icon }) {
   return (
     <Link className={styles.quickLinkAnchor} to={path}>
       <div className={clsx(styles.quickLinkCard, 'card card--outlined')}>
+        <i className="tyler-icons">{icon}</i>
         <h2>{title}</h2>
       </div>
     </Link>
@@ -116,14 +117,16 @@ function ContributionCategories() {
       <h2 style={{margin: '16px'}}>Contribute to Forge</h2>
       <div className={styles.contributionCategoriesContainer}>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
-          <h3>Designers</h3>
+          <h2>Designers</h2>
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
           <p>Do you have some ideas on how various components or layouts look and feel?</p>
           <Link to="/assets/designer-assets/figma">
             <button type="button" className="button button--primary">Contribute as a designer</button>
           </Link>
         </div>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
-          <h3>Developers</h3>
+          <h2>Developers</h2>
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
           <p>Have you or your team created something new with our components and want to share it with Forge?</p>
           <LinkButton href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page">Contribute as a developer</LinkButton>
         </div>

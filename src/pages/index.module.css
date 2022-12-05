@@ -30,9 +30,15 @@
 }
 
 .quickLinkCard {
-  padding: 16px 10px;
+  padding: 16px;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  gap: 16px;
+}
+
+.quickLinkCard i {
+  color: var(--forge-theme-text-secondary);
 }
 
 .quickLinkCard:hover {
@@ -73,10 +79,12 @@
   margin: 0;
 }
 
+.contributionCard img,
 .heroCard img {
   height: 75px;
 }
 
+.contributionCard p,
 .heroCard p {
   font-size: 0.875rem;
   margin: 0;
@@ -113,6 +121,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
+}
+
+.contributionCard h2 {
+  align-self: start;
+  margin: 0;
+  font-size: 1rem;
+  margin: 0;
 }
 
 [data-theme='dark'] .bg {
