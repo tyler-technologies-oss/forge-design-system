@@ -112,30 +112,20 @@ function QuickLinkCard({ title, path }) {
 
 function ContributionCategories() {
   return (
-    <div className={styles.contribution}>
-      <h2 style={{margin: '24px 0'}}>Contribute to Forge</h2>
-      <div style={{display: 'flex', justifyContent: 'center', gap: '16px'}}>
-        <div className="card">
-          <div style={{width: '300px', padding: '16px'}}>
-            <h3>Designers</h3>
-            <p>Do you have some ideas on how various components or layouts look and feel?</p>
-            <Link to="/assets/designer-assets/figma">
-              <button type="button" className="button button--primary">Contribute as a designer</button>
-            </Link>
-          </div>
+    <div className={styles.contributionCategories}>
+      <h2 style={{margin: '16px'}}>Contribute to Forge</h2>
+      <div className={styles.contributionCategoriesContainer}>
+        <div className={clsx('card card--outlined', styles.contributionCard)}>
+          <h3>Designers</h3>
+          <p>Do you have some ideas on how various components or layouts look and feel?</p>
+          <Link to="/assets/designer-assets/figma">
+            <button type="button" className="button button--primary">Contribute as a designer</button>
+          </Link>
         </div>
-        <div className="card">
-          <div style={{width: '300px', padding: '16px'}}>
-            <h3>Developers</h3>
-            <p>Have you or your team created something new with our components and want to share it with Forge?</p>
-            <LinkButton href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page">Contribute as a developer</LinkButton>
-            {/* <a href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page" target="_blank" rel="noopener noreferer">
-              <button type="button" className="button button--primary">
-                Contribute as a developer
-                <ExternalIcon />
-              </button>
-            </a> */}
-          </div>
+        <div className={clsx('card card--outlined', styles.contributionCard)}>
+          <h3>Developers</h3>
+          <p>Have you or your team created something new with our components and want to share it with Forge?</p>
+          <LinkButton href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page">Contribute as a developer</LinkButton>
         </div>
       </div>
     </div>

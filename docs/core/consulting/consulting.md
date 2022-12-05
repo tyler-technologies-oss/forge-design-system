@@ -76,7 +76,7 @@ A two day, hands-on workshop to introduce your team to the User Centered Design 
 
 ### Design Review
 
-<span class="secondary">Low engagement</span>
+<span className="secondary">Low engagement</span>
 
 Request a design review for completed or planned development work.
 

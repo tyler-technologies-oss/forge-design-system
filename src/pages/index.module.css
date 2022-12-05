@@ -20,11 +20,6 @@
   background-position: center;
 }
 
-.contribution {
-  text-align: center;
-  padding-bottom: 48px;
-}
-
 .quickLinksContainer {
   padding: 2rem 0;
 }
@@ -56,24 +51,6 @@
 .quickLinkAnchor:hover {
   color: unset;
   text-decoration: none;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner, .quickLinksContainer {
-    padding: 2rem;
-  }
-}
-
-[data-theme='dark'] .bg {
-  background-color: #424242;
-}
-
-[data-theme='dark'] .heroCard {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-[data-theme='dark'] .linkButton > svg {
-  fill: #000000;
 }
 
 .heroCard {
@@ -116,4 +93,68 @@
   height: 16px;
   width: 16px;
   fill: #ffffff;
+}
+
+.contributionCategories {
+  text-align: center;
+  padding: 0 16px 48px;
+}
+
+.contributionCategoriesContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.contributionCard {
+  width: 300px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[data-theme='dark'] .bg {
+  background-color: #424242;
+}
+
+[data-theme='dark'] .heroCard {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme='dark'] .linkButton > svg {
+  fill: #000000;
+}
+
+@media screen and (max-width: 1186px) {
+  .heroBanner {
+    padding: 1rem;
+  }
+
+  .gridContainer > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .heroBanner {
+    background-image: none;
+  }
+
+  .quickLinksContainer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .contributionCard {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
 }
