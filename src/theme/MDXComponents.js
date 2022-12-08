@@ -15,6 +15,7 @@ import PlayHelp from '@site/src/components/play-help/play-help';
 import ToneDef from '@site/src/components/tone-def/tone-def';
 import CheckboxListItem from '@site/src/components/utils/checkbox-list-item';
 import ServicesBlock from '@site/src/components/services-block/services-block';
+import RecipeDemo from '@site/src/components/recipe-demo/recipe-demo';
 
 export default {
   ...MDXComponents,
@@ -35,5 +36,6 @@ export default {
   PlayHelp,
   ToneDef,
   CheckboxListItem,
-  ServicesBlock
+  ServicesBlock,
+  RecipeDemo,
 };

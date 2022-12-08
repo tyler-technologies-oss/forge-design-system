@@ -1,0 +1,269 @@
+# Error pages recipes
+
+Recipes for the page state component.
+
+## Guidance
+
+Page state errors use illustrations hosted in the Forge CDN. To learn more about the CDN, check out our [CDN overview](/assets/cdn/overview).
+
+You'll see that the recipes below * use links to the CDN for our illustrations instead of hosting them with the project itself**. You can copy the HTML
+as is provided below to render our page states -- without having to host the illustrations yourself.
+
+:::info
+Hit **Run project** on the following examples and choose either **Editor **or **Both** to view the HTML.
+:::
+
+---
+
+## Generic error (400)
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-general-error"
+  componentList="omnibar page-state">
+
+Examples where this could apply:
+
+- As a generic error
+- When the error doesn't fit any other of the other available error pages
+- In response to a request that was rejected by the server with a 400 status code
+
+:::note
+Since this error page has no context, it should only be used if none of the other error pages are applicable.
+:::
+
+</RecipeDemo>
+
+---
+
+## Unauthorized access (401 & 403)
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-403"
+  componentList="omnibar page-state">
+
+Examples where this could apply:
+
+- The user is attempting to take an action that requires they are currently logged in
+- The user is logged in, but they do not have the required permissions to access a resource
+- When attempting to make a change that violates some constraint such as duplicating a unique key
+- When the service requires different parameters than those that were provided
+
+</RecipeDemo>
+
+---
+
+## Unauthorized access (401 & 403) (version 2)
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-unauthorized-access-2"
+  componentList="omnibar page-state">
+
+This is an alternative error page for when the user has already arrived at a navigation point where they do not have authorization to do anything.
+
+</RecipeDemo>
+
+---
+
+## Not found (404)
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-404"
+  componentList="omnibar page-state">
+
+Examples where this could apply:
+
+- Any time a page is missing
+- Any time a specific resource could not be found which prevents the page from functioning
+
+:::note
+Most web servers allow you to set a 404 page by providing a URL in the web server configuration.
+If you create a specific page to host this component, you can configure server to use that page to cover any requests which result in a 404 error.
+:::
+
+</RecipeDemo>
+
+---
+
+## Internal server error (500)
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-500"
+  componentList="omnibar page-state">
+
+An unhandled problem occurred on the server that prevents the request from being fulfilled.
+
+Examples where this could apply:
+
+- When the server fails to process a request due to some internal error
+- The request handler threw an exception
+- The process responsible for handling the request terminated unexpectedly
+
+:::note
+This error is distinguished from 400-series errors in that 500-series errors indicate a problem occurred on the server, whereas 400-series errors
+indicate a problem with the request to the server, which is a problem on the client (browser) side.
+:::
+
+</RecipeDemo>
+
+---
+
+## Offline
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-offline"
+  componentList="omnibar page-state">
+
+This is used when a client application fails to make an asynchronous request to the server due to network connectivity issues.
+
+Examples where this could apply:
+
+- the local network is down
+- a network between the client and server is down
+- a VPN connection is not running, or not working properly
+
+:::note
+This is usually only applicable when your client-side application is handling the request (such as with an XMLHttpRequest or Javascript fetch() call).
+Normal page navigation while offline will result in the browser displaying its own internal error page.
+:::
+
+</RecipeDemo>
+
+---
+
+## Unlicensed app
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-unlicensed-app"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that the application is functioning, but the user needs a license to access a feature.
+
+:::note
+This is essentially a specific type of 403 error where access is not granted due to a missing subscription/license.
+:::
+
+</RecipeDemo>
+
+---
+
+## Out-of-date browser
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-unsupported-browser"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that their browser is out of date an may not run the application properly.
+
+</RecipeDemo>
+
+---
+
+## Unsupported browser
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-unsupported-browser-2"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that the application **might** run on their current browser, but that it isn't supported.
+
+</RecipeDemo>
+
+---
+
+## No search results
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-no-search-results"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that a request was made successfully, but no results were returned.
+
+</RecipeDemo>
+
+---
+
+## Maintenance mode
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-maintenance-mode"
+  componentList="omnibar page-state">
+
+This provides a simple message informing users that the service is not currently available.recipe
+
+Examples where this could apply:
+
+* The application is unavailable due to scheduled maintenance, upgrades, or other planned outage.
+
+</RecipeDemo>
+
+---
+
+## Coming soon
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-coming-soon"
+  componentList="omnibar page-state">
+
+This works as a placeholder for pages that could be navigated to within the application, but the functionality of the page is not yet available for use.
+
+Examples where this could apply:
+
+* If a set of users has a privilege to preview new functionality, but another set does not
+
+</RecipeDemo>
+
+---
+
+## Broken file
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-broken-file"
+  componentList="omnibar page-state" />
+
+---
+
+## Logged out
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-logged-off"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that they have successfully logged out.
+
+:::note
+It is important to ensure all security session tokens are verified to be cleared before displaying this message to the user.
+
+If this message is shown before those tokens are cleared, the user may close their browser before the browser has a chance to complete the process.
+:::
+
+</RecipeDemo>
+
+---
+
+## Session timeout
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-session-timeout"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that their session has timed out.
+
+</RecipeDemo>
+
+---
+
+## Password link expired
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-error-create-password-link-expired"
+  componentList="omnibar page-state">
+
+This provides a consistent way to inform the user that a password reset token has expired.
+
+:::note
+Typically when a user resets their password for a web site or web application, a link is sent via email. That link is typically only active for a short
+period of time to improve security.
+:::
+
+</RecipeDemo>
+
