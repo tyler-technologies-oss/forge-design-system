@@ -8,7 +8,7 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-notifications--default">
 
-![](./images/notifications.png)
+![](./images/app-bar-notifications.png)
 
 </ComponentVisual>
 

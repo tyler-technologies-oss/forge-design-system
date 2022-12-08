@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-launcher--default">
 
-![](./images/app-launcher.png)
+![](./images/app-bar-app-launcher.png)
 
 </ComponentVisual>
 
