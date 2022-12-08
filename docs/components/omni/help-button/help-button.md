@@ -8,7 +8,7 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-help-button--default">
 
-![](./images/help-button.png)
+![](./images/app-bar-help-button.png)
 
 </ComponentVisual>
 

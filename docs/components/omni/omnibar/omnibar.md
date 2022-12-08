@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar--default">
 
-![](./images/omnibar.png)
+![](./images/app-bar.png)
 
 </ComponentVisual>
 
