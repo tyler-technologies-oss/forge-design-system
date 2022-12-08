@@ -78,20 +78,7 @@ Uploaded files should:
 - Allow files to be deleted.
 - Truncate long file names with an ellipsis.
 
-<!-- > Hit **Run project** and **Preview** to view the examples below. -->
-
-<!-- 
-<RecipeDemo
-  header="Default file picker with file list"
-  href="https://stackblitz.com/edit/forge-recipes-file-picker"
-  component-list="tcw-file-picker tcw-list tcw-icon tcw-icon-button"
-/>
-
-<RecipeDemo
-  header="Default file picker with image gallery"
-  href="https://stackblitz.com/edit/forge-recipes-file-picker-gallery"
-  component-list="tcw-file-picker tcw-icon tcw-icon-button"
-/> -->
+View recipes for the file-picker component [here](/patterns/recipes/file-picker).
 
 ---
 

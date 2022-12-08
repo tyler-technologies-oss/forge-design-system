@@ -1,0 +1,138 @@
+# Table recipes
+
+Recipes for the table component.
+
+:::info
+Hit **Run project** on the following examples and choose either **Editor **or **Both** to view the HTML.
+:::
+
+---
+
+## Basic mobile table
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-recipes-mobile-table"
+  componentList="card toolbar label-value button divider" />
+
+---
+
+## Table with fixed headers
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-table-recipe-with-fixed-headers"
+  componentList="card table paginator toolbar">
+
+This recipe demonstrates a minimalistic use of the table component, with no sorting, no selection, and minimal actions.
+
+</RecipeDemo>
+
+---
+
+## Dense table
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-table-recipe-dense"
+  componentList="card table paginator toolbar">
+
+This recipe demonstrates a table component configured to reduce the amount of white space.
+
+</RecipeDemo>
+
+---
+
+## Table with icon actions
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-icon-actions"
+  componentList="card table paginator toolbar icon-button">
+
+This recipe demonstrates how to add actions to each row using an icon representation.
+
+:::note
+Ensure your icons use a tooltip to make it clear what action is taken
+
+Any action which cannot be undone should typically come with a confirmation dialog in case the user accidentally clicks the icon.
+:::
+
+</RecipeDemo>
+
+---
+
+## Table with text actions
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-text-actions"
+  componentList="card table paginator toolbar button">
+
+This recipe demonstrates how to add actions to each row using an icon representation.
+
+:::note
+Any action which cannot be undone should typically come with a confirmation dialog in case the user accidentally clicks the button.
+:::
+
+</RecipeDemo>
+
+---
+
+# Table with hover actions
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-hover-actions"
+  componentList="card table paginator icon-button">
+
+This recipe demonstrates how icon actions can be provided only when the mouse is hovered over a row.  This provides a cleaner UI by avoiding the repetitive display of icons on each row.
+
+</RecipeDemo>
+
+---
+
+## Table with multi-select
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-multi-select"
+  componentList="card table paginator toolbar checkbox">
+
+This recipe demonstrates how to make the table rows selectable for further bulk actions.  It also demonstrates how to implement handlers for "select all" and "unselect all".
+
+</RecipeDemo>
+
+---
+
+## Table with column sort
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-table-recipe-with-column-sort"
+  componentList="card table paginator toolbar"
+>
+
+This recipe demonstrates column sorting by clicking on the column header.
+
+</RecipeDemo>
+
+---
+
+## Table with expandable rows
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-expandable-rows-complex-2"
+  componentList="card label-value table">
+
+This recipe demonstrates how to display additional details in a row when the row is expanded/collapsed by clicking an icon.
+
+</RecipeDemo>
+
+---
+
+## Nested tables
+
+<RecipeDemo
+  href="https://stackblitz.com/edit/forge-datatable-recipe-with-expandable-rows-complex"
+  componentList="card table">
+
+:::note
+**Nesting tables is strongly discouraged for clarity and readability.** In general, we recommend navigating to a detail page to show nested tables. 
+
+In this example, the nested table has only three rows and could work. We don't recommend nesting tables that would be longer than this.
+:::
+
+</RecipeDemo>

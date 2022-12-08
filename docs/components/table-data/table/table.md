@@ -284,13 +284,7 @@ Adapt the table for mobile by presenting rows as cards instead.
 - For tables with content underneath, use a simplified paginator for mobile. Ensure that touch targets for the icon buttons are 48px by 48px. 
 - For tables with no additional content underneath, infinite scroll may be used on mobile.
 
-<!-- > Hit **Run project** below and choose **Preview** to view the demo, or either **Editor **or **Both** to view the HTML. -->
-
-<!-- <RecipeDemo
-  header="Basic mobile table"
-  href="https://stackblitz.com/edit/forge-recipes-mobile-table"
-  component-list=""
-/> -->
+View recipes for the table component [here](/patterns/recipes/table).
 
 **Content**
 
