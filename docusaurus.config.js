@@ -43,8 +43,8 @@ const config = {
           { from: '/resources/cdn', to: '/assets/cdn/overview/' },
           { from: '/support', to: '/core/support/' },
           { from: '/consulting', to: '/core/consulting/' },
-          { from: '/assets/illustration-library/', to: '/core-components/illustrations/library' },
-          { from: '/assets/icon-library/', to: '/core-components/iconography/library' },
+          { from: '/core-components/illustrations/library', to: '/assets/illustration-library/' },
+          { from: '/core-components/iconography/library', to: '/assets/icon-library/' },
         ],
         createRedirects(existingPath) {
           // Creates redirects for all old component pages

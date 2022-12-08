@@ -6,6 +6,8 @@ on:
       - main
   workflow_dispatch:
 
+concurrency: deploy-${{ github.ref }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
