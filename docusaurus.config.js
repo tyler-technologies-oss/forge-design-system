@@ -86,6 +86,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
         },
+        // TO DO - uncomment when we go live
+        // googleAnalytics: {
+        //   trackingID: 'UA-136930168-1',
+        // },
       }),
     ],
   ],
