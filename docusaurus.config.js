@@ -39,17 +39,27 @@ const config = {
       {
         redirects: [
           { from: '/resources/upgrade-guides/forge-2-0', to: '/blog/2022/05/02/upgrade-guide-forge-2' },
+          { from: '/resources/package-dependency', to: '/blog/2020/05/06/package-dependencies' },
+          { from: '/resources/cdn', to: '/assets/cdn/overview/' },
+          { from: '/support', to: '/core/support/' },
+          { from: '/consulting', to: '/core/consulting/' },
+          { from: '/assets/illustration-library/', to: '/core-components/illustrations/library' },
+          { from: '/assets/icon-library/', to: '/core-components/iconography/library' },
         ],
-        // createRedirects(existingPath) {
-        //   if (existingPath.includes('/community')) {
-        //     // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
-        //     return [
-        //       existingPath.replace('/community', '/docs/team'),
-        //       existingPath.replace('/community', '/docs/support'),
-        //     ];
-        //   }
-        //   return undefined; // Return a falsy value: no redirect created
-        // },
+        createRedirects(existingPath) {
+          // Creates redirects for all old component pages
+          if (existingPath.startsWith('/components/')) {
+            const parts = existingPath.split('/').filter(part => !!part.trim());
+            if (parts.length !== 3) {
+              return undefined;
+            }
+
+            const componentName = parts[2];
+            const subRoutes = ['guidance', 'development', 'accessibility'].map(oldPath => `/components/${componentName}/${oldPath}`);
+            return [`/components/${componentName}`, ...subRoutes];
+          }
+          return undefined;
+        },
       },
     ],
   ],

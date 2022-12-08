@@ -7,12 +7,12 @@ tags: [forge, design-system, welcome]
 
 Welcome to the new and improved Forge design system website!
 
-This is the first step toward a larger goal of open sourcing the design system so that it's publicly accessible. We are hoping to share the great work
-that the Forge team has done with the public community, as well as provide a design system to go along with our open source Forge component library.
+This is the first step toward a larger goal of open sourcing the design system so that it is publicly accessible. We are hoping to share the great work
+that the Forge team has done with the public community, as well as provide a design system to go along with our open source Forge Web Component library.
 
 <!-- truncate -->
 
-Below are some highlights and information about what to expect with this upgrade.
+Below are some highlights and information about what to expect with this update.
 
 ## Information architecture
 
@@ -24,7 +24,8 @@ The same great content still exists, but we have reorganized it, improved naming
 ## Development docs
 
 As Forge grows and matures, we needed to change how we surface development documentation to our users. Previously we had development details embedded directly
-in the Forge design system website. This was great for our users, but it falls down quickly when there are multiple versions of our component library.
+in the Forge design system website. This was great for our users, but it falls down quickly when there are multiple versions of our component library and made
+it very difficult from a maintenance perspective.
 
 We were faced with this problem and needed to quickly determine how to best surface these important details. Our options were to either build a content versioning
 system into our website, or link out to external documentation and keep the design system focused on, well, design. We opted to go for the latter which introduces
@@ -43,7 +44,7 @@ We will continue to follow this format as Forge continues to grow!
 You may have noticed that our website received a face lift, along with some new features! We learned over the past few years that maintaining
 design system guidance and content can be daunting task, along with the task of maintaining various website features such as search, navigation,
 layout, ...etc. In an effort to reduce our maintenance overhead and focus more on the content you need, we have made the decision to switch from 
-custom solution built with Gatsby to a configuration-based solution called [Docusaurus](https://docusaurus.io/docs)!
+a custom solution built with Gatsby to a configuration-based solution called [Docusaurus](https://docusaurus.io/docs)!
 
 ### Docusaurus
 
@@ -67,9 +68,6 @@ Docusaurus has many great benefits, but below are just a few that we'd like to h
 - Built-in full-text search
 - Supports headless CMS integration
 - We **build less** and **focus more on content**
-
-You can think of Docusaurus as a pre-built theme on top of Gatsby. In fact, much of the decisions made in Docusaurus were taken from how Gatsby is built. They layer configuration
-on top of everything, while still being fully flexible to customize the site our needs.
 
 ### Design
 

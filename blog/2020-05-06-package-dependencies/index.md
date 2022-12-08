@@ -1,5 +1,6 @@
 ---
 tags: ['tcw', 'forge', 'components', 'npm']
+authors: [ross.blakeney]
 ---
 
 # Forge and package dependencies
