@@ -132,7 +132,8 @@ const config = {
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },
-          { to: '/blog', label: 'Blog' },
+          { label: 'Recipes', to: '/recipes'},
+          { label: 'Blog', to: '/blog', },
           {
             label: 'Develop',
             // position: 'right',
