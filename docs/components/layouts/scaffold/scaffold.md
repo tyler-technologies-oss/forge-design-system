@@ -11,15 +11,15 @@ sidebar_custom_props:
 
 </ComponentVisual>
 
+## Overview 
+
+The scaffold is a layout component with slots for a header, body, and footer. It takes care of positioning and facilitates responsive design. CSS grid or flexbox can be used within the body of the scaffold to create more complex layouts. 
+
 <ImageBlock padded={false}>
 
 ![Diagram of a scaffold component.](./images/scaffold-diagram.png)
 
 </ImageBlock>
-
-## Overview 
-
-The scaffold is a layout component with slots for a header, body, and footer. It takes care of positioning and facilitates responsive design. CSS grid or flexbox can be used within the body of the scaffold to create more complex layouts. 
 
 ### Examples
 
