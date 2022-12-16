@@ -76,7 +76,7 @@ Indeterminate progress indicators move along a fixed track, growing and shrinkin
 ### Components
 
 - Use [skeleton loading](/components/skeleton) when content size/shape is known.
-- Use a [busy indicator](/components/notifications-and-message/busy-indicator) to to prevent users from interacting with content on a page due to a change, server error, or form submission.
+- Use a [busy indicator](/components/notifications-and-messages/busy-indicator) to to prevent users from interacting with content on a page due to a change, server error, or form submission.
 - Use a [circular progress](/components/progress-and-loading/circular-progress) spinner inside a component to communicate that either a component's state or data is changing.
 
 ### Patterns

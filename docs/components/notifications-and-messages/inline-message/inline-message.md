@@ -13,7 +13,7 @@ sidebar_custom_props:
 
 ## Overview
 
-Inline messages are persistent and appear inside a component, such as a [card](/components/cards/card), [dialog](/components/notifications-and-message/dialog), or [form](/components/cards/card). In forms, inline notifications may be placed at the top of the form for informational content that users should read first, above or below an text field for field specific information, or at the end of the form for error information. 
+Inline messages are persistent and appear inside a component, such as a [card](/components/cards/card), [dialog](/components/notifications-and-messages/dialog), or [form](/components/cards/card). In forms, inline notifications may be placed at the top of the form for informational content that users should read first, above or below an text field for field specific information, or at the end of the form for error information. 
 
 ### Use when 
 
@@ -23,15 +23,15 @@ Inline messages are persistent and appear inside a component, such as a [card](/
 ### Don't use when
 
 - Displaying an interactive tour of multiple new features. Use a rich tooltip (coming soon!) or WalkMe (guidance coming soon!) instead.
-- Displaying high priority information where action is needed from a user, such as a server error or submission failure. Use a [dialog](/components/notifications-and-message/dialog) instead. 
-- Confirming whether a user would like to proceed. Use a [dialog](/components/notifications-and-message/dialog) instead. 
-- Displaying reactive or confirming information such as a confirmation of a save, delete, or add. Use a [toast](/components/notifications-and-message/toast) instead. 
-- Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/notifications-and-message/banner) instead.
-- Displaying information that pertains to the full page. Use a [banner](/components/notifications-and-message/banner) instead.
+- Displaying high priority information where action is needed from a user, such as a server error or submission failure. Use a [dialog](/components/notifications-and-messages/dialog) instead. 
+- Confirming whether a user would like to proceed. Use a [dialog](/components/notifications-and-messages/dialog) instead. 
+- Displaying reactive or confirming information such as a confirmation of a save, delete, or add. Use a [toast](/components/notifications-and-messages/toast) instead. 
+- Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/notifications-and-messages/banner) instead.
+- Displaying information that pertains to the full page. Use a [banner](/components/notifications-and-messages/banner) instead.
 
 ### Examples
 
-- See an example of an inlined message in the [TCP Manager Apps case study](/case-studies/tcp-manager-apps)!
+- See an example of an inlined message in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
 
 ---
 
@@ -70,12 +70,12 @@ The inline notification supports four modes: informational, warning, success, da
 
 - Use a [dialog](/components/notifications-and-messages/dialog) for high priority alerts that require user action.
 - Use a [toast](/components/notifications-and-messages/toast) for low priority notifications in response to user action.
-- Use an [banner](/components/notifications-and-message/banner) to display one time notifications that pertain to the full page.
+- Use an [banner](/components/notifications-and-messages/banner) to display one time notifications that pertain to the full page.
 - Use a rich tooltip (coming soon!) for information about a specific component.
 
 ### Patterns
 
-- [System communication](/core-patterns/system-communication)
+- [System communication](/patterns/other/system-communication)
 
 ### Examples 
-- See an example of an inlined message in the [TCP Manager Apps case study](/case-studies/tcp-manager-apps)!
+- See an example of an inlined message in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!

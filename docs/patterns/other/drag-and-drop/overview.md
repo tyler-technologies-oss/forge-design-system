@@ -154,7 +154,7 @@ See more information around accessible drag & drop patterns from Salesforce Desi
 
 Munis GL 
 
-[View example](/patterns/drag-and-drop/gallery/munis-gl/)
+[View example](/patterns/other/drag-and-drop/gallery/munis-gl)
 
 </div>
 
@@ -166,7 +166,7 @@ Munis GL
 
 Tyler Federal Entellitrak
 
-[View example](/patterns/drag-and-drop/gallery/etk/)
+[View example](/patterns/other/drag-and-drop/gallery/etk)
 
 </div>
 
@@ -178,7 +178,7 @@ Tyler Federal Entellitrak
 
 Tyler Federal Entellitrak - Admin
 
-[View example](/patterns/drag-and-drop/gallery/etk-2)
+[View example](/patterns/other/drag-and-drop/gallery/etk-2)
 
 </div>
 

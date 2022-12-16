@@ -60,12 +60,12 @@ Desktop experiences can be characterized as stationary and immersive, and are mo
 
 ** Resources**
 
-- [Forge responsive grid](/core-patterns/layout/grid)
-- [Forge responsive page layouts](/core-patterns/layout/page-layouts)
+- [Forge responsive grid](/styles/layout/grid)
+- [Forge responsive page layouts](/styles/layout/page-layouts)
 - [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (CSS Tricks)
 - [Fluid Grids](https://alistapart.com/article/fluidgrids/) (A List Apart)
 
-Refer to our [Page layout](/core-patterns/layout/page-layouts) for guidance around how standard page layouts should behave responsively. 
+Refer to our [Page layout](/styles/layout/page-layouts) for guidance around how standard page layouts should behave responsively. 
 
 ---
 

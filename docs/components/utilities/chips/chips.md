@@ -47,7 +47,7 @@ Input chips can be integrated with other components. They can appear:
 
 Choice chips allow users to make a selection from a set of choices. Choice chips clearly delineate and display options in a compact area. 
 
-Use a [button toggle](/components/buttons/button-toggle) or [radio buttons](/compnents/radio-button) when users can only select a single option.
+Use a [button toggle](/components/controls/button-toggle) or [radio buttons](/components/controls/radio-button) when users can only select a single option.
 
 Use a [select](/components/fields/select) or [autocomplete](/components/autocomplete) when there are too many  options for the screen real estate provided. 
 
@@ -104,7 +104,7 @@ For datasets with more than seven filters or for sets that have categories and s
 
 - Use a [badge](/components/badge) for non-interactive data.
 - Chips may be used with [lists](/components/lists/list), [tables](/components/lists/list), or [cards](/components/cards/card).
-- Choices may also be represented by [radio buttons](/components/controls/radio-button), [checkboxes](/components/controls/checkbox), or [button toggles](/components/buttons/button-toggle).
+- Choices may also be represented by [radio buttons](/components/controls/radio-button), [checkboxes](/components/controls/checkbox), or [button toggles](/components/controls/button-toggle).
 
 ### Patterns
 

@@ -24,7 +24,7 @@ Learn about basic usability requirements for native mobile apps.
 - When an app requires a large amount of typing input. Use a web app instead. 
 - When an app requires an immersive, non interrupted experience. Use a web app instead. 
 
-Learn more with the Forge guidance on [Adaptive design](/core-patterns/adaptive-design).
+Learn more with the Forge guidance on [Adaptive design](/patterns/other/adaptive-design).
 
 ---
 

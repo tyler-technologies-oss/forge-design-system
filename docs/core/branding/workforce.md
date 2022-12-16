@@ -115,4 +115,4 @@ https://cdn.forge.tylertech.com/v1/images/branding/tyler/talking-t-logo.svg
 
 - Branding is implemented as part of the [omnibar](/components/omni/omnibar)
 - [Illustrations](/core/styles/illustrations) are an expression of the Tyler brand
-- Branding assets can be found as part of the [CDN](/assets/cdn)
+- Branding assets can be found as part of the [CDN](/assets/cdn/overview)

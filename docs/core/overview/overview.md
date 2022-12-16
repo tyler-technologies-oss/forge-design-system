@@ -32,13 +32,13 @@ App launcher is a persistent navigation component for users to switch context. I
 
 ---
 
-### [Scaffold](/core/layouts/scaffold)
+### [Scaffold](/core/layout/scaffold)
 
 The scaffold provides the basic page layout for Tyler apps.
 
 ---
 
-### [Color](/core-components/color/guidance)
+### [Color](/styles/color)
 
 The Material Design color system uses an organized approach to applying color to your UI. In this system, a primary and a secondary color are typically selected to represent your brand.
 
@@ -50,7 +50,7 @@ Illustrations are a key element of the Tyler brand system. Illustrations provide
 
 ---
 
-### [Typography](/core/styles/typography)
+### [Typography](/styles/typography)
 
 Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations. 
 

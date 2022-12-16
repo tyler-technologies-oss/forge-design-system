@@ -38,7 +38,7 @@ List items may be spaced using dividers or spacing.
 ### Don't use when 
 
 - Displaying content that is not primarily text.
-- Displaying content with three or more well-defined dimensions that users might sort on. Instead, use a [table](/components/table-data/table-data/table).
+- Displaying content with three or more well-defined dimensions that users might sort on. Instead, use a [table](/components/table-data/table).
 
 ---
 
@@ -74,7 +74,7 @@ List items may contain
 
 Use instead of a list
 
-- Use a [table](/components/table-data/table-data/table) when displaying content with three or more well-defined dimensions that users might sort on.
+- Use a [table](/components/table-data/table) when displaying content with three or more well-defined dimensions that users might sort on.
 - Use [cards](/components/cards/card) when displaying content that has images or that contains non homogenous data. 
 
 ### Patterns

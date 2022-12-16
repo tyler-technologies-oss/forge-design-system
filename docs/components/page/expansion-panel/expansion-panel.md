@@ -43,7 +43,7 @@ If one section is expanded and another section is open, we recommend leaving mul
 
 ### In a card
 
-Use a an expansion panel to display additional info in a [card](../../components/cards/card).
+Use a an expansion panel to display additional info in a [card](/components/cards/card).
 
 ### In a table
 
