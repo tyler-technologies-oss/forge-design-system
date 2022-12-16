@@ -89,9 +89,9 @@ For apps with fewer than five primary destinations, use:
 
 ### Recipes
 
-- [Navigation drawer recipes](/recipes/navigation-drawer)
-- [Toolbar recipes](/recipes/toolbar)
+- [Navigation drawer recipes](/recipes/navigation-drawer/backoffice)
+- [Toolbar recipes](/recipes/toolbar/secondary)
 
 ### Patterns
 
-- [Navigation](/core-patterns/navigation/primary/)
+- [Navigation](/patterns/navigation/primary)

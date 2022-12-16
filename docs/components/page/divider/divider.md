@@ -48,5 +48,5 @@ Dividers may be used in:
 
 ### Patterns
 
-- [Layout](/core-patterns/layout/intro)
+- [Layout](/styles/layout/introduction)
 - Forms (Coming soon!)

@@ -26,7 +26,7 @@ Bottom sheets provide contextual information, options, or actions in a way that'
 - displaying contextual information on a desktop form factor. Use a sidesheet instead.
 
 :::info
-To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/components/core-patterns/system-communication/) guidance.
+To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/patterns/other/system-communication/) guidance.
 :::
 
 ---
@@ -71,7 +71,7 @@ Ensure that bottom sheets can be minimized again so that users can interact with
 
 ### 2. Modal
 
-Modal bottom sheets include a [backdrop](/components/backdrop) (scrim) and prevent users from interacting with the rest of the screen. They're best used for menus or collections of actions. 
+Modal bottom sheets include a backdrop (scrim) and prevent users from interacting with the rest of the screen. They're best used for menus or collections of actions. 
 
 <ImageBlock padded={false} caption="Modal bottom sheets display actions either as a list or as a grid.">
 
@@ -111,14 +111,14 @@ Modal bottom sheets include a [backdrop](/components/backdrop) (scrim) and preve
 - Use a [banner](/components/banner) to display high priority messages that disappear after user interaction.
 - Use [inline messages](/components/inline-message) to display persistent information related to a specific component. 
 - Use [button](/components/buttons/button) inside of dialogs. 
-- [Steppers](/components/steppers) may be used with dialogs. 
+- [Steppers](/components/steppers/stepper) may be used with dialogs. 
 
 ### Recipes
 
-- [Dialog recipes](/recipes/dialog)
-- [Toolbar recipes](/recipes/toolbar)
+- [Dialog recipes](/recipes/dialog/generic)
+- [Toolbar recipes](/recipes/toolbar/secondary)
 
 ### Patterns
 
-- [System communication](/core-patterns/system-communication)
-- [Modality](/core-patterns/modality)
+- [System communication](/patterns/other/system-communication)
+- [Modality](/patterns/other/modality)

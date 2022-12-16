@@ -114,7 +114,7 @@ Method of meeting WCAG 2 Criteria 2.4.1: Bypass Blocks.
 
 - Sighted keyboard users
 - Users with visual impairment
-- [Recipe](/recipes/accessibility-examples)
+- [Recipe](/recipes/accessibility/skip-to-main-content)
 
 <ImageBlock maxWidth="600px">
 

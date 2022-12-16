@@ -25,7 +25,7 @@ The footer is comprised of slotted text or hyperlinks that can be customized by 
 **Don't use when**
 
 - Don't use on pages that have persistent controls at the bottom of a screen, such as forms. 
-- Don't use in workforce apps. Footers are optional in workforce apps; refer to the [workforce branding guidance: footers](/core-patterns/branding/workforce) for styling and content.
+- Don't use in workforce apps. Footers are optional in workforce apps; refer to the [workforce branding guidance: footers](/core/branding/workforce) for styling and content.
 
 ---
 

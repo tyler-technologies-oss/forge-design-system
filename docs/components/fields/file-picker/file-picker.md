@@ -78,7 +78,7 @@ Uploaded files should:
 - Allow files to be deleted.
 - Truncate long file names with an ellipsis.
 
-View recipes for the file-picker component [here](/patterns/recipes/file-picker).
+View recipes for the file-picker component [here](/recipes/file-picker/with-list).
 
 ---
 
@@ -92,4 +92,4 @@ View recipes for the file-picker component [here](/patterns/recipes/file-picker)
 
 ### Patterns
 
-- [Progress and loading](/core-patterns/progress-loading/)
+- [Progress and loading](/patterns/progress-and-loading)

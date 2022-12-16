@@ -118,4 +118,4 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
 
 ### Patterns
 
-- [Navigation](/core-patterns/navigation/primary)
+- [Navigation](/patterns/navigation/primary)

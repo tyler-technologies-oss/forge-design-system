@@ -55,7 +55,7 @@ Interactive demo coming soon...
 
 </ImageBlock>
 
-For more information, check out the [omnibar: search](/components/omnibar-search) guidance. 
+For more information, check out the [omnibar: search](/components/omni/search) guidance. 
 
 ---
 
@@ -131,7 +131,7 @@ Interactive demo coming soon...
 
 ### 3. App launcher (required)
 
-App launcher is required for workforce guidance. See our guidance on the [app launcher page](/core-components/app-launcher/guidance).
+App launcher is required for workforce guidance. See our guidance on the [app launcher page](/core/components/app-launcher).
 
 
 ### 4. Avatar and profile card 
@@ -173,7 +173,7 @@ The omnibar is not responsive by default, instead will need to be configured to 
 
 In mobile contexts, the omnibar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the omnibar. Display up to three actions or two actions and an overflow menu in this space. 
 
-See the responsive omnibar in action in the [Resident Access](/case-studies/resident-access) and [Tyler Bus](/case-studies/resident-access) case studies!
+See the responsive omnibar in action in the [Resident Access](/core/other/case-studies/resident-access) and [Tyler Bus](/core/other/case-studies/resident-access) case studies!
 
 <ImageBlock maxWidth="600px">
 
@@ -251,14 +251,14 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 The omnibar is used with
 
-- The [app launcher](/core-components/app-launcher/guidance)
+- The [app launcher](/core/components/app-launcher)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - The [scaffold](/components/layouts/scaffold) for page layout
 
 ### Patterns
 
-- The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/core-patterns/layout/intro)
+- The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/styles/layout/introduction)
 
 ### Examples
 
-- See the responsive omnibar in action in the [Resident Access](/case-studies/resident-access) and [Tyler Bus](/case-studies/tyler-bus) case studies.
+- See the responsive omnibar in action in the [Resident Access](/core/other/case-studies/resident-access) and [Tyler Bus](/core/other/case-studies/tyler-bus) case studies.

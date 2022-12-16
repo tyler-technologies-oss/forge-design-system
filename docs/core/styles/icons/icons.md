@@ -57,7 +57,7 @@ Icon colors are meant to provide consistent visual cues around interactivity. Th
 ### Components
 
 - Icons may be used as [icon buttons](/components/buttons/icon-button)
-- Icons may be used in [lists](/components/lists/lists/list)
+- Icons may be used in [lists](/components/lists/list)
 
 ### Patterns
 

@@ -19,11 +19,11 @@ The page state component is a wrapper component facilitates full page states suc
 
 ## Empty state 
 
-Use an empty state when an item's content can't be shown, or there's no data to show. Check out the empty state [recipes](/recipes/empty-state).
+Use an empty state when an item's content can't be shown, or there's no data to show. Check out the empty state [recipes](/recipes/empty-state/no-search-result).
 
 ### Examples
 
-- See an empty state in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See an empty state in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar).
 
 ### Parts
 
@@ -51,7 +51,7 @@ Mini empty states should be used when an empty state is needed inside of a card,
 - If a screen contains many colors, a greyscale illustration is recommended.
 - In regards to size of the illustration, teams will need to use judgment depending on allocated space.
 - Mini empty states within a card should use SPOT illustrations.
-- Mini empty states within a side sheet/panel should use either SPOT or SPOT HERO [illustrations](/core-components/illustrations/guidance). (Dealer's choice)
+- Mini empty states within a side sheet/panel should use either SPOT or SPOT HERO [illustrations](/core/styles/illustrations). (Dealer's choice)
 
 **Examples**
 
@@ -81,7 +81,7 @@ When an error occurs on the server and the user is not able to interact with con
 
 Don't see the pattern you need below? [Request a new illustration](https://tylerjira.tylertech.com/servicedesk/customer/portal/21/create/601) (specify the need for a spot-hero image in your description) or [request content writing](https://tylerjira.tylertech.com/servicedesk/customer/portal/21/create/602) (specify the need for error content in your description).
 
-Check out the error page state [recipes](/recipes/error-pages).
+Check out the error page state [recipes](/recipes/error-pages/generic-400).
 
 ### Parts
 
@@ -109,5 +109,5 @@ Error pages are comprised of the following parts.
 
 The page state is used to enable...
 
-- [Empty state page](/recipes/empty-state)
-- [Error page](/recipes/error-pages)
+- [Empty state page](/recipes/empty-state/no-search-result)
+- [Error page](/recipes/error-pages/generic-400)

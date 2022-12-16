@@ -73,7 +73,7 @@ Benefits of skeleton loading:
 
 ### Patterns
 
-- [Progress and loading](/core-patterns/progress-loading)
+- [Progress and loading](/patterns/progress-and-loading)
 
 ---
 

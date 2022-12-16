@@ -82,7 +82,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ### Examples 
 
-- See an example of a complex list in the [TCP Manager Apps case study](/core/case-studies/manager-apps)!
+- See an example of a complex list in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
 
 ---
 
@@ -107,7 +107,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ### Examples
 
-- See an example of a table list in the [Asset Registry case study](/case-studies/asset-registry)!
+- See an example of a table list in the [Asset Registry case study](/core/other/case-studies/asset-registry)!
 
 ---
 
@@ -120,4 +120,4 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ### Patterns 
 
-- Use [hierarchical navigation](/core-patterns/navigation/hierarchical) to navigate between parent and child items. 
+- Use [hierarchical navigation](/patterns/navigation/hierarchical) to navigate between parent and child items. 

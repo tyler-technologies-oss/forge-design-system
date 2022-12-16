@@ -104,7 +104,7 @@ Layouts using a lefthand drawer may also use a righthand sidesheet for filters o
 
 ### 3. With top tabs
 
-Apps with fewer than five primary destinations should use top tabs. [Learn more](/core-patterns/navigation/guidance). These layouts should contain:
+Apps with fewer than five primary destinations should use top tabs. [Learn more](/patterns/navigation/primary). These layouts should contain:
 
 1. Omnibar 
 2. Top navigation 

@@ -17,13 +17,13 @@ Meet the new manager suite for Tyler Cloud Platform, a single hub for configurin
 ### Consistency across apps
 
 Since the apps will be used together and serve similar functions, the team wanted to ensure that the experience would be consistent from app to app. They achieved this
-by ensuring a consistent [page layout](/core-patterns/layout/page-layouts) and [max width](/core-patterns/layout/grid#content-max-width) as well as a consistent type
-hierarchy across apps, using the Forge [typography](/core-components/typography/guidance) styles. Controls such as primary actions, a
-[local search](/patterns/search-filter#1-initiate-search), and [pagination](/components/paginator) were all placed in consistent locations across apps. 
+by ensuring a consistent [page layout](/styles/layout/page-layouts) and [max width](/styles/layout/grid#content-max-width) as well as a consistent type
+hierarchy across apps, using the Forge [typography](/styles/typography) styles. Controls such as primary actions, a
+[local search](/patterns/search-and-filter#1-initiate-search), and [pagination](/components/paginator) were all placed in consistent locations across apps. 
 
 To keep the apps clean, the team used the concept of <a href="https://www.nngroup.com/articles/progressive-disclosure/">progressive disclosure</a>. A top level list
 with key identifiers is displayed in each of the apps, with an option to drill into each item for more detail. A consistent approach was used for navigating to detail
-pages. A "chevron_left" icon button navigates to a child page;  the [upward navigation](/core-patterns/navigation/hierarchical#2-upward-navigation) pattern navigates
+pages. A "chevron_left" icon button navigates to a child page;  the [upward navigation](/patterns/navigation/hierarchical#2-upward-navigation) pattern navigates
 back up to the parent list.
 
 <ImageBlock padded={false}>
@@ -34,7 +34,7 @@ back up to the parent list.
 
 ### Navigating between apps 
 
-Since the apps are meant to be a suite, the team used the [app launcher](/components/omnibar-app-launcher) to allow for navigation between apps. 
+Since the apps are meant to be a suite, the team used the [app launcher](/components/omni/app-launcher) to allow for navigation between apps. 
 
 <ImageBlock>
 
@@ -53,8 +53,8 @@ The team opted to give the section a red border, using the Forge danger theme, a
 Once a user hits "delete," they're prompted with a dialog informing them of the dangers. As an additional precaution, they must type in the product name exactly, in
 order to delete and in order to prevent the action from ocurring by mistake. 
 
-Although not a Forge pattern, the team used concepts from Forge, such as Forge [colors](/core-components/color/guidance#4-informational-colors) and principles from the
-[system communication](/core-patterns/system-communication/#2-user-goal-ask-me) pattern to develop a pattern to meet their needs. 
+Although not a Forge pattern, the team used concepts from Forge, such as Forge [colors](/styles/color#4-informational-colors) and principles from the
+[system communication](/patterns/other/system-communication/#2-user-goal-ask-me) pattern to develop a pattern to meet their needs. 
 
 <ImageBlock padded={false}>
 
@@ -65,7 +65,7 @@ Although not a Forge pattern, the team used concepts from Forge, such as Forge [
 ### Simplying complex processes 
 
 To simplify the process of creating a new customer portal, the team opted for a [stepper](/components/stepper), breaking up the process into smaller manageable steps.
-The stepper is displayed in its own focused dialog, using concepts from [modality](/core-patterns/modality) to indicate a closed process with beginning an end. A
+The stepper is displayed in its own focused dialog, using concepts from [modality](/patterns/other/modality) to indicate a closed process with beginning an end. A
 review step at the end allows users to confirm their data and correct any errors. 
 
 <ImageBlock padded={false}>
@@ -82,19 +82,19 @@ review step at the end allows users to confirm their data and correct any errors
 
 ## Featured patterns & components
 
-- [page layout](/core-patterns/layout/page-layouts)
-- [max width](/core-patterns/layout/grid#content-max-width)
-- [system communication](/core-patterns/system-communication)
-- [local search](/patterns/search-filter#1-initiate-search)
-- [typography](/core-components/typography/guidance)
-- [upward navigation](/core-patterns/navigation/hierarchical#2-upward-navigation)
-- [app launcher](/components/omnibar-app-launcher)
+- [page layout](/styles/layout/page-layouts)
+- [max width](/styles/layout/grid#content-max-width)
+- [system communication](/patterns/other/system-communication)
+- [local search](/patterns/search-and-filter#1-initiate-search)
+- [typography](/styles/typography)
+- [upward navigation](/patterns/navigation/hierarchical#2-upward-navigation)
+- [app launcher](/components/omni/app-launcher)
 - [list](/components/lists/list)
 - [badge](/components/badge)
 - [paginator](/components/paginator/)
 - [inline message](/components/inline-message/)
 - [stepper](/components/stepper)
-- [modality](/core-patterns/modality) 
+- [modality](/patterns/other/modality) 
 - <a href="https://www.nngroup.com/articles/progressive-disclosure/" target="_blank" rel="noopener noreferer">progressive disclosure</a>
 
 </div>

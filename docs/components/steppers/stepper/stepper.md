@@ -31,7 +31,7 @@ Guided steppers provide a clear path to completion. Offering users a clear idea 
 
 ### Examples
 
-- See steppers in action in the [Resident Access](/case-studies/resident-access) and [TCP Manager Apps case study](/case-studies/tcp-manager-apps) case studies.
+- See steppers in action in the [Resident Access](/core/other/case-studies/resident-access) and [TCP Manager Apps case study](/core/other/case-studies/manager-apps) case studies.
 
 ---
 
@@ -177,9 +177,9 @@ Guidance coming soon!
 Steppers are comprised of:
 
 - [Buttons](/components/buttons/button)
-- [Toolbar](/components/utilities/toolbar)
+- [Toolbar](/components/page/toolbar)
 - [Dialog](/components/notifications-and-messages/dialog)
 
 ### Examples
 
-- See steppers in action in the [Resident Access](/case-studies/resident-access) and [TCP Manager Apps case study](/case-studies/tcp-manager-apps) case studies.
+- See steppers in action in the [Resident Access](/core/other/case-studies/resident-access) and [TCP Manager Apps case study](/core/other/case-studies/manager-apps) case studies.

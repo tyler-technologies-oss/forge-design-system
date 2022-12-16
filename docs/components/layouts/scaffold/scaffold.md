@@ -23,7 +23,7 @@ The scaffold is a layout component with slots for a header, body, and footer. It
 
 ### Examples
 
-- See a scaffold in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See a scaffold in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar).
 
 ### Using the scaffold with other components
 
@@ -52,17 +52,17 @@ The scaffold is the foundation of layout in Forge apps. The scaffold places the 
 - [Omnibar](/components/omni/omnibar) (required)
 - [Lefthand navigation](/components/navigation/navigation-drawer) (optional)
 - Page title (required)
-- Footer (optional): [workforce apps](/core-patterns/branding/workforce#3-footer-optional), [community apps](/core-patterns/branding/community#4-footer-optional)
+- Footer (optional): [workforce apps](/core/branding/workforce#3-footer-optional), [community apps](/core/branding/community#4-footer-optional)
 
 The scaffold may also be used to structure:
 
 - [Cards](/components/cards/card)
-- [Dialogs](/components/notification-and-messages/dialog)
+- [Dialogs](/components/notifications-and-messages/dialog)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - Side sheets (Coming soon!)
 
 ### Patterns
 
-- The scaffold facilitates page [layout](/core-patterns/layout/intro).
+- The scaffold facilitates page [layout](/styles/layout/introduction).
 
 
