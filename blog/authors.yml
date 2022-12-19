@@ -16,6 +16,16 @@ jay.mccormick:
   url: https://github.com/jayexprs
   image_url: https://github.com/jayexprs.png
 
+eric.wayne:
+  name: Eric Wayne
+  title: Senior UX Designer
+  image_url: https://cdn.forge.tylertech.com/v1/icons/svg/standard/account_circle.svg
+
+kathy.wolf:
+  name: Kathy Wolf
+  title: UX Director
+  image_url: https://cdn.forge.tylertech.com/v1/icons/svg/standard/account_circle.svg
+
 ross.blakeney:
   name: Ross Blakeney
   title: Lead Software Engineer

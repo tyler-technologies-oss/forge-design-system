@@ -1,7 +1,7 @@
 ---
 title: Forge Website Redesign
 decription: Welcome to the new and improved Forge design system website.
-authors: [kieran.nichols]
+authors: [nick.andrews,jay.mccormick,eric.wayne,kathy.wolf,kieran.nichols]
 tags: [forge, design-system, welcome]
 ---
 
