@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /content
+slug: /ux-content
 ---
 
 # Overview

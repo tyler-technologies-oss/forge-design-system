@@ -128,7 +128,7 @@ const config = {
         items: [
           { label: 'Core', to: '/core' },
           { label: 'Styles', to: '/styles' },
-          { label: 'Content', to: '/content' },
+          { label: 'UX Content', to: '/ux-content' },
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },
