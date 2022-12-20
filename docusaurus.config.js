@@ -126,7 +126,7 @@ const config = {
           src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
         },
         items: [
-          { label: 'Core', to: '/core' },
+          { label: 'Get started', to: '/get-started' },
           { label: 'Styles', to: '/styles' },
           { label: 'UX Content', to: '/ux-content' },
           { label: 'Assets', to: '/assets' },

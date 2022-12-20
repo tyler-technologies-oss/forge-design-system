@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Core
 slug: /core
 ---
 
-# Getting started: Key features
+# Core features for all Forge applications
 
 The core components serve as the visual foundation for consistency for Tyler products and are the components every app should include.
 
