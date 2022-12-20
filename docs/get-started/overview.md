@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Core
-slug: /core
+title: Get started
+slug: /get-started
 ---
 
 # Core features for all Forge applications
