@@ -1,5 +1,7 @@
 ---
-title: Workforce
+title: "Branding: Workforce"
+sidebar_position: 2
+slug: /get-started/branding-workforce
 ---
 
 # Branding: Workforce
