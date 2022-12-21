@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The Avatar allows you to provide text (default), or an image, to represent an entity.
+  thumbnail: ./img/all-components/avatar-mini.png
 ---
 
 # Avatar

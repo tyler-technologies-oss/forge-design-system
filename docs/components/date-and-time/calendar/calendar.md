@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The calendar lets users select a date, or a range of dates.
+  thumbnail: ./img/all-components/calendar-mini.png
 ---
 
 # Calendar

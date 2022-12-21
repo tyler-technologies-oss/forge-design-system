@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Button toggles provide a group of interactive button elements that are related to one another.
+  thumbnail: ./img/all-components/button-toggle-mini.png
 ---
 
 # Button toggle

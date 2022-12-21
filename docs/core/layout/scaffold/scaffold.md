@@ -1,3 +1,9 @@
+---
+sidebar_custom_props:
+  shortDescription: Used to create common page and component layouts with a header, scrollable body, and footer. 
+  thumbnail: ./img/all-components/scaffold-mini.png
+---
+
 # Scaffold
 
 <ImageBlock caption="Use the default page layouts to create consistent app pages." padded={false}>

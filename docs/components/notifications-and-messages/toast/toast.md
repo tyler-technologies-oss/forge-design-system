@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Toasts provide brief messages about app processes at the bottom of the screen.
+  thumbnail: ./img/all-components/toast-mini.png
 ---
 
 # Toast

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Time pickers help users select and set a specific time.
+  thumbnail: ./img/all-components/time-picker-mini.png
 ---
 
 # Time picker

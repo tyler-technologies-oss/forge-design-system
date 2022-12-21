@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Sliders allow users to make selections from a range of values.
+  thumbnail: ./img/all-components/slider-mini.png
 ---
 
 # Slider

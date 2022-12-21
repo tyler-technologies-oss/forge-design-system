@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Text fields let users enter and edit text.
+  thumbnail: ./img/all-components/text-field-mini.png
 ---
 
 # Text field

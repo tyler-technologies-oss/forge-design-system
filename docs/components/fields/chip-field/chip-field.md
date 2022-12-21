@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The chip field enables user input, and verifies that input, by converting text into chips.
+  thumbnail: ./img/all-components/chip-field-mini.png
 ---
 
 # Chip field

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The file picker is used to upload one or more files to an application.
+  thumbnail: ./img/all-components/file-picker-mini.png
 ---
 
 # File picker

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Tabs organize and allow navigation between groups of content that are related and at the same level of hierarchy.
+  thumbnail: ./img/all-components/tabs-mini.png
 ---
 
 # Tabs

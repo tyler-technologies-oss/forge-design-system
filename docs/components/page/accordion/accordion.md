@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The accordion ensures that only one, at most, child expansion panel is open at a given time.
+  thumbnail: ./img/all-components/accordion-mini.png
 ---
 
 # Accordion

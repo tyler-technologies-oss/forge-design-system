@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The view switcher component is used for displaying a single view at a time out of a set of available views.
+  thumbnail: ./img/all-components/view-switcher-mini.png
 ---
 
 # View switcher

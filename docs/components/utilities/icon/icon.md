@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Icons create an expression of brand and provide clear visual patterns and expectations.
+  thumbnail: ./img/all-components/icon-mini.png
 ---
 
 # Icon

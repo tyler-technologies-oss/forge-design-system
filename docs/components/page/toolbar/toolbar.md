@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The toolbar is a container used to place titles and actions and align them with consistent spacing and positioning.
+  thumbnail: ./img/all-components/toolbar-mini.png
 ---
 
 # Toolbar

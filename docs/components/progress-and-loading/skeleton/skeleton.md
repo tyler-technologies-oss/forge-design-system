@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A skeleton screen provides a visual cue that content is being loaded.
+  thumbnail: ./img/all-components/skeleton-mini.png
 ---
 
 # Skeleton

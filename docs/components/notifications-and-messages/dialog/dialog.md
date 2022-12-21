@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+  thumbnail: ./img/all-components/dialog-mini.png
 ---
 
 # Dialog

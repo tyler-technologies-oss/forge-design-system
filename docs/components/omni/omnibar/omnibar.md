@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The omnibar is the header for applications. It houses navigation items and tools related to the app.
+  thumbnail: ./img/all-components/app-bar-mini.png
 ---
 
 # Omnibar

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: App launcher is a persistent navigation component for users to view and launch programs.
+  thumbnail: ./img/all-components/app-bar-app-launcher-mini.png
 ---
 
 # App launcher

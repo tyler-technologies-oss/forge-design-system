@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Radio buttons allow for the selection of a single option from a set.
+  thumbnail: ./img/all-components/radio-button-mini.png
 ---
 
 # Radio button

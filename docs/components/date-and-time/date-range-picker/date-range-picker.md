@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The date range picker allows users to enter a date range.
+  thumbnail: ./img/all-components/date-range-picker-mini.png
 ---
 
 # Date range picker

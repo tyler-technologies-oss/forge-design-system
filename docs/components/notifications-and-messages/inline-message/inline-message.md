@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: An inline message communicates information to a user inside of another component, such as a form.
+  thumbnail: ./img/all-components/inline-message-mini.png
 ---
 
 # Inline message

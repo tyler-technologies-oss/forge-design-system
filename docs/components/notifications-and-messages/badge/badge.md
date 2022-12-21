@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Badges are used to indicate an item’s status. They may display a count, descriptive label, or status.
+  thumbnail: ./img/all-components/badge-mini.png
 ---
 
 # Badge

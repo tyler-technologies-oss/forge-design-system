@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Used to create consistent landing pages in community apps.
+  thumbnail: ./img/all-components/landing-page-layout-mini.png
 ---
 
 # Landing page layout

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Chips are compact elements that represent an input, attribute, or action.
+  thumbnail: ./img/all-components/chips-mini.png
 ---
 
 # Chips

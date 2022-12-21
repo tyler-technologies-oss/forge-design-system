@@ -2,6 +2,7 @@
 title: Help button
 sidebar_custom_props:
   shortDescription: The Help Button is used in the omnibar as a gateway to various help and informational options for the user.
+  thumbnail: ./img/all-components/app-bar-help-button-mini.png
 ---
 
 # Omnibar help button
