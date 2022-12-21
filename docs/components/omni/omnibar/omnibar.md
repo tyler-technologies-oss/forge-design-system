@@ -257,7 +257,7 @@ The omnibar is used with
 
 ### Patterns
 
-- The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/styles/layout/introduction)
+- The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/patterns/layout/introduction)
 
 ### Examples
 

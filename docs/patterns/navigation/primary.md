@@ -144,4 +144,4 @@ For widescreen apps with dashboards or complex displays, maximizing screen real 
 
 Navigation shouldn't remain static on all screen devices, but rather should adapt to best fit the available screen real estate. 
 
-Check out the [page layouts](/styles/layout/introduction) guidance for examples of how navigation patterns scale to different device widths. 
+Check out the [page layouts](/patterns/layout/introduction) guidance for examples of how navigation patterns scale to different device widths. 

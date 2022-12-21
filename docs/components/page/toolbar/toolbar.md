@@ -30,7 +30,7 @@ To see various common examples of the toolbar in action with code snippets, see 
 ### Components
 
 The toolbar can be used as:
-- headers and footers in the [scaffold](/components/layouts/scaffold) for page [layout](/styles/layout/introduction).
+- headers and footers in the [scaffold](/components/layouts/scaffold) for page [layout](/patterns/layout/introduction).
 - headers and footers in [dialogs](/components/notifications-and-messages/dialog).
 - as sections within a [navigation drawer](/components/navigation/drawer).
 
