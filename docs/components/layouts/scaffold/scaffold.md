@@ -63,6 +63,6 @@ The scaffold may also be used to structure:
 
 ### Patterns
 
-- The scaffold facilitates page [layout](/styles/layout/introduction).
+- The scaffold facilitates page [layout](/patterns/layout/introduction).
 
 

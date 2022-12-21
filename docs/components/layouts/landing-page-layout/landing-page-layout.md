@@ -89,7 +89,7 @@ Layout collapses to a single column layout on mobile.
 ### Patterns
 
 - Landing pages are part of community [branding](/core/branding/community).
-- Understand key principles of [layout](/styles/layout/introduction) in order to create a landing page that works.
+- Understand key principles of [layout](/patterns/layout/introduction) in order to create a landing page that works.
 
 ### Examples
 

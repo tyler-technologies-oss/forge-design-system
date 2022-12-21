@@ -95,5 +95,5 @@ The back arrow pattern should only be used for upward navigation within an app. 
 
 ### Patterns
 
-- [Layout](/styles/layout/introduction)
+- [Layout](/patterns/layout/introduction)
 - [Collections](/patterns/collections)
