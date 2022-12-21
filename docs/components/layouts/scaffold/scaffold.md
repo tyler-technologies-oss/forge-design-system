@@ -61,8 +61,8 @@ The scaffold may also be used to structure:
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - Side sheets (Coming soon!)
 
-### Patterns
+### get-started
 
-- The scaffold facilitates page [layout](/patterns/layout/introduction).
+- The scaffold facilitates page [layout](/get-started/layout/introduction).
 
 

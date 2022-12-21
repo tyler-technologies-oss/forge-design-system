@@ -12,7 +12,7 @@ Use these key features for "out-of-the-box" consistency across applications.
 
 <ImageBlock fullWidth={true} padded={false}>
 
-![Image of the core components as demonstrated on a Tyler app.](./images/core-components-diagram.png)
+![Image of the core components as demonstrated on a Tyler app.](./images/get-started-components-diagram.png)
 
 </ImageBlock>
 
@@ -20,19 +20,19 @@ Use these key features for "out-of-the-box" consistency across applications.
 
 All Tyler apps require the following visual elements. 
 
-### [Omnibar](/core/components/omnibar)
+### [Omnibar](/get-started/components/omnibar)
 
 The omnibar is a user’s personal navigation kit. It holds everything a user needs to navigate the app they’re currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
 
 ---
 
-### [App launcher](/core/components/app-launcher)
+### [App launcher](/get-started/components/app-launcher)
 
 App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the Tyler ecosystem. It lives in the  user information section of omnibar and is represented by the Apps icon. 
 
 ---
 
-### [Scaffold](/core/layout/scaffold)
+### [Scaffold](/get-started/layout/scaffold)
 
 The scaffold provides the basic page layout for Tyler apps.
 
@@ -44,7 +44,7 @@ The Material Design color system uses an organized approach to applying color to
 
 ---
 
-### [Illustrations](/core/styles/illustrations)
+### [Illustrations](/get-started/styles/illustrations)
 
 Illustrations are a key element of the Tyler brand system. Illustrations provide a sense of personality and familiarity and can make complex ideas more accessible. 
 
@@ -56,6 +56,6 @@ Forge provides a purposeful set of typographic styles. Consistently tying typogr
 
 ---
 
-### [Icons](/core/styles/icons)
+### [Icons](/get-started/styles/icons)
 
 Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations. 

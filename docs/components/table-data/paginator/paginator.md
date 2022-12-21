@@ -15,7 +15,7 @@ sidebar_custom_props:
 
 Use pagination when records are sorted in a logical way (ie, chronologically or alphabetically). Pagination allows users to mentally bookmark or orient where they are in an ordered result set. Pagination can be used with collections: tables, lists, and cards. 
 
-- See an example of a paginator in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of a paginator in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 ### Infinite scroll vs pagination 
 
@@ -48,6 +48,6 @@ A paginator may be used with:
 
 ### Examples
 
-- See an example of a complex list in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 

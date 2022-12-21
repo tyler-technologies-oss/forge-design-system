@@ -31,7 +31,7 @@ Inline messages are persistent and appear inside a component, such as a [card](/
 
 ### Examples
 
-- See an example of an inlined message in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of an inlined message in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 ---
 
@@ -78,4 +78,4 @@ The inline notification supports four modes: informational, warning, success, da
 - [System communication](/patterns/other/system-communication)
 
 ### Examples 
-- See an example of an inlined message in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of an inlined message in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!

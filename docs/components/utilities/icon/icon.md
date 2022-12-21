@@ -13,9 +13,9 @@ sidebar_custom_props:
 
 ## Overview
 
-Icons may be used to represent information visually or to represent an action (icon buttons). The icon component renders icons available from the Tyler Forge [icon library](/core-components/iconography/library).
+Icons may be used to represent information visually or to represent an action (icon buttons). The icon component renders icons available from the Tyler Forge [icon library](/get-started-components/iconography/library).
 
-For more information about using icons, see our [Iconography page](/core/styles/icons).
+For more information about using icons, see our [Iconography page](/get-started/styles/icons).
 
 ---
 

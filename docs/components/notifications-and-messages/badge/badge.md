@@ -61,7 +61,7 @@ Numeric badges should be used to highlight new items, such as notifications or n
 
 Text badges are used to communicate a status or description. Badges may be used to add visual prominence to an important attribute of a specific record. At most, one badge should be used per record.
 
-- See an example of badges used in a list the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of badges used in a list the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 #### Palettes
 
@@ -117,5 +117,5 @@ Badges may be used with:
 
 ### Examples 
 
-- See an example of a complex list in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 

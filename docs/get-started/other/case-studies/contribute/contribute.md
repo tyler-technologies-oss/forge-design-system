@@ -8,7 +8,7 @@ Have an app using Forge you'd like to share? Submit a case study to the Forge si
 
 ## Overview
 
-Forge [case studies](/core/other/case-studies/contribute) showcase how Tyler products have implemented Forge patterns in their domains. Case studies are meant to allow teams to share patterns, design decisions, and lessons learned. 
+Forge [case studies](/get-started/other/case-studies/contribute) showcase how Tyler products have implemented Forge patterns in their domains. Case studies are meant to allow teams to share patterns, design decisions, and lessons learned. 
 
 ---
 

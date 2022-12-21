@@ -23,7 +23,7 @@ Use an empty state when an item's content can't be shown, or there's no data to 
 
 ### Examples
 
-- See an empty state in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar).
+- See an empty state in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 
 ### Parts
 
@@ -33,7 +33,7 @@ Use an empty state when an item's content can't be shown, or there's no data to 
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/core-components/illustrations/library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/get-started-components/illustrations/library#SpotHero).
 
 2. **Header text (Optional)** Convey the purpose of the screen, without appearing actionable. Style should be conversational. 
 
@@ -51,7 +51,7 @@ Mini empty states should be used when an empty state is needed inside of a card,
 - If a screen contains many colors, a greyscale illustration is recommended.
 - In regards to size of the illustration, teams will need to use judgment depending on allocated space.
 - Mini empty states within a card should use SPOT illustrations.
-- Mini empty states within a side sheet/panel should use either SPOT or SPOT HERO [illustrations](/core/styles/illustrations). (Dealer's choice)
+- Mini empty states within a side sheet/panel should use either SPOT or SPOT HERO [illustrations](/get-started/styles/illustrations). (Dealer's choice)
 
 **Examples**
 
@@ -93,7 +93,7 @@ Error pages are comprised of the following parts.
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/core-components/illustrations/library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/get-started-components/illustrations/library#SpotHero).
 
 2. **Header text (Optional)** Provide a brief description of what went wrong. Style should be conversational. For common error types, use the provided default copy (see below). 
 
