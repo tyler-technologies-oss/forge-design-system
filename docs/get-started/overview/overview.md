@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Get started
+title: Core features
 slug: /get-started
 ---
 
@@ -35,6 +35,22 @@ App launcher is a persistent navigation component for users to switch context. I
 ### [Scaffold](/get-started/layout/scaffold)
 
 The scaffold provides the basic page layout for Tyler apps.
+
+<ImageBlock>
+
+![Image of the scaffold overlaid on a default Tyler app page layout.](./images/scaffold-layout.png)
+
+</ImageBlock>
+
+The scaffold is the foundation of layout in Forge apps. The scaffold places the main content of the page:
+
+- [Omnibar](/components/omni/omnibar) (required)
+- [Navigation drawer](/components/navigation/navigation-drawer) (optional)
+- Page title (required)
+- Footer (optional): [workforce apps](/get-started/branding/workforce#3-footer-optional), [community apps](/get-started/branding/community#4-footer-optional)
+
+To learn more about using and implementing the scaffold, check out the component page [here](/components/layouts/scaffold).
+
 
 ---
 

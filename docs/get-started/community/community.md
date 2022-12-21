@@ -1,5 +1,7 @@
 ---
-title: Community
+title: "Branding: Community"
+sidebar_position: 3
+slug: /get-started/branding-community
 ---
 
 # Branding: Community
