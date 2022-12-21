@@ -13,7 +13,7 @@ The scaffold is used to create common page and component layouts with a header, 
 Tyler Forge provides default page layouts to ensure consistency between apps. 
 
 - Desktop layouts: <a href="https://www.figma.com/file/bAV4CXDQnGe6xznxjdjzgx/Forge---Layouts" target="_blank" rel="noopener">Figma file</a>
-- Adaptive layouts: [Forge guidance](/styles/layout/page-layouts)
+- Adaptive layouts: [Forge guidance](/patterns/layout/page-layouts)
 
 <ImageBlock>
 
