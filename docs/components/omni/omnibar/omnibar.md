@@ -251,7 +251,7 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 The omnibar is used with
 
-- The [app launcher](/get-started/components/app-launcher)
+- The [app launcher](/components/omni/app-launcher)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - The [scaffold](/components/layouts/scaffold) for page layout
 

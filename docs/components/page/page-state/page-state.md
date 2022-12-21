@@ -93,7 +93,7 @@ Error pages are comprised of the following parts.
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/get-started-components/illustrations/library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustrations-library#SpotHero).
 
 2. **Header text (Optional)** Provide a brief description of what went wrong. Style should be conversational. For common error types, use the provided default copy (see below). 
 
