@@ -36,7 +36,7 @@ In general, filters are applied after an initial search has been conducted.
 
 ### Examples
 
-- See a filter sidesheet in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar).
+- See a filter sidesheet in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 
 ---
 

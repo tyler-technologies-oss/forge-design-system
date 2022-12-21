@@ -31,7 +31,7 @@ Guided steppers provide a clear path to completion. Offering users a clear idea 
 
 ### Examples
 
-- See steppers in action in the [Resident Access](/core/other/case-studies/resident-access) and [TCP Manager Apps case study](/core/other/case-studies/manager-apps) case studies.
+- See steppers in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps) case studies.
 
 ---
 
@@ -182,4 +182,4 @@ Steppers are comprised of:
 
 ### Examples
 
-- See steppers in action in the [Resident Access](/core/other/case-studies/resident-access) and [TCP Manager Apps case study](/core/other/case-studies/manager-apps) case studies.
+- See steppers in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps) case studies.

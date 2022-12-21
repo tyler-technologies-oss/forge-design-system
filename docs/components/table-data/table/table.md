@@ -41,7 +41,7 @@ Data tables can include:
 
 ### Examples
 
-- See the table in action in the [Asset Registry case study](/core/other/case-studies/asset-registry).
+- See the table in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 ---
 
@@ -458,7 +458,7 @@ Use instead of a table
 
 ### Examples
 
-- See a table with filtering and customizable columns in action in the [Asset Registry case study](/core/other/case-studies/asset-registry).
+- See a table with filtering and customizable columns in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 ---
 

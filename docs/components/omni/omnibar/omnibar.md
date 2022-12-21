@@ -131,7 +131,7 @@ Interactive demo coming soon...
 
 ### 3. App launcher (required)
 
-App launcher is required for workforce guidance. See our guidance on the [app launcher page](/core/components/app-launcher).
+App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/app-launcher).
 
 
 ### 4. Avatar and profile card 
@@ -173,7 +173,7 @@ The omnibar is not responsive by default, instead will need to be configured to 
 
 In mobile contexts, the omnibar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the omnibar. Display up to three actions or two actions and an overflow menu in this space. 
 
-See the responsive omnibar in action in the [Resident Access](/core/other/case-studies/resident-access) and [Tyler Bus](/core/other/case-studies/resident-access) case studies!
+See the responsive omnibar in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [Tyler Bus](/get-started/other/case-studies/resident-access) case studies!
 
 <ImageBlock maxWidth="600px">
 
@@ -251,7 +251,7 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 The omnibar is used with
 
-- The [app launcher](/core/components/app-launcher)
+- The [app launcher](/components/omni/app-launcher)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - The [scaffold](/components/layouts/scaffold) for page layout
 
@@ -261,4 +261,4 @@ The omnibar is used with
 
 ### Examples
 
-- See the responsive omnibar in action in the [Resident Access](/core/other/case-studies/resident-access) and [Tyler Bus](/core/other/case-studies/tyler-bus) case studies.
+- See the responsive omnibar in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [Tyler Bus](/get-started/other/case-studies/tyler-bus) case studies.

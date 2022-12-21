@@ -143,7 +143,7 @@ By default cards in community apps have 24px padding.
 
 ### Components
 - [Buttons](/components/buttons/button) and [icon buttons](/components/icon-button) are typically used in cards.
-- [Spot illustrations](/core/styles/illustrations/#spot-illustrations) may be used in cards. 
+- [Spot illustrations](/get-started/styles/illustrations/#spot-illustrations) may be used in cards. 
 - Use a [list](/components/lists/list) for search results or scannable data. 
 - Use a [table](/components/table-data/table) for records that need to be compared or filtered by a single column.
 

@@ -41,8 +41,9 @@ const config = {
           { from: '/resources/upgrade-guides/forge-2-0', to: '/blog/2022/05/02/upgrade-guide-forge-2' },
           { from: '/resources/package-dependency', to: '/blog/2020/05/06/package-dependencies' },
           { from: '/resources/cdn', to: '/assets/cdn/overview/' },
-          { from: '/support', to: '/core/other/support/' },
-          { from: '/consulting', to: '/core/other/consulting/' },
+          { from: '/support', to: '/get-started/other/support/' },
+          { from: '/consulting', to: '/get-started/other/consulting/' },
+          { from: '/core', to: '/get-started' },
           { from: '/core-components/illustrations/library', to: '/assets/illustration-library/' },
           { from: '/core-components/iconography/library', to: '/assets/icon-library/' },
         ],
@@ -126,7 +127,7 @@ const config = {
           src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
         },
         items: [
-          { label: 'Core', to: '/core' },
+          { label: 'Get started', to: '/get-started' },
           { label: 'Styles', to: '/styles' },
           { label: 'UX Content', to: '/ux-content' },
           { label: 'Assets', to: '/assets' },

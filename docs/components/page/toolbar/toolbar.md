@@ -17,7 +17,7 @@ The toolbar spans 100% width, uses a border to separate the toolbar from the con
 
 ### Examples
 
-- See tooltips in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar).
+- See tooltips in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 
 :::info
 To see various common examples of the toolbar in action with code snippets, see the [toolbar recipes page](/recipes/toolbar/secondary).

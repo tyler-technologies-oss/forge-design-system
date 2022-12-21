@@ -25,7 +25,7 @@ Calendars allow users to view, schedule, and modify events, work, or other recor
 
 ### Examples
 
-- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/core/other/case-studies/ess-calendar/).
+- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar/).
 - Reach out to [Morgan Keenan](mailto:morgan.keenan@tylertech.com) (UX Designer) or [Sam Richardson](mailto:sam.richardson@tylertech.com) (Developer) for more information on skinning this component.
 
 ---

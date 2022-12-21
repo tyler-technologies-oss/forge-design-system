@@ -82,7 +82,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ### Examples 
 
-- See an example of a complex list in the [TCP Manager Apps case study](/core/other/case-studies/manager-apps)!
+- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 ---
 
@@ -107,7 +107,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ### Examples
 
-- See an example of a table list in the [Asset Registry case study](/core/other/case-studies/asset-registry)!
+- See an example of a table list in the [Asset Registry case study](/get-started/other/case-studies/asset-registry)!
 
 ---
 
