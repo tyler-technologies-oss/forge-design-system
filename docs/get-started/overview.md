@@ -12,7 +12,7 @@ Use these key features for "out-of-the-box" consistency across applications.
 
 <ImageBlock fullWidth={true} padded={false}>
 
-![Image of the core components as demonstrated on a Tyler app.](./images/get-started-components-diagram.png)
+![Image of the core components as demonstrated on a Tyler app.](./images/core-components-diagram.png)
 
 </ImageBlock>
 
