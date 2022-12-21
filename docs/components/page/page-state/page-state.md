@@ -33,7 +33,7 @@ Use an empty state when an item's content can't be shown, or there's no data to 
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/get-started-components/illustrations/library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustration-library#SpotHero).
 
 2. **Header text (Optional)** Convey the purpose of the screen, without appearing actionable. Style should be conversational. 
 
