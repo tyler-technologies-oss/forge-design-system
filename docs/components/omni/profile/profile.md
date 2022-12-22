@@ -41,4 +41,4 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 ### Patterns
 
-- For community apps, refer to the [branding](/get-started/branding/community) guidance.
+- For community apps, refer to the [branding](/get-started/branding-community) guidance.
