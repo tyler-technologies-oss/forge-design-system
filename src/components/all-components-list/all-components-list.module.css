@@ -65,3 +65,30 @@
   background-size: cover;
   background-position: center;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1620px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* when the drawer collapses */
+@media screen and (max-width: 997px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 660px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}
