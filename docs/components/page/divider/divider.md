@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The divider is used to visually separate groups of content within a section.
+  thumbnail: ./img/all-components/divider-mini.png
 ---
 
 # Divider

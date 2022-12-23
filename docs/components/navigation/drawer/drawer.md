@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Drawers are used to support supplementary information on the left and right side of a screen.
+  thumbnail: ./img/all-components/drawer-mini.png
 ---
 
 # Drawer

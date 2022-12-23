@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Steppers display progress through a sequence by breaking it up into multiple logical and numbered steps.
+  thumbnail: ./img/all-components/stepper-mini.png
 ---
 
 # Stepper

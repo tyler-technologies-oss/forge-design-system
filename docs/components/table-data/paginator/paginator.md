@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The paginator is used to “chunk” collections of logically sorted records into manageable pieces.
+  thumbnail: ./img/all-components/paginator-mini.png
 ---
 
 # Paginator

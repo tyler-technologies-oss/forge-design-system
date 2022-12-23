@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The popup is a component used to facilitate elements that appear above other content.
+  thumbnail: ./img/all-components/popup-mini.png
 ---
 
 # Popup

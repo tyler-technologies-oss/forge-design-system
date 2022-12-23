@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A floating action button (FAB) performs the primary, or most common, action on a screen, primarily on mobile.
+  thumbnail: ./img/all-components/floating-action-button-mini.png
 ---
 
 # Floating action button

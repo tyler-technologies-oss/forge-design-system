@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The color picker allows users to select a color visually. It can produce values in formats such as Hex, RGBA and HSV.
+  thumbnail: ./img/all-components/color-picker-mini.png
 ---
 
 # Color picker

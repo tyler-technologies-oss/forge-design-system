@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Linear indicators express an unspecified wait time or display the length of a process.
+  thumbnail: ./img/all-components/linear-progress-mini.png
 ---
 
 # Linear progress

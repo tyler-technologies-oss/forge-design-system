@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A banner is intended to be used as a way to deliver a short but important message to the user.
+  thumbnail: ./img/all-components/banner-mini.png
 ---
 
 # Banner

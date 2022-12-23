@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Bottom sheets provide contextual information, options, or actions in a way that's easy to reach on a mobile device.
+  thumbnail: ./img/all-components/bottom-sheet-mini.png
 ---
 
 # Bottom sheet

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A tooltip displays informative text when users hover over, focus on, or tap an element.
+  thumbnail: ./img/all-components/tooltip-mini.png
 ---
 
 # Tooltip

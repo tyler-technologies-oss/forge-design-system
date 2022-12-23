@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The footer is used in resident apps to display links pertaining to a specific municipality.
+  thumbnail: ./img/all-components/footer-mini.png
 ---
 
 # Footer

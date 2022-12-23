@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Buttons allow users to take actions, and make choices, with a single tap.
+  thumbnail: ./img/all-components/button-mini.png
 ---
 
 # Button

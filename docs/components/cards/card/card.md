@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A card is intended to be used as a layout design element to help group related content together into sections.
+  thumbnail: ./img/all-components/card-mini.png
 ---
 
 # Card

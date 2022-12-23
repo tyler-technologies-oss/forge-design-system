@@ -2,6 +2,7 @@
 title: Profile
 sidebar_custom_props:
   shortDescription: Profile button is used with a predefined avatar, and is responsible for displaying profile information within a popup.
+  thumbnail: ./img/all-components/app-bar-profile-mini.png
 ---
 
 # Omnibar profile

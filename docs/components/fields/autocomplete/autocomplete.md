@@ -1,6 +1,8 @@
 ---
 sidebar_custom_props:
   shortDescription: Autocomplete is an add-on component that binds to inputs and shows suggestions as the user types.
+  thumbnail: ./img/all-components/autocomplete-mini.png
+  
 ---
 
 # Autocomplete

@@ -2,6 +2,7 @@
 title: Menu button
 sidebar_custom_props:
   shortDescription: The Menu Button is used in the omnibar to control the visibility of the navigation drawer.
+  thumbnail: ./img/all-components/app-bar-menu-button-mini.png
 ---
 
 # Omnibar menu button

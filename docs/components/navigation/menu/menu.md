@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Menus display a list of contextual choices in a pop-up. They appear when users interact with a button, action, or other control.
+  thumbnail: ./img/all-components/menu-mini.png
 ---
 
 # Menu

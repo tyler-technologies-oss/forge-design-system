@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A busy indicator is used when a component or page is loading or changing and prevents users from interacting with content.
+  thumbnail: ./img/all-components/busy-indicator-mini.png
 ---
 
 # Busy indicator

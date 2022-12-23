@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The date picker allows users to enter a date either through text input or by choosing a date from the calendar.
+  thumbnail: ./img/all-components/date-picker-mini.png
 ---
 
 # Date picker

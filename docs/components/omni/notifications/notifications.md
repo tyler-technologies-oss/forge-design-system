@@ -2,6 +2,7 @@
 title: Notifications
 sidebar_custom_props:
   shortDescription: Notifications is used in the omnibar to show various system notifications for the user.
+  thumbnail: ./img/all-components/app-bar-notifications-mini.png
 ---
 
 # Omnibar notifications

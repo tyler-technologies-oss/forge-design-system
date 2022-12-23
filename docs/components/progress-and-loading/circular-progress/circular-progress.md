@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Circular progress spinners are used to indicate that a particular element is loading within an interface.
+  thumbnail: ./img/all-components/circular-progress-mini.png
 ---
 
 # Circular progress

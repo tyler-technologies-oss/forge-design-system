@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: A select is a form field that displays selectable values via a dropdown list.
+  thumbnail: ./img/all-components/select-mini.png
 ---
 
 # Select

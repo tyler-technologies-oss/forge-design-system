@@ -2,7 +2,7 @@
 sidebar_custom_props:
   badge: recipe
   shortDescription: The drawer component contains supplementary content that are anchored to the left or right edge of the screen.
-  thumbnail: ./images/thumbnail.png
+  thumbnail: ./images/navigation-drawer-mini.png
 ---
 
 # Navigation drawer

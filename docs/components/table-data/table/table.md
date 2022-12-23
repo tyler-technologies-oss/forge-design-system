@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The table displays information in a grid-like format of rows and columns.
+  thumbnail: ./img/all-components/table-mini.png
 ---
 
 # Table

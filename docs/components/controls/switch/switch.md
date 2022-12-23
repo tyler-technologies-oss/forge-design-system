@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Switches toggle the state of a single item on or off.
+  thumbnail: ./img/all-components/switch-mini.png
 ---
 
 # Switch

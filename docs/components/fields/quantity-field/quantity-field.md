@@ -2,6 +2,7 @@
 sidebar_custom_props:
   badge: deprecated
   shortDescription: Quantity fields allow for incremental adjustments to a default numeric value.
+  thumbnail: ./img/all-components/quantity-field-mini.png
 ---
 
 # Quantity field

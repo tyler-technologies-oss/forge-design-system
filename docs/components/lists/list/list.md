@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Lists are a continuous vertical group of text or images that may contain primary and supplemental actions.
+  thumbnail: ./img/all-components/list-mini.png
 ---
 
 # List

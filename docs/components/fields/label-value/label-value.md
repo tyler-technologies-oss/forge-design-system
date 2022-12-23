@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The label value component displays read only label-value pairs.
+  thumbnail: ./img/all-components/label-value-mini.png
 ---
 
 # Label value

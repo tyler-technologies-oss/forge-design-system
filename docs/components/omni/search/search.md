@@ -2,6 +2,7 @@
 title: Search
 sidebar_custom_props:
   shortDescription: The omnibar Search provides a familiar search experience for users across programs.
+  thumbnail: ./img/all-components/app-bar-search-mini.png
 ---
 
 # Omnibar search

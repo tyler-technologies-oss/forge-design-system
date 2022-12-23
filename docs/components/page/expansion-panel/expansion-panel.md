@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The expansion panel displays summary information and reveals additional details on tap or click.
+  thumbnail: ./img/all-components/expansion-panel-mini.png
 ---
 
 # Expansion panel

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Icon buttons communicate actions that users can take using only an icon.
+  thumbnail: ./img/all-components/icon-button-mini.png
 ---
 
 # Icon button

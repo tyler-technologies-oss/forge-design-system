@@ -2,6 +2,7 @@
 sidebar_custom_props:
   badge: recipe
   shortDescription: The filter sidesheet offers a standard filtering experience that can be used in any application.
+  thumbnail: ./img/all-components/filter-sidesheet-mini.png
 ---
 
 # Filter sidesheet

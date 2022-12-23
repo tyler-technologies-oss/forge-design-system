@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: Checkboxes allow for selecting multiple options from a set.
+  thumbnail: ./img/all-components/checkbox-mini.png
 ---
 
 # Checkbox

@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The page state component is a layout design component that facilitates full page states.
+  thumbnail: ./img/all-components/page-state-mini.png
 ---
 
 # Page state
