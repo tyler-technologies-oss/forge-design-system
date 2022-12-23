@@ -27,4 +27,4 @@ Apps using a dismissible [navigation drawer](/components/navigation/navigation-d
 
 ### Patterns
 
-- [Page layouts](/core-patterns/layout/page-layouts)
+- [Page layouts](/patterns/layout/page-layouts)

@@ -4,7 +4,7 @@ For complex patterns and components, Forge endorses a number of external librari
 
 ## Advanced table
 
-The [table](/components/table-data/table-data/table) intends to cover features that are common to most Tyler products, including sorting, filtering, and selecting rows. It is intended to be a relatively simple UI component that displays data. For this reason, it is not intended to be comprehensive or fully featured.
+The [table](/components/table-data/table) intends to cover features that are common to most Tyler products, including sorting, filtering, and selecting rows. It is intended to be a relatively simple UI component that displays data. For this reason, it is not intended to be comprehensive or fully featured.
 
 If the team requires a table with complex table requirements, a fully featured third-party table  may be more appropriate.
 
@@ -20,12 +20,12 @@ Here are our recommendations:
 
 ## Calendar
 
-Calendars allow users to view, schedule, and modify events, work, or other records. The calendar is not a Forge component as it isn't atomic or composable. Instead we recommend using Full Calendar, a fully featured JavaScript calendar, and skinning it to use our recommended <a rel="noopener noreferrer" href="https://www.figma.com/file/wF374tcYJHbFqKxvVx9fkV/Forge-Calendar-palettes?node-id=0%3A1">calendar color palette</a> and our [typography styles](/core/typography/).
+Calendars allow users to view, schedule, and modify events, work, or other records. The calendar is not a Forge component as it isn't atomic or composable. Instead we recommend using Full Calendar, a fully featured JavaScript calendar, and skinning it to use our recommended <a rel="noopener noreferrer" href="https://www.figma.com/file/wF374tcYJHbFqKxvVx9fkV/Forge-Calendar-palettes?node-id=0%3A1">calendar color palette</a> and our [typography styles](/styles/typography/).
 
 
 ### Examples
 
-- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar/).
 - Reach out to [Morgan Keenan](mailto:morgan.keenan@tylertech.com) (UX Designer) or [Sam Richardson](mailto:sam.richardson@tylertech.com) (Developer) for more information on skinning this component.
 
 ---
@@ -54,7 +54,7 @@ Selecting an appropriate charting library is heavily dependent on the frameworks
 
 ## Drag & drop
 
-Drag and drop allows users to group, reorder, move, or resize objects by direct manipulation. Read more about our [guidance](/patterns/drag-drop/overview) on this pattern.
+Drag and drop allows users to group, reorder, move, or resize objects by direct manipulation. Read more about our [guidance](/patterns/other/drag-and-drop/overview) on this pattern.
 
 | Tool              | Framework  | Description       | Use when          | Contact
 | :-----------------| :--------- |:----------------- | :---------------- | :---------------

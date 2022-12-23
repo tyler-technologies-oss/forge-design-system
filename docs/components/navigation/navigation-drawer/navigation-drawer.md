@@ -98,7 +98,7 @@ A mini navigation drawer may be used when the main content of an desktop applica
 ![Image of a collapsed and expanded mini nav.](./images/mini-nav.png)
 </ImageBlock>
 
-See the mini nav in action in the [Asset Registry case study](/case-studies/asset-registry).
+See the mini nav in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 --- 
 
@@ -223,13 +223,13 @@ For apps with fewer than five primary destinations, use:
 
 ### Recipes
 
-- [Navigation drawer recipes](/recipes/navigation-drawer)
-- [Toolbar recipes](/recipes/toolbar)
+- [Navigation drawer recipes](/recipes/navigation-drawer/backoffice)
+- [Toolbar recipes](/recipes/toolbar/secondary)
 
 ### Patterns
 
-- [Navigation](/core-patterns/navigation/primary)
+- [Navigation](/patterns/navigation/primary)
 
 ### Examples
 
-- See the mini nav in action in the [Asset Registry case study](/case-studies/asset-registry).
+- See the mini nav in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).

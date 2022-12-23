@@ -1,28 +1,13 @@
 .recipeDemoIframe {
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid var(--forge-theme-border);
   border-radius: 4px;
-  border-color: var(--forge-theme-border);
-  width: calc(100% - 4px);
-  height: calc(100% - 4px);
-}
-
-.recipeContainer {
-  height: 100%;
   width: 100%;
-  padding: 45% auto auto auto;
-  border-width: 2px;
-  border-style: dashed;
-  border-radius: 4px;
-  border-color: var(--forge-theme-border);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
 }
 
 .demoContainer {
-  height: 600px;
-  width: calc(100% - 8px);
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 .componentList {

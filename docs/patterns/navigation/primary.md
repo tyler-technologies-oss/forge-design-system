@@ -67,7 +67,7 @@ A standard navigation drawer stays open by default, and while it takes up additi
 
 Use [sections](/components/navigation/navigation-drawer#long-navigation-lists) with titles and dividers to organize destinations into logical groups.
 
-Sections allow for easier visual chunking of information, but only provide value when categories are grouped appropriately. Consider using [affinity mapping](/plays/affinity-mapping/) to create logical groupings. 
+Sections allow for easier visual chunking of information, but only provide value when categories are grouped appropriately. Consider using [affinity mapping](/get-started/other/ux-plays/affinity-mapping/) to create logical groupings. 
 
 <ImageBlock padded={false} maxWidth="500px">
 
@@ -144,4 +144,4 @@ For widescreen apps with dashboards or complex displays, maximizing screen real 
 
 Navigation shouldn't remain static on all screen devices, but rather should adapt to best fit the available screen real estate. 
 
-Check out the [page layouts](/core-patterns/layout/intro) guidance for examples of how navigation patterns scale to different device widths. 
+Check out the [page layouts](/patterns/layout/introduction) guidance for examples of how navigation patterns scale to different device widths. 

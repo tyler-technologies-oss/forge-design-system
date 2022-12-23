@@ -86,11 +86,11 @@ function QuickLinks() {
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Components" path="/components" icon="category" />
-        <QuickLinkCard title="Forge 101" path="/core" icon="school" />
+        <QuickLinkCard title="Forge 101" path="/get-started" icon="school" />
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Icon library" path="/assets/icon-library" icon="photo_library" />
-        <QuickLinkCard title="UX writing" path="/content" icon="keyboard" />
+        <QuickLinkCard title="UX writing" path="/ux-content" icon="keyboard" />
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Illustration library" path="/assets/illustration-library" icon="brush" />

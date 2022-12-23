@@ -51,7 +51,7 @@ There are two types of icon buttons: 1. Default icon buttons, 2. Icon toggle but
 
 ### Icon toggle
 
-Icons can be used as toggle buttons when they allow selection, or deselection, of a single choice, such as marking an item as a favorite or opening or closing a [drawer](/components/drawer). Icon buttons use icons from the [icon library](/icon-library). 
+Icons can be used as toggle buttons when they allow selection, or deselection, of a single choice, such as marking an item as a favorite or opening or closing a [drawer](/components/drawer). Icon buttons use icons from the [icon library](/assets/icon-library). 
 
 ---
 
@@ -75,7 +75,7 @@ Icons can be used as toggle buttons when they allow selection, or deselection, o
 
 ### Components
 - Use a text [button](/components/buttons/button) for unfamiliar actions.
-- Use a [toggle button](/components/buttons/button-toggle) to allow for selection within a set. 
+- Use a [button toggle](/components/controls/button-toggle) to allow for selection within a set. 
 - Icon buttons may be used in [tables](/components/table-data/table), [lists](/components/lists/list), or toolbars.
 - Use a [tooltip](/components/tooltip) with icon buttons.
 

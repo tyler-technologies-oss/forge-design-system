@@ -17,7 +17,7 @@ When designing a mode:
 ## 1. Indicating mode
 
 1. Indicate the mode by clearly showing modes available, like *edit.*
-2. Provide noticeable feedback when the mode changes, including changing headers and changing available tools. See also [System communication](/core-patterns/system-communication).
+2. Provide noticeable feedback when the mode changes, including changing headers and changing available tools. See also [System communication](/patterns/other/system-communication).
 
 **Components to use**
 

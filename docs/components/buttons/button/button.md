@@ -22,7 +22,7 @@ Buttons communicate actions that users can take. They are typically placed throu
 
 There are three types of text buttons: 1. Raised (high emphasis), 2. Outlined (medium emphasis), and 3. Flat (low emphasis).
 
-Forge also includes other types of buttons: [icon buttons](/components/icon-button), [floating action buttons](/components/fab), [button toggles](/components/buttons/button-toggle). 
+Forge also includes other types of buttons: [icon buttons](/components/icon-button), [floating action buttons](/components/buttons/floating-action-button), [button toggles](/components/controls/button-toggle). 
 
 ### Raised (High emphasis)
 

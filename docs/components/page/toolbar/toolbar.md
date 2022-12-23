@@ -18,10 +18,10 @@ The toolbar spans 100% width, uses a border to separate the toolbar from the con
 
 ### Examples
 
-- See tooltips in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See tooltips in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 
 :::info
-To see various common examples of the toolbar in action with code snippets, see the [toolbar recipes page](/recipes/toolbar).
+To see various common examples of the toolbar in action with code snippets, see the [toolbar recipes page](/recipes/toolbar/secondary).
 :::
 
 ---
@@ -31,16 +31,16 @@ To see various common examples of the toolbar in action with code snippets, see 
 ### Components
 
 The toolbar can be used as:
-- headers and footers in the [scaffold](/components/layouts/scaffold) for page [layout](/core-patterns/layout/intro).
-- headers and footers in [dialogs](/components/notifications-and-message/dialog).
+- headers and footers in the [scaffold](/components/layouts/scaffold) for page [layout](/patterns/layout/introduction).
+- headers and footers in [dialogs](/components/notifications-and-messages/dialog).
 - as sections within a [navigation drawer](/components/navigation/drawer).
 
 ### Recipes
 
-- [Dialog](/recipes/dialog)
-- [Navigation drawer](/recipes/navigation-drawer)
-- [Page layout](/recipes/page-layout)
-- [Toolbar](/recipes/toolbar)
+- [Dialog](/recipes/dialog/generic)
+- [Navigation drawer](/recipes/navigation-drawer/backoffice)
+- [Page layout](/recipes/page-layout/generic)
+- [Toolbar](/recipes/toolbar/secondary)
 
 ### Patterns
 

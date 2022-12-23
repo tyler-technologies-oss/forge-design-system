@@ -17,7 +17,7 @@ sidebar_custom_props:
 :::note
 The `<forge-table>` provides **basic data display and functionality** such as sorting, filtering, and selecting rows. It is not intended to be comprehensive or fully featured. 
 
-If your team needs extensive data manipulation or editing capability, **a third-party table extension may be more appropriate.** See our guidance on [advanced tables](/patterns/external-libraries#advanced-tables) under External library guidance. 
+If your team needs extensive data manipulation or editing capability, **a third-party table extension may be more appropriate.** See our guidance on [advanced tables](/assets/external-libraries/#advanced-table) under External library guidance. 
 :::
 
 Tables display information in a way that's easy to scan, so that users can look for patterns and insights. They can be embedded in primary content, such as cards.
@@ -42,7 +42,7 @@ Data tables can include:
 
 ### Examples
 
-- See the table in action in the [Asset Registry case study](/case-studies/asset-registry).
+- See the table in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 ---
 
@@ -81,12 +81,12 @@ Use sentence case on column headers (“Bill number” instead of “Bill Number
 
 **Fixed headers**
 
-Use fixed headers to persist the context for your data. [See the recipe](/recipes/table#httpsstackblitzcomeditforgetablerecipewithfixedheaders).
+Use fixed headers to persist the context for your data.
 
 
 **Table density**
 
-By default, the `<forge-table>` has a row height of 48px. For data dense applications, use the `dense` version of the table, which has a row height of 40px. [See the recipe](/recipes/table#httpsstackblitzcomeditforgetablerecipedense)
+By default, the `<forge-table>` has a row height of 48px. For data dense applications, use the `dense` version of the table, which has a row height of 40px.
 
 <ImageBlock maxWidth="700px">
 
@@ -145,7 +145,7 @@ Display actions at the end of a row.
 
 **Actions on hover:** Displaying actions on hover can be a good way to focus actions for a single row, but this should only be used on desktop apps. Display actions persistently on mobile. 
 
-[See the recipes](/recipes/table#httpsstackblitzcomeditforgedatatablerecipewithiconactions)
+[See the recipes](/recipes/table/icon-actions)
 
 <ImageBlock caption="Table with icon actions and overflow menu.">
 
@@ -199,7 +199,7 @@ The selection header provides a summary of total records selected, the ability t
 
 Once actions have been taken, records revert to their unselected state. 
 
-[See the recipe](/recipes/table#httpsstackblitzcomeditforgedatatablerecipewithmultiselect)
+[See the recipe](/recipes/table/multi-select)
 
 <ImageBlock maxWidth="700px">
 
@@ -210,8 +210,6 @@ Once actions have been taken, records revert to their unselected state.
 ### Column sort 
 
 Table columns that have been set to sortable in `<forge-table>` support ascending and descending sort. A user clicks once to sort ascending, a second time to sort descending, and third time to clear the sort. 
-
-[See the recipe](/recipes/table#httpsstackblitzcomeditforgetablerecipewithcolumnsort)
 
 ### Column filters 
 
@@ -243,7 +241,7 @@ Use expandable rows to display additional data in context within a table. Expand
 
 **Don't nest tables within tables.** Consider a detail page or alternative organization for your data instead. 
 
-[See the recipe](/recipes/table#httpsstackblitzcomeditforgedatatablerecipewithexpandablerowscomplex2fileindexjs)
+[See the recipe](/recipes/table/expandable-rows)
 
 <ImageBlock maxWidth="600px">
 
@@ -270,7 +268,7 @@ Use a “chevron-right” icon to indicate navigating away to a separate page. T
 Designing readable tables for smaller mobile screens presents a unique challenge. In general, tables aren’t well adapted for mobile and should be avoided when possible. 
 
 :::info
-**When converting table data for mobile, consider what would be most important to users in a mobile context.** If possible, table data can be displayed in a different component entirely on mobile devices - perhaps on a mobile phone, users just need some high level information on a record instead of a full row of complex details. Or perhaps a data visualization or chart could achieve the same goal. For more information on optimizing applications for different contexts, check out the guidance on [adaptive design](/core-patterns/adaptive-design).
+**When converting table data for mobile, consider what would be most important to users in a mobile context.** If possible, table data can be displayed in a different component entirely on mobile devices - perhaps on a mobile phone, users just need some high level information on a record instead of a full row of complex details. Or perhaps a data visualization or chart could achieve the same goal. For more information on optimizing applications for different contexts, check out the guidance on [adaptive design](/patterns/other/adaptive-design).
 :::
 
 ### Recommended approach 
@@ -285,7 +283,7 @@ Adapt the table for mobile by presenting rows as cards instead.
 - For tables with content underneath, use a simplified paginator for mobile. Ensure that touch targets for the icon buttons are 48px by 48px. 
 - For tables with no additional content underneath, infinite scroll may be used on mobile.
 
-View recipes for the table component [here](/patterns/recipes/table).
+View recipes for the table component [here](/recipes).
 
 **Content**
 
@@ -452,16 +450,16 @@ Tables may contain
 
 Use instead of a table
 
-- Use a [list](/components/lists/lists/list) when displaying groups of related items that are primarily textual.
+- Use a [list](/components/lists/list) when displaying groups of related items that are primarily textual.
 - Use [cards](/components/cards/card) when displaying content that has images or that contains non homogenous data. 
 
 ### Recipes
 
-- [Table](/recipes/table)
+- [Table](/recipes)
 
 ### Examples
 
-- See a table with filtering and customizable columns in action in the [Asset Registry case study](/case-studies/asset-registry).
+- See a table with filtering and customizable columns in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 ---
 

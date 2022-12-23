@@ -27,7 +27,7 @@ The help menu is standard across apps and consists of a variety of resources, ra
 
 In order to help clients accurately report the version number of the application when submitting support tickets, be sure the version number is easily accessible from your app’s help dialog. See more examples in our gallery examples. 
 
-See the [recipes](/recipes/omni-about) for the "About" section. 
+See the [recipes](/recipes/omni-about/complex) for the "About" section. 
 
 --- 
 
@@ -39,4 +39,4 @@ See the [recipes](/recipes/omni-about) for the "About" section.
 
 ### Recipes
 
-- [Omnibar: about recipes](/recipes/omni-about)
+- [Omnibar: about recipes](/recipes/omni-about/complex)

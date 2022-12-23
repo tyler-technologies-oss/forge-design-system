@@ -16,13 +16,13 @@ sidebar_custom_props:
 
 A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken. To express that the rest of the app is inaccessible, and to focus attention on the dialog, surfaces behind the dialog are scrimmed. 
 
-A [backdrop](/components/backdrop) (scrim) is a temporary treatment that can be applied to Material surfaces for the purpose of making content on the surface less prominent.
+A backdrop (scrim) is a temporary treatment that can be applied to Material surfaces for the purpose of making content on the surface less prominent.
 
 ### Use when
 
 - Displaying errors that block an app's normal operation. 
 - Critical information that requires a specific user task, decision, or acknowledgement.
-- Indicating a change of [mode](/core-patterns/modality), such as an edit, stepper, or offline mode. 
+- Indicating a change of [mode](/patterns/other/modality), such as an edit, stepper, or offline mode. 
 
 ### Don't use when
 
@@ -36,7 +36,7 @@ A [backdrop](/components/backdrop) (scrim) is a temporary treatment that can be 
 :::info
 Dialogs are purposefully interruptive, so they should be used sparingly.
 
-To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/core-patterns/system-communication/) guidance.
+To learn about other components that display messages, such as toasts and banners, check out the [System Communication](/patterns/other/system-communication/) guidance.
 :::
 
 ---
@@ -189,11 +189,11 @@ If the user has made changes, the user is prompted to confirm the discard action
 
 ### Recipes
 
-- [Dialog recipes](/recipes/dialog)
-- [Toolbar recipes](/recipes/toolbar)
+- [Dialog recipes](/recipes/dialog/generic)
+- [Toolbar recipes](/recipes/toolbar/secondary)
 
 ### Patterns
 
-- [System communication](/core-patterns/system-communication)
-- [Modality](/core-patterns/modality)
+- [System communication](/patterns/other/system-communication)
+- [Modality](/patterns/other/modality)
 - Forms (Coming soon!)

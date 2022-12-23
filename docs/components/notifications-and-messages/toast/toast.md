@@ -53,4 +53,4 @@ On larger screens, they should be placed at the bottom left or bottom middle. En
 
 ### Patterns
 
-- [System communication](/core-patterns/system-communication)
+- [System communication](/patterns/other/system-communication)

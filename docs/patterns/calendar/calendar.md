@@ -10,7 +10,7 @@ Calendars allow users to view, schedule, and modify events, work, or other recor
 
 </ImageBlock>
 
-Calendars allow users to view, schedule, and modify events, work, or other records. We recommend using a third party library, such as <a href="https://fullcalendar.io/" target="_blank" rel="noopener noreferrer">Full Calendar</a>, and skinning it to match our color palettes and our [typography styles](/core-components/typography/guidance).
+Calendars allow users to view, schedule, and modify events, work, or other records. We recommend using a third party library, such as <a href="https://fullcalendar.io/" target="_blank" rel="noopener noreferrer">Full Calendar</a>, and skinning it to match our color palettes and our [typography styles](/styles/typography).
 
 ## Styles
 
@@ -22,5 +22,5 @@ For an overview of the color palette used in the calendar, check out the followi
 
 
 ### Examples
-- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 - The calendar component is currently used in <a href="https://confl.tylertech.com/display/TMM/TMM" target="_blank" rel="noreferrer noopener">Tyler Meeting Manager</a>. For additional questions, reach out to designer <a href="mailto:morgan.keenan@tylertech.com">Morgan Keenan</a>.

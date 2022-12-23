@@ -17,7 +17,7 @@ sidebar_custom_props:
 
 ## Overview 
 
-A filter sidesheet is used with the [Search & filter pattern](/patterns/search-filter). The sidesheet is comprised of categories, called filters, with specific options, called facets, inside. 
+A filter sidesheet is used with the [Search & filter pattern](/patterns/search-and-filter). The sidesheet is comprised of categories, called filters, with specific options, called facets, inside. 
 
 In general, filters are applied after an initial search has been conducted.
 
@@ -37,7 +37,7 @@ In general, filters are applied after an initial search has been conducted.
 
 ### Examples
 
-- See a filter sidesheet in action in the [Employee Access Calendar case study](/case-studies/ess-calendar).
+- See a filter sidesheet in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
 
 ---
 

@@ -9,9 +9,9 @@ Search & filter can help users locate a specific record or create a set of relat
 The search process is comprised of five steps: 1. Initiate, 2. Show results, 3. Refine, 4. View details, 5. Return to results.
 
 **Examples**
-- See advanced search in action in the [Resident Access case study](/case-studies/resident-access).
-- See advanced search in action in the [Asset Registry case study](/case-studies/asset-registry).
-- See a local search in action in the [TCP Manager Apps case study](/case-studies/tcp-manager-apps).
+- See advanced search in action in the [Resident Access case study](/get-started/other/case-studies/resident-access).
+- See advanced search in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
+- See a local search in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
 
 ---
 
@@ -60,7 +60,7 @@ Help users understand what they can find.
 
 </ImageBlock>
 
-See advanced search in action in the [Resident Access case study](/case-studies/resident-access)!
+See advanced search in action in the [Resident Access case study](/get-started/other/case-studies/resident-access)!
 
 ---
 
@@ -185,7 +185,7 @@ Return users to their prior screen position and state, such as their vertical sc
 
 Search is  composed of the following components:
 
-- [Filter sidesheet](/components/filter-sidesheet), [drawer](/components/navigation/drawer), [toolbar](/components/page/toolbar), [card](/components/cards/card), [list](/components/lists/lists/list), [radio button](/components/controls/radio-button), [switch](/components/controls/switch), [checkbox](/components/controls/checkbox)
+- [Filter sidesheet](/components/filter-sidesheet), [drawer](/components/navigation/drawer), [toolbar](/components/page/toolbar), [card](/components/cards/card), [list](/components/lists/list), [radio button](/components/controls/radio-button), [switch](/components/controls/switch), [checkbox](/components/controls/checkbox)
 
 
 Forms are related to the following patterns:

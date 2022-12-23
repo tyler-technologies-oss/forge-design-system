@@ -48,7 +48,7 @@ A banner consists of four parts.
 
 1. **Background theme.** The banner selects from provided themes (default, danger, success, warning, info). If needed, the background color may be customized, but we recommend against a custom background in most cases to ensure consistency with other Tyler products. 
 2. **Icon**  (Optional). An icon may be used to indicate the nature of the announcement. 
-3. **Preview text.** Preview text should be succinct, especially if shown on a mobile-first app. (Learn more about [adaptive design](/core-patterns/adaptive-design/).) 
+3. **Preview text.** Preview text should be succinct, especially if shown on a mobile-first app. (Learn more about [adaptive design](/patterns/other/adaptive-design/).) 
 4. **Action.** (Optional) "Learn more" by default; text may be customized depending on the message or business requirements. By default, the action is intended to launch a simple or complex [dialog](/components/notifications-and-messages/dialog) with additional information, but the action may link to a new page instead if appropriate. 
 5. **Dismiss** The dismiss icon displays a tooltip by default. Once dismissed the banner does not display again for that user.
 
@@ -88,4 +88,4 @@ The page banner resizes to display on mobile. Preview text is limited to two lin
 
 ### Patterns
 
-- [System communication](/core-patterns/system-communication)
+- [System communication](/patterns/other/system-communication)

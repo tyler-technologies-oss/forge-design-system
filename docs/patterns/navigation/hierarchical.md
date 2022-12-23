@@ -27,7 +27,7 @@ Hierarchical navigation can meet the following user needs:
 Movement from a **parent** screen (higher level of hierarchy) to a **child** screen (lower level), such as a navigating from a list of records to a single detail screen. 
 
 ### Components to use 
-- [Collections](/patterns/collections) such as [cards](/components/cards/cards) or [lists](/components/lists/list).
+- [Collections](/patterns/collections) such as [cards](/components/cards/card) or [lists](/components/lists/list).
 - In-app search on one or more screens
 - Links within content
 
@@ -46,7 +46,7 @@ Movement from a **child** screen (lower level of hierarchy) to a **parent** scre
 ### Components to use 
 - For detail screens, use a [toolbar](/components/toolbar) and back arrow to allow for upward navigation. 
 
-See the upward navigation pattern in action in the [TCP Manager Apps case study](/case-studies/tcp-manager-apps).
+See the upward navigation pattern in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
 
 :::info
 The back arrow pattern should only be used for upward navigation within an app. Use native browser or mobile back functionality to allow users to move **chronologically** through their recent screen history.
@@ -95,5 +95,5 @@ The back arrow pattern should only be used for upward navigation within an app. 
 
 ### Patterns
 
-- [Layout](/core-patterns/layout)
+- [Layout](/patterns/layout/introduction)
 - [Collections](/patterns/collections)

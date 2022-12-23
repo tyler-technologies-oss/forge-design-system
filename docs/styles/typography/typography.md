@@ -8,7 +8,7 @@ Tyler Forge provides a purposeful set of typographic styles. Consistently tying 
 
 Roboto features friendly and open curves and allows letters to be settled into their natural width. This makes for a natural reading rhythm more commonly found in humanist and serif types.
 
-See an example of typography in action in the [TCP Manager Apps case study](/core/case-studies/manager-apps/).
+See an example of typography in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
 
 ### Accessibility
 

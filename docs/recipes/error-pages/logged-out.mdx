@@ -1,0 +1,15 @@
+---
+sidebar_label: Logged out
+---
+
+# Recipe: Logged out
+
+This provides a consistent way to inform the user that they have successfully logged out.
+
+:::note
+It is important to ensure all security session tokens are verified to be cleared before displaying this message to the user.
+
+If this message is shown before those tokens are cleared, the user may close their browser before the browser has a chance to complete the process.
+:::
+
+<RecipeDemo initialpath="/recipes/error-pages/logged-out.html" />

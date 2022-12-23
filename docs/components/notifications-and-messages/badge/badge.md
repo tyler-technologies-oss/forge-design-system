@@ -45,7 +45,7 @@ There are three types of badges: 1. dot badges, 2. numeric badges, 3. text badge
 Dot badges are used to indicated that unread content exists. They are used most frequently on navigation items or tabs to indicate content inside, but may also be used with lists and tables. Dot badges don't contain text or numbers.
 
 :::info
-Dot badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+Dot badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/styles/color).
 :::
 
 ### Numeric badges 
@@ -53,7 +53,7 @@ Dot badges should use the secondary color when placed on an indigo background an
 Numeric badges are used for counts, such as a number of unread messages, new records, or total records in a category. 
 
 :::info
-Numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/core-components/color/guidance).
+Numeric badges should use the secondary color when placed on an indigo background and the tertiary color when placed on a white background. See [color guidance](/styles/color).
 :::
 
 Numeric badges should be used to highlight new items, such as notifications or new tasks. **Don't use** numeric badges to indicate static counts, such as search results or total records in a table. 
@@ -62,7 +62,7 @@ Numeric badges should be used to highlight new items, such as notifications or n
 
 Text badges are used to communicate a status or description. Badges may be used to add visual prominence to an important attribute of a specific record. At most, one badge should be used per record.
 
-- See an example of badges used in a list the [TCP Manager Apps case study](/case-studies/tcp-manager-apps)!
+- See an example of badges used in a list the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 #### Palettes
 
@@ -108,7 +108,7 @@ Text badges are either **muted** or **bold** and use color to indicate meanings 
 
 ### Components
 
-- Use a [chip](/components/chip) instead of a badge for interaction, selection, or filtering. 
+- Use a [chip](/components/utilities/chips) instead of a badge for interaction, selection, or filtering. 
 
 Badges may be used with:
 
@@ -118,5 +118,5 @@ Badges may be used with:
 
 ### Examples 
 
-- See an example of a complex list in the [TCP Manager Apps case study](/case-studies/tcp-manager-apps)!
+- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 

@@ -170,4 +170,4 @@ If an autocomplete is cleared (either by an X or by manually deleting data), clo
 
 - Search (coming soon!)
 - Forms (coming soon!)
-- Use inline [Progress & loading](/core-patterns/progress-loading/) with the autocomplete
+- Use inline [Progress & loading](/patterns/progress-and-loading/) with the autocomplete

@@ -28,7 +28,7 @@ The landing page component is a layout component with slots for header and body 
 
 ### Examples
 
-- See it in use in the [Resident Access case study](/case-studies/resident-access)!
+- See it in use in the [Resident Access case study](/get-started/other/case-studies/resident-access/)!
 
 ---
 
@@ -85,13 +85,13 @@ Layout collapses to a single column layout on mobile.
 
 ### Components
 
-- [Cards](/components/cards/card), [Buttons](/components/buttons/button), and [illustrations](/core-components/illustrations/guidance).
+- [Cards](/components/cards/card), [Buttons](/components/buttons/button), and [illustrations](/get-started/styles/illustrations).
 
 ### Patterns
 
-- Landing pages are part of community [branding](/core-patterns/branding/community).
-- Understand key principles of [layout](/core-patterns/layout/intro) in order to create a landing page that works.
+- Landing pages are part of community [branding](/get-started/branding-community).
+- Understand key principles of [layout](/patterns/layout/introduction) in order to create a landing page that works.
 
 ### Examples
 
-- See it in the [Resident Access case study](/case-studies/resident-access).
+- See it in the [Resident Access case study](/get-started/other/case-studies/resident-access).

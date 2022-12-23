@@ -79,7 +79,7 @@ Have you done usability testing on progress and loading? We’d love to hear fro
 
 - Use [linear progress](/components/linear-progress) and [circular progress](/components/progress-and-loading/circular-progress) components to indicate that individual elements are loading.
 - Use [skeleton](/components/skeleton loading) to initially load content when size and shape is known. 
-- Use a [backdrop](/components/backdrop) behind the busy indicator.
+- Use a backdrop (scrim) behind the busy indicator.
 - A busy indicator is used with a [dialog](/components/notifications-and-messages/dialog).
 
 ### Patterns

@@ -26,7 +26,7 @@ Forms are comprised of 4 parts: 1. Mode 2. Content 3. Actions 4. Submission, 5. 
 - Minimize layout differences.
 - Provide noticeable differences when the mode changes.
 
-Learn more about [Modality](/core-patterns/modality).
+Learn more about [Modality](/patterns/other/modality).
 
 **Components to use**
 
@@ -55,8 +55,8 @@ Learn more about [Modality](/core-patterns/modality).
 
 - Organize and group related information. 
 - Use a predictable column grid to keep forms manageable. 
-- Promote readability with a [max-width](/core-patterns/layout/grid#content-max-width) as needed. 
-- Consider [adaptive design](/core-patterns/layout/page-layouts) when designing multi column forms (and see examples [below](#responsive).
+- Promote readability with a [max-width](/patterns/layout/grid#content-max-width) as needed. 
+- Consider [adaptive design](/patterns/layout/page-layouts) when designing multi column forms (and see examples [below](#responsive).
 
 <ImageBlock padded={false} caption="Group related content and use columns and section titles to organize content and improve readability.">
 
@@ -260,7 +260,7 @@ Forms are composed of the following components:
 
 Forms are related to the following patterns:
 - Edit, save, publish (Coming soon!)
-- [Layout - max width](/core-patterns/layout/grid#content-max-width)
-- [Progress & loading](/core-patterns/progress-loading/)
-- [System communication](/core-patterns/system-communication)
-- [Modality](/core-patterns/modality)
+- [Layout - max width](/patterns/layout/grid#content-max-width)
+- [Progress & loading](/patterns/progress-and-loading)
+- [System communication](/patterns/other/system-communication)
+- [Modality](/patterns/other/modality)
