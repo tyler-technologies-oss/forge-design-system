@@ -4,3 +4,9 @@ slug: /assets
 ---
 
 # Overview
+
+<ComponentVisual>
+
+![](./images/assets.png)
+
+</ComponentVisual>

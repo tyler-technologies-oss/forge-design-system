@@ -5,6 +5,13 @@ slug: /recipes
 
 # Overview
 
+<ComponentVisual>
+
+![](./images/recipes.png)
+
+</ComponentVisual>
+
+
 What are recipes you ask? They are actual implementations of common Forge patterns using real Forge components!
 
 Recipes are a great way to help inspire your designs, as well as assist developers with implementation details to avoid spending valuable
