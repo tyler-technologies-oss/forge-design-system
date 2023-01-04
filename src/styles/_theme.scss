@@ -50,6 +50,12 @@
   .avatar__photo[src$="account_circle.svg"] {
     filter: invert(1);
   }
+
+  // Increase contrast between dropdown and surface background colors
+  .dropdown__menu {
+    background-color: #363636;
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  }
 }
 
 ///
