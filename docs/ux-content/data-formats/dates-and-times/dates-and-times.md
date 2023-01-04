@@ -1,4 +1,4 @@
-# Data formats
+# Dates and times
 
 This guide will help you craft consistent copy specific to the needs of your product teams that fit within the overarching voice and tone of Tyler Tech.
 
