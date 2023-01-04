@@ -9,7 +9,7 @@ const config = {
   tagline: 'Enabling design decisions and simplifying consistency.',
   url: 'https://forge.tylertech.com',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   stylesheets: [
@@ -119,6 +119,50 @@ const config = {
         respectPrefersColorScheme: true
       },
 
+      announcementBar: {
+        id: 'welcome',
+        content: '✨ Welcome to the new Forge design system website! ✨ Learn more <a href="/blog/2022/11/04/forge-website-redesign">here</a>.',
+        isCloseable: true,
+        backgroundColor: '#3D5AFE',
+        textColor: '#ffffff'
+      },
+
+      footer: {
+        style: 'light',
+        copyright: `Copyright © ${new Date().getFullYear()} Tyler Technologies, Inc.<br/><small>Licensed under CC BY 4.0</small>`,
+        logo: { alt: 'Tyler Forge Design System Logo', src: 'https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg' },
+        links: [
+          {
+            title: 'Learn',
+            items: [
+              { label: 'Blog', href: '/blog' },
+              { label: 'Component docs', href: 'https://forge.tylerdev.io/' },
+            ]
+          },
+          {
+            title: 'Code',
+            items: [
+              { label: 'Components', href: 'https://github.com/tyler-technologies-oss/forge/' },
+              { label: 'Design System', href: 'https://github.com/tyler-technologies-oss/forge-design-system/' },
+            ]
+          },
+          {
+            title: 'More',
+            items: [
+              { label: 'Illustrations', href: '/assets/illustration-library' },
+              { label: 'Icons', href: '/assets/icon-library' },
+              { label: 'Recipes', href: '/recipes' },
+            ]
+          },
+          {
+            title: 'Legal',
+            items: [
+              { label: 'License', href: 'https://github.com/tyler-technologies-oss/forge-design-system/blob/main/LICENSE.txt' },
+            ]
+          }
+        ]
+      },
+
       navbar: {
         hideOnScroll: true,
         title: 'Forge',
@@ -174,12 +218,6 @@ const config = {
             ]
           },
           { type: 'search', position: 'right' },
-          {
-            href: 'https://github.com/tyler-technologies-oss/forge-design-system/',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          },
         ],
       },
       prism: {

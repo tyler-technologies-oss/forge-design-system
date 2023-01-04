@@ -2,6 +2,7 @@
   "name": "forge-design-system",
   "version": "0.0.0",
   "private": true,
+  "license": "cc-by-4.0",
   "scripts": {
     "prepare": "husky install",
     "docusaurus": "docusaurus",

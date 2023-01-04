@@ -8,7 +8,7 @@ import Link from '@docusaurus/Link';
 
 export default function Home(): JSX.Element {
   return (
-    <Layout title="Home" noFooter description="Tyler Forge design system">
+    <Layout title="Home" description="Tyler Forge design system">
       <HomepageHero />
       <main style={{overflowX: 'hidden'}}>
         <QuickLinks />
