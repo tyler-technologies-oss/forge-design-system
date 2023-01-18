@@ -57,7 +57,18 @@ Large text is 18pt (24css pixels ) or 14pt (19css pixels) bold
 
 ---
 
-## 4. Labels
+## 4. Alt text
+
+Every image must have an alt attribute:
+
+- Informative images: Use short descriptive alt text to convey their purpose and meaning. Avoid using words like “image" or "photo."
+- Decorative images, or when the image is described by page content, provide null alt attributes. `alt=" "`
+
+[Alt text details and examples](https://dequeuniversity.com/rules/axe/2.6/image-alt)
+
+---
+
+## 5. Labels
 				
 Programmatically associate labels with all form controls. The form `<input>` elements that should have labels:
 - Text entry fields
@@ -69,21 +80,10 @@ Programmatically associate labels with all form controls. The form `<input>` ele
 
 ---
 
-## 5. Accessible text
+## 6. Accessible text
 
 - Buttons must have an accessible name that clearly describes the destination, purpose, function, or action.
 -	Links – When possible put the most meaningful piece of text into the link, rather than filler words like "Details", "More"
-
----
-
-## 6. Alt text
-
-Every image must have an alt attribute:
-
-- Informative images: Use short descriptive alt text to convey their purpose and meaning. Avoid using words like “image" or "photo."
-- Decorative images, or when the image is described by page content, provide null alt attributes. `alt=" "`
-
-[Alt text details and examples](https://dequeuniversity.com/rules/axe/2.6/image-alt)
 
 ---
 
@@ -106,7 +106,7 @@ Every image must have an alt attribute:
 
 ---
 
-## community facing apps 
+## Community facing apps 
 
 ## 9. Navigation skip link 
 
