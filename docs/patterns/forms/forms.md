@@ -16,7 +16,7 @@ A form allows users to provide data or configure options. They can be simple or 
 
 ## Parts
 
-Forms are comprised of 4 parts: 1. Mode 2. Content 3. Actions 4. Submission, 5. Unsaved changes.
+Forms are comprised of 5 parts: 1. Mode, 2. Content, 3. Actions, 4. Submission, 5. Unsaved changes.
 
 ### 1. Mode
 
@@ -97,7 +97,7 @@ Learn more about [Modality](/patterns/other/modality).
   <DoDontRow>
   <DoDontImage>
 
-![Raised primary action](./images/button-do.png)
+![Raised primary action](./images/buttons-dont-2.png)
 
   </DoDontImage>
   <DoDontImage>
@@ -180,7 +180,7 @@ Use this layout when inputs are grouped in a way that encourages users to read o
 
 When a screen is sized down, fields should wrap accordingly. 
 
-Use dense inputs, 16px of vertical spacing between inputs (32px between inputs without helper text), and 24px of horizontal spacing between columns.)
+Use dense inputs, 10px of vertical spacing between inputs (32px between inputs without helper text), and 24px of horizontal spacing between columns.)
 
 <ImageBlock max-width="500px">
 
@@ -194,7 +194,7 @@ Use this layout when inputs are grouped in a way that encourages users to read o
 
 When a screen is sized down, columns should stack on top of each other. 
 
-Use dense inputs, 16px of vertical spacing between inputs (32px between inputs without helper text), and 48px of horizontal spacing between columns. 
+Use dense inputs, 10px of vertical spacing between inputs (32px between inputs without helper text), and 48px of horizontal spacing between columns. 
 
 ---
 
@@ -220,7 +220,7 @@ Use this layout when inputs are grouped in a way that encourages users to read d
 
 When tablet screens are rotated to portrait mode, fields should wrap accordingly. 
 
-Use roomy inputs, and 24px of vertical space between inputs (40px between inputs without helper text) and 32px of horizontal spacing between columns. 
+Use roomy inputs, and 18px of vertical space between inputs (40px between inputs without helper text) and 32px of horizontal spacing between columns. 
 
 :::note
 For traditional phone sizes in portrait mode (screen width between 350px and 480px) fields should be full width and stack vertically.
@@ -228,7 +228,7 @@ For traditional phone sizes in portrait mode (screen width between 350px and 480
 
 <ImageBlock>
 
-![Spec for landscape mobile spacing.](./images/mobile-vertical.png)
+![Spec for landscape mobile spacing.](./images/mobile-horizontal.png)
 
 </ImageBlock>
 
@@ -238,7 +238,7 @@ Use this layout when inputs are grouped in a way that encourages users to read a
 
 When tablet screens are rotated to portrait mode, fields should wrap accordingly. 
 
-Use roomy inputs, and 24px of vertical space between inputs (40px between inputs without helper text) and 16px of horizontal spacing between columns. 
+Use roomy inputs, and 18px of vertical space between inputs (40px between inputs without helper text) and 16px of horizontal spacing between columns. 
 
 :::note
 For traditional phone sizes in portrait mode (screen width between 350px and 480px) fields should be full width and stack vertically.
