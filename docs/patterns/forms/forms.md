@@ -156,7 +156,7 @@ Learn more about [Modality](/patterns/other/modality).
 
 </ImageBlock>
 
-<ImageBlock maxWidth="350px" caption="Warn losers they’ll lose their data if they attempt to navigate away without saving.">
+<ImageBlock maxWidth="350px" caption="Warn users they’ll lose their data if they attempt to navigate away without saving.">
 
 ![A prompt to the user to save their changes.](./images/dirty-handling.png)
 
@@ -180,7 +180,7 @@ Use this layout when inputs are grouped in a way that encourages users to read o
 
 When a screen is sized down, fields should wrap accordingly. 
 
-Use dense inputs, 10px of vertical spacing between inputs (32px between inputs without helper text), and 24px of horizontal spacing between columns.)
+Use dense inputs, 8px of vertical spacing between inputs (32px between inputs without helper text), and 24px of horizontal spacing between columns.)
 
 <ImageBlock max-width="500px">
 
@@ -194,7 +194,7 @@ Use this layout when inputs are grouped in a way that encourages users to read o
 
 When a screen is sized down, columns should stack on top of each other. 
 
-Use dense inputs, 10px of vertical spacing between inputs (32px between inputs without helper text), and 48px of horizontal spacing between columns. 
+Use dense inputs, 8px of vertical spacing between inputs (32px between inputs without helper text), and 48px of horizontal spacing between columns. 
 
 ---
 
@@ -220,7 +220,7 @@ Use this layout when inputs are grouped in a way that encourages users to read d
 
 When tablet screens are rotated to portrait mode, fields should wrap accordingly. 
 
-Use roomy inputs, and 18px of vertical space between inputs (40px between inputs without helper text) and 32px of horizontal spacing between columns. 
+Use roomy inputs, and 16px of vertical space between inputs (40px between inputs without helper text) and 32px of horizontal spacing between columns. 
 
 :::note
 For traditional phone sizes in portrait mode (screen width between 350px and 480px) fields should be full width and stack vertically.
@@ -238,7 +238,7 @@ Use this layout when inputs are grouped in a way that encourages users to read a
 
 When tablet screens are rotated to portrait mode, fields should wrap accordingly. 
 
-Use roomy inputs, and 18px of vertical space between inputs (40px between inputs without helper text) and 16px of horizontal spacing between columns. 
+Use roomy inputs, and 16px of vertical space between inputs (40px between inputs without helper text) and 16px of horizontal spacing between columns. 
 
 :::note
 For traditional phone sizes in portrait mode (screen width between 350px and 480px) fields should be full width and stack vertically.
