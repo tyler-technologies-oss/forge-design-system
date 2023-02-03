@@ -75,7 +75,7 @@ Use an expansion panel to display parent and children items in a nav drawer.
 Expansion panels may be used with:
 - [Card](/components/cards/card)
 - [List](/components/lists/list)
-- [Table](/components/table-data/table)
+- [Table](/components/table/table)
 - [Accordion](/components/accordion)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 

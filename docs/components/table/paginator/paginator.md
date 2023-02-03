@@ -1,7 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The paginator is used to “chunk” collections of logically sorted records into manageable pieces.
-  thumbnail: ./img/all-components/paginator-mini.png
+  thumbnail: ./img/all-components/paginator.png
 ---
 
 # Paginator
@@ -44,7 +44,7 @@ Infinite scroll is best used to encourage discovery or exploration when users ar
 
 A paginator may be used with:
 
-- [Table](/components/table-data/table)
+- [Table](/components/table/table)
 - [List](/components/lists/list) 
 
 ### Examples

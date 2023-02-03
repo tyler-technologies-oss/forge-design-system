@@ -20,7 +20,7 @@ Drag and drop allows users to group, reorder, move, or resize objects by direct 
 
 - The pattern involves dragging an object across a long distance.
 - Moving a large number of collections at once. Consider an option that allows for multi select and a manual move.
-- In tables. Use [table sorting](/components/table-data/table#column-sort) instead.
+- In tables. Use [table sorting](/components/table/table#column-sort) instead.
 
 Forge does not provide a component for drag and drop, but we recommend using one of the following libraries.
 

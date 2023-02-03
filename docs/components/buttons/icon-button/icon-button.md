@@ -76,7 +76,7 @@ Icons can be used as toggle buttons when they allow selection, or deselection, o
 ### Components
 - Use a text [button](/components/buttons/button) for unfamiliar actions.
 - Use a [button toggle](/components/controls/button-toggle) to allow for selection within a set. 
-- Icon buttons may be used in [tables](/components/table-data/table), [lists](/components/lists/list), or toolbars.
+- Icon buttons may be used in [tables](/components/table/table), [lists](/components/lists/list), or toolbars.
 - Use a [tooltip](/components/tooltip) with icon buttons.
 
 ---
