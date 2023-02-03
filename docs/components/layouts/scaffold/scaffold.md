@@ -1,6 +1,7 @@
 ---
 sidebar_custom_props:
   shortDescription: The scaffold is used to create common page and component layouts with a header, scrollable body, and footer.
+  thumbnail: ./img/all-components/scaffold-mini.png
 ---
 
 # Scaffold

@@ -97,10 +97,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
         },
-        // TO DO - uncomment when we go live
-        // googleAnalytics: {
-        //   trackingID: 'UA-136930168-1',
-        // },
+        googleAnalytics: {
+          trackingID: 'UA-136930168-1',
+        },
       }),
     ],
   ],
@@ -121,7 +120,7 @@ const config = {
 
       announcementBar: {
         id: 'welcome',
-        content: '✨ Welcome to the new Forge design system website! ✨ Learn more <a href="/blog/2022/11/04/forge-website-redesign">here</a>.',
+        content: '✨ Welcome to the new Forge design system website! ✨ Learn more <a href="/blog/2023/02/03/forge-website-redesign">here</a>.',
         isCloseable: true,
         backgroundColor: '#3D5AFE',
         textColor: '#ffffff'

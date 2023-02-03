@@ -88,7 +88,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 ## 4. Table 
 
-[Tables](/components/table-data/table) are meant for displaying data presented in columns or tables, also known as tabular tables. They are used to compare homogenous or ordered data. The primary purpose of a table is lend meaning to the data.
+[Tables](/components/table/table) are meant for displaying data presented in columns or tables, also known as tabular tables. They are used to compare homogenous or ordered data. The primary purpose of a table is lend meaning to the data.
 
 <ImageBlock padded={false}>
 
@@ -116,7 +116,7 @@ Task cards are cards with a title and supporting data displayed as label value p
 ### Components 
 - [Cards](/components/cards/card)
 - [Lists](/components/lists/list)
-- [Tables](/components/table-data/table)
+- [Tables](/components/table/table)
 
 ### Patterns 
 

@@ -113,7 +113,7 @@ Text badges are either **muted** or **bold** and use color to indicate meanings 
 Badges may be used with:
 
 - [Lists](/components/lists/list)
-- [Table](/components/table-data/table)
+- [Table](/components/table/table)
 - [Tabs](/components/navigation/tabs)
 
 ### Examples 
