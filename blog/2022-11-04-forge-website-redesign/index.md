@@ -23,7 +23,7 @@ One of the first changes you'll notice is to the landing page and navigation str
 For example, in the `/Components` section of the website, we have added component categories to group components by purpose or use. Previously, those components were presented in a single alphabetical list. In the new information architecture, it is easier to find a component or set of components based on the problem they are intended to solve.
 
 ### Get started
-One of the key sections of the new website is `/Get started`, where we have consolidated the content previously grouped under "Core components" or "Core pattererns". This new section provides product teams a single starting point for answering the question, "At a minimum, what does a Forge application include?" Moreover, this section provides a logical grouping for content, like typography, colors, branding, and icons that don't neatly fit into either a "components" or "patterns" category.
+One of the key sections of the new website is `/Get started`, where we have consolidated the content previously grouped under "Core components" or "Core patterns". This new section provides product teams a single starting point for answering the question, "At a minimum, what does a Forge application include?" Moreover, this section provides a logical grouping for content, like typography, colors, branding, and icons that don't neatly fit into either a "components" or "patterns" category.
 
 ## Development docs
 
