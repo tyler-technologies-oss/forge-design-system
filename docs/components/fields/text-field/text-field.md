@@ -20,7 +20,7 @@ Text fields allow users to enter text into a UI. They typically appear in [forms
 
 ## Parts 
 
-Text fields are comprised of three parts: 1. Label (required) 2. Input (required) 3. Helper text (optional) 4. Character counter (optional).
+Text fields are comprised of four parts: 1. Label (required) 2. Input (required) 3. Helper text (optional) 4. Character counter (optional).
 
 <ImageBlock maxWidth="650px">
 
@@ -97,7 +97,7 @@ The input allows a user to enter text or data. Use format masking for date, emai
 
   <DoDontImage>
 
-![Formatted address fields.](./images/text-area-2.png)
+![Formatted address fields.](./images/text-area-caption.png)
 
   </DoDontImage>
   <DoDontImage>
@@ -145,7 +145,7 @@ Where possible, use helper text below a field instead of placeholder text. Accor
   <DoDontRow>
   <DoDontImage>
 
-![Floating label with placeholder text.](./images/placeholder2.gif)
+![Floating label with placeholder text.](./images/placeholder-2.png)
 
   </DoDontImage>
   <DoDontImage>
@@ -155,7 +155,7 @@ Where possible, use helper text below a field instead of placeholder text. Accor
   </DoDontImage>
   <DoDontImage>
 
-![Placeholder text as a label.](./images/placeholder1.gif)
+![Placeholder text as a label.](./images/placeholder-1.png)
 
   </DoDontImage>
 
@@ -262,7 +262,7 @@ For text fields with a question-like label, display text above the input and use
 
 ## States 
 
-Text fields may have the following states: 1. Inactive 2. Focused 3. Activated 4. Hover 5. Error 6. Disabled.
+Text fields may have the following states: 1. Inactive, 2. Focused, 3. Activated, 4. Hover, 5. Error, 6. Disabled.
 
 <ImageBlock padded={false} max-width="600px">
 
