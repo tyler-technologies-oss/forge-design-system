@@ -12,14 +12,18 @@ that the Forge team has done with the public community, as well as provide a des
 
 <!-- truncate -->
 
-Below are some highlights and information about what to expect with this update.
+In this first release of the new website, we have largely kept the content the same, although we have reorganized it, improved naming conventions, and audited the content to correct our guidance. However, we expect to continue refining this design documentation, including deprecating content, moving content to locations outside of the design docs, and adding entirely new content. 
 
-## Information architecture
+Below we highlight what to expect with this update.
 
-The biggest change you'll notice is how the navigation structure and organization of pages has changed. This new IA is intended to simplify the navigation,
-while also making it easier for everyone to locate the content that they need.
+## Landing page and navigation
 
-The same great content still exists, but we have reorganized it, improved naming conventions, and audited the content to correct our guidance.
+One of the first changes you'll notice is to the landing page and navigation structure of the website, from the top-level through to the organization of individual pages. These changes implement a new information architecture that make it easier to locate content and to show how different elements in the design system relate to each other. 
+
+For example, in the `/Components` section of the website, we have added component categories to group components by purpose or use. Previously, those components were presented in a single alphabetical list. In the new information architecture, it is easier to find a component or set of components based on the problem they are intended to solve.
+
+### Get started
+One of the key sections of the new website is `/Get started`, where we have consolidated the content previously grouped under "Core components" or "Core patterns". This new section provides product teams a single starting point for answering the question, "At a minimum, what does a Forge application include?" Moreover, this section provides a logical grouping for content, like typography, colors, branding, and icons that don't neatly fit into either a "components" or "patterns" category.
 
 ## Development docs
 
