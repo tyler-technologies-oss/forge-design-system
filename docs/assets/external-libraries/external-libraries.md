@@ -4,7 +4,7 @@ For complex patterns and components, Forge endorses a number of external librari
 
 ## Advanced table
 
-The [table](/components/table-data/table) intends to cover features that are common to most Tyler products, including sorting, filtering, and selecting rows. It is intended to be a relatively simple UI component that displays data. For this reason, it is not intended to be comprehensive or fully featured.
+The [table](/components/table/table) intends to cover features that are common to most Tyler products, including sorting, filtering, and selecting rows. It is intended to be a relatively simple UI component that displays data. For this reason, it is not intended to be comprehensive or fully featured.
 
 If the team requires a table with complex table requirements, a fully featured third-party table  may be more appropriate.
 

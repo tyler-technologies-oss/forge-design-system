@@ -27,7 +27,7 @@ The date picker allows users to manually type in a date (useful for familiar dat
 
 <ImageBlock max-width="300px" caption="The date picker formats dates that are entered manually.">
 
-![Text field with formatted mask.](./images/date-mask.gif)
+![Text field with formatted mask.](./images/date-mask.png)
 
 </ImageBlock>
 
@@ -44,7 +44,7 @@ The date picker appears as a dropdown and is comprised of the following parts:
 </ImageBlock>
 
 1. **Text field input.** Allows for text entry or tapping the date picker icon to open the date picker dropdown.
-2. **date picker icon.** Opens and closes the date picker menu.
+2. **Date picker icon.** Opens and closes the date picker menu.
 3. **Month and year selector.** Users may tap the month or year to change them, or use the paginators to scroll through previous and next months. 
 4. **Selected date.** 
 5. **Hover state.**
@@ -68,15 +68,15 @@ The date picker is accessibility and may be fully utilized by keyboard only.
 
 ## Responsive
 
-On desktop contexts, the date picker displays as an inline dropdown. 
+In desktop contexts, the date picker displays as an inline dropdown. 
 
-Native mobile apps and web responsive apps displayed on mobile devices should use the native [Android date picker](https://developer.android.com/reference/android/widget/DatePicker) or native [iOS date picker](https://developer.apple.com/documentation/uikit/uidatepicker).
+On mobile, and in web responsive apps displayed on mobile devices, the date picker component can be used instead of the native date pickers.
 
-If the app requires specific features of the Forge date picker on mobile, it can be used instead of the native controls. The date picker will be displayed as a full page dialog by default in mobile contexts.
+If the component is not available to be used, the native [Android date picker](https://developer.android.com/reference/android/widget/DatePicker) or native [iOS date picker](https://developer.apple.com/documentation/uikit/uidatepicker) can be used.
 
-<ImageBlock max-width="400px" caption="The date picker displays as a full page dialog on mobile by default.">
+<ImageBlock max-width="400px" caption="The date picker displays similarly on mobile as it does on desktop.">
 
-![Full page date picker dialog on mobile.](./images/mobile-datepicker.gif)
+![Date picker being used on mobile.](./images/mobile-datepicker.png)
 
 </ImageBlock>
 

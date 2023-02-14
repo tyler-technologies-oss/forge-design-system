@@ -52,12 +52,10 @@ jobs:
       - name: Install dependencies
         env:
           NPM_TOKEN: ${{ secrets.FORGE_NPM_TOKEN }}
-        run: |
-          npm ci
+        run: npm ci
 
       - name: Build
-        run: |
-          npm run build
+        run: npm run build
 
       - name: Deploy GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.6.2
@@ -69,14 +67,14 @@ jobs:
           TARGET_FOLDER: docs
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v1-node16
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_BETA }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_BETA }}
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
-        uses: reggionick/s3-deploy@v3
+        uses: reggionick/s3-deploy@338f242d6f2aaad0db698d66dffe836a7629b160
         with:
           folder: build
           bucket: ${{ secrets.AWS_S3_BUCKET_BETA }}
