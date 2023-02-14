@@ -85,12 +85,12 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
+          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/beta/',
           showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
+          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/beta/',
           blogTitle: 'Tyler Forge design system blog',
           blogDescription: 'Blog posts for designers and developers relating to the Tyler Forge design system',
         },
