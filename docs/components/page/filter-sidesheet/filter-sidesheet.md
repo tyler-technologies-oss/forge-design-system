@@ -2,7 +2,6 @@
 sidebar_custom_props:
   badge: recipe
   shortDescription: The filter sidesheet offers a standard filtering experience that can be used in any application.
-  thumbnail: ./img/all-components/filter-sidesheet-mini.png
 ---
 
 # Filter sidesheet
@@ -32,7 +31,7 @@ In general, filters are applied after an initial search has been conducted.
 
 - Users are searching a specific, known, record with specific existing criteria such as an address or ID. Use a simple or advanced search instead.
 - There are fewer than five total filter options. Use [chips](/components/utilities/chips) instead.
-- Users are likely to filter on only a single dimension. Use a table and [column filters](/components/table-data/table#column-filters) instead.
+- Users are likely to filter on only a single dimension. Use a table and [column filters](/components/table/table#column-filters) instead.
 
 
 ### Examples

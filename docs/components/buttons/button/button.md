@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like: [dialogs](/components/notifications-and-messages/dialog), forms (coming soon!), [cards](/components/cards/card), [tables](/components/table-data/table), [toolbars](/components/toolbar).
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like: [dialogs](/components/notifications-and-messages/dialog), forms (coming soon!), [cards](/components/cards/card), [tables](/components/table/table), [toolbars](/components/toolbar).
 
 ---
 

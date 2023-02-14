@@ -59,7 +59,6 @@ effort in our old Gatsby-based solution.
 A quote from the Docusaurus docs:
 
 > Building a custom tech stack is expensive. Instead, focus on your content and just write Markdown files.
-
 Docusaurus has many great benefits, but below are just a few that we'd like to highlight:
 
 - Removes the need to build the website from scratch (aka site layout, navigation, search... etc.). It’s generated for us instead based on file structure and configuration.

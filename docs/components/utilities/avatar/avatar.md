@@ -69,5 +69,5 @@ Avatars are available in default and larger sizes.
 Avatars may be used in:
 
 - [Lists](/components/lists/list)
-- [Table](/components/table-data/table)
+- [Table](/components/table/table)
 - [Navigation drawer](/components/drawer)
