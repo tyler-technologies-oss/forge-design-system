@@ -18,9 +18,13 @@ Tyler’s **voice** doesn’t change but our ​**tone** adapts to fit a product
 
 ## Tone Map
 
-<ImageBlock>
+<ImageBlock usemap="#tonemap">
 
 ![A tone map showing how various messages should be phrased](./images/tone-map.png)
+
+<map name="tonemap">
+  <area shape="rect" coords="112,200,242,272" alt="Error Messages" href="/ux-content/common-messages/#error-messages"></area>
+</map>
 
 </ImageBlock>
 
