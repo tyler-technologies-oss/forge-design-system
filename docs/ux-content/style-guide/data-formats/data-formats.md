@@ -1,11 +1,46 @@
 # Data formats
 
-## Headers and titles
+## Contact info 
 
-Use sentence casing for headers and titles (“Headers and titles” instead of “Headers and Titles”). 
-Sentence case improves readability and gives proper nouns their proper emphasis.
+### Addresses
 
-For more information comparing sentence and title case, check out this [Guide to letter casing](https://uxplanet.org/why-letter-casing-is-important-to-consider-during-design-decisions-50402acd0a4e).
+When a state name is used alone, without a city, spell out the name of the state.
+
+Use **ZIP code** instead of the more informal Zip Code.
+
+Use two-letter Postal Service abbreviations in tables, lists, mailing addresses, and displayed quote attributions.
+
+<br />
+
+Format **full addresses** as follows:
+
+Mike Johnson
+6230 Sackett Ave
+Portland, ME 04102
+
+<br />
+If the town and city is implied, format **street addresses** as follows:
+
+Mike Johnson
+6230 Sackett Ave
+
+<ImageBlock max-width="400px">
+
+![An example of a text field form laying out addresses](./images/address-example.png)
+
+</ImageBlock>
+
+### Phone numbers
+
+Format US phone numbers as follows:
+
+(207) 123-4567
+
+### Email addresses
+
+Format standard email addresses as follows:
+
+firstname.lastname@tylertech.com
 
 ---
 
@@ -52,6 +87,39 @@ For more information comparing sentence and title case, check out this [Guide to
     </DoDontGrid>
   </div>
 </Columns>
+
+---
+
+## Redaction 
+
+Midline ellipses [• • •] are bulleted characters that partially hide sensitive data. They indicate when a number, such as a credit card or Social Security number, is not entirely visible.
+
+### When to use 3 ellipses
+
+To redact most numbers, like Social Security numbers, use three midline ellipses [• • •].You can use this format across typefaces and platforms:
+1. Place two regular spaces before the first midline ellipse.
+2. Then add a thin space between each midline ellipse and after the final one.
+
+Or, use the Unicode string instead: U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006
+
+<ImageBlock maxWidth="300px">
+
+![ Image of a SSN using 3 dot redaction. ](./images/3-ellipses.png)
+
+</ImageBlock>
+
+### When to use 4 ellipses 
+
+Credit and debit card data must be redacted using four midline ellipses [• • • •].
+
+Written in Unicode: U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006, U2022,U2006 
+
+<ImageBlock maxWidth="300px">
+
+![ Image of a Visa number using 4 dot redaction. ](./images/4-ellipses.png)
+
+</ImageBlock>
+
 
 ---
 

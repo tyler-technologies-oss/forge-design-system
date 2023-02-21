@@ -101,7 +101,7 @@ Only use numeric formats for dates if there is a compelling reason (such as a la
 
 ---
 
-## Dates: Best practices
+## Best practices
 
   <div>
     <DoDontGrid titleText="Do">
