@@ -19,6 +19,7 @@ Mike Johnson
 Portland, ME 04102
 
 <br />
+
 If the town and city is implied, format **street addresses** as follows:
 
 Mike Johnson

@@ -131,16 +131,13 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 
 ### Examples
 
-"Houston, we have a problem. Something got tangled up on our end. Contact your system administrator for help."
-
-"Sorry, we dozed off. You were away so we logged you out. Sign in to get back to what you were doing."
-
-"Uh oh, your browser is not supported by this application. Hang in there. Switching to the latest version of [supported browsers here] should do the trick."
+* "Houston, we have a problem. Something got tangled up on our end. Contact your system administrator for help."
+* "Sorry, we dozed off. You were away so we logged you out. Sign in to get back to what you were doing."
+* "Uh oh, your browser is not supported by this application. Hang in there. Switching to the latest version of [supported browsers here] should do the trick."
 
 :::note 
 Avoid using exclamation points when delivering bad news.
 :::
-
 
 ---
 
@@ -173,9 +170,8 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 
 ### Examples
 
-"Nice work! You just created your first journal entry."
-
-"Looks like you’re calling it a day. You’ve successfully signed out. See you soon!"
+* "Nice work! You just created your first journal entry."
+* "Looks like you’re calling it a day. You’ve successfully signed out. See you soon!"
 
 ---
 

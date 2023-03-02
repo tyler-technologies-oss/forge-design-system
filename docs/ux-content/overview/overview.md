@@ -4,7 +4,7 @@ slug: /ux-content
 ---
 
 # Overview 
-This guide will help you create consistent copy across our applications by providing information about [UX Writing principals](LINK), our company’s [voice and tone](/ux-content/voice-and-tone/), [grammar and punctuation](LINK), and how to write some [common message types](LINK). 
+This guide will help you create consistent copy across our applications by providing information about UX writing principals, our company’s [voice and tone](/ux-content/voice-and-tone/), [grammar and punctuation](/ux-content/style-guide/punctuation/), and how to write some [common message types](/ux-content/common-messages/). 
 
 Remember, always consider the needs of your users first and allow the guidelines to help you create clear, concise, consistent copy that makes our apps easier to use.
 
