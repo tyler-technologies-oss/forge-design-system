@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-slug: /ux-content
+slug: /ux-writing
 ---
 
 # Overview 
-This guide will help you create consistent copy across our applications by providing information about UX writing principals, our company’s [voice and tone](/ux-content/voice-and-tone/), [grammar and punctuation](/ux-content/style-guide/punctuation/), and how to write some [common message types](/ux-content/common-messages/). 
+This guide will help you create consistent copy across our applications by providing information about UX writing principals, our company’s [voice and tone](/ux-writing/voice-and-tone/), [grammar and punctuation](/ux-writing/style-guide/punctuation/), and how to write some [common message types](/ux-writing/common-messages/). 
 
 Remember, always consider the needs of your users first and allow the guidelines to help you create clear, concise, consistent copy that makes our apps easier to use.
 
@@ -18,7 +18,7 @@ UX Writing is the planning, design, creation, and management of words in an inte
 
 ---
 
-## UXW Principles
+## UXW principles
 
 **Be clear:** Use words your users understand.
 
@@ -32,14 +32,14 @@ UX Writing is the planning, design, creation, and management of words in an inte
 
 ---
 
-## UXW Pro Tips
+## UXW pro tips
 
-### Understand our [voice and tone](/ux-content/voice-and-tone/)
+### Understand our [voice and tone](/ux-writing/voice-and-tone/)
 Write in a way that is consistent with Tyler’s brand. Understanding that our voice is consistent, while our tone can vary based on the message.
 
-### Write in Context
+### Write in context
 Always view the user interface and context where the copy will live.
 
-### Match Messages and Labels
+### Match messages and labels
 When messages and labels match each other, a person’s next step is clearer.
 

@@ -172,7 +172,7 @@ const config = {
         items: [
           { label: 'Get started', to: '/get-started' },
           { label: 'Styles', to: '/styles' },
-          { label: 'UX writing', to: '/ux-content' },
+          { label: 'UX writing', to: '/ux-writing' },
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },

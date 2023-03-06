@@ -16,7 +16,7 @@ Tyler’s ​**voice**​ represents our brand or personality as a company. It�
 
 Tyler’s **voice** doesn’t change but our ​**tone** adapts to fit a product, situation, or specific persona. Our tone balances casual/formal and serious/lighthearted depending on the message.
 
-## Tone Map
+## Tone map
 
 <ImageBlock>
 

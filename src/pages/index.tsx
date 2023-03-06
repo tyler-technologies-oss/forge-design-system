@@ -90,7 +90,7 @@ function QuickLinks() {
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Icon library" path="/assets/icon-library" icon="photo_library" />
-        <QuickLinkCard title="UX writing" path="/ux-content" icon="keyboard" />
+        <QuickLinkCard title="UX writing" path="/ux-writing" icon="keyboard" />
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Illustration library" path="/assets/illustration-library" icon="brush" />

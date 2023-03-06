@@ -44,7 +44,7 @@ The word “and” should be used first, whenever possible. If the situation doe
   <div>
     <DoDontGrid titleText="Don't">
       <DoDontTextSection>
-        <DoDontText type="dont">&#34;Our new feature allows you to...&#34;</DoDontText>
+        <DoDontText type="dont">&#34;Images + attachments&#34;</DoDontText>
       </DoDontTextSection>
     </DoDontGrid>
   </div>
@@ -52,7 +52,7 @@ The word “and” should be used first, whenever possible. If the situation doe
 
 ---
 
-## Apostrophes & Contractions (')
+## Apostrophes & contractions (')
 
 Use apostrophes in possessives and contractions.  
 Use common contractions such as “isn’t or ‘can’t.” 
@@ -168,7 +168,7 @@ Opt for writing in second person (you, your) over first person (we, our) wheneve
   <div>
     <DoDontGrid titleText="Don't">
       <DoDontTextSection>
-        <DoDontText type="dont">“Would you like to save...?”</DoDontText>
+        <DoDontText type="dont">“Our new feature allows you to...”</DoDontText>
       </DoDontTextSection>
     </DoDontGrid>
   </div>
@@ -233,7 +233,7 @@ When referencing an actual function, use a hyphen. (self-service site)
 
 ---
 
-## Personal Titles
+## Personal titles
 
 A persons title should only be capitalized when the title is used directly before the individuals name. Use lowercase when the title is used after their name.
 
@@ -259,7 +259,7 @@ A persons title should only be capitalized when the title is used directly befor
 
 ---
 
-## Serial Commas (,)
+## Serial commas (,)
 
 Use commas to separate words in a list including one before the last word in the list (also known as the Oxford comma). Commas should also be used in numbers greater than three digits.
 
