@@ -81,23 +81,25 @@ Can​ implies ability, m​ay​ implies permission or likelihood of something 
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>"Once deleted, you will no longer have access to this record. Delete this record?"</li>
-         <li>"Deleting this document will remove it from all linked accounts. Are you sure you want to delete?"</li>
-         <li>"Deleting this record will permanently remove it from all associated accounts. Do you want to delete?"</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>"Delete file? Are you sure you want to delete this file?"</li>
-          <li>"PLEASE CONFIRM. Do you want to delete?"</li>
-          <li>"Ooops! Do you really want to delete this? There’s no going back."</li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "Once deleted, you will no longer have access to this record. Delete this record?"
+  - "Deleting this document will remove it from all linked accounts. Are you sure you want to delete?"
+  - "Deleting this record will permanently remove it from all associated accounts. Do you want to delete?"
+
+</div>
+
+<div>
+
+  ### Incorrect
+
+  - "Delete file? Are you sure you want to delete this file?"
+  - "PLEASE CONFIRM. Do you want to delete?"
+  - "Ooops! Do you really want to delete this? There’s no going back."
+
+</div>
 </Columns>
 
 ---
@@ -203,23 +205,25 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>You haven’t created any proposals. Click the button below to begin. (Create)</li>
-         <li>You don’t have any invoices. You can create or import invoices. (Create) (Import)</li>
-         <li>You haven’t entered a due date. Select or enter one for each proposal stage. (Select date)</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>NO PROPOSALS EXIST! (Click here.)</li>
-          <li>There are no invoices in the system. (Click)</li>
-          <li>You did not enter a due date. We recommend that you enter one now. (PLEASE ENTER DUE DATE) </li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "You haven’t created any proposals. Click the button below to begin. (Create)"
+  - "You don’t have any invoices. You can create or import invoices. (Create) (Import)"
+  - "You haven’t entered a due date. Select or enter one for each proposal stage. (Select date)"
+
+</div>
+
+<div>
+
+  ### Incorrect
+
+  - "NO PROPOSALS EXIST! (Click here.)"
+  - "There are no invoices in the system. (Click)"
+  - "You did not enter a due date. We recommend that you enter one now. (PLEASE ENTER DUE DATE)"
+
+</div>
 </Columns>
 
 ---
@@ -250,23 +254,25 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>There was an error loading invoice data. Please refresh the page to try again.</li>
-         <li>Sorry! There’s a problem on our end. The process you requested will take longer than usual. You can work in other programs while it finishes.</li>
-         <li>Due to inactivity, we’ve logged you out. Please sign in to get back to your work.</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>ERROR! You can’t perform this action.</li>
-          <li>Error w780-r5. </li>
-          <li>Ooops! Something’s wrong. Please contact support.</li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "There was an error loading invoice data. Please refresh the page to try again."
+  - "Sorry! There’s a problem on our end. The process you requested will take longer than usual. You can work in other programs while it finishes."
+  - "Due to inactivity, we’ve logged you out. Please sign in to get back to your work."
+
+</div>
+
+<div>
+
+  ### Incorrect
+
+  - "ERROR! You can’t perform this action."
+  - "Error w780-r5."
+  - "Ooops! Something’s wrong. Please contact support."
+
+</div>
 </Columns>
 
 ---
@@ -322,24 +328,26 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>Welcome. We’re building your experience... You’re all set!</li>
-         <li>Welcome to Hub! Let’s start making Hub yours. Select the areas you work in.
-Here’s the content you selected. Please choose a page as your home page. Nice work! Let’s see your new home page.</li>
-         <li>Welcome to the ACA Command Center. This program organizes the steps for 1094/1095 reporting in compliance with the Affordable Care Act.</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>HEY! Hang tight while we work...DONE! See your work.</li>
-          <li>Yo. You can chill for a minute.</li>
-          <li>Hi...almost there...one more sec...all done. Take a look.</li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "Welcome. We’re building your experience... You’re all set!"
+  - "Welcome to Hub! Let’s start making Hub yours. Select the areas you work in.
+Here’s the content you selected. Please choose a page as your home page. Nice work! Let’s see your new home page."
+  - "Welcome to the ACA Command Center. This program organizes the steps for 1094/1095 reporting in compliance with the Affordable Care Act."
+
+</div>
+
+<div>
+
+  ### Incorrect
+
+  - "HEY! Hang tight while we work...DONE! See your work."
+  - "Yo. You can chill for a minute."
+  - "Hi...almost there...one more sec...all done. Take a look."
+
+</div>
 </Columns>
 
 ---
@@ -423,23 +431,25 @@ Avoid tech jargon like _left nav_ or _modal_ which my not be clear to clients/us
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>Way to go! Make edits to your profile anytime by clicking on your name.</li>
-         <li>Nice work! Drag and drop modules to continue building your teams.</li>
-         <li>Great! You created your first journal entry.</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>SWEET! You did it!</li>
-          <li>Well done! You’re on your way!</li>
-          <li>Waaay to go.</li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "Way to go! Make edits to your profile anytime by clicking on your name."
+  - "Nice work! Drag and drop modules to continue building your teams."
+  - "Great! You created your first journal entry."
+
+</div>
+
+<div>
+
+  ### Incorrect
+  
+  - "SWEET! You did it!"
+  - "Well done! You’re on your way!"
+  - "Waaay to go."
+
+</div>
 </Columns>
 
 ---
@@ -494,21 +504,23 @@ Avoid tech jargon like _left nav_ or _modal_ which my not be clear to clients/us
 </Columns>
 
 <Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-      <h3>Correct</h3>
-        <ul>
-         <li>Hold on! Save changes before you go?</li>
-         <li>Wait! Do you want to save your changes?</li>
-         <li>Stop! Please save your changes.</li>
-        </ul>
-  </div>
+<div>
 
-  <div>
-      <h3>Incorrect</h3>
-        <ul>
-          <li>Hold Up! Do you want to save your changes?</li>
-          <li>YIKES! Your changes will not be saved if you go.</li>
-          <li>Unsaved changes!</li>
-        </ul>
-  </div>
+  ### Correct
+
+  - "Hold on! Save changes before you go?"
+  - "Wait! Do you want to save your changes?"
+  - "Stop! Please save your changes."
+  
+</div>
+<div>
+
+  ### Incorrect
+
+  - "Hold Up! Do you want to save your changes?"
+  - "YIKES! Your changes will not be saved if you go."
+  - "Unsaved changes!"
+
+</div>
+
 </Columns>
