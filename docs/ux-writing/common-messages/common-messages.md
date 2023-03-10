@@ -4,56 +4,6 @@ This guide will help you craft consistent copy specific to the needs of your pro
 
 ---
 
-## Auto pay, auto-pay, and autopay
-
-For our purposes, **use ​automatic payment​ whenever possible** to avoid confusion. Use a​uto pay when it is not possible to use the entire phrase, such as in instances where you are tight on space.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"Automatic payment," "auto pay"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">"auto-pay," "autopay"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
----
-
-## Can, may, and might
-
-These three words are often used and frequently mixed up. Using them correctly helps to maintain consistency across our applications.
-
-Can​ implies ability, m​ay​ implies permission or likelihood of something happening, and m​ight implies a small possibility of something happening.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"Can you see my screen?" "Can you fix this bug today?" "May I borrow your book?" "It looks like the sun might come out today after all."</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">ENTER TEXT HERE</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
----
-
 ## Deleting records
 
 <Columns columns="two" type="equal" denseSpacing={true}>
@@ -101,79 +51,6 @@ Can​ implies ability, m​ay​ implies permission or likelihood of something 
 
 </div>
 </Columns>
-
----
-
-## Delivering bad news
-
-When delivering bad news, we should be clear and concise. Tell the user what went wrong, but give them options to fix it or to move on from it quickly.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">Sorry</DoDontText>
-        <DoDontText type="do">Oops</DoDontText>
-        <DoDontText type="do">Oh no</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">Bummer</DoDontText>
-        <DoDontText type="dont">That sucks</DoDontText>
-        <DoDontText type="dont">Too bad</DoDontText>
-        <DoDontText type="dont">Yikes</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
-### Examples
-
-* "Houston, we have a problem. Something got tangled up on our end. Contact your system administrator for help."
-* "Sorry, we dozed off. You were away so we logged you out. Sign in to get back to what you were doing."
-* "Uh oh, your browser is not supported by this application. Hang in there. Switching to the latest version of [supported browsers here] should do the trick."
-
-:::note 
-Avoid using exclamation points when delivering bad news.
-:::
-
----
-
-## Delivering good news
-
-When delivering bad news, we should be clear and concise. Tell the user what went wrong, but give them options to fix it or to move on from it quickly.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">Alright</DoDontText>
-        <DoDontText type="do">Way to go</DoDontText>
-        <DoDontText type="do">Nice work</DoDontText>
-        <DoDontText type="do">Success</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">Amazing</DoDontText>
-        <DoDontText type="dont">Wonderful</DoDontText>
-        <DoDontText type="dont">Fantastic</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
-### Examples
-
-* "Nice work! You just created your first journal entry."
-* "Looks like you’re calling it a day. You’ve successfully signed out. See you soon!"
 
 ---
 
@@ -277,30 +154,6 @@ When delivering bad news, we should be clear and concise. Tell the user what wen
 
 ---
 
-## Okay, OK, and O.K.
-
-**Opt for ​OK​ over the others,** ensuring that it is always used in all caps.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"OK"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">"Okay," "O.K."</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
----
-
 ## Onboarding
 
 <Columns columns="two" type="equal" denseSpacing={true}>
@@ -352,58 +205,6 @@ Here’s the content you selected. Please choose a page as your home page. Nice 
 
 ---
 
-## Sign in / sign out and log in / log out
-
-**Use ​"sign in​" and ​"sign out,"​** which is less technical than ​log in​ and ​log out.
-
-While these phrases are often used interchangeably and mean the same thing. For consistency it’s important we use the same one throughout our applications.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"Sign in," "Sign out"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">"Sign-in," "Sign off," "Login," "Logoff," "Log-on," "Log on"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
----
-
-## Simple commands
-
-Use simple, actionable words.
-
-Avoid tech jargon like _left nav_ or _modal_ which my not be clear to clients/users.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"Save," "Continue," "Next," "Select," "Delete"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">"Click items in the left nav to explore the product."</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-</Columns>
-
----
-
 ## Success messages
 
 <Columns columns="two" type="equal" denseSpacing={true}>
@@ -450,30 +251,6 @@ Avoid tech jargon like _left nav_ or _modal_ which my not be clear to clients/us
   - "Waaay to go."
 
 </div>
-</Columns>
-
----
-
-## Such as, ie, eg
-
-**Use ​"such as"** ​when adding an example or additional context. "I​e"​ and ​"eg​" are not as clear.
-
-<Columns columns="two" type="equal" denseSpacing={true}>
-  <div>
-    <DoDontGrid titleText="Do">
-      <DoDontTextSection>
-        <DoDontText type="do">"Such as"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
-
-  <div>
-    <DoDontGrid titleText="Don't">
-      <DoDontTextSection>
-        <DoDontText type="dont">"Ie," "Eg,"</DoDontText>
-      </DoDontTextSection>
-    </DoDontGrid>
-  </div>
 </Columns>
 
 ---
