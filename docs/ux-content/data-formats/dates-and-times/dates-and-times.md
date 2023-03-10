@@ -50,7 +50,7 @@ Only use numeric formats for dates if there is a compelling reason (such as a la
 
 ---
 
-## Month and day abbreviations
+## Abbreviations
 
 Use the following abbreviations when writing out durations of time. Don’t use a period after the abbreviation.
 
