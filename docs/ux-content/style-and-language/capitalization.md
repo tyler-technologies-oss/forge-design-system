@@ -1,3 +1,6 @@
+---
+title: Capitalization
+---
 ## Headers and titles
 
 Use sentence casing for headers and titles (“Headers and titles” instead of “Headers and Titles”). Sentence case improves readability and gives proper nouns their proper emphasis. Want more proof? Here’s [a thorough, detailed, comprehensive, methodical guide to capitalizing strings in our user interface](https://medium.design/a-thorough-detailed-comprehensive-methodical-guide-to-capitalizing-strings-in-our-user-interface-11b39da146f3). For more information comparing sentence and title case, check out this [Guide to letter casing](https://uxplanet.org/why-letter-casing-is-important-to-consider-during-design-decisions-50402acd0a4e).
