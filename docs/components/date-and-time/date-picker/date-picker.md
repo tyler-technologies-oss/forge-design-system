@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-Date pickers let users select a date. Dates should be formatted using the Forge [data formatting guidance](/ux-writing/data-formats/dates-and-times).
+Date pickers let users select a date. Dates should be formatted using the Forge [data formatting guidance](/ux-writing/style-guide/dates-and-times).
 
 **Use when**
 
