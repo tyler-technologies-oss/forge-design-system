@@ -5,7 +5,7 @@ authors: [mike.matuszak]
 tags: [forge, angular, custom-elements, web-components]
 ---
 
-The Angular framework does a "pretty good" job of working with Web Components out of the box, but having to use `CUSTOM_ELEMENTS_SCHEMA` weakens template type-checking overall, can mask errors, and doesn't provide any autocomplete or IntelliSense.  As of v.2.1.0 of the `forge-angular` library, however, released in November 2022, it's no longer necessary to specify the schema, and if you import the associated modules, Forge components can be used as though they were Angular components!
+The Angular framework does a "pretty good" job of working with Web Components out of the box, but having to use `CUSTOM_ELEMENTS_SCHEMA` weakens template type-checking overall, can mask errors, and doesn't provide any autocomplete or IntelliSense.  As of v2.1.0 of the `@tylertech/forge-angular` library, however, released in November 2022, it's no longer necessary to specify the schema, and if you import the associated modules, Forge components can be used as though they were Angular components!
 
 <!-- truncate -->
 
@@ -53,7 +53,7 @@ As you can see by the selector, the Forge web component itself *is* the Angular 
 
 Note also the boolean coercion for the `density` property, so that `dense="true"` or even just `dense` still works and you don't need `[dense]="true"`. The intention is that a template that was valid with `CUSTOM_ELEMENTS_SCHEMA` should also work without it using the proxy components.
 
-You may wonder why there aren't any `@Output()` properties, but they're actually not necessary at all because the Forge library provides typings for `HTMLElementEventMap`.  This means that they're already strongly typed and support auto-suggest, and since Angular's has built-in support for native events, it's better to treat them as such because it supports bubbling.  The way Forge was already working was optimal, so we didn't want the proxy components to get in the way.
+You may wonder why there aren't any `@Output()` properties, but they're actually not necessary at all because the Forge library provides typings for `HTMLElementEventMap`.  This means that they're already strongly typed and support auto-suggest, and since Angular has built-in support for native events, it's better to treat them as such because it supports bubbling.  The way Forge was already working was optimal, so we didn't want the proxy components to get in the way.
 
 Lastly, the component constructor invokes the `defineRadioComponent()` method, removing the need to call that explicitly in the application.  In the most recent version, this is also done in the module constructor, to account for components that are rendered dynamically, e.g. by calling `document.createElement('forge-button')`.  Prior to v2.5.0, that would still require the application to ensure the custom element is defined.  We have also added these `define` calls to singleton services that show Forge components, such as `DialogService` and `ToastService`.
 
