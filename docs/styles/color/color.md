@@ -19,32 +19,8 @@ The Tyler Forge color system is comprised of five parts: 1. Main palette, 2. Ico
 The main palette is used to establish Tyler’s theme and primary look & feel. It’s derived from Material’s color system. Tyler uses Indigo 500 as its primary color [feel associations] and amber 500 for its secondary color, used for visual accents [feel association]. The omnibar takes a darker hue of the primary indigo. Controls use our tertiary color of Indigo A200 to provide sufficient contrast for controls. 
 In general, the Forge components are already themed correctly to provide the appropriate colors needed. 
 
-<!-- <div class="color-swatches">
-    <div> 
-        <div class="color-block" style="background-color: var(--tyl-omnibar-background-color, #283593);"></div>
-        <p class="tyl-typography--body1">Omnibar color</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">Indigo 800</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#283593</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-primary);"></div>
-        <p class="tyl-typography--body1">Primary color</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-primary</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#3f51b5</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-secondary);"></div>
-        <p class="tyl-typography--body1">Secondary color</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-secondary</span><br />
-       <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#ffc107</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-tertiary);"></div>
-        <p class="tyl-typography--body1">Tertiary color</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-tertiary</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#536dfe</span>
-    </div>
-</div> -->
+![The four main palette colors are shown left to right: Primary, Secondary, Tertiary, and App Bar. Under each is their respective theme and hex value.](./images/main-colors.png)
+
 
 
 ### 2. Icon colors 
@@ -53,76 +29,20 @@ Icon colors are meant to provide consistent visual cues around interactivity. Th
 
 On light
 
-<!-- <div class="color-swatches">
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-text-primary-on-light);"></div>
-        <p class="tyl-typography--body1">Active + focused</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-primary-on-light</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.87)</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-text-secondary-on-light);"></div>
-        <p class="tyl-typography--body1">Resting</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-secondary-on-light</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.54)</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-text-icon-on-background);"></div>
-        <p class="tyl-typography--body1">Disabled</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-icon-on-background</span><br />
-       <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.38)</span>
-    </div>
-</div> -->
+![The three icon colors for on a light background are shown top to bottom: Active and resting which is the default color at 87% black, resting secondary at 54% black, and disabled at 38% black. To the right of each is their respective theme and rgba value.](./images/icons-light.png)
+
 
 On dark
 
-<!-- <div class="color-swatches">
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-primary); display: flex">
-            <div class="color-block-alt" style="background-color: var(--mdc-theme-text-primary-on-dark)"></div>
-        </div>
-        <p class="tyl-typography--body1">Active + focused</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-primary-on-dark</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(255,255,255,1)</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-primary); display: flex">
-            <div class="color-block-alt" style="background-color: var(--mdc-theme-text-secondary-on-dark)"></div>
-        </div>
-        <p class="tyl-typography--body1">Resting</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-secondary-on-dark</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(255,255,255,.7)</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-primary); display: flex">
-            <div class="color-block-alt" style="background-color: var(--mdc-theme-text-icon-on-dark)"></div>
-        </div>
-        <p class="tyl-typography--body1">Disabled</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-icon-on-dark</span><br />
-       <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(255,255,255,.5)
-</span>
-    </div>
-</div> -->
+![The three icon colors for on a dark background are shown top to bottom: Active and resting which is the default color at 100% white, resting secondary at 70% white, and disabled at 50% white. To the right of each is their respective theme and rgba value.](./images/icons-dark.png)
 
 
 ### 3. Surface colors
 
 Surface colors are intended to provide contrast against the content that sits on them. Tyler Forge uses a light grey on app backgrounds to provide contrast to white surfaces that contain content. Surfaces containing text are generally white to create sufficient contrast against black text. 
 
-<!-- <div class="color-swatches">
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-background); border: 2px solid #e5e5e5"></div>
-        <p class="tyl-typography--body1">Background</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-background</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#fafafa</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-surface); border: 2px solid #e5e5e5"></div>
-        <p class="tyl-typography--body1">Surface</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-surface</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.54)</span>
-    </div>
-</div> -->
+![An example of the surface color overlaid on the background color is shown in light mode on the left half of the image, and in dark mode on the right half.](./images/surface-colors.png)
+
 
 
 ### 4. Informational colors
@@ -131,26 +51,8 @@ Informational colors communicate additional information and should be used somew
 
 “Success” and “warn” may be used part of workflow states or in badges to communicate statuses. “Danger” is used by default in the error state on inputs.
 
-<!-- <div class="color-swatches">
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-success);"></div>
-        <p class="tyl-typography--body1">Success</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-success</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#2E7D32</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-warning);"></div>
-        <p class="tyl-typography--body1">Warning</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-warning</span><br />
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#D14900</span>
-    </div>
-    <div> 
-        <div class="color-block" style="background-color: var(--mdc-theme-error);"></div>
-        <p class="tyl-typography--body1">Error</p>
-        <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-danger</span><br />
-       <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">#B00020</span>
-    </div>
-</div> -->
+![The three informational colors are shown top to bottom: Success, Warning, and Error. To the right of each is their respective theme and hex value.](./images/informational-colors.png)
+
 
 ## 5. Additional palettes
 
