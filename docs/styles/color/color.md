@@ -25,7 +25,12 @@ In general, the Forge components are already themed correctly to provide the app
 
 ### 2. Icon colors 
 
-Icon colors are meant to provide consistent visual cues around interactivity. The Tyler Forge system provides colors for “active + focused” (user is currently interacting with the icon), “resting” (icon is interactive but isn’t currently being used), and “disabled” (icon isn’t interactive). 
+Icon colors are meant to provide consistent visual cues around interactivity. The Tyler Forge system provides colors for the various states they can appear in, which are:
+
+* **Active and resting**: This is the default color. It's used when a user is currently interacting with the icon, or the icon is active on the page and is interactable
+* **Resting - secondary**: A secondary, muted, version of the resting state. This is used in areas with large sets of data, such as data tables, where the muted color is less distracting.
+* **Disabled**: Icon isn’t interactive.
+
 
 On light
 
