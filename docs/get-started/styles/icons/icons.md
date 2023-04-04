@@ -14,28 +14,20 @@ Icons may be used to represent information visually or  to represent an action (
 
 ## States
 
-Icon colors are meant to provide consistent visual cues around interactivity. The Tyler Forge system provides colors for “active + focused” (user is currently interacting with the icon), “resting” (icon is interactive but isn’t currently being used), and “disabled” (icon isn’t interactive). 
+Icon colors are meant to provide consistent visual cues around interactivity. The Tyler Forge system provides colors for the various states they can appear in, which are:
 
-<!-- <div class="color-swatches">
-  <div> 
-    <div class="color-block" style="background-color: var(--mdc-theme-text-primary-on-light);"></div>
-    <p class="tyl-typography--body1">Active + focused</p>
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-primary-on-light</span><br />
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.87)</span>
-  </div>
-  <div> 
-    <div class="color-block" style="background-color: var(--mdc-theme-text-secondary-on-light);"></div>
-    <p class="tyl-typography--body1">Resting</p>
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-secondary-on-light</span><br />
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.54)</span>
-  </div>
-  <div> 
-    <div class="color-block" style="background-color: var(--mdc-theme-text-icon-on-background);"></div>
-    <p class="tyl-typography--body1">Disabled</p>
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">--mdc-theme-text-icon-on-background</span><br />
-    <span class="tyl-typography--body2" style="color: var(--mdc-theme-text-secondary-on-light);">rgba(0, 0, 0, 0.38)</span>
-  </div>
-</div> -->
+* **Active and resting**: This is the default color. It's used when a user is currently interacting with the icon, or the icon is active on the page and is interactable
+* **Resting - secondary**: A secondary, muted, version of the resting state. This is used in areas with large sets of data, such as data tables, where the muted color is less distracting.
+* **Disabled**: Icon isn’t interactive.
+
+On light:
+
+![The three icon colors for on a light background are shown top to bottom: Active and resting which is the default color at 87% black, resting secondary at 54% black, and disabled at 38% black. To the right of each is their respective theme and rgba value.](./images/icons-light.png)
+
+
+On dark:
+
+![The three icon colors for on a dark background are shown top to bottom: Active and resting which is the default color at 100% white, resting secondary at 70% white, and disabled at 50% white. To the right of each is their respective theme and rgba value.](./images/icons-dark.png)
 
 ---
 
