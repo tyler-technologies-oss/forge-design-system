@@ -26,8 +26,8 @@ Pages should be be laid out in predictable ways depending on what kind of naviga
 
 Page layouts with a lefthand drawer (either navigation or filters on the left) should contain:
 
-1. [Omnibar](/components/omnibar) with hamburger menu icon
-2. Page title in a [toolbar](/components/toolbar)
+1. [Omnibar](/components/omni/omnibar/) with hamburger menu icon
+2. Page title in a [toolbar](/components/page/toolbar/)
 3. Main content 
 4. Lefthand navigation [drawer](/components/navigation/navigation-drawer) filters
 5. A background color of #fafafa
@@ -68,8 +68,8 @@ Page layouts with a lefthand drawer (either navigation or filters on the left) s
 
 Layouts using a lefthand drawer may also use a righthand sidesheet for filters or detail information. If dismissible, the sidesheet is toggled by an icon (use 'filter' for filters or an appropriate icon for detail information).
 
-1. [Omnibar](/components/omnibar) with hamburger menu icon
-2. Page title in a [toolbar](/components/toolbar)
+1. [Omnibar](/components/omni/omnibar/) with hamburger menu icon
+2. Page title in a [toolbar](/components/page/toolbar/)
 3. Main content 
 4. Lefthand navigation [drawer](/components/navigation/navigation-drawer) filters
 5. Sidesheet toggle icon
