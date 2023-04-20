@@ -5,9 +5,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Forge',
+  title: 'Tyler Forge™',
   tagline: 'Enabling design decisions and simplifying consistency.',
-  url: 'https://forge.tylertech.com',
+  url: 'https://forge.tylertech.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -121,7 +121,7 @@ const config = {
 
       announcementBar: {
         id: 'welcome',
-        content: '✨ Welcome to the new Forge design system website! ✨ Learn more <a href="/blog/2023/02/03/forge-website-redesign">here</a>.',
+        content: '✨ Welcome to the new and improved Forge design system! ✨ View the <a href="/blog/2023/02/03/forge-website-redesign">blog post</a> for more info.',
         isCloseable: true,
         backgroundColor: '#3D5AFE',
         textColor: '#ffffff'
@@ -130,7 +130,7 @@ const config = {
       footer: {
         style: 'light',
         copyright: `Copyright © ${new Date().getFullYear()} Tyler Technologies, Inc.<br/><small>Licensed under CC BY 4.0</small>`,
-        logo: { alt: 'Tyler Forge Design System Logo', src: 'https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg' },
+        logo: { alt: 'Tyler Forge™ Design System Logo', src: 'https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg' },
         links: [
           {
             title: 'Learn',
@@ -165,7 +165,7 @@ const config = {
 
       navbar: {
         hideOnScroll: true,
-        title: 'Forge',
+        title: 'Tyler Forge™',
         logo: {
           alt: 'Forge logo',
           src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
@@ -173,7 +173,7 @@ const config = {
         items: [
           { label: 'Get started', to: '/get-started' },
           { label: 'Styles', to: '/styles' },
-          { label: 'UX content', to: '/ux-content' },
+          { label: 'UX writing', to: '/ux-writing' },
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },
@@ -181,7 +181,6 @@ const config = {
           { label: 'Blog', to: '/blog', },
           {
             label: 'Develop',
-            // position: 'right',
             items: [
               {
                 type: 'html',

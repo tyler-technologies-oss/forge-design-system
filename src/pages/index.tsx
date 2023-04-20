@@ -23,8 +23,8 @@ function HomepageHero() {
   return (
     <header className={clsx(styles.gridContainer, styles.heroBanner, styles.bg)}>
       <HeroCard>
-        <img src="img/forge-logo.png" style={{height: '72px'}} />
-        <h1>Tyler {siteConfig.title}</h1>
+        <img src="img/forge-logo.png" alt="Tyler Forge™ logo" style={{height: '72px'}} />
+        <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
       </HeroCard>
 
@@ -90,7 +90,7 @@ function QuickLinks() {
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Icon library" path="/assets/icon-library" icon="photo_library" />
-        <QuickLinkCard title="UX writing" path="/ux-content" icon="keyboard" />
+        <QuickLinkCard title="UX writing" path="/ux-writing" icon="keyboard" />
       </div>
       <div className={styles.quickLinkGridItem}>
         <QuickLinkCard title="Illustration library" path="/assets/illustration-library" icon="brush" />
