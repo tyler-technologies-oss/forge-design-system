@@ -1,3 +1,7 @@
+---
+toc_max_heading_level: 2
+---
+
 # Glossary
 
 Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. 
