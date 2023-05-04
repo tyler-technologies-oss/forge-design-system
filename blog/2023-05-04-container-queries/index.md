@@ -11,9 +11,13 @@ As we move more and more toward responsive design there has been increasing inte
 
 It’s easy to see how container queries can make developing flexible layouts easier. The classic demonstration is a single card component that renders differently based on where it is on the page. There’s been enough written on it before that there's no need to repeat here, but check out [this older but still relevant example](https://ishadeed.com/article/say-hello-to-css-container-queries/), [this writeup in Smashing Magazine](https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/), and [MDN’s docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) for great, in-depth examples.
 
-Now is a great time to start incorporating container queries into your code. However, this is still a very recent addition to browsers (supported in Firefox as of February and other major browsers last fall) so it’s smart to set a fallback for users still on older versions.
+Now is a great time to start incorporating container queries into your code. However, this is still a very recent addition to browsers (supported in Firefox as of February 2023 and other major browsers from September 2022) so it’s smart to set a fallback for users still on older versions.
 
 We can use the `ForgeResizeObserver` as that fallback. `ForgeResizeObserver` is a performant utility written around the native ResizeObserver API that notifies us whenever an observed element’s dimensions change.
+
+:::info
+View [the `ForgeResizeObserver` source code here](https://github.com/tyler-technologies-oss/forge-core/blob/main/src/resize/resize-observer.ts).
+:::
 
 Let's set up a function to handle this. First, we check to see whether the user agent supports container queries.
 
