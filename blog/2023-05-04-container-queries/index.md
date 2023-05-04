@@ -13,7 +13,7 @@ It’s easy to see how container queries can make developing flexible layouts ea
 
 Now is a great time to start incorporating container queries into your code. However, this is still a very recent addition to browsers (supported in Firefox as of February 2023 and other major browsers from September 2022) so it’s smart to set a fallback for users still on older versions.
 
-We can use the `ForgeResizeObserver` as that fallback. `ForgeResizeObserver` is a performant utility written around the native ResizeObserver API that notifies us whenever an observed element’s dimensions change.
+We can use the `ForgeResizeObserver` as that fallback. `ForgeResizeObserver` is a performant utility written around the native [Resize Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API) that notifies us whenever an observed element’s dimensions change.
 
 :::info
 View [the `ForgeResizeObserver` source code here](https://github.com/tyler-technologies-oss/forge-core/blob/main/src/resize/resize-observer.ts).
