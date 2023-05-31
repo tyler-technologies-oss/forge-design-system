@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Dialog
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-dialog--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-dialog--simple">
 
 ![](./images/dialog.png)
 
