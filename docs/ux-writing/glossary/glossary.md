@@ -9,7 +9,7 @@ Below is Tyler's glossary of approved terms to be used in action buttons and fie
 ## A
 
 ### Add
-Takes an **existing object and uses it in a new context.**
+Takes an existing object and uses it in a new context.
 
 > **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.  
 > **Compare with:** [*Create*](/ux-writing/glossary/#create), [*Insert*](/ux-writing/glossary/#insert)
@@ -59,7 +59,7 @@ Assists the user in selecting a record or file. Typically, opens a secondary win
 ## C
 
 ### Cancel
-**Stops the current action** and closes the dialog.
+Stops the current action and closes the dialog.
 
 > **Compare with:** [*Close*](/ux-writing/glossary/#close)  
 > **Do not use:** *Dismiss*
@@ -67,7 +67,7 @@ Assists the user in selecting a record or file. Typically, opens a secondary win
 ---
 
 ### Close
-**Closes the current page or window**  
+Closes the current page or window.  
 Use when there's no current action in window. Use in conjunction with the "X" or "cancel" for ADA compliance.
 
 > **Do not use:** *Dismiss*
@@ -75,7 +75,7 @@ Use when there's no current action in window. Use in conjunction with the "X" or
 ---
 
 ### Copy
-Creates **new instances of the selected object(s).**
+Creates new instances of the selected object(s).
 
 > **Ex.** Copy record, Copy proposal line  
 > **Do not use:** *Duplicate*
@@ -83,9 +83,11 @@ Creates **new instances of the selected object(s).**
 ---
 
 ### Create
-Allows the user to preview their changes without saving them.
+Makes a new object from scratch.
 
-> **Compare with:** [*Preview*](/ux-writing/glossary/#preview), [*Save*](/ux-writing/glossary/#save), [*Save as*](/ux-writing/glossary/#save-as)
+> **Ex.** Create proposal, work order, create new employee in employee master, create account  
+> **Compare with:** [*Add*](/ux-writing/glossary/#add), [*Copy*](/ux-writing/glossary/#copy), [*Insert*](/ux-writing/glossary/#insert)  
+> **Do not use:** *New*
 
 ---
 
@@ -101,24 +103,26 @@ An organized collection of data.
 ---
 
 ### Delete
-Destroys an existing object so that it no longer exists (for example, deletes a file from a directory or deletes a value from a table cell).
+Destroys an existing object so that it no longer exists.  
 
-> **Compare with** [*Remove*](/ux-writing/glossary/#remove)
+> **Ex.** Deletes a file from a directory, deletes a value from a table cell  
+> **Compare with:** [*Remove*](/ux-writing/glossary/#remove)
 
 ---
 
 ### Deny
 Indicates the user does not approve. In a business process, typically blocks the process from proceeding to the next step.
 
-> **Compare with** [*Approve*](/ux-writing/glossary/#approve), [*Submit*](/ux-writing/glossary/#submit)  
+> **Compare with:** [*Approve*](/ux-writing/glossary/#approve), [*Submit*](/ux-writing/glossary/#submit)  
 > **Do not use:** *Reject*
 
 ---
 
 ### Done
-Indicates that the user has finished working in an environment (for example, editing templates) and wants to return to where he or she came from.
+Indicates that the user has finished working in an environment and wants to return to where he or she came from.  
 
-> **Compare with:** [*Close*](/ux-writing/glossary/#close)
+> **Ex.** Editing templates  
+> **Compare with:** [*Close*](/ux-writing/glossary/#close), [*Finish*](/ux-writing/glossary/#finish)
 
 ---
 
@@ -160,7 +164,7 @@ Creates a data file in a different format (.xls, .csv, .doc, .pdf).
 ## F
 
 ### Filter
-Shortens a list to objects that match the filter criteria.
+Shortens a list of objects that match the filter criteria.
 
 > **Compare with:** [*Search*](/ux-writing/glossary/#search), [*Sort*](/ux-writing/glossary/#sort)
 
@@ -169,7 +173,7 @@ Shortens a list to objects that match the filter criteria.
 ### Finish
 Indicates completion of a series of steps, such as a wizard.
 
-> **Compare with:** [*Complete*](/ux-writing/glossary/#complete), [*Done*](/ux-writing/glossary/#done)
+> **Compare with:** [*Done*](/ux-writing/glossary/#done)
 
 ---
 
@@ -177,13 +181,14 @@ Indicates completion of a series of steps, such as a wizard.
 ## H
 
 ### Help
-Umbrella term for additional in application guidance.
+Umbrella term for additional assistance in an application.
 
 ---
 
-### Finish
-Conceals an element on screen (for example, enables the user to hide details or descriptions).
+### Hide
+Conceals an element on screen.
 
+> **Ex.** Hide columns, details, or descriptions.  
 > **Compare with:** [*Show*](/ux-writing/glossary/#show)
 
 ---
@@ -192,15 +197,17 @@ Conceals an element on screen (for example, enables the user to hide details or 
 ## I
 
 ### Import
-Brings in data or objects from an external source. For example, importing budget data from another system into a Tyler ERP.
+Brings in data or objects from an external source. 
 
+> **Ex.** Importing budget data from another system into a Tyler ERP.  
 > **Compare with:** [*Add*](/ux-writing/glossary/#add), [*Export*](/ux-writing/glossary/#export), [*Insert*](/ux-writing/glossary/#insert)
 
 ---
 
 ### Insert
-Adds an element at a particular position in an ordered view. For example, Adding a picture to the body of a document or inserting a record into a table.
+Adds an element at a particular position in an ordered view.
 
+> **Ex.** Adding a picture to the body of a document or inserting a record into a table.  
 > **Compare with:** [*Add*](/ux-writing/glossary/#add), [*Import*](/ux-writing/glossary/#import)
 
 ---
@@ -209,7 +216,8 @@ Adds an element at a particular position in an ordered view. For example, Adding
 ## M
 
 ### Move
-Transfers an object from one container (for example, folder, activity, or page) to another.
+Transfers an object from one container to another.
+
 
 ---
 
@@ -278,9 +286,10 @@ Likely used only as a tooltip on an icon button.
 ---
 
 ### Remove
-Removes an object from the current context but the object is not destroyed as a result of the action (for example, removes a user from a group or removes an item from the cart).  
+Removes an object from the current context but the object is not destroyed as a result of the action.  
 Where appropriate, combine Remove with the object that will be removed (for example, Remove user or Remove role).
 
+> **Ex.** Remove a user from a group, or remove an item from the cart.
 > **Compare with:** [*Clear*](/ux-writing/glossary/#clear), [*Delete*](/ux-writing/glossary/#delete)
 
 ---
@@ -291,7 +300,7 @@ Indicates or completes a response to an email or a comment.
 ---
 
 ### Reset
-Reverts values back to their last saved state. The last saved state includes the values stored the last time the user clicked Apply. Does not close the dialog or window.
+Reverts values back to their last saved state. Does not close the dialog or window.
 
 > **Compare with:** [*Cancel*](/ux-writing/glossary/#cancel), [*Restore*](/ux-writing/glossary/#restore), [*Undo*](/ux-writing/glossary/#undo)
 
@@ -316,7 +325,7 @@ Initiates a procedure or program.
 ## S
 
 ### Save
-**Saves pending modifications** made to a file or document or record or screen.
+Saves pending modifications made to a file or document or record or screen.
 
 > **Compare with:** [*Apply*](/ux-writing/glossary/#apply), [*Publish*](/ux-writing/glossary/#publish)
 
@@ -335,8 +344,9 @@ Same use case as [*Save*](/ux-writing/glossary/#save), keeps data entry dialog o
 ---
 
 ### Search
-Returns all objects (for example, files, names, or documents) within a defined set (for example, in a folder, directory, database, or the internet) that match some specified criteria.
+Returns all objects within a defined set that match some specified criteria.
 
+> **Ex.** 
 > **Compare with:** [*Filter*](/ux-writing/glossary/#filter)
 
 ---
