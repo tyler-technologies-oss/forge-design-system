@@ -9,7 +9,7 @@ Below is Tyler's glossary of approved terms to be used in action buttons and fie
 ## A
 
 ### Add
-Takes an **existing object and uses it in a new context.**
+Takes an existing object and uses it in a new context.
 
 > **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.  
 > **Compare with:** [*Create*](/ux-writing/glossary/#create), [*Insert*](/ux-writing/glossary/#insert)
@@ -59,7 +59,7 @@ Assists the user in selecting a record or file. Typically, opens a secondary win
 ## C
 
 ### Cancel
-**Stops the current action** and closes the dialog.
+Stops the current action and closes the dialog.
 
 > **Compare with:** [*Close*](/ux-writing/glossary/#close)  
 > **Do not use:** *Dismiss*
@@ -67,7 +67,7 @@ Assists the user in selecting a record or file. Typically, opens a secondary win
 ---
 
 ### Close
-**Closes the current page or window**  
+Closes the current page or window.  
 Use when there's no current action in window. Use in conjunction with the "X" or "cancel" for ADA compliance.
 
 > **Do not use:** *Dismiss*
@@ -75,7 +75,7 @@ Use when there's no current action in window. Use in conjunction with the "X" or
 ---
 
 ### Copy
-Creates **new instances of the selected object(s).**
+Creates new instances of the selected object(s).
 
 > **Ex.** Copy record, Copy proposal line  
 > **Do not use:** *Duplicate*
@@ -316,7 +316,7 @@ Initiates a procedure or program.
 ## S
 
 ### Save
-**Saves pending modifications** made to a file or document or record or screen.
+Saves pending modifications made to a file or document or record or screen.
 
 > **Compare with:** [*Apply*](/ux-writing/glossary/#apply), [*Publish*](/ux-writing/glossary/#publish)
 
