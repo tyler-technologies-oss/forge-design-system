@@ -24,6 +24,22 @@ Saves a record or confirms an action.
 
 ---
 
+### Alert
+A user defined communication that updates them of an established deadline, or threshold that may be reached.
+
+> **Ex.** A user sets an alert to order more inventory.  
+> **Compare with:** [*Notifications*](/ux-writing/glossary/#notifications), [*Approvals*](/ux-writing/glossary/#approvals)  
+> **Do not use:** *Reminder*
+
+---
+
+### Approvals
+Communications that inform the user they are part of a workflow process that requires their action to move to the next step.
+
+> **Ex.** An employee sends a time-off request to their manager to approve, there is a pending budget adjustment to review.  
+> **Compare with:** [*Alert*](/ux-writing/glossary/#alert), [*Notificaitons*](/ux-writing/glossary/#notifications)
+---
+
 ### Approve
 Indicates the user agrees. In a process or workflow, typically initiates the next step.
 
@@ -153,6 +169,14 @@ Register to be included in a group, benefit, or course.
 
 ---
 
+### Error
+A system communication informing users that the action they took cannot be completed. See additional [Error Guidance](/ux-writing/common-messages/#error-messages).
+
+> **Ex.** There was an error loading invoice data, the process cannot complete.  
+> **Compare with:** [*Warning*](/ux-writing/glossary/#warning)
+
+---
+
 ### Export
 Creates a data file in a different format (.xls, .csv, .doc, .pdf).
 
@@ -228,6 +252,15 @@ Transfers an object from one container to another.
 Advances the user to the next step in a sequence of steps, such as in a wizard.
 
 > **Compare with:** [*Finish*](/ux-writing/glossary/#finish)
+
+---
+
+### Notifications
+An umbrella term for different types of informational system communications.  
+Notifications keep users informed about system information or can be created by users to share information within their organizations.
+
+> **Ex.** Use "Notifications" as a label with the standard notification icons in Forge.  
+> **Compare with:** [*Alert*](/ux-writing/glossary/#alert), [*Approvals*](/ux-writing/glossary/#approvals)
 
 ---
 
@@ -395,7 +428,7 @@ Deploy an app or service to its development or production environment so that it
 ### Submit
 To present for the approval, consideration or decision of another.
 
-> **Ex.** Submit PTO
+> **Ex.** Submit PTO  
 > **Compare with:** [*Post*](/ux-writing/glossary/#post), [*Publish*](/ux-writing/glossary/#publish), [*Save*](/ux-writing/glossary/#save)
 
 ---
@@ -423,7 +456,7 @@ Use when adding new data or values on a screen.
 Use to install a software fix
 
 > **Ex.** Update the status of a work order (from in-progress to complete)
-> **Compare with:** [*Edit*](/ux-writing/glossary/#edit), [*Upgrade*](/ux-writing/glossary/#upgrade)
+> **Compare with:** [*Edit*](/ux-writing/glossary/#edit), [*Upgrade*](/ux-writing/glossary/#upgrade)  
 > **Do not use:** *Change*
 
 ---
@@ -442,5 +475,17 @@ Use when referring to clients transitioning to a higher version of Tyler softwar
 Presents additional information 
 
 > **Ex.** View details on a journal entry or budget line item
+
+---
+
+
+## W
+
+### Warning
+A system communication used to inform users that they may be taking an action that could have unexpected results. They are used to help users prevent errors.  
+
+> **Ex.** A user’s budget is out of balance so they receive a warning but can still proceed with the action.  
+> **Compare with:** [*Error*](/ux-writing/glossary/#error)  
+
 
 ---
