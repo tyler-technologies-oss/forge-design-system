@@ -6,6 +6,7 @@ toc_max_heading_level: 2
 
 Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. 
 
+
 ## A
 
 ### Add
@@ -38,6 +39,7 @@ Communications that inform the user they are part of a workflow process that req
 
 > **Ex.** An employee sends a time-off request to their manager to approve, there is a pending budget adjustment to review.  
 > **Compare with:** [*Alert*](/ux-writing/glossary/#alert), [*Notificaitons*](/ux-writing/glossary/#notifications)
+
 ---
 
 ### Approve
@@ -54,6 +56,7 @@ Allows the user to preview their changes without saving them.
 > **Compare with:** [*Preview*](/ux-writing/glossary/#preview), [*Save*](/ux-writing/glossary/#save), [*Save as*](/ux-writing/glossary/#save-as)
 
 ---
+
 
 ## B
 
@@ -274,6 +277,7 @@ Best practice is to use a label corresponding to the specific action (for exampl
 > **Do not use:** *Okay, O.K.*
 
 ---
+
 
 ## P
 
