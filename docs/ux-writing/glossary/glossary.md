@@ -456,10 +456,8 @@ Not all actions, such as Save, can be undone.
 ---
 
 ### Update
-Use when adding new data or values on a screen.  
-Use to install a software fix
+Use to install a software fix.
 
-> **Ex.** Update the status of a work order (from in-progress to complete)
 > **Compare with:** [*Edit*](/ux-writing/glossary/#edit), [*Upgrade*](/ux-writing/glossary/#upgrade)  
 > **Do not use:** *Change*
 
@@ -476,7 +474,7 @@ Use when referring to clients transitioning to a higher version of Tyler softwar
 ## V
 
 ### View details
-Presents additional information 
+Presents additional information. 
 
 > **Ex.** View details on a journal entry or budget line item
 
