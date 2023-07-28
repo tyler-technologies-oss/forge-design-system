@@ -34,6 +34,7 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
+    'plugin-image-zoom',
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -113,6 +114,17 @@ const config = {
         },
       },
 
+      imageZoom: {
+       // CSS selector to apply the plugin to, defaults to '.markdown img'
+       selector: '.markdown img[alt]:not([alt=""])',
+       // Optional medium-zoom options
+       // see: https://www.npmjs.com/package/medium-zoom#options
+       options: {
+         margin: 32,
+         background: 'rgba(0,0,0,.8)',
+         scrollOffset: 0,
+       },
+     },
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: true
