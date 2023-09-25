@@ -50,6 +50,7 @@ Use switches when:
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Provide clear nonneutral labels. Labels should describe what the control will do when the switch is on. When in doubt, say the label aloud and append “on/off” to the end. If it doesn’t make sense, then rewrite the label (ie, "Show week number" instead of "Include week number?").</DoDontText>
+    <DoDontText type="do">Match label text to state of the state of the switch. Turning the switch on should not turn something off, and conversely, turning a switch off should not turn something on.</DoDontText>
   </DoDontTextSection>
   <DoDontTextSection>
     <DoDontText type="dont">Don't use switches for settings that require additional user action, such as "Save," "Submit," "Cancel." Use a checkbox instead.</DoDontText>
