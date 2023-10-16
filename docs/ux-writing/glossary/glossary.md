@@ -12,14 +12,15 @@ Below is Tyler's glossary of approved terms to be used in action buttons and fie
 ### Add
 Takes an existing object and uses it in a new context.
 
-> **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.  
+> **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.    
 > **Compare with:** [*Create*](/ux-writing/glossary/#create), [*Insert*](/ux-writing/glossary/#insert)
 
 ---
 
 ### Accept
-Saves a record or confirms an action.
+Confirms an action.
 
+> **Ex.** Agreeing to terms, verifying an action.  
 > **Compare with:** [*Apply*](/ux-writing/glossary/#apply), [*Save*](/ux-writing/glossary/#save)  
 > **Do not use:** *Confirm*
 
@@ -63,7 +64,7 @@ Allows the user to preview their changes without saving them.
 ### Back
 Returns user to the previous step in a sequence of steps, such as a wizard.
 
-> **Do not use:** *Return*  
+> **Do not use:** *Previous*, *Return*  
 
 ---
 
@@ -78,7 +79,7 @@ Assists the user in selecting a record or file. Typically, opens a secondary win
 ## C
 
 ### Cancel
-Stops the current action and closes the dialog.
+Stops the current action and closes the [dialog](/components/notifications-and-messages/dialog/).
 
 > **Compare with:** [*Close*](/ux-writing/glossary/#close)  
 > **Do not use:** *Dismiss*
@@ -137,14 +138,6 @@ Indicates the user does not approve. In a business process, typically blocks the
 
 ---
 
-### Done
-Indicates that the user has finished working in an environment and wants to return to where he or she came from.  
-
-> **Ex.** Editing templates  
-> **Compare with:** [*Close*](/ux-writing/glossary/#close), [*Finish*](/ux-writing/glossary/#finish)
-
----
-
 ### Download
 Transfers a file from a remote system to a local system.
 
@@ -199,8 +192,6 @@ Shortens a list of objects that match the filter criteria.
 
 ### Finish
 Indicates completion of a series of steps, such as a wizard.
-
-> **Compare with:** [*Done*](/ux-writing/glossary/#done)
 
 ---
 
@@ -295,7 +286,9 @@ If you are editing an existing comment, use Save instead.
 ---
 
 ### Preview
-Shows how an object or content will appear with formatting applied before the content is published or distributed. Alternatively, provides an incomplete display of an existing object without leaving the current context.
+Shows how an object or content will appear with formatting applied before the content is published or distributed. Alternatively, provides an incomplete display of an existing object without leaving the current context.  
+
+> **Do not use:** *Display*  
 
 ---
 
@@ -326,8 +319,8 @@ Likely used only as a tooltip on an icon button.
 Removes an object from the current context but the object is not destroyed as a result of the action.  
 Where appropriate, combine Remove with the object that will be removed (for example, Remove user or Remove role).
 
-> **Ex.** Remove a user from a group, or remove an item from the cart.
-> **Compare with:** [*Clear*](/ux-writing/glossary/#clear), [*Delete*](/ux-writing/glossary/#delete)
+> **Ex.** Remove a user from a group, or remove an item from the cart.  
+> **Compare with:** [*Delete*](/ux-writing/glossary/#delete)
 
 ---
 
@@ -339,7 +332,8 @@ Indicates or completes a response to an email or a comment.
 ### Reset
 Reverts values back to their last saved state. Does not close the dialog or window.
 
-> **Compare with:** [*Cancel*](/ux-writing/glossary/#cancel), [*Restore*](/ux-writing/glossary/#restore), [*Undo*](/ux-writing/glossary/#undo)
+> **Compare with:** [*Cancel*](/ux-writing/glossary/#cancel), [*Restore*](/ux-writing/glossary/#restore), [*Undo*](/ux-writing/glossary/#undo)  
+> **Do not use:** *Clear*  
 
 ---
 
