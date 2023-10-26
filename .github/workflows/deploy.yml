@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - beta
+      - main
   workflow_dispatch:
 
 concurrency: deploy-${{ github.ref }}
@@ -29,17 +29,15 @@ jobs:
         uses: actions/cache@v3
         with:
           path: .cache
-          key: ${{ runner.os }}-cache-docusaurus-beta
-          restore-keys: |
-            ${{ runner.os }}-cache-docusaurus-beta
+          key: ${{ runner.os }}-cache-docusaurus-main
+          restore-keys: ${{ runner.os }}-cache-docusaurus-main
 
       - name: Cache build Directory
         uses: actions/cache@v3
         with:
           path: public
-          key: ${{ runner.os }}-public-docusaurus-beta
-          restore-keys: |
-            ${{ runner.os }}-public-docusaurus-beta
+          key: ${{ runner.os }}-public-docusaurus-main
+          restore-keys: ${{ runner.os }}-public-docusaurus-main
 
       - name: Cache node modules
         id: cache
@@ -57,29 +55,20 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.6.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
-          CLEAN: true
-          TARGET_FOLDER: docs
-
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1-node16
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_BETA }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_BETA }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
         uses: reggionick/s3-deploy@338f242d6f2aaad0db698d66dffe836a7629b160
         with:
           folder: build
-          bucket: ${{ secrets.AWS_S3_BUCKET_BETA }}
+          bucket: ${{ secrets.AWS_S3_BUCKET_PROD }}
           bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
-          dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_BETA }}
+          dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }}
           invalidation: /
           delete-removed: true
           no-cache: true

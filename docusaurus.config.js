@@ -86,22 +86,21 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/beta/',
+          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
           showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/beta/',
+          editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
           blogTitle: 'Tyler Forge design system blog',
           blogDescription: 'Blog posts for designers and developers relating to the Tyler Forge design system',
         },
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
         },
-        // TO DO - uncomment when we go live
-        // googleAnalytics: {
-        //   trackingID: 'UA-136930168-1',
-        // },
+        googleAnalytics: {
+          trackingID: 'UA-136930168-1',
+        },
       }),
     ],
   ],
