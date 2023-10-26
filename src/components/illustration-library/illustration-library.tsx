@@ -129,7 +129,7 @@ function Illustration({ name, url }) {
 }
 
 async function loadData() {
-  const response = await window.fetch(`${METADATA_URI}?t=${new Date().getTime()}`);
+  const response = await window.fetch(`${METADATA_URI}?t=${new Date().getTime()}`, { cache: 'no-cache' });
   const data = await response.json() as IllustrationMetadata;
   
   const spots = [];
