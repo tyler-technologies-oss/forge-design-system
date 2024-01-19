@@ -30,6 +30,11 @@
     "description": "This is another app description and it's awesome"
   },
   {
+    "id": "contractor-permit-portal",
+    "name": "Contractor & Permit Portal (Fire Prevention Mobile)",
+    "description": "This is another app description and it's awesome"
+  },
+  {
     "id": "correct-pay-non-inmate",
     "name": "Correct Pay - Non-Inmate Experience",
     "description": "This is another app description and it's awesome"
@@ -44,6 +49,58 @@
     "name": "Defendant Access",
     "description": "This is another app description and it's awesome"
   },
+
+  {
+    "id": "recording-access",
+    "name": "Recording Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "eemployee-ehr-portal",
+    "name": "eEmployee - eHR Portal",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "eemployee-etimesheets",
+    "name": "eEmployee - eTimesheets",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "open-finance",
+    "name": "Open Finance",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "utilities-access",
+    "name": "Utilities Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "utilities-access-smart-meter",
+    "name": "Utilities Access (With smart meter access)",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "open-data",
+    "name": "Open Data",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "notify",
+    "name": "Notify",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "payments",
+    "name": "Payments",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "smart-file",
+    "name": "Smart File",
+    "description": "This is another app description and it's awesome"
+  },
+
   {
     "id": "employee-access",
     "name": "Employee Access",
