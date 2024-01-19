@@ -1,0 +1,102 @@
+[
+  {
+    "id": "applicant-access",
+    "name": "Applicant Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "citizen-connect",
+    "name": "Citizen Connect",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "citizen-self-service",
+    "name": "Citizen Self Service (CSS)",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "civic-access-boulder",
+    "name": "Civic Access - Boulder",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "civic-access-breckenridge",
+    "name": "Civic Access - Breckenridge",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "civil-process",
+    "name": "Civil Process - Public Sales Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "correct-pay-non-inmate",
+    "name": "Correct Pay - Non-Inmate Experience",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "correct-pay-inmate",
+    "name": "Correct Pay - Inmate Experience",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "defendant-access",
+    "name": "Defendant Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "employee-access",
+    "name": "Employee Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "employee-self-service",
+    "name": "Employee Self Service",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "inmate-inquiry",
+    "name": "Inmate Inquiry",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "my-civic",
+    "name": "My Civic",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "online-jury",
+    "name": "Online Jury",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "public-access",
+    "name": "Public Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "resident-access",
+    "name": "Resident Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "ride-k-12",
+    "name": "My Ride K-12",
+    "description": "App description will go here"
+  },
+  {
+    "id": "vendor-access",
+    "name": "Vendor Access",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "vendor-self-service",
+    "name": "Vendor Self Service",
+    "description": "This is another app description and it's awesome"
+  },
+  {
+    "id": "virtual-court",
+    "name": "Virtual Court",
+    "description": "This is another app description and it's awesome"
+  }
+]
