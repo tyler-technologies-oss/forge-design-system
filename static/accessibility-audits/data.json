@@ -1,159 +1,238 @@
 [
   {
     "id": "applicant-access",
-    "name": "Applicant Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Applicant Access"
   },
   {
     "id": "citizen-connect",
-    "name": "Citizen Connect",
-    "description": "This is another app description and it's awesome"
+    "name": "Citizen Connect"
   },
   {
     "id": "citizen-self-service",
-    "name": "Citizen Self Service (CSS)",
-    "description": "This is another app description and it's awesome"
+    "name": "Citizen Self Service (CSS)"
   },
   {
     "id": "civic-access-boulder",
-    "name": "Civic Access - Boulder",
-    "description": "This is another app description and it's awesome"
+    "name": "Civic Access - Boulder"
   },
   {
     "id": "civic-access-breckenridge",
-    "name": "Civic Access - Breckenridge",
-    "description": "This is another app description and it's awesome"
+    "name": "Civic Access - Breckenridge"
   },
   {
     "id": "civil-process",
-    "name": "Civil Process - Public Sales Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Civil Process - Public Sales Access"
   },
   {
     "id": "contractor-permit-portal",
-    "name": "Contractor & Permit Portal (Fire Prevention Mobile)",
-    "description": "This is another app description and it's awesome"
+    "name": "Contractor & Permit Portal (Fire Prevention Mobile)"
   },
   {
     "id": "correct-pay-non-inmate",
-    "name": "Correct Pay - Non-Inmate Experience",
-    "description": "This is another app description and it's awesome"
+    "name": "Correct Pay - Non-Inmate Experience"
   },
   {
     "id": "correct-pay-inmate",
-    "name": "Correct Pay - Inmate Experience",
-    "description": "This is another app description and it's awesome"
+    "name": "Correct Pay - Inmate Experience"
   },
   {
     "id": "defendant-access",
-    "name": "Defendant Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Defendant Access"
   },
 
   {
     "id": "recording-access",
-    "name": "Recording Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Recording Access"
   },
   {
     "id": "eemployee-ehr-portal",
-    "name": "eEmployee - eHR Portal",
-    "description": "This is another app description and it's awesome"
+    "name": "eEmployee - eHR Portal"
   },
   {
     "id": "eemployee-etimesheets",
-    "name": "eEmployee - eTimesheets",
-    "description": "This is another app description and it's awesome"
+    "name": "eEmployee - eTimesheets"
   },
   {
     "id": "open-finance",
-    "name": "Open Finance",
-    "description": "This is another app description and it's awesome"
+    "name": "Open Finance"
   },
   {
     "id": "utilities-access",
-    "name": "Utilities Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Utilities Access"
   },
   {
     "id": "utilities-access-smart-meter",
-    "name": "Utilities Access (With smart meter access)",
-    "description": "This is another app description and it's awesome"
+    "name": "Utilities Access (With smart meter access)"
   },
   {
     "id": "open-data",
-    "name": "Open Data",
-    "description": "This is another app description and it's awesome"
+    "name": "Open Data"
   },
   {
     "id": "notify",
-    "name": "Notify",
-    "description": "This is another app description and it's awesome"
+    "name": "Notify"
   },
   {
     "id": "payments",
-    "name": "Payments",
-    "description": "This is another app description and it's awesome"
+    "name": "Payments"
   },
   {
     "id": "smart-file",
-    "name": "Smart File",
-    "description": "This is another app description and it's awesome"
+    "name": "Smart File"
   },
 
   {
     "id": "employee-access",
-    "name": "Employee Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Employee Access"
   },
   {
     "id": "employee-self-service",
-    "name": "Employee Self Service",
-    "description": "This is another app description and it's awesome"
+    "name": "Employee Self Service"
   },
   {
     "id": "inmate-inquiry",
-    "name": "Inmate Inquiry",
-    "description": "This is another app description and it's awesome"
+    "name": "Inmate Inquiry"
   },
   {
     "id": "my-civic",
-    "name": "My Civic",
-    "description": "This is another app description and it's awesome"
+    "name": "My Civic"
   },
   {
     "id": "online-jury",
-    "name": "Online Jury",
-    "description": "This is another app description and it's awesome"
+    "name": "Online Jury"
   },
   {
     "id": "public-access",
-    "name": "Public Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Public Access"
   },
   {
     "id": "resident-access",
-    "name": "Resident Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Resident Access"
   },
   {
     "id": "ride-k-12",
-    "name": "My Ride K-12",
-    "description": "App description will go here"
+    "name": "My Ride K-12"
   },
   {
     "id": "vendor-access",
-    "name": "Vendor Access",
-    "description": "This is another app description and it's awesome"
+    "name": "Vendor Access"
   },
   {
     "id": "vendor-self-service",
-    "name": "Vendor Self Service",
-    "description": "This is another app description and it's awesome"
+    "name": "Vendor Self Service"
   },
   {
     "id": "virtual-court",
-    "name": "Virtual Court",
-    "description": "This is another app description and it's awesome"
+    "name": "Virtual Court"
+  },
+  {
+    "id": "capital-project-explorer",
+    "name": "Capital Project Explorer",
+    "scans": []
+  },
+  {
+    "id": "community-profile",
+    "name": "Community Profile",
+    "scans": []
+  },
+  {
+    "id": "ecourts-portal",
+    "name": "eCourts Portal",
+    "scans": []
+  },
+  {
+    "id": "eemployee-ebenefits",
+    "name": "eEmployee - eBenefits",
+    "scans": []
+  },
+  {
+    "id": "eemployee-eleaverequests",
+    "name": "eEmployee - eLeave Requests",
+    "scans": []
+  },
+  {
+    "id": "efile-serve-amis",
+    "name": "eFile & Serve - AMIS",
+    "scans": []
+  },
+  {
+    "id": "efile-serve-efsp",
+    "name": "eFile & Serve - EFSP",
+    "scans": []
+  },
+  {
+    "id": "efile-serve-famis",
+    "name": "eFile & Serve - FAMIS",
+    "scans": []
+  },
+  {
+    "id": "efile-serve-pressreview",
+    "name": "eFile & Serve - Press Review",
+    "scans": []
+  },
+  {
+    "id": "emisc-billing",
+    "name": "eMisc Billing",
+    "scans": []
+  },
+  {
+    "id": "enterprise-service-requests",
+    "name": "Enterprise Service Requests",
+    "scans": []
+  },
+  {
+    "id": "guide-and-file",
+    "name": "Guide & File",
+    "scans": []
+  },
+  {
+    "id": "justice-case-access",
+    "name": "Justice Case Access",
+    "scans": []
+  },
+  {
+    "id": "odyssey-portal",
+    "name": "Odyssey Portal",
+    "scans": []
+  },
+  {
+    "id": "online-dispute-resolution-eca",
+    "name": "Online Dispute Resolution - Eviction Case Access",
+    "scans": []
+  },
+  {
+    "id": "online-dispute-resolution-ppa",
+    "name": "Online Dispute Resolution - Parent Plan Access",
+    "scans": []
+  },
+  {
+    "id": "online-dispute-resolution-sc",
+    "name": "Online Dispute Resolution - Small Claims",
+    "scans": []
+  },
+  {
+    "id": "parks-rec",
+    "name": "Parks & Recreation",
+    "scans": []
+  },
+  {
+    "id": "property-access",
+    "name": "Property Access",
+    "scans": []
+  },
+  {
+    "id": "property-access-responsive",
+    "name": "Property Access - Responsive QA",
+    "scans": []
+  },
+  {
+    "id": "re-search",
+    "name": "reSearch",
+    "scans": []
+  },
+  {
+    "id": "service-request-access",
+    "name": "Service Request Access",
+    "scans": []
   }
 ]
