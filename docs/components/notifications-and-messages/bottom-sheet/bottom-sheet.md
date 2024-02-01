@@ -84,6 +84,8 @@ Modal bottom sheets include a backdrop (scrim) and prevent users from interactin
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Anchor bottom sheets to the bottom of the view.</DoDontText>

@@ -133,6 +133,8 @@ If an autocomplete is cleared (either by an X or by manually deleting data), clo
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Show unmatched text with bolded text.</DoDontText>

@@ -45,6 +45,8 @@ Possible selections may be organized through the use of tick marks, which a slid
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Ensure that sliders have a large enough touch target for mobile contexts.</DoDontText>

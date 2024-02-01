@@ -28,6 +28,8 @@ Some apps may not allow users to self register; they may need to be added as a u
 
 </ImageBlock>
 
+### Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Display password & username requirements up front.</DoDontText>

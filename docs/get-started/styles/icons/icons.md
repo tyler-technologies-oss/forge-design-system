@@ -31,6 +31,8 @@ On dark:
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use a tooltip with icon buttons to communicate the action’s name.</DoDontText>

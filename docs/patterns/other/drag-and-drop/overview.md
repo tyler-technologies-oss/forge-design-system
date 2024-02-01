@@ -115,6 +115,8 @@ Only use drag and drop on touchscreens when:
 - You have clear evidence (from research such as usability testing) that your users expect drag–and–drop to be available, and
 - There is no reasonable alternative with lower interaction cost (such as cut–and–paste or a menu-driven interaction).
 
+### Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Determine a "grab" by using a timing delay of a few milliseconds and providing clear feedback that the object has been grabbed.</DoDontText>
@@ -125,6 +127,8 @@ Only use drag and drop on touchscreens when:
 ---
 
 ## Accessibility 
+
+### Best practices 
 
 <DoDontGrid>
   <DoDontTextSection>

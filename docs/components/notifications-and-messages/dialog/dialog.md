@@ -156,6 +156,8 @@ If the user has made changes, the user is prompted to confirm the discard action
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Dialog titles should contain a brief, clear statement or question.</DoDontText>

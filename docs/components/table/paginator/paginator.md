@@ -24,6 +24,8 @@ Infinite scroll is best used to encourage discovery or exploration when users ar
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Allow users to set how many records they want to display per page.</DoDontText>

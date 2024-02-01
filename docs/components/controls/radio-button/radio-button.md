@@ -41,6 +41,8 @@ Radio buttons allow the user to select a single option from a set.
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use a logical order for the set of options: alphabetical, numeric, chronological, etc.</DoDontText>

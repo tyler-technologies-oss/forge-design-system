@@ -18,6 +18,8 @@ Use the color picker when a user needs to select a color to make the selection a
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Allow users to enter colors in multiple formats (RGBA, HSVA, HEX) only if appropriate - if they'll be copying existing RGBA values from another product, for instance. Otherwise, hex values should suffice.  </DoDontText>

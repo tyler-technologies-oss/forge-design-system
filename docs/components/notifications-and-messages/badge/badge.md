@@ -78,6 +78,8 @@ Text badges are either **muted** or **bold** and use color to indicate meanings 
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

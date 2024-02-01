@@ -32,20 +32,7 @@ Use switches when:
 
 ---
 
-<DoDontGrid>
-  <DoDontRow>
-  <DoDontImage>
-
-![Image of a button toggle with the options "List view, map view."](./images/switch-dont.png)
-
-  </DoDontImage>
-  </DoDontRow>
-  <DoDontRow>
-    <DoDont type="dont">Don't use switches for opposing options. Switches should only be used for binary options; use a button toggle for opposing options.</DoDont>
-  </DoDontRow>
-</DoDontGrid>
-
----
+## Best practices 
 
 <DoDontGrid>
   <DoDontTextSection>
@@ -59,6 +46,21 @@ Use switches when:
     <DoDontText type="dont">Don't nest switches. Use checkboxes instead in order to display an indeterminate state at the parent node.</DoDontText>
     <DoDontText type="dont">Don't use switches in filters. Use checkboxes instead.</DoDontText>
   </DoDontTextSection>
+</DoDontGrid>
+
+---
+
+<DoDontGrid>
+  <DoDontRow>
+  <DoDontImage>
+
+![Image of a button toggle with the options "List view, map view."](./images/switch-dont.png)
+
+  </DoDontImage>
+  </DoDontRow>
+  <DoDontRow>
+    <DoDont type="dont">Don't use switches for opposing options. Switches should only be used for binary options; use a button toggle for opposing options.</DoDont>
+  </DoDontRow>
 </DoDontGrid>
 
 ---

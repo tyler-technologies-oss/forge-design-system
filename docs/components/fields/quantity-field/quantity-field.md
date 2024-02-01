@@ -43,6 +43,8 @@ Source: [(NN Group)](https://www.nngroup.com/articles/input-steppers/)
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Alow users to type in input as well as use the incrementer buttons.</DoDontText>

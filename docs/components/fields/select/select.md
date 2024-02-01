@@ -28,6 +28,8 @@ A dropdown menu is a compact way of displaying multiple choices. It appears upon
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use concise and consistent labels that describe the meaning of the select field.</DoDontText>

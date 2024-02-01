@@ -45,6 +45,8 @@ Avatars are available in default and larger sizes.
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

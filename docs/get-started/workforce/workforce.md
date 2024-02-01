@@ -72,6 +72,8 @@ If your app needs photo imagery (ie, for default banner or background images), u
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

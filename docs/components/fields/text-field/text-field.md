@@ -272,6 +272,8 @@ Text fields may have the following states: 1. Inactive, 2. Focused, 3. Activated
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Swap helper text with error text.</DoDontText>

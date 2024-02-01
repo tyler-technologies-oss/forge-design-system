@@ -93,6 +93,8 @@ Complex cards include a header with a divider to differentiate it from the body 
 
 --- 
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

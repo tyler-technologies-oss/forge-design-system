@@ -42,6 +42,8 @@ Click the preview below to open the Figma project for additional detail.
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Both 12-hour and 24-hour time systems are allowed.</DoDontText>

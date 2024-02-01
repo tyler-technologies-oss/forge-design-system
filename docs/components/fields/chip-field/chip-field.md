@@ -40,6 +40,8 @@ Input chips represent a complex piece of information in compact form, such as an
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

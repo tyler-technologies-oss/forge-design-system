@@ -84,6 +84,8 @@ On desktop, a FAB may attach to the edge of a card or may be placed in the botto
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Consider whether your page has a single, primary action. If so, a FAB is appropriate. Otherwise consider a raised button. </DoDontText>

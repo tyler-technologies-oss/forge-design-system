@@ -28,6 +28,8 @@ When activated, tooltips display a text label identifying an element, such as a 
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">A tooltip is continuously displayed for as long as a user hovers over the element (desktop) or holds the element (mobile).</DoDontText>

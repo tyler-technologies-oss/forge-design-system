@@ -42,7 +42,7 @@ Click "Forge Design Library" link below to open the preview in Figma, or click t
 
 ## Best practices 
 
-<DoDontGrid title-text=" ">
+<DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Footers should move as the page scrolls.</DoDontText>
     <DoDontText type="do">When body content is shorter than the visible viewport, place footer at the bottom of the viewport.</DoDontText>
