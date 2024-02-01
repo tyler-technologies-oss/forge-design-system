@@ -230,5 +230,30 @@
     "id": "service-request-access",
     "name": "Service Request Access",
     "scans": []
+  },
+  {
+    "id": "appraisal-office",
+    "name": "Appraisal Office",
+    "scans": []
+  },
+  {
+    "id": "ecertify",
+    "name": "eCertify",
+    "scans": []
+  },
+  {
+    "id": "file-online-homestead-exemption",
+    "name": "File Online Homestead Exemption",
+    "scans": []
+  },
+  {
+    "id": "truth-in-taxation",
+    "name": "Truth in Taxation",
+    "scans": []
+  },
+  {
+    "id": "vital-access",
+    "name": "Vital Access",
+    "scans": []
   }
 ]
