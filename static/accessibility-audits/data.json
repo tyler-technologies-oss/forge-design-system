@@ -260,5 +260,15 @@
     "id": "former-employee-access",
     "name": "Former Employee Access",
     "scans": []
+  },
+  {
+    "id": "eagle-recorder-eagle-tax",
+    "name": "Eagle Recorder - Eagle Tax",
+    "scans": []
+  },
+  {
+    "id": "content-manager-access",
+    "name": "Content Manager Access",
+    "scans": []
   }
 ]
