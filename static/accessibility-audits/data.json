@@ -94,10 +94,6 @@
     "name": "Inmate Inquiry"
   },
   {
-    "id": "my-civic",
-    "name": "My Civic"
-  },
-  {
     "id": "online-jury",
     "name": "Online Jury"
   },
@@ -233,6 +229,46 @@
   {
     "id": "service-request-access",
     "name": "Service Request Access",
+    "scans": []
+  },
+  {
+    "id": "appraisal-office",
+    "name": "Appraisal Office",
+    "scans": []
+  },
+  {
+    "id": "ecertify",
+    "name": "eCertify",
+    "scans": []
+  },
+  {
+    "id": "file-online-homestead-exemption",
+    "name": "File Online Homestead Exemption",
+    "scans": []
+  },
+  {
+    "id": "truth-in-taxation",
+    "name": "Truth in Taxation",
+    "scans": []
+  },
+  {
+    "id": "vital-access",
+    "name": "Vital Access",
+    "scans": []
+  },
+  {
+    "id": "former-employee-access",
+    "name": "Former Employee Access",
+    "scans": []
+  },
+  {
+    "id": "eagle-recorder-eagle-tax",
+    "name": "Eagle Recorder - Eagle Tax",
+    "scans": []
+  },
+  {
+    "id": "content-manager-access",
+    "name": "Content Manager Access",
     "scans": []
   }
 ]
