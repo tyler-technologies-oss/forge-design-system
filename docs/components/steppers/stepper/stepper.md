@@ -150,6 +150,8 @@ Guidance coming soon!
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Place steppers on a single piece of material - either on a card or in a dialog.</DoDontText>

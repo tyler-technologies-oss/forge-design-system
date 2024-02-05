@@ -418,6 +418,8 @@ Color: rgba(0,0,0,0.87)
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

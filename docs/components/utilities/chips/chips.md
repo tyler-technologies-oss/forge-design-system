@@ -85,6 +85,8 @@ For datasets with more than seven filters or for sets that have categories and s
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Chips may contain a leading or trailing icon.</DoDontText>

@@ -77,6 +77,8 @@ Loading a card.
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Only show a progress indicator if the expected wait time is more than a second; for example, whenever making a request to the server.</DoDontText>

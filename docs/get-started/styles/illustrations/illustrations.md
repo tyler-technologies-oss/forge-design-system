@@ -24,6 +24,8 @@ Use these small simple illustrations to convey meaning within a component such a
 
 </ImageBlock>
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use them on a white background only.</DoDontText>

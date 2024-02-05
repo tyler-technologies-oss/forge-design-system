@@ -33,6 +33,8 @@ On larger screens, they should be placed at the bottom left or bottom middle. En
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Only one toast may be displayed at a time. Use successive toasts if more than one is needed.</DoDontText>

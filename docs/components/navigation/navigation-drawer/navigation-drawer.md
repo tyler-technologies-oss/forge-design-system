@@ -150,6 +150,8 @@ For more complex navigation structures, breadcrumbs may also be used to provide 
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>

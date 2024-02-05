@@ -235,6 +235,8 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="dont">Don't place links in the omnibar.</DoDontText>

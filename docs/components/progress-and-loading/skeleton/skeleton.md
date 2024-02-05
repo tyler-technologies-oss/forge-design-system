@@ -50,6 +50,8 @@ Benefits of skeleton loading:
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use Use skeleton loading when content size/shape is known and the wait time is longer than 1 second.</DoDontText>

@@ -56,6 +56,8 @@ Be sure to communicate if editing is available, and how to enable it.
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use the label value component for values that are displayed but non interactive.</DoDontText>

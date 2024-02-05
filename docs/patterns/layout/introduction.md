@@ -16,6 +16,8 @@ Understanding some basic principles of web layout, informed by an understanding 
 
 Determine what’s most important to your users and make that content prominent. 
 
+### Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>
@@ -44,6 +46,8 @@ Lay out your content in a way that guides the user through the content.
 If your app will support additional languages, consider bi-directional text support. This is the ability to input and display text layout in either right to left (RTL; used in Arabic, Hebrew, and Farsi) or left to right order(LTR, used in English, Spanish, German). Learn more: [Bidirectionality](https://material.io/design/usability/bidirectionality.html) (Material), [UX Best Practices for Bidirectional Languages](https://medium.com/better-marketing/ux-best-practices-for-bi-directional-languages-9bd7b96dc8c2) (Medium).
 
 
+### Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>
@@ -68,6 +72,8 @@ If your app will support additional languages, consider bi-directional text supp
 ## Use white space 
 
 Allow your design to breathe with white space. 
+
+### Best practices 
 
 <DoDontGrid>
   <DoDontRow>
@@ -94,6 +100,8 @@ Allow your design to breathe with white space.
 
 According to laws of Gestalt, objects that are close to each other are perceived to be related.
 
+### Best practices 
+
 <DoDontGrid>
   <DoDontRow>
   <DoDontImage>
@@ -118,6 +126,8 @@ According to laws of Gestalt, objects that are close to each other are perceived
 ## Similarity 
 
 According to laws of Gestalt, elements that have visual similarities will be viewed as related. The principle can be applied to identify items that belong to categories while maintaining a consistent pattern across experiences.
+
+### Best practices 
 
 <DoDontGrid>
   <DoDontRow>

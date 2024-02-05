@@ -59,6 +59,8 @@ When to use text buttons:
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use sentence casing for buttons. ("Start new" intead of "Start New" or "START NEW")</DoDontText>

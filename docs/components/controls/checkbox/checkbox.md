@@ -30,6 +30,8 @@ Use checkboxes to:
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">If a list consists of multiple options, avoid using switches. Use checkboxes instead because they take up less space.</DoDontText>

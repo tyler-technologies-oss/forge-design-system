@@ -53,6 +53,8 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Tab labels may include text only, text and icons, or icons only. </DoDontText>

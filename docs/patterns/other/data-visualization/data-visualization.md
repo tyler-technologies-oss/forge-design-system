@@ -56,6 +56,8 @@ Although apps may choose different charting libraries to meet different needs, c
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
 
 **Structure** 

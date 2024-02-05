@@ -63,6 +63,8 @@ Indeterminate progress indicators move along a fixed track, growing and shrinkin
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Only show a progress indicator if the expected wait time is more than a second; for example, whenever making a request to the server.</DoDontText>

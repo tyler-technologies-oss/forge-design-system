@@ -82,6 +82,8 @@ If the component is not available to be used, the native [Android date picker](h
 
 ---
 
+## Best practices 
+
 <DoDontGrid>
   <DoDontTextSection>
     <DoDontText type="do">Use format masking to correct for formatting differences.</DoDontText>
