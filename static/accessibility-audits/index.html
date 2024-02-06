@@ -4,7 +4,7 @@
 <head>
  <meta charset="utf-8" />
  <link rel="icon"
-  href="/accessibility-audits/favicon.png" />
+  href="/accessibility-audits/favicon.ico" />
 
  <link rel="stylesheet"
   href="https://cdn.forge.tylertech.com/v1/css/tyler-font.css" />
@@ -12,20 +12,128 @@
  <meta name="viewport"
   content="width=device-width, initial-scale=1" />
  
-		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/entry/start.26cf7958.js">
+		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/entry/start.336b9a96.js">
 		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/scheduler.8797402d.js">
-		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/singletons.969caacc.js">
-		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/paths.50770f35.js">
-		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/entry/app.0e5e8169.js">
+		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/singletons.4e339b6d.js">
+		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/paths.24ec9ad2.js">
+		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/entry/app.f35c5644.js">
 		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/preload-helper.0a7736eb.js">
 		<link rel="modulepreload" href="/accessibility-audits/_app/immutable/chunks/index.40b6ac33.js">
 </head>
+<style>
+ .app-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .app-loading-container .app-loading-messsage-wrapper {
+  width: 60%;
+  max-width: 400px;
+ }
+
+ .app-loading-messsage-wrapper .app-loading-messsage-text {
+  padding: 0;
+  margin: 16px 0 24px 0;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+ }
+
+ @media (max-width: 1023px) {
+  .app-loading-messsage-wrapper .app-loading-messsage-text {
+   font-size: 1rem;
+   font-weight: 500;
+   line-height: 1.75rem;
+   letter-spacing: 0.009375em;
+  }
+ }
+
+ @media (min-width: 1024px) {
+  .app-loading-messsage-wrapper .app-loading-messsage-text {
+   font-size: 1.25rem;
+   font-weight: 400;
+   line-height: 2rem;
+   letter-spacing: 0.0125em;
+  }
+ }
+
+ .app-loading-messsage-wrapper .app-loading-progress-indicator-wrapper {
+  position: relative;
+  height: 4px;
+  background-color: #d6ddff;
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
+ }
+
+ .app-loading-progress-indicator-wrapper .app-loading-progress-indicator {
+  background-color: #536dfe;
+ }
+
+ .app-loading-progress-indicator-wrapper .app-loading-progress-indicator:before {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+ }
+
+ @-webkit-keyframes indeterminate {
+  0% {
+   left: -35%;
+   right: 100%;
+  }
+
+  60% {
+   left: 100%;
+   right: -90%;
+  }
+
+  100% {
+   left: 100%;
+   right: -90%;
+  }
+ }
+
+ @keyframes indeterminate {
+  0% {
+   left: -35%;
+   right: 100%;
+  }
+
+  60% {
+   left: 100%;
+   right: -90%;
+  }
+
+  100% {
+   left: 100%;
+   right: -90%;
+  }
+ }
+</style>
 
 <body data-sveltekit-preload-data="hover">
+ <div class="app-loading-container"
+  id="app-loader">
+  <div class="app-loading-messsage-wrapper">
+   <h3 class="app-loading-messsage-text">Welcome! We're building your experience...</h3>
+   <div class="app-loading-progress-indicator-wrapper">
+    <div class="app-loading-progress-indicator"></div>
+   </div>
+  </div>
+ </div>
  <div style="display: contents">
 			<script>
 				{
-					__sveltekit_1364uz8 = {
+					__sveltekit_1ikl9hx = {
 						assets: "/accessibility-audits",
 						base: "/accessibility-audits",
 						env: {}
@@ -34,8 +142,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/accessibility-audits/_app/immutable/entry/start.26cf7958.js"),
-						import("/accessibility-audits/_app/immutable/entry/app.0e5e8169.js")
+						import("/accessibility-audits/_app/immutable/entry/start.336b9a96.js"),
+						import("/accessibility-audits/_app/immutable/entry/app.f35c5644.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
