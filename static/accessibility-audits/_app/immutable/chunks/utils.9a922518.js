@@ -1,0 +1,5 @@
+/**
+ * @license
+ * Copyright 2023 Tyler Technologies, Inc. 
+ * License: Apache-2.0
+ */function v(e,{capture:t=!0,pointerenter:r=!0,focusin:o=!0}={}){let i;const f=()=>{typeof i=="function"&&i()};return{userInteraction:new Promise(u=>{const n={once:!0,capture:t},s=a=>{o&&e.removeEventListener("focusin",c,n),u(a)},c=a=>{r&&e.removeEventListener("pointerenter",s,n),u(a)};i=()=>{r&&e.removeEventListener("pointerenter",s,n),o&&e.removeEventListener("focusin",c,n)},r&&e.addEventListener("pointerenter",s,n),o&&e.addEventListener("focusin",c,n)}),destroy:f}}function h(e,t){let r=null;return t&&(r=d(e,t)),r||e.parentElement}function d(e,t){const r=e.getRootNode();return t===":host"&&r instanceof ShadowRoot?r.host:r.querySelector(`#${t}`)}function l(e,t,r=!0){return r&&t.append(...e.childNodes),e.insertAdjacentElement("beforebegin",t),e.remove(),t}function y(e,t=","){return e.split(t).map(r=>r.trim())}function E(e){const t=window.devicePixelRatio||1;return Math.round(e*t)/t}export{E as a,d as b,v as c,y as d,h as l,l as r};
