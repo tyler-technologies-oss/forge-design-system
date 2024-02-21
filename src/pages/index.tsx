@@ -79,7 +79,6 @@ function SurveyDialog({ }) {
        <p className={styles.fs16}>Help us enhance Forge. Please spare 5 minutes to complete our survey and share your thoughts. Your input is crucial in shaping the future of our design system. Thank you for taking part.</p>
        <div className={styles.formContainer}>
          <a href="#" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
-         <button className="button button--link" onClick={closeDialog}>Close the dialog</button>
        </div>
       </div>
       <div className={styles.checkbox}>
