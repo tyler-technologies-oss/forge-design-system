@@ -55,7 +55,7 @@ function SurveyDialog({ }) {
  const surveyDialog = useRef(null) as any;
  useEffect(() => {
   let hideSurveyDialog = localStorage.getItem('hide-survey-dialog');
-  if (!hideSurveyDialog) {
+  if (!hideSurveyDialog || hideSurveyDialog === null) {
    surveyDialog.current.showModal();
   }
  }, [])
