@@ -22,7 +22,7 @@ Buttons communicate actions that users can take. They are typically placed throu
 
 There are three types of text buttons: 1. Raised (high emphasis), 2. Outlined (medium emphasis), and 3. Flat (low emphasis).
 
-Forge also includes other types of buttons: [icon buttons](/components/icon-button), [floating action buttons](/components/buttons/floating-action-button), [button toggles](/components/controls/button-toggle). 
+Forge also includes other types of buttons: [icon buttons](/components/icon-button), [floating action buttons](/components/buttons/floating-action-button), [button toggles](/components/controls/button-toggle), and [split buttons](/components/buttons/split-button). 
 
 ### Raised (High emphasis)
 
@@ -63,7 +63,7 @@ When to use text buttons:
 
 <DoDontGrid>
   <DoDontTextSection>
-    <DoDontText type="do">Use sentence casing for buttons. ("Start new" intead of "Start New" or "START NEW")</DoDontText>
+    <DoDontText type="do">Use sentence casing for buttons. ("Start new" instead of "Start New" or "START NEW")</DoDontText>
     <DoDontText type="do">Use flat buttons sparingly; outlined buttons are better for accessibility reasons.</DoDontText>
     <DoDontText type="do">Use succinct and actionable words ("Submit", "Close", "Cancel", "Start scheduling", instead of "Start a new instance of this week's schedule," "Wheelmaster"). </DoDontText>
     <DoDontText type="do">Use words that are familiar to your user: "Submit" instead of "Accept" or "Commit."</DoDontText>
