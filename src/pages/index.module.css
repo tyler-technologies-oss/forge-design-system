@@ -72,13 +72,17 @@ dialog {
  padding: 56px;
 }
 
+.fs16 {
+ font-size: 16px;
+}
+
 .surveyButton {
  justify-content: center;
 }
 
 .formContainer {
  display: grid;
- gap: 24px;
+ gap: 8px;
 }
 
 .checkbox {

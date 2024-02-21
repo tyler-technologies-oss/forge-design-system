@@ -73,20 +73,19 @@ function SurveyDialog({ }) {
    <dialog className={clsx(styles.surveyDialog)} ref={surveyDialog}>
     <button className={styles.surveyDialogCloseButton} aria-label="Close the survey dialog" onClick={closeDialog}>&times;</button>
     <div className={styles.surveyDialogLeftColumn}>
-     {/* <img src="https://cdn.forge.tylertech.com/v1/images/spot-hero/faqs-spot-hero.svg" alt="" height="220" width="220" className={styles.surveyImage} /> */}
     </div>
      <div className={styles.surveyDialogRightColumn}>
       <div className={styles.surveyDialogRightColumnInfo}>
        <h1>We want your feedback!</h1>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
-       <p>-The Forge Team</p>
+       <p className={styles.fs16}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+       <p className={styles.fs16}>-The Forge Team</p>
        <div className={styles.checkbox}>
         <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
-        <label htmlFor="dont-show-again">Don't show again</label>
+        <label htmlFor="dont-show-again" className={styles.fs16}>Don't show again</label>
        </div>
-
        <div className={styles.formContainer}>
          <a href="#" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
+         <button className="button button--link" onClick={closeDialog}>Close the dialog</button>
        </div>
       </div>
      </div>
