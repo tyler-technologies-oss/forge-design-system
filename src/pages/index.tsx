@@ -65,7 +65,12 @@ function SurveyDialog({ }) {
  }
 
  const handleOnchange = (e) => {
-  localStorage.setItem("hide-survey-dialog", e.target.checked)
+  let isChecked = e.target.checked;
+  if (isChecked) {
+   localStorage.setItem("hide-survey-dialog", e.target.checked);
+  } else {
+   localStorage.removeItem("hide-survey-dialog");
+  }
 };
 
  return (
