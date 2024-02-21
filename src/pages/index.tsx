@@ -65,7 +65,6 @@ function SurveyDialog({ }) {
  }
 
  const handleOnchange = (e) => {
-  console.log(e.target.value)
   localStorage.setItem("hide-survey-dialog", e.target.checked)
 };
 
