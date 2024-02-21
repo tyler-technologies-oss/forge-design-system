@@ -79,14 +79,14 @@ function SurveyDialog({ }) {
        <h1>We want your feedback!</h1>
        <p className={styles.fs16}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
        <p className={styles.fs16}>-The Forge Team</p>
-       <div className={styles.checkbox}>
-        <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
-        <label htmlFor="dont-show-again" className={styles.fs16}>Don't show again</label>
-       </div>
        <div className={styles.formContainer}>
          <a href="#" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
          <button className="button button--link" onClick={closeDialog}>Close the dialog</button>
        </div>
+      </div>
+      <div className={styles.checkbox}>
+       <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
+       <label htmlFor="dont-show-again" className={styles.fs16}>Don't show again</label>
       </div>
      </div>
   </dialog>

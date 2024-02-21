@@ -37,35 +37,32 @@ dialog {
 }
 
 .surveyDialogCloseButton:hover {
- background-color: white;
- cursor: pointer;
- border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid black;
 }
 
 .surveyDialogLeftColumn {
- background-color: white;
- display: grid;
- grid-template-rows: 1fr;
- place-content: center;
- justify-content: center;
- align-items: center;
- height: 100%;
- background: 
-    linear-gradient(to right,
-      rgba(255,255,255, 0.86), 
-      rgba(255,255,255,0.86)
-    ),
-    url("https://cdn.forge.tylertech.com/v1/images/spot-hero/faqs-spot-hero.svg") left top no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("https://cdn.forge.tylertech.com/v1/images/spot-hero/feedback-spot-hero.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: var(--forge-theme-background);
 }
 
 .surveyDialogRightColumn {
- background-color: var(--forge-theme-surface);
- display: grid;
- grid-template-rows: 1fr auto;
- height:100%;
- place-content: center;
+  background-color: var(--forge-theme-surface);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height:100%;
+  place-content: center;
 }
 
 .surveyDialogRightColumnInfo {
@@ -88,7 +85,9 @@ dialog {
 .checkbox {
  display: flex;
  align-items: center;
+ justify-content: end;
  gap: 8px;
+ padding-inline: 56px;
  margin-block-end: 24px;
 }
 
@@ -137,6 +136,12 @@ dialog {
 
  .surveyDialogRightColumnInfo {
   padding: 24px;
+ }
+
+ .checkbox {
+  padding: 0;  
+  margin-block-end: 0;
+  justify-content: center;
  }
 }
 
