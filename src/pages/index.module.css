@@ -22,8 +22,8 @@ dialog {
  position: absolute;
  top: 16px;
  right: 16px;
- height: 32px;
- width: 32px;
+ height: 36px;
+ width: 36px;
  z-index: 20;
  border-radius: 100%;
  background-color: transparent;
@@ -37,13 +37,12 @@ dialog {
 }
 
 .surveyDialogCloseButton:hover {
-  background-color: white;
+  background-color: var(--forge-theme-background);
   cursor: pointer;
   border: 2px solid black;
 }
 
 .surveyDialogLeftColumn {
-  background-color: white;
   display: grid;
   grid-template-rows: 1fr;
   place-content: center;

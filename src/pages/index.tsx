@@ -54,11 +54,11 @@ function HomepageHero() {
 function SurveyDialog({ }) {
  const surveyDialog = useRef(null) as any;
  useEffect(() => {
-  let hideSurveyDialog = localStorage.getItem('hide-survey-dialog');
+  let hideSurveyDialog = localStorage.getItem('hide-survey-dialog') === "true";
   if (!hideSurveyDialog || hideSurveyDialog === null) {
    surveyDialog.current.showModal();
   }
- }, [])
+ }, [surveyDialog])
 
  const closeDialog = () => {
   surveyDialog.current.close();
