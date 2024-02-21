@@ -2,6 +2,140 @@
   background-color: #e8eaf6;
 }
 
+dialog {
+ padding: 0;
+}
+
+.surveyDialog[open] {
+ display: relative;
+ color: var(--ifm-heading-color);
+ border-radius: 24px;
+ border: 0;
+ background-color: #fff;
+ width: 40vw;
+ height: min-content;
+ display: grid;
+ grid-template-columns: 4fr 8fr;
+}
+
+.surveyDialogCloseButton {
+ position: absolute;
+ top: 16px;
+ right: 16px;
+ height: 32px;
+ width: 32px;
+ z-index: 20;
+ border-radius: 100%;
+ background-color: transparent;
+ color: var(--ifm-heading-color);
+ font-weight: 500;
+ font-size: 32px;
+ border: none;
+ box-sizing: border-box;
+ display: grid;
+ place-content: center;
+}
+
+.surveyDialogCloseButton:hover {
+ background-color: white;
+ cursor: pointer;
+ border: 2px solid black;
+}
+
+.surveyDialogLeftColumn {
+ background-color: white;
+ display: grid;
+ grid-template-rows: 1fr;
+ place-content: center;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ background: 
+    linear-gradient(to right,
+      rgba(255,255,255, 0.86), 
+      rgba(255,255,255,0.86)
+    ),
+    url("https://cdn.forge.tylertech.com/v1/images/spot-hero/faqs-spot-hero.svg") left top no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.surveyDialogRightColumn {
+ background-color: var(--forge-theme-surface);
+ display: grid;
+ grid-template-rows: 1fr auto;
+ height:100%;
+ place-content: center;
+}
+
+.surveyDialogRightColumnInfo {
+ padding: 56px;
+}
+
+.surveyButton {
+ justify-content: center;
+}
+
+.formContainer {
+ display: grid;
+ gap: 24px;
+}
+
+.checkbox {
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ margin-block-end: 24px;
+}
+
+.checkbox input {
+ height: 20px;
+ width: 20px;
+}
+
+.surveyDialog::backdrop {
+ background: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 1920px) {
+ .surveyDialog[open] {
+  width: 40vw;
+  background: white;
+ }
+}
+
+@media screen and (max-width: 1600px) {
+ .surveyDialog[open] {
+  width: 60vw;
+  background: white;
+ }
+ 
+ .surveyDialogRightColumn {
+  padding: 16px;
+ }
+}
+
+@media screen and (max-width: 960px) {
+ .surveyDialog[open]  {
+  width: 90vw;
+ }
+}
+
+@media screen and (max-width: 700px) {
+ .surveyDialog[open]  {
+  width: 90vw;
+  grid-template-columns: 1fr;
+ }
+
+ .surveyDialogLeftColumn {
+  display: none;
+ }
+
+ .surveyDialogRightColumnInfo {
+  padding: 24px;
+ }
+}
+
 .gridContainer {
   display: grid;
   justify-content: center;

@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 import Link from '@docusaurus/Link';
+
 
 export default function Home(): JSX.Element {
   return (
@@ -14,6 +15,7 @@ export default function Home(): JSX.Element {
         <QuickLinks />
         <ContributionCategories />
       </main>
+      <SurveyDialog />
     </Layout>
   );
 }
@@ -47,6 +49,49 @@ function HomepageHero() {
       </HeroCard>
     </header>
   );
+}
+
+function SurveyDialog({ }) {
+ const surveyDialog = useRef(null) as any;
+ useEffect(() => {
+  let hideSurveyDialog = localStorage.getItem('hide-survey-dialog');
+  if (!hideSurveyDialog) {
+   surveyDialog.current.showModal();
+  }
+ }, [])
+
+ const closeDialog = () => {
+  surveyDialog.current.close();
+ }
+
+ const handleOnchange = (e) => {
+  console.log(e.target.value)
+  localStorage.setItem("hide-survey-dialog", e.target.checked)
+};
+
+ return (
+   <dialog className={clsx(styles.surveyDialog)} ref={surveyDialog}>
+    <button className={styles.surveyDialogCloseButton} aria-label="Close the survey dialog" onClick={closeDialog}>&times;</button>
+    <div className={styles.surveyDialogLeftColumn}>
+     {/* <img src="https://cdn.forge.tylertech.com/v1/images/spot-hero/faqs-spot-hero.svg" alt="" height="220" width="220" className={styles.surveyImage} /> */}
+    </div>
+     <div className={styles.surveyDialogRightColumn}>
+      <div className={styles.surveyDialogRightColumnInfo}>
+       <h1>We want your feedback!</h1>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+       <p>-The Forge Team</p>
+       <div className={styles.checkbox}>
+        <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
+        <label htmlFor="dont-show-again">Don't show again</label>
+       </div>
+
+       <div className={styles.formContainer}>
+         <a href="#" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
+       </div>
+      </div>
+     </div>
+  </dialog>
+ )
 }
 
 function LinkButton({ href, children }) {
