@@ -22,8 +22,8 @@ dialog {
  position: absolute;
  top: 16px;
  right: 16px;
- height: 36px;
- width: 36px;
+ height: 48px;
+ width: 48px;
  z-index: 20;
  border-radius: 100%;
  background-color: transparent;
