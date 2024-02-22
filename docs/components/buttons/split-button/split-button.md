@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Split button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-split-button--default">
 
 ![](./images/split-button.png)
 
@@ -31,7 +31,7 @@ For groups of buttons or switches to control aspects of a page, or to create a t
 
 ### Don’t use when
 
-- Actions are unrelated to one another. Use individual buttons or icon buttons instead. 
+- Actions are unrelated to one another. Use individual [buttons](/components/buttons/button) or [icon buttons](/components/buttons/icon-button) instead. 
 
 ---
 
@@ -61,6 +61,6 @@ Like [buttons](/components/buttons/button), there are three types of the split b
   </DoDontTextSection>
   <DoDontTextSection>
     <DoDontText type="dont">Don't use the Forge success or warning colors for buttons. Use the primary default instead.</DoDontText>
-    <DoDontText type="dont">Use more than one primary button on a page, or more than one in a dialog.</DoDontText>
+    <DoDontText type="dont">Don't use more than one primary (Raised, high emphasis) button on a page, or more than one in a dialog.</DoDontText>
   </DoDontTextSection>
 </DoDontGrid>

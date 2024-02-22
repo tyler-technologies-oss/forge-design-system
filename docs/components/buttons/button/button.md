@@ -72,6 +72,7 @@ When to use text buttons:
   </DoDontTextSection>
   <DoDontTextSection>
     <DoDontText type="dont">Don't use the Forge success or warning colors for buttons. Use the primary default instead.</DoDontText>
+    <DoDontText type="dont">Don't use more than one primary (Raised, high emphasis) button on a page, or more than one in a dialog.</DoDontText>
   </DoDontTextSection>
 </DoDontGrid>
 
