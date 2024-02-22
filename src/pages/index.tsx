@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 import Link from '@docusaurus/Link';
+
 
 export default function Home(): JSX.Element {
   return (
@@ -14,6 +15,7 @@ export default function Home(): JSX.Element {
         <QuickLinks />
         <ContributionCategories />
       </main>
+      <SurveyDialog />
     </Layout>
   );
 }
@@ -47,6 +49,50 @@ function HomepageHero() {
       </HeroCard>
     </header>
   );
+}
+
+function SurveyDialog({ }) {
+ const surveyDialog = useRef(null) as any;
+ useEffect(() => {
+  let hideSurveyDialog = localStorage.getItem('hide-survey-dialog') === "true";
+  if (!hideSurveyDialog || hideSurveyDialog === null) {
+   surveyDialog.current.showModal();
+  }
+ }, [surveyDialog])
+
+ const closeDialog = () => {
+  surveyDialog.current.close();
+ }
+
+ const handleOnchange = (e) => {
+  let isChecked = e.target.checked;
+  if (isChecked) {
+   localStorage.setItem("hide-survey-dialog", e.target.checked);
+  } else {
+   localStorage.removeItem("hide-survey-dialog");
+  }
+};
+
+ return (
+   <dialog className={clsx(styles.surveyDialog)} ref={surveyDialog}>
+    <button className={styles.surveyDialogCloseButton} aria-label="Close the survey dialog" onClick={closeDialog}>&times;</button>
+    <div className={styles.surveyDialogLeftColumn}>
+    </div>
+     <div className={styles.surveyDialogRightColumn}>
+      <div className={styles.surveyDialogRightColumnInfo}>
+       <h1>We value your feedback!</h1>
+       <p className={styles.fs16}>Help us enhance Forge. Please spare 5 minutes to complete our survey and share your thoughts. Your input is crucial in shaping the future of our design system. Thank you for taking part.</p>
+       <div className={styles.formContainer}>
+         <a href="https://tylertechnologies.qualtrics.com/jfe/form/SV_1NzTduIVcpVZZhY" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
+       </div>
+      </div>
+      <div className={styles.checkbox}>
+       <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
+       <label htmlFor="dont-show-again" className={styles.fs16}>Don't show again</label>
+      </div>
+     </div>
+  </dialog>
+ )
 }
 
 function LinkButton({ href, children }) {
