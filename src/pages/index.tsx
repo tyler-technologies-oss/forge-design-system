@@ -80,10 +80,10 @@ function SurveyDialog({ }) {
     </div>
      <div className={styles.surveyDialogRightColumn}>
       <div className={styles.surveyDialogRightColumnInfo}>
-       <h1>We value your feedback!</h1>
-       <p className={styles.fs16}>Help us enhance Forge. Please spare 5 minutes to complete our survey and share your thoughts. Your input is crucial in shaping the future of our design system. Thank you for taking part.</p>
+       <h1>Last Chance to Share Your Feedback</h1>
+       <p className={styles.fs16}>Your opinion matters! The survey closes on March 8th. Forge is constantly evolving, and we need your insights to make it even better. Take 5 minutes to complete our survey and shape the future of our design system. Thank you for taking part.</p>
        <div className={styles.formContainer}>
-         <a href="https://tylertechnologies.qualtrics.com/jfe/form/SV_1NzTduIVcpVZZhY" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey!</a>
+         <a href="https://tylertechnologies.qualtrics.com/jfe/form/SV_1NzTduIVcpVZZhY" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey before it's too late!</a>
        </div>
       </div>
       <div className={styles.checkbox}>
