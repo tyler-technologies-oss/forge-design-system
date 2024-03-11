@@ -15,7 +15,6 @@ export default function Home(): JSX.Element {
         <QuickLinks />
         <ContributionCategories />
       </main>
-      <SurveyDialog />
     </Layout>
   );
 }
@@ -49,50 +48,6 @@ function HomepageHero() {
       </HeroCard>
     </header>
   );
-}
-
-function SurveyDialog({ }) {
- const surveyDialog = useRef(null) as any;
- useEffect(() => {
-  let hideSurveyDialog = localStorage.getItem('hide-survey-dialog') === "true";
-  if (!hideSurveyDialog || hideSurveyDialog === null) {
-   surveyDialog.current.showModal();
-  }
- }, [surveyDialog])
-
- const closeDialog = () => {
-  surveyDialog.current.close();
- }
-
- const handleOnchange = (e) => {
-  let isChecked = e.target.checked;
-  if (isChecked) {
-   localStorage.setItem("hide-survey-dialog", e.target.checked);
-  } else {
-   localStorage.removeItem("hide-survey-dialog");
-  }
-};
-
- return (
-   <dialog className={clsx(styles.surveyDialog)} ref={surveyDialog}>
-    <button className={styles.surveyDialogCloseButton} aria-label="Close the survey dialog" onClick={closeDialog}>&times;</button>
-    <div className={styles.surveyDialogLeftColumn}>
-    </div>
-     <div className={styles.surveyDialogRightColumn}>
-      <div className={styles.surveyDialogRightColumnInfo}>
-       <h1>Last Chance to Share Your Feedback</h1>
-       <p className={styles.fs16}>Your opinion matters! The survey closes on March 8th. Forge is constantly evolving, and we need your insights to make it even better. Take 5 minutes to complete our survey and shape the future of our design system. Thank you for taking part.</p>
-       <div className={styles.formContainer}>
-         <a href="https://tylertechnologies.qualtrics.com/jfe/form/SV_1NzTduIVcpVZZhY" target="_blank" className={clsx(styles.linkButton, styles.surveyButton, 'button button--primary')}>Take the survey before it's too late!</a>
-       </div>
-      </div>
-      <div className={styles.checkbox}>
-       <input type="checkbox" id="dont-show-again" name="dont-show-again" value="false" onChange={handleOnchange} />
-       <label htmlFor="dont-show-again" className={styles.fs16}>Don't show again</label>
-      </div>
-     </div>
-  </dialog>
- )
 }
 
 function LinkButton({ href, children }) {
