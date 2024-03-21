@@ -48,7 +48,7 @@ Drawers can be used to support different types of content: 1. Navigation drawers
 
 Display on the left by default. Learn more about [navigation drawers](/components/navigation/navigation-drawer).
 
-<ImageBlock maxWidth="450px">
+<ImageBlock padded={false}>
 
 ![Anatomy of a navigation drawer.](./images/nav-anatomy.png)
 
@@ -60,7 +60,7 @@ May display on the left or right. Learn more about [filter sidesheets](/componen
 
 <ImageBlock padded={false}>
 
-![Default filter sidesheet on desktop](./images/desktop-filters-1.png)
+![Default filter sidesheet on desktop](./images/desktop-filters.png)
 
 </ImageBlock>
 

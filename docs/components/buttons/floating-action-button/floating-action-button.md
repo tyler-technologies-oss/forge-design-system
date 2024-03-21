@@ -47,12 +47,12 @@ The extended FAB includes a text label and optional icon. Use an extended FAB fo
 When pressed, a FAB can display three to six related actions in the form of a speed dial. This transition can occur in one of the following ways:
 
 - Upon press, the FAB can emit related actions
-- Upon press, the FAB can transform into a menu containing related actions (Android only)
+- Upon press, the FAB can transform into a menu containing related actions.
 - If more than six actions are needed, something other than a FAB should be used to present them.
 
-<ImageBlock padded={false} max-width="600px" caption="A FAB displays a stack of related actions.<br> Taken from Material.io">
+<ImageBlock padded={false} max-width="600px" caption="A FAB displays a stack of related actions.">
 
-![Gif of a speed dial with 6 options](./images/speed-dial.gif)
+![A split image showing a floating action button on the left, and a floating action button with 4 options above it on the right.](./images/fab-speed-dial.png)
 
 </ImageBlock>
 
