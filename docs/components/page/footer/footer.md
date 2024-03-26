@@ -16,7 +16,7 @@ sidebar_custom_props:
 
 Resident apps use a footer that refers to the client / municipality. The footer is used on landing pages only.
 
-The footer is comprised of slotted text or hyperlinks that can be customized by the client / municipality. By default, the footer displays the "Empowered by Tyler" logo, but the graphic may be customized as needed. Links open in a new tab.
+The footer is comprised of slotted text or hyperlinks that can be customized by the client / municipality, along with a dedicated slot for a small graphic, such as a logo. Links open in a new tab.
 
 **Use when**
 
@@ -30,13 +30,17 @@ The footer is comprised of slotted text or hyperlinks that can be customized by 
 
 ---
 
-## Variants 
+## Responsive
 
-Click "Forge Design Library" link below to open the preview in Figma, or click the preview to enlarge it. 
+On desktop, items are left aligned and logo is right aligned; on desktop, the items are centered and display vertically. The footer is responsive by default and will display in its mobile format at a breakpoint of 900px, but its breakpoint can be customized. 
 
-<ComponentVisual
-  height="750"
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJYOhQlzc4Yhln2S8WVoi6S%2FForge-Design-Library-11-3-20%3Fnode-id%3D2933%253A26982" />
+Additionally, teams can set the footer to display in its default (standard) or mobile (alternative) mode using the layout attribute. 
+
+<ImageBlock max-width="700px" caption="When switching to mobile view, the text and hyperlinks stack on top of the logo section vertically.">
+
+![An image showing a full width footer component compared to the more compact mobile version.](./images/footer-responsive.png)
+
+</ImageBlock>
 
 ---
 
@@ -55,20 +59,9 @@ Click "Forge Design Library" link below to open the preview in Figma, or click t
 
 <ImageBlock max-width="700px" caption="When body content is shorter than the visible viewport, place footer at the bottom of the viewport.">
 
-![Alt text](./images/footer-bottom.png)
+![A layout of an example app landing page with a footer component on the bottom showing links on the left side with a rectangle representing logo placement on the right.](./images/footer-bottom.png)
 
 </ImageBlock>
 
----
 
-## Responsive
 
-On desktop, items are left aligned and logo is right aligned; on desktop, the items are centered and display vertically. The footer is responsive by default and will display in its mobile format at a breakpoint of 900px, but its breakpoint can be customized. 
-
-Additionally, teams can set the footer to display in its default (standard) or mobile (alternative) mode using the layout attribute. 
-
-Click "Forge Design Library" link below to open the preview in Figma, or click the preview to enlarge it. 
-
-<ComponentVisual
-  height="450"
-  figmaUrl="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJYOhQlzc4Yhln2S8WVoi6S%2FForge-Design-Library-11-3-20%3Fnode-id%3D2933%253A27003" />

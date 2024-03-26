@@ -24,7 +24,7 @@ Navigation drawers are recommended for:
 - Quick navigation between unrelated destinations
 
 :::note
-Navigation is tightly related to Information Architecture (IA). An intuitive IA is key to the success of any app, but can be difficult to get right. Reach out to the UX team for help creating an intuitive IA. Contact <a href="mailto:kathy.wolf@tylertech.com">Kathy Wolf</a> for more information.
+Navigation is tightly related to Information Architecture (IA). An intuitive IA is key to the success of any app, but can be difficult to get right.
 :::
 
 ---
@@ -181,17 +181,17 @@ For more complex navigation structures, breadcrumbs may also be used to provide 
   <DoDontRow>
   <DoDontImage>
 
-![Forge logo](./images/nav-dont-shrink-text.png)
+![Image of a navigation drawer with a long label where the text is shrunken down to fit, making it smaller than the rest of the navigation options.](./images/nav-dont-shrink-text.png)
 
   </DoDontImage>
   <DoDontImage>
 
-![Forge logo](./images/nav-dont-repeat-icons.png)
+![Image of a navigation drawer with two repeating icons.](./images/nav-dont-repeat-icons.png)
 
   </DoDontImage>
   <DoDontImage>
 
-![Forge logo](./images/nav-dont-icon-consistency.png)
+![Image of a navigation drawer with navigation some navigation items having an icon while some do not resulting in inconsistencies.](./images/nav-dont-icon-consistency.png)
 
   </DoDontImage>
   </DoDontRow>
