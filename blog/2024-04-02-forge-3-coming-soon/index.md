@@ -113,7 +113,7 @@ Forge 3.0 opens the door for many new components & patterns to be built, and pro
 Various components have already been refactored to utilize these new tools/patterns, where others will require more careful planning
 and research first.
 
-For example, now that we can reliably provide inline usage of the `<forge-popover>` (render above everything else, but lives in the
+For example, now that we can reliably provide inline usage of the `<forge-popover>` (renders above everything else, but lives in the
 DOM where it is defined), we have the ability to re-imagine elements such as the `<forge-select>` and `<forge-menu>` (any element that
 presents a dropdown essentially) so that developers are no longer required to use JavaScript to provide custom content! This is something
 we are very excited about, and while it won't make it into the initial 3.0 release due to time constraints, we are planning to provide
