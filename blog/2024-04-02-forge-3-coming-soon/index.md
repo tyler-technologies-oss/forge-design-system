@@ -16,6 +16,14 @@ We're really excited about this version and a lot of work has gone into it. It h
 with many delays and roadblocks along the way, but we're really looking forward to sharing it with everyone
 very soon!
 
+:::info TL;DR
+Forge 3.0 is a major update that improves accessibility, introduces design tokens, and provides improved
+developer usage patterns. It no longer depends directly on Material and introduces inline usage of
+"floating" elements. The upgrade will focus on backwards compatibility, but some components and APIs will
+be removed or deprecated. We are looking to sunset TCW 1.x when Forge 3.0 is released. Early adopters are
+welcome to try Forge 3.0. Stay tuned for more updates!
+:::
+
 ## Why Forge 3.0?
 
 Before we answer the burning question that everyone has been asking about regarding the release date for Forge
@@ -30,10 +38,12 @@ for much visual flexibility, it needed to support IE 11 and ES5, and it was the 
 company to try to align on a design system to improve our consistency and cohesiveness across products. It worked,
 it had its shortcomings, but it was a great step in the right direction and served as a learning experience for everyone.
 
-:::info
+:::info Goodbye TCW...
 We are planning to officially sunset TCW when Forge 3.0 is released.
 
-This won't be immediate, but we'll announce a timeline to allow for this transition.
+While TCW has been deprecated for quite some time, this won't be immediate...
+We'll announce a plan and timeline to allow for this transition, and we're always
+available to assist teams that have questions/concerns about the upgrade process.
 :::
 
 ### Forge 2.x
@@ -41,14 +51,14 @@ This won't be immediate, but we'll announce a timeline to allow for this transit
 This was a stepping stone version that was all about rebranding from TCW to Forge so that we have an official
 implementation for our design system. We understand that it was a disruption for everyone to have to migrate from
 TCW to Forge, along with the various breaking API changes we introduced during that effort. We're focusing more on
-the types of breaking changes we introduce this time around. We had many more things we wanted to introduce with 2.0,
-but we decided to defer those to a future release.
+the types of breaking changes we introduce this time around. We had many more plans/ideas we wanted to introduce with
+2.0, but we decided to defer those to a future release.
 
 ### Forge 3.0
 
 Fast forward to today and we're on to that next phase. Forge 3.0 is a modernization of the library with a deep focus on
 accessibility, design tokens, and developer usage pattern updates to take advantage of new browser APIs. This version
-completes most of the work/ideas we envisioned for Forge 2.
+completes most of the plans we envisioned for Forge 2.
 
 ## What is Forge 3.0?
 
@@ -67,12 +77,12 @@ At a high level, Forge 3.0 is the following:
 - Uses modern browser APIs
 - Improves performance
 
-More details about these items will be provided in the full 3.0 upgrade guide to come later, but these changes affect every
+More details about these items will be provided in the full 3.0 upgrade guide to come upon release, but these changes affect every
 component in the library in one way or another.
 
 As mentioned above, we are trying to better support backwards compatibility as much as we can this time around. This means that
 certain components and APIs are going to be deprecated in favor of new patterns with a plan to remove them in a future version.
-Hopefully this will allow you to upgrade to 3.0 without it causing a major disruption and gradually update your codebase on your
+Hopefully this will allow you to upgrade to 3.0 without it causing a major disruption and gradually update your applications on your
 own timeline.
 
 We will also be updating the Forge upgrade utility with any necessary automation that we can provide to assist (as well as making
@@ -86,7 +96,7 @@ than we anticipated... We didn't want to commit to a timeline that we couldn't d
 date to announce, we are getting very close to being done. We are looking for early adopters that are willing to use Forge 3.0 and help
 us work out any final kinks and finalize the upgrade utility.
 
-:::info
+:::info Get Involved!
 If you're interested in becoming an early adopter please let us know!
 
 This part of the process is very important as it will help us identify which areas are causing upgrade problems, as well as ensure
@@ -113,7 +123,7 @@ While building 3.0 we have already started to gather a list of items that would 
 either be too much of a disruption to the ecosystem to introduce right now, or because we're waiting on new browser APIs to allow us
 to provide a better implementation in the future. If you have any ideas, please feel free to pass them along!
 
-:::info
+:::info Feature Requests
 For anyone who missed the announcement earlier this year, we are now using a tool called Canny to allow for everyone to request
 new features and vote/comment on existing requests. Please use Canny to help bring your ideas for Forge to life!
 
