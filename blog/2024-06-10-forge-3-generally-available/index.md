@@ -24,7 +24,7 @@ Key highlights of this release include:
 - Improved dialog implementation
 - Button and form control HTML structure updates
 - New overlay primitive for all floating elements (popover, tooltip, toast... etc.)
-- End of life for TCW 1.x
+- End of life for TCW 1.x (effective as of 6/10/2024)
 
 ... and much more! 🎉
 
@@ -193,8 +193,8 @@ for improving Forge and making it easier to use.
 
 :::note Future
 This pattern of removing the need to supply a native element as a child of the component is something we're looking
-to do across other Forge components in the future such as a text. This will make using Forge more concise and easier
-to understand by reducing confusion about which elements to interact with.
+to do across other Forge components in the future such as the text field. This will make using Forge more concise and
+easier to understand by reducing confusion about which elements to interact with.
 :::
 
 ### Overlay
@@ -229,11 +229,27 @@ correctly, or have any other feedback on the upgrade process, please let us know
 ## What's New?
 
 Along with the various breaking changes, we've also introduced many new features and improvements in Forge 3.0 that
-we think you'll love. Please review the full list of changes in detail to make sure you don't miss out anything!
+we think you'll love. Please review the full list of changes in detail to make sure you don't miss out on anything!
 
-Here is a list of key highlights:
+Here is a list of some of the key highlights:
 
-- 
+- Buttons no longer require a native `<button>` element as a child
+  - The button and icon button also offer more variants for different use cases
+- Checkboxes and radios no longer require a native `<input>` element as a child
+- Button toggles have received a design update to reduce emphasis
+- A new `<forge-split-button>` component has been introduced to facilitate implementing the split button design pattern
+- Dialogs have been completely rebuilt from scratch using the native `<dialog>` element
+- Popups have been renamed to popover and have been updated to use the new overlay primitive
+- Tabs have been rewritten from scratch for improved accessibility
+- The slider has been rewritten from scratch and should now be more stable and accessible
+- The list and list item components now require a new HTML structure for improved accessibility and more flexible usage
+- Expansion panels no longer use JavaScript-based animations
+- Tooltips received a minor design update to improve contrast and readability
+- The text field and select components now share the same underlying `<forge-field>` element for consistency
+  - These components now also allow for labels outside of the field as well via the `labelPosition` property.
+
+This is only scratching the surface! There are many more smaller features that have been introduced in this
+release, and the upgrade guide will help you understand how to take advantage of them.
 
 :::info
 Forge 3.0 is **not** a visual overhaul, but a modernization of the library. We've made many improvements under the hood
@@ -309,8 +325,8 @@ See the [roadmap](https://forge.tylerdev.io/next/?path=/docs/about-roadmap--docs
 
 ### TCW 1.x End of Life
 
-With the release of Forge 3.0, we're also announcing the end of life for TCW 1.x. We know that many of you have been
-using TCW 1.x for a long time, and we know it's not a trivial task to upgrade to Forge 3.0. TCW 1.x was a step in
+With the release of Forge 3.0, we're also announcing the end of life for TCW 1.x effective as of 6/10/2024. We know that many
+of you have been using TCW 1.x for a long time, and we know it's not a trivial task to upgrade to Forge 3.0. TCW 1.x was a step in
 the right direction, but it has many limitations and core flaws, and we've addressed many (if not all) of these between
 Forge 2.x and 3.x.
 
@@ -320,6 +336,8 @@ Forge 2.x and 3.x.
 The Forge upgrade utility is designed to help automate as much of the upgrade process as possible. When upgrading from
 TCW 1.x to Forge 3.0, you'll need to upgrade to Forge 2.x **first**, and then to Forge 3.0. **There is not a direct migration
 path in the utility for the direct jump to 3.0**.
+
+See the [Forge 2.x upgrade guide](/blog/2022/05/02/upgrade-guide-forge-2) for more information.
 
 Please use [this tool](https://github.com/tyler-technologies/forge-upgrade) to help you migrate your applications and
 libraries to Forge 3.0, and reach out to us if you have any questions or need assistance.
