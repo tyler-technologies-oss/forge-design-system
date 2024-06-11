@@ -110,7 +110,7 @@ The Forge theming system was lacking in many ways, partially due to the Material
 removal of Material, we are now able to provide Forge-named CSS variables for theming, and the core
 theming system across all components has been refactored for deep integration with these design tokens.
 
-View the [Theming](https://forge.tylerdev.io/next/?path=/docs/getting-started-theming--docs) docs for
+View the [Theming](https://forge.tylerdev.io/main/?path=/docs/getting-started-theming--docs) docs for
 more information.
 
 ## Typography
@@ -118,7 +118,7 @@ more information.
 We've introduced a uniform typography scale and a few new variations on our type styles. This should help
 give your design more consistency, and reduce confusion when choosing the right type style for your content.
 
-View the [Typography](https://forge.tylerdev.io/next/?path=/docs/getting-started-typography--docs) docs for
+View the [Typography](https://forge.tylerdev.io/main/?path=/docs/getting-started-typography--docs) docs for
 more information.
 
 ## Design Tokens
@@ -138,7 +138,7 @@ understanding about _when_ to use them. They should not be used to override the 
 components arbitrarily, but instead only when branding or customization is required.
 :::
 
-View the [Design Tokens](https://forge.tylerdev.io/next/?path=/docs/design-tokens-introduction--docs) docs
+View the [Design Tokens](https://forge.tylerdev.io/main/?path=/docs/design-tokens-introduction--docs) docs
 for more information.
 
 ## Focus and Interaction States
@@ -155,8 +155,8 @@ user interaction. You will get this for free, but if you need to integrate these
 custom components, you can do so easily with by utilizing these new primitives.
 :::
 
-View the [focus indicator](https://forge.tylerdev.io/next/?path=/docs/components-focus-indicator--docs) and
-[state layer](https://forge.tylerdev.io/next/?path=/docs/components-state-layer--docs) docs for more information.
+View the [focus indicator](https://forge.tylerdev.io/main/?path=/docs/components-focus-indicator--docs) and
+[state layer](https://forge.tylerdev.io/main/?path=/docs/components-state-layer--docs) docs for more information.
 
 ## Usage Patterns
 
@@ -169,14 +169,14 @@ features and best practices.
 The Forge list and list item components are core to many applications, and we've made some updates to ensure that
 the can be used in a more accessible way, while still allowing for the flexibility that developers need.
 
-View the [List](https://forge.tylerdev.io/next/?path=/docs/components-list--docs) docs for more information.
+View the [List](https://forge.tylerdev.io/main/?path=/docs/components-list--docs) docs for more information.
 
 ### Dialogs
 
 The Forge dialog component has been completely rebuilt from scratch in this release. We've made many improvements
 to the component, most notably in how it uses the native `<dialog>` element.
 
-See the [Dialog](https://forge.tylerdev.io/next/?path=/docs/components-dialog--docs) docs for more information.
+See the [Dialog](https://forge.tylerdev.io/main/?path=/docs/components-dialog--docs) docs for more information.
 
 ### Buttons and Form Controls
 
@@ -204,7 +204,7 @@ toasts, etc. This new primitive is a key part of all elements that show dropdown
 on your page. It's a simple component, but it's a powerful one! This new implementation is built on top of the 
 new [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API) in the browser.
 
-View the [Overlay](https://forge.tylerdev.io/next/?path=/docs/components-overlay--docs) docs for more information.
+View the [Overlay](https://forge.tylerdev.io/main/?path=/docs/components-overlay--docs) docs for more information.
 
 ## How do I upgrade?
 
@@ -321,7 +321,7 @@ over the coming weeks. If you have any feedback on the new documentation site, p
 We're excited to see what you build with Forge 3.0! We've got many plans to introduce new features and improvements
 over the coming months, and we're looking forward to sharing them with you as they become available.
 
-See the [roadmap](https://forge.tylerdev.io/next/?path=/docs/about-roadmap--docs) to stay up to date with what's coming next for Forge.
+See the [roadmap](https://forge.tylerdev.io/main/?path=/docs/about-roadmap--docs) to stay up to date with what's coming next for Forge.
 
 ### TCW 1.x End of Life
 
