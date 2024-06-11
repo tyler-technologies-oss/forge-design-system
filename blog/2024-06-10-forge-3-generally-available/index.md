@@ -343,6 +343,20 @@ Please use [this tool](https://github.com/tyler-technologies/forge-upgrade) to h
 libraries to Forge 3.0, and reach out to us if you have any questions or need assistance.
 :::
 
+### What's happening to Forge 2.x?
+
+Forge 2.x will continue to be maintained for the foreseeable future, but we will not be adding any new features or
+improvements to it. We recommend that you upgrade to Forge 3.0 as soon as possible to take advantage of the latest
+changes.
+
+We want to eventually reach the point where we can push out new features and improvements to Forge on a more regular
+basis without breaking your code. The faster we can get everyone on the same version, the faster we can achieve this
+goal.
+
+:::note Legacy Documentation
+You can now view the legacy Forge 2.x Storybook documentation [here](https://forge.tylerdev.io/version-2).
+:::
+
 ### Goals
 
 As we continue to evolve Forge, we have a few key goals in mind:
