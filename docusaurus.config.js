@@ -132,7 +132,7 @@ const config = {
 
       announcementBar: {
         id: 'welcome',
-        content: '✨ Welcome to the new and improved Forge design system! ✨ View the <a href="/blog/2023/02/03/forge-website-redesign">blog post</a> for more info.',
+        content: '✨ Forge components 3.0 is now available! View the <a href="/blog/2024/06/10/forge-3-generally-available">announcement</a> for more info.',
         isCloseable: true,
         backgroundColor: '#3D5AFE',
         textColor: '#ffffff'
