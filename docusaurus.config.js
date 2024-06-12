@@ -200,6 +200,12 @@ const config = {
               },
               {
                 href: 'https://forge.tylerdev.io/',
+                label: 'Forge 3.x',
+                target: '_blank',
+                rel: null,
+              },
+              {
+                href: 'https://forge.tylerdev.io/version-2',
                 label: 'Forge 2.x',
                 target: '_blank',
                 rel: null,
