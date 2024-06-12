@@ -35,6 +35,7 @@ list of changes, and let us know if you run into any issues. We're here to help!
 
 - Show me how to [upgrade](#how-do-i-upgrade).
 - View the upgrade guide [here](https://github.com/tyler-technologies-oss/forge/wiki/Forge-3.0-Upgrade-Guide).
+- View the documentation [here](https://forge.tylerdev.io).
 :::
 
 ## Shout Outs
