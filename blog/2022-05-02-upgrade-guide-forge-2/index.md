@@ -584,7 +584,7 @@ as this is a one-way street...
   Please run the following to install the utility globally on your machine:
 
   ```bash
-  npm install -g @tylertech/forge-upgrade --registry https://tylertech.jfrog.io/tylertech/api/npm/npm/
+  npx @tylertech/forge-upgrade --configuration forge-2.0
   ```
 
 :::info
@@ -598,13 +598,15 @@ npm login --registry https://tylertech.jfrog.io/tylertech/api/npm/npm/` using yo
   The `forge-upgrade` utility will take `--path` as an argument and find all files in your project and attempt to replace the usages with the new APIs.
 
   ```bash
-  forge-upgrade --path <relative/path/to/source/directory>
+  npx @tylertech/forge-upgrade --configuration forge-2.0 --path <relative/path/to/source/directory>
   ```
 
   The utility will accept the following arguments:
 
   - `--path <path>` **(required)**
     - Accepts a relative path from the current directory to the source directory where the upgrade should begin from.
+  - `--configuration <name>` (optional, defaults to latest)
+    - The name of the upgrade configuration to use. **Defaults to most recent configuration, so we need to specify `forge-2.0` when upgrading from TCW 1.x.**
   - `--dry-run` (optional, recommend on initial execution)
     - Runs the utility without modifying any files and prints out what it would do if ran without this flag.
   - `--ignore` (optional)
@@ -649,7 +651,7 @@ abstracting those items and renaming them as well!
   that cannot be made automatically on your behalf, and those will be up to you to assess and upgrade manually. Please see the next step to 
   start that process.
 
-  To view an exhaustive list of replacements, see the upgrade utility source code [here](https://github.com/tyler-technologies/forge-upgrade/blob/main/configurations/forge-2.0.json).
+  To view an exhaustive list of replacements, see the upgrade utility source code [here](https://github.com/tyler-technologies-oss/forge-upgrade/blob/main/configurations/forge-2.0.json).
 
 </details>
 
