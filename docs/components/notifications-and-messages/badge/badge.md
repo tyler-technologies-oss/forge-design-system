@@ -84,7 +84,7 @@ Text badges are either **muted** or **bold** and use color to indicate meanings 
   <DoDontRow>
   <DoDontImage>
 
-![Image of a table with a badge on every row.](./images/badge-do-1.png)
+![Image of a table with a badge on every row.](./images/badge-do.png)
 
   </DoDontImage>
   <DoDontImage>
@@ -94,7 +94,7 @@ Text badges are either **muted** or **bold** and use color to indicate meanings 
   </DoDontImage>
   <DoDontImage>
 
-![Forge logo](./images/badge-dont.png)
+![An image showing a badge with a long sentence as its content which stretches across the page across multiple text inputs.](./images/badge-dont.png)
   </DoDontImage>
   </DoDontRow>
   <DoDontRow>

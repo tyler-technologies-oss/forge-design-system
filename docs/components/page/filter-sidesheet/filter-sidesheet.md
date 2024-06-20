@@ -123,7 +123,7 @@ When referencing the example below, use the filter sidesheet component and the [
 
 <ImageBlock caption="Filters are applied to the search results as they're applied.">
 
-![Gif of sidesheet with "Apply filters" button.](./images/real-time-filters.gif)
+![Image of sidesheet with "Apply filters" button.](./images/real-time-filters.png)
 
 </ImageBlock>
 
@@ -131,7 +131,7 @@ If filters cannot be applied in real time due to performance concerns, an "Apply
 
 <ImageBlock max-width="650px" caption="When performance may be an issue, an app may use a filter sidesheet with a scrim. Users select the filters they'd like, then hit Apply to filter down the dataset with just one data call.">
 
-![Gif of sidesheet with "Apply filters" button.](./images/apply-filters.gif)
+![Image of sidesheet with "Apply filters" button.](./images/apply-filters.png)
 
 </ImageBlock>
 
@@ -170,8 +170,6 @@ When filters are displayed as sidesheet with scrim, filters are applied on tappi
 ![Tablet page layout](./images/tablet-filter-portrait.png)
 
 </ImageBlock>
-
-**Mobile**
 
 **Mobile**
 
