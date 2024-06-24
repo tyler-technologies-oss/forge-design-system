@@ -34,10 +34,6 @@ In general, filters are applied after an initial search has been conducted.
 - Users are likely to filter on only a single dimension. Use a table and [column filters](/components/table/table#column-filters) instead.
 
 
-### Examples
-
-- See a filter sidesheet in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
-
 ---
 
 ## Parts
@@ -50,11 +46,11 @@ In general, filters are applied after an initial search has been conducted.
 
 ### 1. Title (required)
 
-### 2. Subtitle (required)
+### 2. Filter name (required)
 
-### 3. Filters (container is 320px by default)
+### 3. Facets (container is 320px by default)
 
-Filters are categories that comprised of individual facets. 
+Filters are categories that are comprised of individual facets. 
 
 <ImageBlock max-width="350px">
 
@@ -62,17 +58,17 @@ Filters are categories that comprised of individual facets.
 
 </ImageBlock>
 
-Facets are comprised of 5 parts:
+Filters are comprised of 5 parts:
 
-1. **Facet title (Required)** 
+1. **Filter title (Required)** 
 2. **Clear (Required)**
 3. **Expansion (Required)** 
-3. **Body (Required)** Facets may be displayed as radio buttons, checkboxes, date pickers, or sliders. 
-3. **More (Optional)** Facets containing more than five filters hide extra options under a “more” expansion. 
+4. **Facet (Required)** Facets may be displayed as radio buttons, checkboxes, date pickers, or sliders. 
+5. **More (Optional)** Filters containing more than five facets hide extra options under a “more” expansion. 
 
-<ImageBlock padded={false} caption="Individual facets may be collapsible if they contain a large number of options.">
+<ImageBlock padded={false} caption="Individual filters may be collapsible if they contain a large number of options.">
 
-![Collapsible facet.](./images/expand-collapsed.png)
+![Collapsible filter.](./images/expand-collapsed.png)
 
 </ImageBlock>
 
