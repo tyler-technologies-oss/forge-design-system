@@ -45,11 +45,12 @@ In general, filters are applied after an initial search has been conducted.
 </ImageBlock>
 
 ### 1. Title (required)
+The side sheet may be dismissable if a business case requires it.
 
-### 2. Filter name (required)
+### 2. Subtitle section (required)
+In the subtitle section, the total filters applied is displayed along with a "Reset all" button to clear all filters currently applied. 
 
-### 3. Facets (container is 320px by default)
-
+### 3. Filters and facets (container is 320px by default)
 Filters are categories that are comprised of individual facets. 
 
 <ImageBlock max-width="350px">
