@@ -136,7 +136,7 @@ If filters cannot be applied in real time due to performance concerns, an "Apply
 
 ## Responsive 
 
-By default, the filter sidesheet displays on the right.
+By default, the filter sidesheet displays on the left.
 
 ### 1. Default
 
@@ -146,7 +146,7 @@ In desktop, filter sidesheet displays on the left by default. Filters are update
 
 <ImageBlock padded={false} caption="Desktop layout for an app with filters on the left.">
 
-![Desktop page layout](./images/desktop-filters-1.png)
+![Desktop page layout](./images/desktop-filters.png)
 
 </ImageBlock>
 
@@ -156,13 +156,13 @@ Filter sidesheet displays by default in landscape mode. In portrait mode, it's c
 
 When filters are displayed as sidesheet with scrim, filters are applied on tapping an "Apply filters" button, which also closes the sidesheet. The "Apply filters" button is positioned at the bottom of the viewport so it's always visible; content scrolls behind it as necessary.
 
-<ImageBlock padded={false} caption="On tablet landscape, the filter sidesheet is open by default.">
+<ImageBlock padded={false} caption="On tablet in landscap mode, the filter sidesheet is open by default.">
 
 ![Tablet page layout](./images/tablet-filter.png)
 
 </ImageBlock>
 
-<ImageBlock padded={false} caption="On tablet landscape, the filter sidesheet is closed by default, accessed by a Filter button. The sidesheet displays from the left with a scrim behind it and an explicit option to apply filters. The Apply button closes the drawer and applies filters.">
+<ImageBlock padded={false} caption="On tablet in portrait mode, the filter sidesheet is closed by default, accessed by a Filter button. The sidesheet displays from the left with a scrim behind it and an explicit option to apply filters. The Apply button closes the drawer and applies filters.">
 
 ![Tablet page layout](./images/tablet-filter-portrait.png)
 
@@ -170,11 +170,11 @@ When filters are displayed as sidesheet with scrim, filters are applied on tappi
 
 **Mobile**
 
-On mobile, a filter sidesheet may be displayed as a sidesheet with scrim or it may be displayed as a row of filters with dropdowns. 
+On mobile, a filter sidesheet may take over the full screen or it may be displayed as a row of filters with dropdowns. 
 
-<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
+<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet takes over the full screen when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
-![Mobile page layout](./images/mobile-filters-left.png)
+![Mobile page layout](./images/mobile-filters.png)
 
 </ImageBlock>
 
@@ -194,7 +194,7 @@ When a navigation drawer is present, the filter sidesheet displays on the right.
 
 <ImageBlock padded={false} max-width="650px" caption="On desktop, both the navigation drawer and filter display by default.">
 
-![Desktop layout with drawer and filters.](./images/filter-desktop-2.png)
+![Desktop layout with drawer and filters.](./images/filter-desktop.png)
 
 </ImageBlock>
 
@@ -204,30 +204,14 @@ Filter sidesheet displays by default in landscape mode. In portrait mode, it's c
 
 When filters are displayed as sidesheet with scrim, filters are applied on tapping an "Apply filters" button, which also closes the sidesheet. The "Apply filters" button is positioned at the bottom of the viewport so it's always visible; content scrolls behind it as necessary.
 
-<ImageBlock padded={false} caption="On tablet landscape, the navigation drawer is open by default and the filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
+<ImageBlock padded={false} caption="On tablet in landscape mode, the navigation drawer is open by default and the filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
 ![Tablet page layout](./images/tablet-filter-2.png)
 
 </ImageBlock>
 
-<ImageBlock padded={false} caption="On tablet portrait, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
+<ImageBlock padded={false} caption="On tablet in portrait mode, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
-![Tablet page layout](./images/tablet-filter-portrait-2.png)
-
-</ImageBlock>
-
-**Mobile**
-
-On mobile, a filter sidesheet may be displayed as a sidesheet with scrim or it may be displayed as a row of filters with dropdowns. 
-
-<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
-
-![Mobile page layout](./images/mobile-filters-right.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false} caption="<b>Best for native mobile.</b> Filters display as a row of dropdowns. On tap, the dropdown opens to reveal filters. Applied filters are indicated by a numeric badge within the dropdown.">
-
-![Mobile page layout](./images/native-filters.png)
+![Tablet page layout](./images/tablet-filter-portrait-right.png)
 
 </ImageBlock>
