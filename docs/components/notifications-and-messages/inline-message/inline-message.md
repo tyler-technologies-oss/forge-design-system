@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Inline message
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-inline-message--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-inline-message--docs">
 
 ![](./images/inline-message.png)
 

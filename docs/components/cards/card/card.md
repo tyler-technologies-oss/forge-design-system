@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Card
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-card--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-card--docs">
 
 ![](./images/card.png)
 

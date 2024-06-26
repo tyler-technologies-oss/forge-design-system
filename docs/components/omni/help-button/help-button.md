@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 # Omnibar help button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-help-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-help-button--docs">
 
 ![](./images/app-bar-help-button.png)
 

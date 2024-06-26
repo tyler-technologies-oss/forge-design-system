@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Select
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-select--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-select--docs">
 
 ![](./images/select.png)
 

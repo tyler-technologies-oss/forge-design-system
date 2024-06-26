@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 # Autocomplete
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-autocomplete--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-autocomplete--docs">
 
 ![](./images/autocomplete.png)
 

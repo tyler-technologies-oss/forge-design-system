@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Tabs
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-tab-bar--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-tabs--docs">
 
 ![](./images/tabs.png)
 

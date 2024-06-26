@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Date picker
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-date-picker--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-date-picker--docs">
 
 ![](./images/date-picker.png)
 

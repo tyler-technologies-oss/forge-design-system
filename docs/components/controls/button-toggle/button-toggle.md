@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Button toggle
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button-toggle--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-button-toggle--docs">
 
 ![](./images/button-toggle.png)
 

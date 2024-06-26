@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Accordion
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-accordion--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-accordion--docs">
 
 ![](./images/accordion.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Divider
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-divider--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-divider--docs">
 
 ![](./images/divider.png)
 

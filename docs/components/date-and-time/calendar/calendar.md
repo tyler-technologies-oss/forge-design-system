@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Calendar
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-calendar--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-calendar--docs">
 
 ![](./images/calendar.png)
 

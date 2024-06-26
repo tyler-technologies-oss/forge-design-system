@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Floating action button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-floating-action-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-floating-action-button--docs">
 
 ![](./images/floating-action-button.png)
 

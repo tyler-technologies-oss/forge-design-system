@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Stepper
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-stepper--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-stepper--docs">
 
 ![](./images/stepper.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Toast
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toast--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-toast--docs">
 
 ![Toast header image](./images/toast.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Switch
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-switch--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-switch--docs">
 
 ![](./images/switch.png)
 

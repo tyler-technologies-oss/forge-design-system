@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Menu
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-menu--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-menu--docs">
 
 ![](./images/menu.png)
 

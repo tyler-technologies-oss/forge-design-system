@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 # Omnibar notifications
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar-notifications--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-notifications--docs">
 
 ![](./images/app-bar-notifications.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Page state
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-page-state--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-page-state--docs">
 
 ![](./images/page-state.png)
 

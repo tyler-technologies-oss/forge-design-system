@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # List
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-list--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-list--docs">
 
 ![](./images/list.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Busy indicator
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-busy-indicator--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-circular-progress--docs">
 
 ![](./images/busy-indicator.png)
 

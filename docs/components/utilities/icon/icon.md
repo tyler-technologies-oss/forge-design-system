@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Icon
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-icon--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-icon--docs">
 
 ![](./images/icon.png)
 

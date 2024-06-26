@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Color picker
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-color-picker--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-color-picker--docs">
 
 ![](./images/color-picker.png)
 
