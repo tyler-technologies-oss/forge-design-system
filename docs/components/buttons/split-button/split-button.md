@@ -1,12 +1,13 @@
 ---
 sidebar_custom_props:
+  badge: new
   shortDescription: Split buttons condense several, related, actions into a single compact component.
   thumbnail: ./img/all-components/split-button-mini.png
 ---
 
 # Split button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-split-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-split-button--docs">
 
 ![](./images/split-button.png)
 

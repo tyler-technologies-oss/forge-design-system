@@ -34,10 +34,6 @@ In general, filters are applied after an initial search has been conducted.
 - Users are likely to filter on only a single dimension. Use a table and [column filters](/components/table/table#column-filters) instead.
 
 
-### Examples
-
-- See a filter sidesheet in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
-
 ---
 
 ## Parts
@@ -49,12 +45,13 @@ In general, filters are applied after an initial search has been conducted.
 </ImageBlock>
 
 ### 1. Title (required)
+The side sheet may be dismissable if a business case requires it.
 
-### 2. Subtitle (required)
+### 2. Subtitle section (required)
+In the subtitle section, the total filters applied is displayed along with a "Reset all" button to clear all filters currently applied. 
 
-### 3. Filters (container is 320px by default)
-
-Filters are categories that comprised of individual facets. 
+### 3. Filters and facets (container is 320px by default)
+Filters are categories that are comprised of individual facets. 
 
 <ImageBlock max-width="350px">
 
@@ -62,17 +59,17 @@ Filters are categories that comprised of individual facets.
 
 </ImageBlock>
 
-Facets are comprised of 5 parts:
+Filters are comprised of 5 parts:
 
-1. **Facet title (Required)** 
+1. **Filter title (Required)** 
 2. **Clear (Required)**
 3. **Expansion (Required)** 
-3. **Body (Required)** Facets may be displayed as radio buttons, checkboxes, date pickers, or sliders. 
-3. **More (Optional)** Facets containing more than five filters hide extra options under a “more” expansion. 
+4. **Facet (Required)** Facets may be displayed as radio buttons, checkboxes, date pickers, or sliders. 
+5. **More (Optional)** Filters containing more than five facets hide extra options under a “more” expansion. 
 
-<ImageBlock padded={false} caption="Individual facets may be collapsible if they contain a large number of options.">
+<ImageBlock padded={false} caption="Individual filters may be collapsible if they contain a large number of options.">
 
-![Collapsible facet.](./images/expand-collapsed.png)
+![Collapsible filter.](./images/expand-collapsed.png)
 
 </ImageBlock>
 
@@ -123,7 +120,7 @@ When referencing the example below, use the filter sidesheet component and the [
 
 <ImageBlock caption="Filters are applied to the search results as they're applied.">
 
-![Gif of sidesheet with "Apply filters" button.](./images/real-time-filters.gif)
+![Image of sidesheet with "Apply filters" button.](./images/real-time-filters.png)
 
 </ImageBlock>
 
@@ -131,7 +128,7 @@ If filters cannot be applied in real time due to performance concerns, an "Apply
 
 <ImageBlock max-width="650px" caption="When performance may be an issue, an app may use a filter sidesheet with a scrim. Users select the filters they'd like, then hit Apply to filter down the dataset with just one data call.">
 
-![Gif of sidesheet with "Apply filters" button.](./images/apply-filters.gif)
+![Image of sidesheet with "Apply filters" button.](./images/apply-filters.png)
 
 </ImageBlock>
 
@@ -139,7 +136,7 @@ If filters cannot be applied in real time due to performance concerns, an "Apply
 
 ## Responsive 
 
-By default, the filter sidesheet displays on the right.
+By default, the filter sidesheet displays on the left.
 
 ### 1. Default
 
@@ -149,7 +146,7 @@ In desktop, filter sidesheet displays on the left by default. Filters are update
 
 <ImageBlock padded={false} caption="Desktop layout for an app with filters on the left.">
 
-![Desktop page layout](./images/desktop-filters-1.png)
+![Desktop page layout](./images/desktop-filters.png)
 
 </ImageBlock>
 
@@ -159,13 +156,13 @@ Filter sidesheet displays by default in landscape mode. In portrait mode, it's c
 
 When filters are displayed as sidesheet with scrim, filters are applied on tapping an "Apply filters" button, which also closes the sidesheet. The "Apply filters" button is positioned at the bottom of the viewport so it's always visible; content scrolls behind it as necessary.
 
-<ImageBlock padded={false} caption="On tablet landscape, the filter sidesheet is open by default.">
+<ImageBlock padded={false} caption="On tablet in landscap mode, the filter sidesheet is open by default.">
 
 ![Tablet page layout](./images/tablet-filter.png)
 
 </ImageBlock>
 
-<ImageBlock padded={false} caption="On tablet landscape, the filter sidesheet is closed by default, accessed by a Filter button. The sidesheet displays from the left with a scrim behind it and an explicit option to apply filters. The Apply button closes the drawer and applies filters.">
+<ImageBlock padded={false} caption="On tablet in portrait mode, the filter sidesheet is closed by default, accessed by a Filter button. The sidesheet displays from the left with a scrim behind it and an explicit option to apply filters. The Apply button closes the drawer and applies filters.">
 
 ![Tablet page layout](./images/tablet-filter-portrait.png)
 
@@ -173,13 +170,11 @@ When filters are displayed as sidesheet with scrim, filters are applied on tappi
 
 **Mobile**
 
-**Mobile**
+On mobile, a filter sidesheet may take over the full screen or it may be displayed as a row of filters with dropdowns. 
 
-On mobile, a filter sidesheet may be displayed as a sidesheet with scrim or it may be displayed as a row of filters with dropdowns. 
+<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet takes over the full screen when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
-<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
-
-![Mobile page layout](./images/mobile-filters-left.png)
+![Mobile page layout](./images/mobile-filters.png)
 
 </ImageBlock>
 
@@ -199,7 +194,7 @@ When a navigation drawer is present, the filter sidesheet displays on the right.
 
 <ImageBlock padded={false} max-width="650px" caption="On desktop, both the navigation drawer and filter display by default.">
 
-![Desktop layout with drawer and filters.](./images/filter-desktop-2.png)
+![Desktop layout with drawer and filters.](./images/filter-desktop.png)
 
 </ImageBlock>
 
@@ -209,30 +204,14 @@ Filter sidesheet displays by default in landscape mode. In portrait mode, it's c
 
 When filters are displayed as sidesheet with scrim, filters are applied on tapping an "Apply filters" button, which also closes the sidesheet. The "Apply filters" button is positioned at the bottom of the viewport so it's always visible; content scrolls behind it as necessary.
 
-<ImageBlock padded={false} caption="On tablet landscape, the navigation drawer is open by default and the filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
+<ImageBlock padded={false} caption="On tablet in landscape mode, the navigation drawer is open by default and the filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
 ![Tablet page layout](./images/tablet-filter-2.png)
 
 </ImageBlock>
 
-<ImageBlock padded={false} caption="On tablet portrait, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
+<ImageBlock padded={false} caption="On tablet in portrait mode, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
 
-![Tablet page layout](./images/tablet-filter-portrait-2.png)
-
-</ImageBlock>
-
-**Mobile**
-
-On mobile, a filter sidesheet may be displayed as a sidesheet with scrim or it may be displayed as a row of filters with dropdowns. 
-
-<ImageBlock padded={false} caption="<b>Best for web responsive.</b> At mobile portrait sizes, both navigation drawer and filter sidesheet are closed by default. The filter sidesheet opens from the right with a scrim behind it when the Filter button is tapped. Filters are applied with an explicit Apply button that closes the drawers.">
-
-![Mobile page layout](./images/mobile-filters-right.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false} caption="<b>Best for native mobile.</b> Filters display as a row of dropdowns. On tap, the dropdown opens to reveal filters. Applied filters are indicated by a numeric badge within the dropdown.">
-
-![Mobile page layout](./images/native-filters.png)
+![Tablet page layout](./images/tablet-filter-portrait-right.png)
 
 </ImageBlock>
