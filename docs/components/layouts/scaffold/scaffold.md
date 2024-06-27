@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Scaffold
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-scaffold--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-scaffold--docs">
 
 ![](./images/scaffold.png)
 

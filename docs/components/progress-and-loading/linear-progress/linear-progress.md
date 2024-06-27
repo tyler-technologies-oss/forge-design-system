@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Linear progress
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-linear-progress--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-linear-progress--docs">
 
 ![](./images/linear-progress.png)
 

@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Toolbar
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-toolbar--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-toolbar--docs">
 
 ![](./images/toolbar.png)
 

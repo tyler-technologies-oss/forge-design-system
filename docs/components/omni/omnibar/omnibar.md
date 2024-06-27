@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Omnibar
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-app-bar--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar--docs">
 
 ![](./images/app-bar.png)
 

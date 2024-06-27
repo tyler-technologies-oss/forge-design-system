@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Bottom sheet
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-bottom-sheet--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-bottom-sheet--docs">
 
 ![](./images/bottom-sheet.png)
 

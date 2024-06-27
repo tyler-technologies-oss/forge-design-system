@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 # Omnibar search
 
-<ComponentVisual storybookUrl="https://animated-doodle-7c7696e9.pages.github.io/main/?path=/story/components-app-launcher--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-search--docs">
 
 ![](./images/app-bar-search.png)
 

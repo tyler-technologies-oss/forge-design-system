@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-button--docs">
 
 ![](./images/button.png)
 

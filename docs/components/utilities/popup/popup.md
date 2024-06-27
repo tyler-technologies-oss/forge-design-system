@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Popup
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-popup--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-popover--docs">
 
 ![](./images/popup.png)
 

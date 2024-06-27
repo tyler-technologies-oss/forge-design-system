@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Chip field
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chip-field--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-chip-field--docs">
 
 ![](./images/chip-field.png)
 

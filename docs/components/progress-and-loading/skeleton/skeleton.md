@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Skeleton
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-skeleton--app">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-skeleton--docs">
 
 ![](./images/skeleton.png)
 

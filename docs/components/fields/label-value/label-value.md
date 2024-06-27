@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Label value
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-label-value--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-label-value--docs">
 
 ![](./images/label-value.png)
 

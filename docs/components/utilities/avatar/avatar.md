@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Avatar
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-avatar--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-avatar--docs">
 
 ![](./images/avatar.png)
 

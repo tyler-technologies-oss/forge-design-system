@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Drawer
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-drawer--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-drawer--docs">
 
 ![](./images/drawer.png)
 

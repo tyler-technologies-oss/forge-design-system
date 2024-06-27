@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # File picker
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-file-picker--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-file-picker--docs">
 
 ![](./images/file-picker.png)
 

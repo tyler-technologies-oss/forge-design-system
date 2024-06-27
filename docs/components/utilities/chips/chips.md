@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Chips
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-chips--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-chips--docs">
 
 ![](./images/chips.png)
 

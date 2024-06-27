@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Expansion panel
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-expansion-panel--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-expansion-panel--docs">
 
 ![](./images/expansion-panel.png)
 

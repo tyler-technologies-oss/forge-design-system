@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Text field
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-text-field--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-text-field--docs">
 
 ![](./images/text-field.png)
 

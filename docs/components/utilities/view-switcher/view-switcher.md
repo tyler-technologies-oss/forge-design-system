@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # View switcher
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-view-switcher--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-view-switcher--docs">
 
 ![](./images/view-switcher.png)
 

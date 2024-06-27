@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Slider
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-slider--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-slider--docs">
 
 ![](./images/slider.png)
 

@@ -7,7 +7,7 @@ sidebar_custom_props:
 
 # Navigation drawer
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-drawer--drawer">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-drawer--docs">
 
 ![Navigation drawer header image](./images/nav-drawer.png)
 

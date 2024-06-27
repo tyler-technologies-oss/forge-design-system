@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Banner
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-banner--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-banner--docs">
 
 ![](./images/banner.png)
 

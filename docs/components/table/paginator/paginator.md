@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Paginator
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-paginator--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-paginator--docs">
 
 ![](./images/paginator.png)
 

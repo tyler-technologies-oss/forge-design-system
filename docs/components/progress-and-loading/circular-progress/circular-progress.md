@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Circular progress
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-circular-progress--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-circular-progress--docs">
 
 ![](./images/circular-progress.png)
 

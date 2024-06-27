@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Checkbox
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-checkbox--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-checkbox--docs">
 
 ![](./images/checkbox.png)
 

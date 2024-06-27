@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Badge
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-badge--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-badge--docs">
 
 ![](./images/badge.png)
 

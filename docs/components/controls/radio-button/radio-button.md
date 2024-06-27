@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Radio button
 
-<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/story/components-radio-button--default">
+<ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-radio--docs">
 
 ![](./images/radio-button.png)
 
