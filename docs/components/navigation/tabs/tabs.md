@@ -35,7 +35,7 @@ Tab label text should clearly and succinctly describe the content it represents.
 
 <ImageBlock padded={false} caption="1. Tabs may be placed inside components like cards and dialogs.">
 
-![Image with two sections: a navigation drawer with expanders and a navigation drawer with tabs.](./images/tab-types.png)
+![Image with two sections: One section where a dialoge has tabs in it to separate sections, and a second section of a card with tabs along the top breaking up options available.](./images/tab-types.png)
 
 </ImageBlock>
 
@@ -47,7 +47,7 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
 
 <ImageBlock padded={false} max-width="500px" caption="On mobile, tabs may continue offscreen and may be accessed by swiping. When tapped, a scrollable tab should reposition itself to become fully visible on screen. <br> Taken from Material.io.">
 
-![Image with two sections: a navigation drawer with expanders and a navigation drawer with tabs.](./images/scroll-tabs.gif)
+![Image showing tabs that go beyond the frame horizontally, showing that they can be scrolled through.](./images/scroll-tabs.png)
 
 </ImageBlock>
 
@@ -97,7 +97,7 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
   </DoDontImage>
     <DoDontImage>
 
-![Forge logo](./images/tabs-cramp-dont.png)
+![Use the stacked attribute when placing an icon over the text in a tab.](./images/tabs-cramp-dont.png)
 
   </DoDontImage>
   </DoDontRow>
