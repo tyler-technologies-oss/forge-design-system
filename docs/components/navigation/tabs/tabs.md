@@ -14,15 +14,28 @@ sidebar_custom_props:
 
 ## Overview 
 
-Tabs may be used to group related pieces of content at any level of hierarchy. They may be used as primary or secondary navigation. If your app has more than five primary destinations, use a [navigation drawer](/components/navigation/navigation-drawer). Otherwise, tabs may be used in the omnibar. 
+Tabs are used to group different but related pieces of content in one area without having to navigate to new pages. They can be used in various different locations and scenarios such as in cards, dialogs, tables, or side panels, or can also be used as navigation for an app. Tab label text should clearly and succinctly describe the content it represents while tab content should contain a cohesive set of items that share a common characteristic.
 
-<ImageBlock max-width="600px" padded={false} caption="1. Tabs in the omnibar may be used as primary navigation when there are fewer than five primary destinations.">
+Tabs may be paired with components like the [omnibar](/components/omni/omnibar/), or nested in components like [cards](/components/cards/card/), [dialogs](/components/notifications-and-messages/dialog/), or [sidesheets](/components/navigation/drawer/#3-detail-panel). 
 
-![Image of the omnibar with tabs inside.](./images/omni-tabs.png)
+
+
+## When to use
+
+### Sub navigation
+
+Tabs are often found as sub navigation within a page or record and can be used on an individual section of a page to change between related content, such as in a card, on a dashboard, or in a side sheet. 
+
+<ImageBlock padded={false} caption="Tabs may be placed inside components such as 1) side panels, 2) dialogs, or 3) cards.">
+
+![Image with two sections: One section where a dialoge has tabs in it to separate sections, and a second section of a card with tabs along the top breaking up options available.](./images/tab-types.png)
 
 </ImageBlock>
 
-Tabs may be used as secondary navigation within a page or record. Secondary navigation may use tabs or expanders within a navigation drawer. Expanders can be a bit more discoverable as they’re accessible from the drawer, while a user must navigate to a detail page in order to view tabs.
+
+### Secondary navigation
+
+When used as secondary navigation specifically, expanders in the navigation should also be considered. Expanders can be a bit more discoverable as they’re accessible from the drawer, while a user must navigate to a detail page in order to view tabs. 
 
 <ImageBlock padded={false} caption="1. Expanders may be used to display pages at a second level of hierarchy. <br> 2. Tabs may be used to show closely related content.">
 
@@ -30,14 +43,18 @@ Tabs may be used as secondary navigation within a page or record. Secondary navi
 
 </ImageBlock>
 
-Tabs may be paired with components like the omnibar, or nested in components like cards and dialogs.
-Tab label text should clearly and succinctly describe the content it represents. Tab content should contain a cohesive set of items that share a common characteristic.
 
-<ImageBlock padded={false} caption="1. Tabs may be placed inside components like cards and dialogs.">
+### Primary navigation
 
-![Image with two sections: a navigation drawer with expanders and a navigation drawer with tabs.](./images/tab-types.png)
+Tabs can be used as the main navigation of an app if there are a limited amount of destinations. With this, the tabs appear in the omnibar itself extending it to twice its height. If your app has more than five primary destinations, use a [navigation drawer](/components/navigation/drawer). Otherwise, tabs may be used in the omnibar.
+
+
+<ImageBlock max-width="600px" padded={false} caption="Tabs in the omnibar may be used as primary navigation when there are fewer than five primary destinations.">
+
+![Image of the omnibar with tabs inside.](./images/omni-tabs.png)
 
 </ImageBlock>
+
 
 ---
 
@@ -45,9 +62,9 @@ Tab label text should clearly and succinctly describe the content it represents.
 
 Tabs may scroll horizontally on mobile. The tab bar should be fixed but should allow for scrolling or swiping within it.  
 
-<ImageBlock padded={false} max-width="500px" caption="On mobile, tabs may continue offscreen and may be accessed by swiping. When tapped, a scrollable tab should reposition itself to become fully visible on screen. <br> Taken from Material.io.">
+<ImageBlock padded={false} max-width="500px" caption="On mobile, tabs may continue offscreen and may be accessed by swiping. When tapped, a scrollable tab should reposition itself to become fully visible on screen.">
 
-![Image with two sections: a navigation drawer with expanders and a navigation drawer with tabs.](./images/scroll-tabs.gif)
+![Image showing tabs that go beyond the frame horizontally, showing that they can be scrolled through.](./images/scroll-tabs.png)
 
 </ImageBlock>
 
@@ -97,7 +114,7 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
   </DoDontImage>
     <DoDontImage>
 
-![Forge logo](./images/tabs-cramp-dont.png)
+![Use the stacked attribute when placing an icon over the text in a tab.](./images/tabs-cramp-dont.png)
 
   </DoDontImage>
   </DoDontRow>
