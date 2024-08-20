@@ -44,6 +44,13 @@ On larger screens, they should be placed at the bottom left or bottom middle. En
   </DoDontTextSection>
 </DoDontGrid>
 
+### Display length
+- All toast messages should be displayed for at least 5 seconds to meet current accessibility recommendations.
+- Messages over 10 words should start at 5 seconds and add 0.5 seconds per additional word.
+
+### Hover-stay
+- Ensure all toast messages include a hover-stay to accommodate users needing more time to read. 
+
 --- 
 
 ## Related 
