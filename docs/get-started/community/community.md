@@ -44,7 +44,7 @@ For unauthenticated (not yet signed in) or guest users, the [omnibar](/component
 
 </ImageBlock>
 
-For authenticated users, the omnibar contains the hamburger menu (if the app has a lefthand navigation), municipality name and logo, shopping cart, [help icon](/components/omnibar#1-help-required), [notifications icon](/components/omnibar#2-notifications-optional), [app launcher](/components/omnibar#3-app-launcher-required), and [user avatar](components/omnibar#4-avatar-and-profile-card).
+For authenticated users, the omnibar contains the hamburger menu (if the app has a lefthand navigation), municipality name and logo, shopping cart, [help icon](/components/omni/omnibar/#1-help-required), [notifications icon](/components/omni/omnibar/#2-notifications-optional), [app launcher](/components/omni/omnibar/#3-app-launcher-required), and [user avatar](/components/omni/omnibar/#4-avatar-and-profile-card).
 
 <ImageBlock padded={false} caption="On mobile, community apps use the extended omnibar by default. On scroll, the omnibar collapses to display just the app name; logo and city name disappear.">
 
@@ -130,6 +130,9 @@ App teams may choose from the layouts provided to structure the main content, bu
 
 </ImageBlock>
 
+
+<!---
+
 ---
 
 ## Demo 
@@ -138,8 +141,10 @@ See the full experience in action! We've mocked out what this experience could l
 
 <a href="https://tylertech.invisionapp.com/share/HKX7SPLFNXY" target="_blank" rel="noreferrer noopener">
   View mobile demo
-</a>
+</a>  
 
 <a href="https://tylertech.invisionapp.com/share/WAX8LP8J9MF" target="_blank" rel="noreferrer noopener">
   View desktop demo
 </a>
+
+-->
