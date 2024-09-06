@@ -70,11 +70,11 @@ Max-widths are recommended for desktop apps to create focus on a page and facili
 
 Your app's max width will depend on its content. 
 
-| Content type      | Recommnded max-width     | Content examples   | App examples
-| :-----------------| :----------------------- | :----------------  |: ---------
-| Simple, single column      | 960px           | Detail views, data tables, steppers / process screens | [TESS Applicant info]( https://tylertech.invisionapp.com/share/BCWV4UDMARF#/411649317_Employment_Opportunities_-_Applicant_Info_-_Internal), <br />[CSS Add a new business stepper](https://tylertech.invisionapp.com/share/MWYOTXH2DA3#/431830941_Add_A_New_Business_Stepper_)
-| Multi column         | 1040px                | Dashboards, complex detail pages                 | [VSS Search results ](https://tylertech.invisionapp.com/share/45YM7YLJUQT#/412708821_PO_SearchResults), <br />[CSS Balance overview](https://tylertech.invisionapp.com/share/M4YL4IGXQST#/431561125_Motor_Vehicle_-_Balance_Overview_Not_Logged_In)
-| Complex layouts         | 1280px             | Complex or back office dashboard screens, data heavytables                  | [TESS Time off requests](https://tylertech.invisionapp.com/share/SPS26KRZJUA#/404641352_My_Team_-_Time_Off_Requests)
+| Content type      | Recommnded max-width     | Content examples   
+| :-----------------| :----------------------- | :----------------  
+| Simple, single column      | 960px           | Detail views, data tables, steppers / process screens 
+| Multi column         | 1040px                | Dashboards, complex detail pages                 
+| Complex layouts         | 1280px             | Complex or back office dashboard screens, data heavytables                  
 
 
 :::info But isn’t white space wasted space?
