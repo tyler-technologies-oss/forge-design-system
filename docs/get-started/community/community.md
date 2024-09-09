@@ -106,7 +106,6 @@ Municipalities may choose from three ADA compliant themes to complement their ex
 
 </ImageBlock>
 
-Check out this [demo](https://tylertech.invisionapp.com/share/95X8LONNECW) of all available themes. 
 
 ### 6. Standard landing pages
 
@@ -118,33 +117,14 @@ App teams may choose from the layouts provided to structure the main content, bu
 
 1. **Primary text.** This may be a welcome message or an announcement. 
 2. **A banner image,** customizable by the municipality. 
-    - The Cloud Platform will provide [defaults](https://tylertech.invisionapp.com/share/95X8LONNECW) that municipalities may choose from if they don't have an appropriate image. 
+    - The Cloud Platform will provide defaults that municipalities may choose from if they don't have an appropriate image. 
     - Recommended resolution / aspect ratio
     - Clients will provide mobile and desktop optimized images.
 3. **Contextual announcements** (optional), such as, upcoming HR announcements, new utility rebates, bill reminders etc. 
-4. **Main content,** which is displayed using one of the standard [layouts](https://tylertech.invisionapp.com/share/95X8LONNECW). 
+4. **Main content,** which is displayed using one of the standard layouts. 
 
 <ImageBlock padded={false}>
 
 ![ Landing page diagram highlighting the four key parts: primary text, banner image, contextual announcements, main content.](./images/landing-page-diagram.png)
 
 </ImageBlock>
-
-
-<!---
-
----
-
-## Demo 
-
-See the full experience in action! We've mocked out what this experience could look like if implemented for Mobile Alabama. **Note:** This is for internal demo purposes only and has not been implemented for Mobile. 
-
-<a href="https://tylertech.invisionapp.com/share/HKX7SPLFNXY" target="_blank" rel="noreferrer noopener">
-  View mobile demo
-</a>  
-
-<a href="https://tylertech.invisionapp.com/share/WAX8LP8J9MF" target="_blank" rel="noreferrer noopener">
-  View desktop demo
-</a>
-
--->
