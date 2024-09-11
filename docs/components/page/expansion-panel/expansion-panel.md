@@ -41,16 +41,36 @@ If one section is expanded and another section is open, we recommend leaving mul
 ## Types
 
 ### In a list
+<ImageBlock> 
+
+![An expansion panel in a list item is used to create a filter side sheet.](./images/list-type.png)
+
+</ImageBlock>
 
 ### In a card
+<ImageBlock> 
+
+![A card houses an expansion panel and expands the entire card down to show more information.](./images/card-type.png)
+
+</ImageBlock>
 
 Use a an expansion panel to display additional info in a [card](/components/cards/card).
 
 ### In a table
+<ImageBlock> 
+
+![A table row with an expansion panel creates an additional area under it to show more information.](./images/table-type.png)
+
+</ImageBlock>
 
 Tables may use expandable rows to display additional content.
 
 ### In a navigation drawer
+<ImageBlock> 
+
+![A navigation drawer with expansion panels used to house child items.](./images/nav-type.png)
+
+</ImageBlock>
 
 Use an expansion panel to display parent and children items in a nav drawer.
 
