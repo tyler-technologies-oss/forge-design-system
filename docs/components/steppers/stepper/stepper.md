@@ -42,9 +42,21 @@ Guided steppers provide a clear path to completion. Offering users a clear idea 
 
 Horizontal steppers are better suited for desktop layouts.
 
+<ImageBlock padded={false}>
+
+![Example of a horizontal stepper.](./images/horizontal-stepper.png)
+
+</ImageBlock>
+
 ### 2. Vertical mode 
 
 Vertical steppers are better suited for mobile layouts.
+
+<ImageBlock padded={false}>
+
+![Example of a vertical stepper.](./images/vertical-stepper.png)
+
+</ImageBlock>
 
 ### 3. Complex stepper
 
@@ -60,7 +72,7 @@ Complex steppers may be used in desktop settings when a process has more than fi
 
 ## Parts
 
-Steppers consist of three main parts: 1. Header 2. Content and 3. Actions. 
+Steppers consist of four main parts: 1. Header, 2. Stepper, 3. Content, and 4. Actions. 
 
 <ImageBlock padded={false}>
 
@@ -70,9 +82,11 @@ Steppers consist of three main parts: 1. Header 2. Content and 3. Actions.
 
 ### 1. Header
 
-The header contains the steps and an optional title. 
+The header contains the title for the stepper. Depending on the layout and the location of the stepper on the page, a header section might not be needed.
 
-Completed steps are indicated with a check. If previous steps may be edited, an edit icon may be used to draw additional attention to the fact. Steps with missing information are indicated with an error state. 
+### 2. Stepper
+
+The stepper section houses the stepper itself and all of its steps. Completed steps are indicated with a check. If previous steps may be edited, an edit icon may be used to draw additional attention to the fact. Steps with missing information are indicated with an error state. 
 
 <ImageBlock caption="Progress shown through a standard Forge stepper. Completed steps are indicated with a check." padded={false}>
 
@@ -100,7 +114,7 @@ When a stepper is used in a smaller container, text may be placed below the step
 
 </ImageBlock>
 
-### 2. Content
+### 3. Content
 
 <DoDontGrid>
   <DoDontTextSection>
@@ -118,7 +132,7 @@ When a stepper is used in a smaller container, text may be placed below the step
 
 </ImageBlock>
 
-### 3. Actions
+### 4. Actions
 
 If users will need more than a single session to complete the process, allow them to save their work in draft mode. Otherwise, provide options for "Next," "Previous," and "Cancel" by default. 
 
@@ -134,21 +148,17 @@ If users will need more than a single session to complete the process, allow the
 
 </ImageBlock>
 
-When a user exits a stepper, confirm the action with a dialog.
+<ImageBlock> 
 
-<ImageBlock maxWidth="300px"> 
-
-![Prompt users to save their changes when they exit the stepper.](./images/confirm.gif)
+![Prompt users to save their changes when they exit the stepper.](./images/confirm.png)
 
 </ImageBlock>
 
----
+When a user exits a stepper, confirm the action with a dialog.
 
-## Responsive
-
-Guidance coming soon!
 
 ---
+
 
 ## Best practices 
 
