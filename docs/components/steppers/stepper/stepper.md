@@ -150,7 +150,7 @@ If users will need more than a single session to complete the process, allow the
 
 <ImageBlock> 
 
-![Prompt users to save their changes when they exit the stepper.](./images/confirm.png)
+![A dialog asking the user to confirm their action of closing a stepper in the middle of the process.](./images/confirm.png)
 
 </ImageBlock>
 
