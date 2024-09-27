@@ -22,13 +22,13 @@ Avatars are available in default and larger sizes.
 
 <ImageBlock padded={false} caption="1. An image avatar can customize a profile header in a navigation drawer. 2. When no image is available, initials are used instead.">
 
-![Image of an auto-suggest providing suggested searches.](./images/avatar-types.png)
+![Two images. On the left, an avatar component sits in the profile header in a navigation drawer. In the second image, the avatar component contains the first and last initial of the profile name rather than a picture of the user.](./images/avatar-types.png)
 
 </ImageBlock>
 
 <ImageBlock padded={false} caption="1. Larger avatars may be used in cards. Use images when they are likely to be available and the profiles are likely to be familiar. 2. Smaller avatars may be used in lists and tables.">
 
-![Image of an auto-suggest providing suggested searches.](./images/avatar-pages.png)
+![Two images, on the left an avatar is shown large and centered in a card layout. In the second, the avatar component is used at the start of table rows where it's smaller.](./images/avatar-pages.png)
 
 </ImageBlock>
 
@@ -51,7 +51,7 @@ Avatars are available in default and larger sizes.
   <DoDontRow>
   <DoDontImage>
 
-![Forge logo](./images/avatar-dont.png)
+![Image of a list of values, each with an avatar component at the front. Each avatar has the letter E inside of it representing the category name of each list item which is something that should not be done.](./images/avatar-dont.png)
 
   </DoDontImage>
   </DoDontRow>

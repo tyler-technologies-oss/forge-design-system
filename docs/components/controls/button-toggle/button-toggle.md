@@ -14,15 +14,19 @@ sidebar_custom_props:
 
 ## Overview
 
-A button toggle groups related options. To emphasize groups of related toggle buttons, a group should share a common container. 
+A button toggle groups related options. This can be used in a variety of different ways, allowing users to select one option out of a group in a similar manner to radio buttons. Another common action is using it to swap between different views of the same information. To emphasize groups of related toggle buttons, a group should share a common container. 
 
 In general only one option in a group of toggle buttons can be selected and active at a time. Selecting one option deselects any other.
 
-The button toggle can also be used to create an icon toolbar. 
+<ImageBlock max-width="400px" padded="{false}">
 
-<ImageBlock caption="A button toggle can be used to create an icon toolbar." max-width="400px" padded="{false}">
+![A page showing a list of items with a button toggle component in the upper right. The first option in a set of two is selected.](./images/toggle-view-1.png)
 
-![Image of a toolbar with document viewer actions inside.](./images/button-toggle-example.png)
+</ImageBlock>
+
+<ImageBlock caption="An example use case for the button toggle is giving the user the ability to swap between two different views of the same data." max-width="400px" padded="{false}">
+
+![A page showing a list of items with a button toggle component in the upper right. The second option in a set of two is selected.](./images/toggle-view-2.png)
 
 </ImageBlock>
 
@@ -46,7 +50,3 @@ The button toggle can also be used to create an icon toolbar.
 - Use [radios](/components/controls/radio-button) to allow users to select a single option from a list. 
 - Use [checkboxes](/components/controls/checkbox) to allow users to select multiple options from a list. 
 - [Buttons](/components/buttons/button)
-
-### Patterns
-
-- Forms (Coming soon!)
