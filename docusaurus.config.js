@@ -211,8 +211,8 @@ const config = {
                 rel: null,
               },
               {
-                href: 'https://animated-doodle-7c7696e9.pages.github.io/main/',
-                label: 'Forge 2.x (internal)',
+                href: 'https://tyler-technologies.github.io/forge-internal/',
+                label: 'Forge internal (2.x & 3.x)',
                 target: '_blank',
                 rel: null,
               },
@@ -226,7 +226,7 @@ const config = {
                 value: '<b>Legacy</b>',
               },
               {
-                href: 'https://vigilant-potato-ad3164a4.pages.github.io/',
+                href: 'https://tyler-technologies.github.io/tyler-components-web/',
                 label: 'TCW 1.x',
                 target: '_blank',
                 rel: null,
