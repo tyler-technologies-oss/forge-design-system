@@ -111,7 +111,7 @@ See also [Collections](/patterns/collections) guidance.
 
 **Components to use**
 
-See [Filter sidesheet](/components/filter-sidesheet)
+See [Filter sidesheet](/components/page/filter-sidesheet)
 
 | Component            | Intent                                                                                                | Tradeoff
 | -------------------- | ----------------------------------------------------------------------------------------------------- | ---------------
@@ -185,7 +185,7 @@ Return users to their prior screen position and state, such as their vertical sc
 
 Search is  composed of the following components:
 
-- [Filter sidesheet](/components/filter-sidesheet), [drawer](/components/navigation/drawer), [toolbar](/components/page/toolbar), [card](/components/cards/card), [list](/components/lists/list), [radio button](/components/controls/radio-button), [switch](/components/controls/switch), [checkbox](/components/controls/checkbox)
+- [Filter sidesheet](/components/page/filter-sidesheet), [drawer](/components/navigation/drawer), [toolbar](/components/page/toolbar), [card](/components/cards/card), [list](/components/lists/list), [radio button](/components/controls/radio-button), [switch](/components/controls/switch), [checkbox](/components/controls/checkbox)
 
 
 Forms are related to the following patterns:

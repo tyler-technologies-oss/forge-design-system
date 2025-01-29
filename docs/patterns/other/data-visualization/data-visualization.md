@@ -42,7 +42,7 @@ Use the following steps to approach data visualizations.
 
 ## Parts
 
-If your team is starting with data viz, you may benefit from a Forge consulting session! [Request low or medium engagement consulting](/consulting) and mention "data viz" in your request. We can help you apply best practices to share a clear story around your data.
+If your team is starting with data viz, you may benefit from a Forge consulting session! [Request low or medium engagement consulting](/get-started/more-guidance/consulting/) and mention "data viz" in your request. We can help you apply best practices to share a clear story around your data.
 
 Forge does not provide a component for charts, but we recommend using one of the following libraries.
 

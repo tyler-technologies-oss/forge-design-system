@@ -38,7 +38,7 @@ Progress indicators and patterns differ depending on user goals:
 
 | Component          | Usage          | Tradeoffs
 | :----------------- | :----------------- | :----------------
-| [Skeleton loading](/components/skeleton)   | Use when content size/shape is known. Load skeleton components, then fade in components as they become available. | ???
+| [Skeleton loading](/components/progress-and-loading/skeleton)   | Use when content size/shape is known. Load skeleton components, then fade in components as they become available. | ???
 | Linear page progress (coming soon!)  | Use when the content to be loaded is of unknown or variable size or quantity. Display a description of the process with a linear progress bar (see pattern below).  | Doesn't create expectations around what kind of content will be available on the page once it loads.
 
 ### Progressive loading
@@ -73,7 +73,7 @@ Prevent users from interacting with content on a page when it may be changing du
 
 ### Components to use
 
-Use a [busy indicator](/components/busy-indicator) to temporarily prevent users from interacting with content on a page that may be changing or loading. 
+Use a [busy indicator](/components/notifications-and-messages/busy-indicator) to temporarily prevent users from interacting with content on a page that may be changing or loading. 
 
 While effective at preventing interaction, busy indicators are interruptive.
 
@@ -98,5 +98,5 @@ Communicate that components are changing or loading using circular or linear pro
 | Component          | Usage          | Tradeoffs
 | :----------------- | :----------------- | :----------------
 | [Circular progress spinner](/components/progress-and-loading/circular-progress)   | Fits well inside components such as buttons and cards, or in place of icons.  | May be associated with slightly longer perceived wait times.  
-| [Linear progress indicator](/components/linear-progress)     | Associated with perceptions of shorter wait times. Use them for components that have an "opening state," such as an autocomplete, select, or expansion panel.  | May not visually fit into components such as buttons or in place of icons. 
+| [Linear progress indicator](/components/progress-and-loading/linear-progress)     | Associated with perceptions of shorter wait times. Use them for components that have an "opening state," such as an autocomplete, select, or expansion panel.  | May not visually fit into components such as buttons or in place of icons. 
 

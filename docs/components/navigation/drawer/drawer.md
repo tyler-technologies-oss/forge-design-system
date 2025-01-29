@@ -56,7 +56,7 @@ Display on the left by default. Learn more about [navigation drawers](/component
 
 ### 2. Filter sidesheet
 
-May display on the left or right. Learn more about [filter sidesheets](/components/drawer#2-filter-sidesheet).
+May display on the left or right. Learn more about [filter sidesheets](/components/navigation/drawer#2-filter-sidesheet).
 
 <ImageBlock padded={false}>
 
@@ -82,7 +82,7 @@ A detail panel may show addiitonal information about a record or section. Detail
 
 The navigation drawer is used with:
 
-- [Omnibar](/components/omnibar)
+- [Omnibar](/components/omni/omnibar)
 - [Scaffold](/components/layouts/scaffold)
 
 For apps with fewer than five primary destinations, use:

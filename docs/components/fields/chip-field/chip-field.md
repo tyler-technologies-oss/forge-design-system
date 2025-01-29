@@ -25,7 +25,7 @@ Input chips represent a complex piece of information in compact form, such as an
 
 ### Don't use when
 
-- Displaying static attributes. Use [badges](/components/badge) instead.
+- Displaying static attributes. Use [badges](/components/notifications-and-messages/badge) instead.
 - Entering data that's more than a phrase or two. Use a  it requires more than one field to provide the context to the user, consider managing your collection through the [list](/components/lists/list) instead.
 
 ---
@@ -67,9 +67,9 @@ Input chips represent a complex piece of information in compact form, such as an
 
 ### Components
 
-- Use a [badge](/components/badge) for non-interactive data.
+- Use a [badge](/components/notifications-and-messages/badge) for non-interactive data.
 - Use [chips](/components/utilities/chips) to displays filters and choices. 
-- The chip field can be use used with an [autocomplete](/components/autocomplete) to facilitate searching.
+- The chip field can be use used with an [autocomplete](/components/fields/autocomplete) to facilitate searching.
 - For an input field without suggested options, use  [text fields](/components/fields/text-field).
 - For a short list of selectable options, use the [select](/components/fields/select).
 - For a short list of selectable options that optimize discoverability, use [checkboxes](/components/controls/checkbox) or [radio buttons](/components/controls/radio-button).

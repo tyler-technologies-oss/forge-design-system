@@ -34,7 +34,7 @@ Calendars allow users to view, schedule, and modify events, work, or other recor
 
 Data visualizations tell a story through data. They are visual, often interactive representations of information to help people make sense of complex phenomena. Charts can improve people’s ability to identify average values and patterns over grids of numbers.
 
-If your team is starting with data viz, you may benefit from a Forge consulting session! [Request low or medium engagement consulting](/consulting) and mention "data viz" in your request. We can help you apply best practices to share a clear story around your data.
+If your team is starting with data viz, you may benefit from a Forge consulting session! [Request low or medium engagement consulting](/get-started/more-guidance/consulting/) and mention "data viz" in your request. We can help you apply best practices to share a clear story around your data.
 
 Although apps may choose different charting libraries to meet different needs, charts can be given a cohesive look and feel by using consistent color palettes and typography. Check out our <a href="https://www.figma.com/file/rP8Of8bjVJUMpJIBFUJqQ3/Data-Viz?node-id=0%3A1">Data Viz theming guidance</a> in Figma or reach out to <a href="mailto:eric.wayne@tylertech.com">Eric Wayne</a> or <a href="mailto:mariah.kim@tylertech.com">Mariah Kim</a> for more information around theming charts. 
 
@@ -67,7 +67,7 @@ Drag and drop allows users to group, reorder, move, or resize objects by direct 
 
 Email templates may be used to manage communication with users, from confirming a new user registration to sending receipts and bill reminders.
 
-Our recommendation is to use <a href="https://postmarkapp.com/transactional-email-templates" target="_blank" rel="noreferrer noopener">Postmark</a>, a set of templates for transactional emails. If you're looking to use these templates, please [submit a request](/consulting) for "Low engagement consulting" from the Forge team and mention "Email templates" in your request.
+Our recommendation is to use <a href="https://postmarkapp.com/transactional-email-templates" target="_blank" rel="noreferrer noopener">Postmark</a>, a set of templates for transactional emails. If you're looking to use these templates, please [submit a request](/get-started/more-guidance/consulting/) for "Low engagement consulting" from the Forge team and mention "Email templates" in your request.
 
 ---
 

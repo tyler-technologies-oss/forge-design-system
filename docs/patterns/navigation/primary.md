@@ -25,7 +25,7 @@ Users will navigate an app with:
 
 ### Components to use
 
-Use top [tabs](/components/omnibar#variations) to display navigation for apps with fewer than 5 primary destinations.
+Use top [tabs](/components/omni/omnibar#variations) to display navigation for apps with fewer than 5 primary destinations.
 
 Tabs take up less vertical space than a navigation drawer, but can easily overflow their container if too many destinations are displayed.
 

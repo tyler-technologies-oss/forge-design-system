@@ -24,8 +24,8 @@ Inform users of system information such as updates, errors, or offline functiona
 | Component                                        | Intent                                                                                                                  | Tradeoffs
 | :------------------------------------------------| :---------------------------------------------------------------------------------------------------------------------- | :---
 | [Toast](/components/notifications-and-messages/toast)                       | Use to inform users of a process that the app has performed or will perform. Non-interruptive.                          | Transient and may be missed; better for non critical information. 
-| [Inline message](/components/inline-message)     | Use to display contextual information, such as an error summary or helpful tip, inside an element like a form or card.  | Take up more screen real estate and persistent / non-dismissible. 
-| [Page banner](/components/banner)                | Use to display one-time, dismissible page level information, such as new features or client announcements.              | Transient and must be dismissed.  
+| [Inline message](/components/notifications-and-messages/inline-message)     | Use to display contextual information, such as an error summary or helpful tip, inside an element like a form or card.  | Take up more screen real estate and persistent / non-dismissible. 
+| [Page banner](/components/notifications-and-messages/banner)                | Use to display one-time, dismissible page level information, such as new features or client announcements.              | Transient and must be dismissed.  
 
 <ImageBlock padded={false} caption="1. A toast provides a notification that records have been updated. <br> 2. An inline message provides additional information on a form.">
 

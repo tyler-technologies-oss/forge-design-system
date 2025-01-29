@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {type ReactNode} from 'react';
 import clsx from 'clsx';
 import {ThemeClassNames} from '@docusaurus/theme-common';
-import {isActiveSidebarItem} from '@docusaurus/theme-common/internal';
+import {isActiveSidebarItem} from '@docusaurus/plugin-content-docs/client';
 import Link from '@docusaurus/Link';
 import isInternalUrl from '@docusaurus/isInternalUrl';
 import IconExternalLink from '@theme/Icon/ExternalLink';
-import styles from './styles.module.css';
+import type {Props} from '@theme/DocSidebarItem/Link';
 import BADGE_TYPES from '@site/src/utils/badge-types';
+
+import styles from './styles.module.css';
 
 /**
  * Swizzle: added a way to read `sidebar_custom_props` from a pages frontmatter to display a recipe badge.
@@ -18,7 +20,7 @@ export default function DocSidebarItemLink({
   level,
   index,
   ...props
-}) {
+}: Props): ReactNode {
   const {href, label, className, autoAddBaseUrl, customProps} = item;
   const isActive = isActiveSidebarItem(item, activePath);
   const isInternalLink = isInternalUrl(href);

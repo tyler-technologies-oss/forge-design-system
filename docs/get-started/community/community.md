@@ -30,7 +30,7 @@ Community apps use the municipality logo as the favicon, which displays in the b
 
 Community apps use a white omnibar.
 
-For unauthenticated (not yet signed in) or guest users, the [omnibar](/components/omni/omnibar) contains the hamburger menu (if the app has a lefthand navigation), municipality name and logo, shopping cart (if applicable to unauthenticated users), [help icon](/components/omni/omnibar#1-help-required), [app launcher](/components/omni/app-launcher#3-app-launcher-required), and a link to "Sign in."
+For unauthenticated (not yet signed in) or guest users, the [omnibar](/components/omni/omnibar) contains the hamburger menu (if the app has a lefthand navigation), municipality name and logo, shopping cart (if applicable to unauthenticated users), [help icon](/components/omni/omnibar#1-help-required), [app launcher](/components/omni/app-launcher), and a link to "Sign in."
 
 <ImageBlock padded={false} caption="On mobile, community apps use the extended omnibar by default. On scroll, the omnibar collapses to display just the app name; logo and city name disappear.">
 

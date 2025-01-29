@@ -53,7 +53,7 @@ Dot and numeric badges should use the secondary color when placed on an indigo b
 
 ### Components
 
-- [Omnibar](/components/omnibar)
+- [Omnibar](/components/omni/omnibar)
 
 ### Patterns
 

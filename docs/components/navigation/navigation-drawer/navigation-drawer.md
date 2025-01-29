@@ -216,7 +216,7 @@ For more complex navigation structures, breadcrumbs may also be used to provide 
 
 The navigation drawer is used with:
 
-- [Omnibar](/components/omnibar)
+- [Omnibar](/components/omni/omnibar)
 - [Scaffold](/components/layouts/scaffold)
 
 For apps with fewer than five primary destinations, use:

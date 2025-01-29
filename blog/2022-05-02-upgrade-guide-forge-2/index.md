@@ -239,9 +239,9 @@ that are being used instead of adjusting the `type` property/attribute.
   <CheckboxListItem heading="Card">
 
 
-- removed all internal slots (except for the default slot) and the internal CSS grid layout. If you need to retain previous layouts, use a nested `<forge-scaffold>` for that.
-- removed built-in `margin-bottom`.
-- removed the `has-padding` property/attribute. Use the `--forge-card-padding` CSS custom property to control this via CSS now.
+  - removed all internal slots (except for the default slot) and the internal CSS grid layout. If you need to retain previous layouts, use a nested `<forge-scaffold>` for that.
+  - removed built-in `margin-bottom`.
+  - removed the `has-padding` property/attribute. Use the `--forge-card-padding` CSS custom property to control this via CSS now.
 
 
   </CheckboxListItem>
@@ -275,8 +275,8 @@ that are being used instead of adjusting the `type` property/attribute.
   <CheckboxListItem heading="omnibar">
 
 
-- rename to `<forge-app-bar>` (including all sub-components). The app-launcher component has been moved to the `@tylertech/forge-internal` components package.
-- See the [omnibar upgrade section](#omnibar-aka-app-bar) below for more detailed information about upgrading this component.
+  - rename to `<forge-app-bar>` (including all sub-components). The app-launcher component has been moved to the `@tylertech/forge-internal` components package.
+  - See the [omnibar upgrade section](#omnibar-aka-app-bar) below for more detailed information about upgrading this component.
 
 
   </CheckboxListItem>
@@ -284,32 +284,32 @@ that are being used instead of adjusting the `type` property/attribute.
   <CheckboxListItem heading="Progress spinner" description="Replaced with a new `<forge-circular-progress>` component with more flexibility, but offers equivalent functionality." />
   <CheckboxListItem heading="Switch" description="Refactored to remove `<input>` and `<label>` element within slotted content. Use just `<forge-switch>` element by itself with optional text content as a slotted child now.">
 
-The semantics of the component have changed to use `<button>` with `role="switch"` so there is no need to treat is as an `<input>` anymore.
+  The semantics of the component have changed to use `<button>` with `role="switch"` so there is no need to treat is as an `<input>` anymore.
 
-**Old:**
+  **Old:**
 
-```html
-<tcw-switch>
-  <input type="checkbox" id="switch" />
-  <label for="switch">off/on</label>
-</tcw-switch>
-```
+  ```html
+  <tcw-switch>
+    <input type="checkbox" id="switch" />
+    <label for="switch">off/on</label>
+  </tcw-switch>
+  ```
 
-**New:**
+  **New:**
 
-```html
-<forge-switch>
-  <span>off/on</span>
-</forge-switch>
-```
+  ```html
+  <forge-switch>
+    <span>off/on</span>
+  </forge-switch>
+  ```
 
-If you're using this component with Angular, you will want to ensure that you update your bindings to go on the `<forge-switch>` element now that there is no `<input>`
-element anymore. There is a `ControlValueAccessor` directive in the Angular adapter library `@tylertech/forge-angular` that will automatically enable the use of
-`ngModel` and `formControl`/`formControlName` on the `<forge-switch>` element now.
+  If you're using this component with Angular, you will want to ensure that you update your bindings to go on the `<forge-switch>` element now that there is no `<input>`
+  element anymore. There is a `ControlValueAccessor` directive in the Angular adapter library `@tylertech/forge-angular` that will automatically enable the use of
+  `ngModel` and `formControl`/`formControlName` on the `<forge-switch>` element now.
 
-:::info
-Additionally, we added a new `label-position` property/attribute that you can set to `"start"` if you want the label positioned in front of the switch.
-:::
+  :::info
+  Additionally, we added a new `label-position` property/attribute that you can set to `"start"` if you want the label positioned in front of the switch.
+  :::
 
   </CheckboxListItem>
 
@@ -317,13 +317,13 @@ Additionally, we added a new `label-position` property/attribute that you can se
   <CheckboxListItem heading="Text field | Select | Chip field" description="Updated design to use the new inset style. The notched outline style has been removed.">
 
 
-**Old (notched-outline):**
+  **Old (notched-outline):**
 
-![Text field notched example](./images/text-field-notched.png)
+  ![Text field notched example](./images/text-field-notched.png)
 
-**New (inset):**
+  **New (inset):**
 
-![Text field inset example](./images/text-field-inset.png)
+  ![Text field inset example](./images/text-field-inset.png)
 
 
   </CheckboxListItem>
@@ -333,26 +333,26 @@ Additionally, we added a new `label-position` property/attribute that you can se
   <CheckboxListItem heading="Global StyleSheets" description="Renamed `tcw-material-design.css` to `forge.css` and `tcw-core.css` to `forge-core.css`" />
   <CheckboxListItem heading="Component Delegates" description="APIs have changed slightly. This is mostly commonly been used with the table `filterDelegate` property.">
 
-**Old:**
+  **Old:**
 
-```typescript
-new TextFieldComponentDelegate({ placeholder: 'Filter workspace', density: 'roomy' })
-```
+  ```typescript
+  new TextFieldComponentDelegate({ placeholder: 'Filter workspace', density: 'roomy' })
+  ```
 
-**New:**
+  **New:**
 
-```typescript
-new TextFieldComponentDelegate({
-  options: { placeholder: 'Filter workspace' },
-  props: { density: 'roomy' }
-})
-```
+  ```typescript
+  new TextFieldComponentDelegate({
+    options: { placeholder: 'Filter workspace' },
+    props: { density: 'roomy' }
+  })
+  ```
 
-:::info
-The configuration object has been updated to an object that has two properties `options` and `props`:
-- `options` contains configuration for the delegate itself which may vary.
-- `props` are properties that will be passed to the underlying Forge component
-:::
+  :::info
+  The configuration object has been updated to an object that has two properties `options` and `props`:
+  - `options` contains configuration for the delegate itself which may vary.
+  - `props` are properties that will be passed to the underlying Forge component
+  :::
 
   </CheckboxListItem>
 
@@ -369,26 +369,26 @@ The configuration object has been updated to an object that has two properties `
   <CheckboxListItem heading="Calendar" description="This component has been rewritten from the ground up. Many APIs have changed. See below for detailed information, but refer to the component docs for new usage information.">
 
 
-- Renamed events to use element name in prefix (`tcw-calendar-*` instead of `tcw-*`)
-- Renamed the `ICalendarDateSelectEvent` interface to `ICalendarDateSelectEventData`
-- The `tcw-date-range-select` event has been removed and its functionality included in the `tcw-calendar-date-select` event, which now has `range` and `rangeSelectionState` properties
-- Renamed the `tcw-active-change` event to `tcw-calendar-focus-change`
-- The `mode` property is now used to set the date selection behavior
-- The `multiselect` property is replaced by setting the `mode` property to `'multiple'`
-- The `range` property is replaced by setting the `mode` property to `'range'`
-- The "display" `mode` property setting is replaced by a new `readonly` property
-- Renamed the `viewIndex` property to `view`
-- Renamed the `blockedDates` property to `disabledDates`
-- Renamed the `minDate` and `maxDate` properties to `min` and `max`
-- The `minYear` and `maxYear` properties are replaced by a single `yearRange` property which only affects the year picker
-- The `viewIndex` property has been removed
-- The `autoSwitch` property has been removed, the `goToDate()` method can be used to move any date into view
-- Renamed `renderDateCallback` to `dateBuilder`, which now must return an `HTMLElement`
-- Renamed `disabledDayCallback` to `disabledDateBuilder`
-- Renamed `eventsCallback` to `eventBuilder`
-- Renamed the `removeDate()` method to `deselectDate()`
-- The `handleKey()` method now accepts a `KeyboardEvent` as an argument
-- Selecting a month or year from the picker no longer updates the selected date to match by default, the new `selectionFollowsMonth` property enables this
+  - Renamed events to use element name in prefix (`tcw-calendar-*` instead of `tcw-*`)
+  - Renamed the `ICalendarDateSelectEvent` interface to `ICalendarDateSelectEventData`
+  - The `tcw-date-range-select` event has been removed and its functionality included in the `tcw-calendar-date-select` event, which now has `range` and `rangeSelectionState` properties
+  - Renamed the `tcw-active-change` event to `tcw-calendar-focus-change`
+  - The `mode` property is now used to set the date selection behavior
+  - The `multiselect` property is replaced by setting the `mode` property to `'multiple'`
+  - The `range` property is replaced by setting the `mode` property to `'range'`
+  - The "display" `mode` property setting is replaced by a new `readonly` property
+  - Renamed the `viewIndex` property to `view`
+  - Renamed the `blockedDates` property to `disabledDates`
+  - Renamed the `minDate` and `maxDate` properties to `min` and `max`
+  - The `minYear` and `maxYear` properties are replaced by a single `yearRange` property which only affects the year picker
+  - The `viewIndex` property has been removed
+  - The `autoSwitch` property has been removed, the `goToDate()` method can be used to move any date into view
+  - Renamed `renderDateCallback` to `dateBuilder`, which now must return an `HTMLElement`
+  - Renamed `disabledDayCallback` to `disabledDateBuilder`
+  - Renamed `eventsCallback` to `eventBuilder`
+  - Renamed the `removeDate()` method to `deselectDate()`
+  - The `handleKey()` method now accepts a `KeyboardEvent` as an argument
+  - Selecting a month or year from the picker no longer updates the selected date to match by default, the new `selectionFollowsMonth` property enables this
 
 
   </CheckboxListItem>
@@ -410,9 +410,9 @@ The configuration object has been updated to an object that has two properties `
   <CheckboxListItem heading="Drawer" description="Created separate components per-type (drawer, modal, mini) instead of a single component that handles all types.">
 
 
-- `<forge-drawer>`: this is essentially a combination of the old "permanent" and "dismissible" types
-- `<forge-mini-drawer>`: this is a combo of the old "mini" and "mini-hover" types
-- `<forge-modal-drawer>`: this is just the "modal" type on its own
+  - `<forge-drawer>`: this is essentially a combination of the old "permanent" and "dismissible" types
+  - `<forge-mini-drawer>`: this is a combo of the old "mini" and "mini-hover" types
+  - `<forge-modal-drawer>`: this is just the "modal" type on its own
 
 
   </CheckboxListItem>
@@ -424,27 +424,27 @@ The configuration object has been updated to an object that has two properties `
   <CheckboxListItem heading="List dropdown" description="Removed built-in dialog functionality where the dropdown would render in a dialog on mobile devices automatically. The expectation going forward is that native platform components/pickers will be used on mobile where necessary. This change also means all APIs related to this functionality, such as the common `dialogWidthThreshold` property on various components that utilize the list-dropdown internally will have removed this property." />
   <CheckboxListItem heading="List item" description="Removed all global `tyl-list-item*` CSS classes in favor of using slots in the component (added new `title`, `subtitle`, `tertiary-title` slots).">
 
-**Old:**
+  **Old:**
 
-```html
-<tcw-list-item three-line="true">
-  <span class="tyl-list-item__title">List Item</span>
-  <span class="tyl-list-item__subtitle">Secondary Text</span>
-  <span class="tyl-list-item__tertiary-title">Tertiary Text</span>
-</tcw-list-item>
-```
+  ```html
+  <tcw-list-item three-line="true">
+    <span class="tyl-list-item__title">List Item</span>
+    <span class="tyl-list-item__subtitle">Secondary Text</span>
+    <span class="tyl-list-item__tertiary-title">Tertiary Text</span>
+  </tcw-list-item>
+  ```
 
-**New:**
+  **New:**
 
-```html
-<forge-list-item three-line>
-  <span slot="title">List Item</span>
-  <span slot="subtitle">Secondary Text</span>
-  <span slot="tertiary-title">Tertiary Text</span>
-</forge-list-item>
-```
+  ```html
+  <forge-list-item three-line>
+    <span slot="title">List Item</span>
+    <span slot="subtitle">Secondary Text</span>
+    <span slot="tertiary-title">Tertiary Text</span>
+  </forge-list-item>
+  ```
 
-</CheckboxListItem>
+  </CheckboxListItem>
 
   <CheckboxListItem heading="List item" description="Removed the `no-wrap` attribute in favor of using the `wrap` attribute only." />
   <CheckboxListItem heading="List item" description="Renamed the `IListItemSelectedEventData` interface to `IListItemSelectEventData`" />
@@ -472,9 +472,9 @@ The configuration object has been updated to an object that has two properties `
   <CheckboxListItem heading="All component delegates" description="All existing component delegate classes have been refactored to use new APIs. The biggest change here is that the configuration object provided to the constructor now contains a uniform generic API for separating properties related to component API vs supplemental component options.">
 
 
-- The `getValue()` and `setValue()` methods have been converted to a `value` property getter/setter.
-- The `setDisabled()` and `setValidity()` methods have been converted to `disabled` and `invalid` getter/setter properties respectively.
-- The `validate()` method has been removed.
+  - The `getValue()` and `setValue()` methods have been converted to a `value` property getter/setter.
+  - The `setDisabled()` and `setValidity()` methods have been converted to `disabled` and `invalid` getter/setter properties respectively.
+  - The `validate()` method has been removed.
 
 
   </CheckboxListItem>

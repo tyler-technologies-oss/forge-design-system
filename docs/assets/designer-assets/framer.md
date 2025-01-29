@@ -20,6 +20,6 @@ In Framer, interactions are first-class throughout your whole workflow—wirefra
 <br/>
 
 :::info
-To learn more about getting started with Framer, [submit a request](/consulting/) for "Low engagement consulting" from the Forge team and mention "Framer" in your request.
+To learn more about getting started with Framer, [submit a request](/get-started/more-guidance/consulting/) for "Low engagement consulting" from the Forge team and mention "Framer" in your request.
 
 :::

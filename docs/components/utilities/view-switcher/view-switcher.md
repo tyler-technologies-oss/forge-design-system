@@ -26,7 +26,7 @@ For example, when tapping a new tab in a card, both the outgoing and incoming el
 ### Components
 
 - [Tabs](/components/navigation/tabs)
-- [Stepper](/components/stepper)
+- [Stepper](/components/steppers/stepper)
 
 ### Patterns
 

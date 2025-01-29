@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-Icon buttons communicate actions that users can take. Icon buttons display a [tooltip](/components/tooltip) with the action name. Icon buttons should be placed close to the content they act on. 
+Icon buttons communicate actions that users can take. Icon buttons display a [tooltip](/components/notifications-and-messages/tooltip) with the action name. Icon buttons should be placed close to the content they act on. 
 
 ### Use when
 
@@ -51,7 +51,7 @@ There are two types of icon buttons: 1. Default icon buttons, 2. Icon toggle but
 
 ### Icon toggle
 
-Icons can be used as toggle buttons when they allow selection, or deselection, of a single choice, such as marking an item as a favorite or opening or closing a [drawer](/components/drawer). Icon buttons use icons from the [icon library](/assets/icon-library). 
+Icons can be used as toggle buttons when they allow selection, or deselection, of a single choice, such as marking an item as a favorite or opening or closing a [drawer](/components/navigation/drawer). Icon buttons use icons from the [icon library](/assets/icon-library). 
 
 ---
 
@@ -77,7 +77,7 @@ Icons can be used as toggle buttons when they allow selection, or deselection, o
 - Use a text [button](/components/buttons/button) for unfamiliar actions.
 - Use a [button toggle](/components/controls/button-toggle) to allow for selection within a set. 
 - Icon buttons may be used in [tables](/components/table/table), [lists](/components/lists/list), or toolbars.
-- Use a [tooltip](/components/tooltip) with icon buttons.
+- Use a [tooltip](/components/notifications-and-messages/tooltip) with icon buttons.
 
 ---
 

@@ -26,12 +26,12 @@ A backdrop (scrim) is a temporary treatment that can be applied to Material surf
 
 ### Don't use when
 
-- Displaying information that should be referenced while using the app. Use an [inline message](/components/inline-message) instead. 
-- Displaying information that refers to a single component. Consider an [inline message](/components/inline-message) instead. 
+- Displaying information that should be referenced while using the app. Use an [inline message](/components/notifications-and-messages/inline-message) instead. 
+- Displaying information that refers to a single component. Consider an [inline message](/components/notifications-and-messages/inline-message) instead. 
 - Displaying an interactive tour of multiple new features. Use a rich tooltip (coming soon!) or WalkMe (guidance coming soon!) instead. 
 - Confirming a user action such as a confirmation of a save, delete, or add; that doesn't require additional user input. Use a [toast](/components/notifications-and-messages/toast) instead. 
-- Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/banner) instead. 
-- Displaying information that pertains to the full page. Use a [banner](/components/banner) instead. 
+- Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/notifications-and-messages/banner) instead. 
+- Displaying information that pertains to the full page. Use a [banner](/components/notifications-and-messages/banner) instead. 
 
 :::info
 Dialogs are purposefully interruptive, so they should be used sparingly.
@@ -184,10 +184,10 @@ If the user has made changes, the user is prompted to confirm the discard action
 ### Components
 
 - Use a [toast](/components/notifications-and-messages/toast) to display low priority messages that disappear automatically. 
-- Use a [banner](/components/banner) to display high priority messages that disappear after user interaction.
-- Use [inline messages](/components/inline-message) to display persistent information related to a specific component. 
+- Use a [banner](/components/notifications-and-messages/banner) to display high priority messages that disappear after user interaction.
+- Use [inline messages](/components/notifications-and-messages/inline-message) to display persistent information related to a specific component. 
 - Use [buttons](/components/buttons/button) inside of dialogs. 
-- [Steppers](/components/stepper) may be used with dialogs. 
+- [Steppers](/components/steppers/stepper) may be used with dialogs. 
 
 ### Recipes
 

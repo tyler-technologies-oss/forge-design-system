@@ -27,8 +27,8 @@ The banner is dismissed by a dismiss icon or once a user opens it to view a dial
 
 ### Don't use when
 
-- Displaying information that could be referenced multiple times, such as a helper information. Consider an [inline message](/components/inline-message) instead.
-- Displaying information that refers to a single component. Consider an [inline message](/components/inline-message) instead. 
+- Displaying information that could be referenced multiple times, such as a helper information. Consider an [inline message](/components/notifications-and-messages/inline-message) instead.
+- Displaying information that refers to a single component. Consider an [inline message](/components/notifications-and-messages/inline-message) instead. 
 - Displaying an interactive tour of multiple new features. Use a rich tooltip (coming soon!) or WalkMe (guidance coming soon!) instead. 
 - Displaying high priority information where action is needed from a user, such as a server error or submission failure. Use a [dialog](/components/notifications-and-messages/dialog) instead. 
 - Displaying reactive or confirming information such as a confirmation of a save, delete, or add. Use a [toast](/components/notifications-and-messages/toast) instead. 
@@ -84,7 +84,7 @@ The page banner resizes to display on mobile. Preview text is limited to two lin
 
 - Use a [dialog](/components/notifications-and-messages/dialog) for high priority alerts that require user action.
 - Use a [toast](/components/notifications-and-messages/toast) for low priority notifications in response to user action.
-- Use an [inline message](/components/inline-message) to display helper information for a specific component.
+- Use an [inline message](/components/notifications-and-messages/inline-message) to display helper information for a specific component.
 
 ### Patterns
 

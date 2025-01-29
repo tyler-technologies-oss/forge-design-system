@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like: [dialogs](/components/notifications-and-messages/dialog), forms (coming soon!), [cards](/components/cards/card), [tables](/components/table/table), [toolbars](/components/toolbar).
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like: [dialogs](/components/notifications-and-messages/dialog), forms (coming soon!), [cards](/components/cards/card), [tables](/components/table/table), [toolbars](/components/page/toolbar/).
 
 ---
 
@@ -22,7 +22,7 @@ Buttons communicate actions that users can take. They are typically placed throu
 
 There are three types of text buttons: 1. Raised (high emphasis), 2. Outlined (medium emphasis), and 3. Flat (low emphasis).
 
-Forge also includes other types of buttons: [icon buttons](/components/icon-button), [floating action buttons](/components/buttons/floating-action-button), [button toggles](/components/controls/button-toggle), and [split buttons](/components/buttons/split-button). 
+Forge also includes other types of buttons: [icon buttons](/components/buttons/icon-button), [floating action buttons](/components/buttons/floating-action-button), [button toggles](/components/controls/button-toggle), and [split buttons](/components/buttons/split-button). 
 
 ### Raised (High emphasis)
 
@@ -129,7 +129,7 @@ Buttons may be used with:
 - [Dialogs](/components/notifications-and-messages/dialog)
 - [Lists](/components/lists/list)
 - [Cards](/components/cards/card)
-- [Toolbars](/components/toolbar)
+- [Toolbars](/components/page/toolbar/)
 
 ### Patterns
 
