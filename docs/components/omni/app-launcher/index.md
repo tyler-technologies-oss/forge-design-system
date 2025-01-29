@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # App launcher
 
-<ComponentVisual storybookUrl="https://animated-doodle-7c7696e9.pages.github.io/main/?path=/story/components-app-launcher--default">
+<ComponentVisual storybookUrl="https://tyler-technologies.github.io/forge-internal/main/?path=/story/components-app-launcher--default">
 
 ![](./images/app-bar-app-launcher.png)
 

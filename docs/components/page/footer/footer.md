@@ -6,7 +6,7 @@ sidebar_custom_props:
 
 # Footer
 
-<ComponentVisual storybookUrl="https://animated-doodle-7c7696e9.pages.github.io/main/?path=/story/components-footer--default">
+<ComponentVisual storybookUrl="https://tyler-technologies.github.io/forge-internal/main/?path=/story/components-footer--default">
 
 ![](./images/footer.png)
 
