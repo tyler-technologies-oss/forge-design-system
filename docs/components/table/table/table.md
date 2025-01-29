@@ -293,7 +293,7 @@ View recipes for the table component [here](/recipes).
 
 </ImageBlock>
 
-For tables whose cell values are likely to span multiple lines (addresses, for example), column headers and cell text may be placed into a single column with [label values](/components/label-value).
+For tables whose cell values are likely to span multiple lines (addresses, for example), column headers and cell text may be placed into a single column with [label values](/components/fields/label-value).
 
 <ImageBlock padded={false} caption="Tables may convert to a single column onmobile for column headers and cell text if the cell text is likely to span multiple lines.">
 

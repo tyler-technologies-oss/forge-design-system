@@ -50,7 +50,7 @@ Choice chips allow users to make a selection from a set of choices. Choice chips
 
 Use a [button toggle](/components/controls/button-toggle) or [radio buttons](/components/controls/radio-button) when users can only select a single option.
 
-Use a [select](/components/fields/select) or [autocomplete](/components/autocomplete) when there are too many  options for the screen real estate provided. 
+Use a [select](/components/fields/select) or [autocomplete](/components/fields/autocomplete) when there are too many  options for the screen real estate provided. 
 
 Most commonly used in onboarding flows or mobile contexts. 
 
@@ -105,7 +105,7 @@ For datasets with more than seven filters or for sets that have categories and s
 
 ### Components
 
-- Use a [badge](/components/badge) for non-interactive data.
+- Use a [badge](/components/notifications-and-messages/badge) for non-interactive data.
 - Chips may be used with [lists](/components/lists/list), [tables](/components/lists/list), or [cards](/components/cards/card).
 - Choices may also be represented by [radio buttons](/components/controls/radio-button), [checkboxes](/components/controls/checkbox), or [button toggles](/components/controls/button-toggle).
 

@@ -34,7 +34,7 @@ Use an empty state when an item's content can't be shown, or there's no data to 
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustration-library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustration-library).
 
 2. **Header text (Optional)** Convey the purpose of the screen, without appearing actionable. Style should be conversational. 
 
@@ -94,7 +94,7 @@ Error pages are comprised of the following parts.
 
 </ImageBlock>
 
-1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustration-library#SpotHero).
+1. **Image (Required)** Select a spot hero image from the [Forge Illustration Library](/assets/illustration-library).
 
 2. **Header text (Optional)** Provide a brief description of what went wrong. Style should be conversational. For common error types, use the provided default copy (see below). 
 

@@ -132,7 +132,7 @@ Interactive demo coming soon...
 
 ### 3. App launcher (required)
 
-App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/app-launcher).
+App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/omni/app-launcher).
 
 
 ### 4. Avatar and profile card 

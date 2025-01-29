@@ -43,7 +43,7 @@ Standard bottom sheets display content that complements the screen's primary con
 They are commonly used to keep a feature or secondary content visible on screen when content in main UI region is frequently scrolled or panned. They remain
 visible while users interact with the primary content. They're best for allowing users to reference contextual content, such as location details on a map.
 
-On desktop, a standard bottom sheet may display as a [sidesheet](/components/drawer/#3-detail-panel) instead.
+On desktop, a standard bottom sheet may display as a [sidesheet](/components/navigation/drawer/#3-detail-panel) instead.
 
 <ImageBlock padded={false} caption="Standard modal bottom sheets may contain additional information or a FAB. They may be expanded to full height to display additional information.">
 
@@ -111,8 +111,8 @@ Modal bottom sheets include a backdrop (scrim) and prevent users from interactin
 ### Components
 
 - Use a [toast](/components/notifications-and-messages/toast) to display low priority messages that disappear automatically. 
-- Use a [banner](/components/banner) to display high priority messages that disappear after user interaction.
-- Use [inline messages](/components/inline-message) to display persistent information related to a specific component. 
+- Use a [banner](/components/notifications-and-messages/banner) to display high priority messages that disappear after user interaction.
+- Use [inline messages](/components/notifications-and-messages/inline-message) to display persistent information related to a specific component. 
 - Use [button](/components/buttons/button) inside of dialogs. 
 - [Steppers](/components/steppers/stepper) may be used with dialogs. 
 

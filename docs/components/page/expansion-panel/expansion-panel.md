@@ -96,7 +96,7 @@ Expansion panels may be used with:
 - [Card](/components/cards/card)
 - [List](/components/lists/list)
 - [Table](/components/table/table)
-- [Accordion](/components/accordion)
+- [Accordion](/components/page/accordion)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 
 ### Patterns

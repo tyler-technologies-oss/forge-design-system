@@ -73,7 +73,7 @@ Filters are comprised of 5 parts:
 
 </ImageBlock>
 
-Facets may be displayed as [radio buttons](/components/controls/radio-button), [checkboxes](/components/controls/checkbox), [date pickers](/components/date-picker), or [sliders](/components/slider).
+Facets may be displayed as [radio buttons](/components/controls/radio-button), [checkboxes](/components/controls/checkbox), [date pickers](/components/date-and-time/date-picker), or [sliders](/components/fields/slider).
 
 <ImageBlock padded={false}>
 
@@ -83,13 +83,13 @@ Facets may be displayed as [radio buttons](/components/controls/radio-button), [
 
 1. **[Checkboxes](/components/controls/checkbox):** Categories (dynamic counts are optional.) 
 2. **[Radio buttons](/components/controls/radio-button):** Exclusive categories (dynamic counts are optional.)
-3. **[Sliders](/components/slider):** Approximate ranges. 
+3. **[Sliders](/components/fields/slider):** Approximate ranges. 
 4. **Range:** Specific, discrete ranges. 
-5. **[Date range](/components/date-range-picker):** Specific date ranges. 
-6. **[Date picker](/components/date-picker):** A single date. 
+5. **[Date range](/components/date-and-time/date-range-picker):** Specific date ranges. 
+6. **[Date picker](/components/date-and-time/date-picker):** A single date. 
 
 :::note
-If dynamic counts are used, a numeric badge with white text and tertiary background color should be used. See [numeric badge guidance](/components/badge#numeric-badges) for more information.
+If dynamic counts are used, a numeric badge with white text and tertiary background color should be used. See [numeric badge guidance](/components/notifications-and-messages/badge#numeric-badges) for more information.
 :::
 
 ### 4. Chips 
@@ -115,7 +115,7 @@ Use [chips](/components/utilities/chips) to indicate which filters have been app
 By default, filters should be applied in real time. 
 
 :::note
-When referencing the example below, use the filter sidesheet component and the [page state](/components/page-state) error for "no results" instead.
+When referencing the example below, use the filter sidesheet component and the [page state](/components/page/page-state) error for "no results" instead.
 :::
 
 <ImageBlock caption="Filters are applied to the search results as they're applied.">

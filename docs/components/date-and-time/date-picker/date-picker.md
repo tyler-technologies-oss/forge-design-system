@@ -102,8 +102,8 @@ If the component is not available to be used, the native [Android date picker](h
 ### Components
 
 * [Text fields](/components/fields/text-field)
-* The date picker uses the [calendar](/components/calendar) under the hood
-* Use a [date range picker](/components/date-range-picker) for dates that require a range 
+* The date picker uses the [calendar](/components/date-and-time/calendar) under the hood
+* Use a [date range picker](/components/date-and-time/date-range-picker) for dates that require a range 
 
 ### Patterns 
 

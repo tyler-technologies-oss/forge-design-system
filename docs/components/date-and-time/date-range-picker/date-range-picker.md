@@ -22,7 +22,7 @@ The date range picker allows users to select a date range.
 
 The date range picker allows users to manually type in a date (useful for familiar dates) or select from a calendar dropdown (useful for scheduling). The date range picker can handle formatting for manual entry on dates. 
 
-See [date picker guidance](/components/date-picker) for additional information around masking, validation, accessibility, and responsive behavior. 
+See [date picker guidance](/components/date-and-time/date-picker) for additional information around masking, validation, accessibility, and responsive behavior. 
 
 ---
 
@@ -31,7 +31,7 @@ See [date picker guidance](/components/date-picker) for additional information a
 ### Components
 
 - [Text fields](/components/fields/text-field)
-- The date range picker uses the [calendar](/components/calendar) under the hood
+- The date range picker uses the [calendar](/components/date-and-time/calendar) under the hood
 
 ### Patterns 
 

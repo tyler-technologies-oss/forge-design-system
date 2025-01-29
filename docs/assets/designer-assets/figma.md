@@ -19,7 +19,7 @@ Figma viewer accounts are free but editor accounts require a paid subscription. 
 
 **Note:** The Editor subscription cost has been provisionally approved by funding manager pending the submission of PO. Requesting team will be charged $15 per user/per month through June 3, 2022. At that time, monthly users will be added to the annual subscription.
 
-To request a viewer account, [submit a request](/consulting/) for "Low engagement consulting" from the Forge team and mention a "Figma viewer account" in your request. 
+To request a viewer account, [submit a request](/get-started/more-guidance/consulting/) for "Low engagement consulting" from the Forge team and mention a "Figma viewer account" in your request. 
 
 Once you have a Figma account, get started with Figma below!
 

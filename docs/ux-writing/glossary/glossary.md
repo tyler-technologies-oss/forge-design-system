@@ -141,7 +141,7 @@ Indicates the user does not approve. In a business process, typically blocks the
 ### Download
 Transfers a file from a remote system to a local system.
 
-> **Compare with:** [*Export*](/ux-writing/glossary/#export), [*Upload*](/ux-writing/glossary/#upload)
+> **Compare with:** [*Export*](/ux-writing/glossary/#export)
 
 ---
 

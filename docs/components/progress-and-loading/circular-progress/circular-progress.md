@@ -27,10 +27,10 @@ Progress indicators are used to:
 
 | Context           | Component          | Guidance
 | :-----------------| :----------------- | :----------------
-| Initial page load |  [Skeleton + progressive loading](/components/skeleton)  | Use skeleton loading when content size/shape is known. Load skeleton components, then fade in components as they become available.
+| Initial page load |  [Skeleton + progressive loading](/components/progress-and-loading/skeleton)  | Use skeleton loading when content size/shape is known. Load skeleton components, then fade in components as they become available.
 | Initial page load | Linear page progress | Use when the content to be loaded is of unknown or variable size or quantity. Display a description of the process with a linear progress bar (see pattern below).
-| Full page load or change | [Full page busy indicator](/components/busy-indicator) | Use an overlay to prevent users from interacting with content on a page due to a change, server error, or form submission.
-| Multiple components | [Skeleton + progressive loading](/components/skeleton) | Load skeleton components, then fade in components as they become available.
+| Full page load or change | [Full page busy indicator](/components/notifications-and-messages/busy-indicator) | Use an overlay to prevent users from interacting with content on a page due to a change, server error, or form submission.
+| Multiple components | [Skeleton + progressive loading](/components/progress-and-loading/skeleton) | Load skeleton components, then fade in components as they become available.
 | Single component within a page | Inline circular progress spinner | Use a contextual circular progress indicator to communicate that either a component's state or data is changing.
 
 ---
@@ -43,7 +43,7 @@ Use **circular progress indicators** to identify when a specific area of the pag
 
 ## When to use: Linear vs circular progress indicators
 
-Forge offers two visually distinct types of progress indicators: [linear](/components/linear-progress) and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn’t use a linear indicator elsewhere in the app.Researchers Gronier and Lallemend conducted an experiment to determine what the best metaphor to display during waiting time is. They measured a number of components (progress bar, countdown, text, etc) against perceived waiting time and satisfaction. They found that while a countdown yields the highest satisfaction level because it informs the user exactly how long they have to wait, **linear progress bars** were actually associated with the shortest perceived waiting time and a high satisfaction score (5.8 out of 7). [Read more](http://www.guillaumegronier.com/cv/resources/Articles/2013_WorkshopHCI_Gronier.pdf). For this reason, we recommend a heavier use of **linear progress indicators**. 
+Forge offers two visually distinct types of progress indicators: [linear](/components/progress-and-loading/linear-progress) and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn’t use a linear indicator elsewhere in the app.Researchers Gronier and Lallemend conducted an experiment to determine what the best metaphor to display during waiting time is. They measured a number of components (progress bar, countdown, text, etc) against perceived waiting time and satisfaction. They found that while a countdown yields the highest satisfaction level because it informs the user exactly how long they have to wait, **linear progress bars** were actually associated with the shortest perceived waiting time and a high satisfaction score (5.8 out of 7). [Read more](http://www.guillaumegronier.com/cv/resources/Articles/2013_WorkshopHCI_Gronier.pdf). For this reason, we recommend a heavier use of **linear progress indicators**. 
 
 Because **circular progress indicators** fit better inside components, use them to communicate the state of a component or its data is changing. Use circular progress indicators for inline components; use linear progress indicators for other scenarios.
 
@@ -113,9 +113,9 @@ Loading a card.
 
 ### Components
 
-- Use [skeleton loading](/components/skeleton) when content size/shape is known.
-- Use a [busy indicator](/components/busy-indicator) to to prevent users from interacting with content on a page due to a change, server error, or form submission.
-- Use a [linear progress indicator](/components/linear-progress) to communicate that a specific component is loading. Linear progress indicators may be used at the bottom of text fields, in dropdowns, and in expansion panels.
+- Use [skeleton loading](/components/progress-and-loading/skeleton) when content size/shape is known.
+- Use a [busy indicator](/components/notifications-and-messages/busy-indicator) to to prevent users from interacting with content on a page due to a change, server error, or form submission.
+- Use a [linear progress indicator](/components/progress-and-loading/linear-progress) to communicate that a specific component is loading. Linear progress indicators may be used at the bottom of text fields, in dropdowns, and in expansion panels.
 
 ### Patterns
 

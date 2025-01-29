@@ -44,7 +44,7 @@ Movement from a **parent** screen (higher level of hierarchy) to a **child** scr
 Movement from a **child** screen (lower level of hierarchy) to a **parent** screen (higher level).
 
 ### Components to use 
-- For detail screens, use a [toolbar](/components/toolbar) and back arrow to allow for upward navigation. 
+- For detail screens, use a [toolbar](/components/page/toolbar/) and back arrow to allow for upward navigation. 
 
 See the upward navigation pattern in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
 

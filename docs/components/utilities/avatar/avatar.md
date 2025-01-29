@@ -72,4 +72,4 @@ Avatars may be used in:
 
 - [Lists](/components/lists/list)
 - [Table](/components/table/table)
-- [Navigation drawer](/components/drawer)
+- [Navigation drawer](/components/navigation/drawer)

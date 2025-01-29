@@ -29,7 +29,7 @@ Progress indicators are used to:
 | :-----------------| :----------------- | :----------------
 | Initial page load |  Skeleton + progressive loading  | Use skeleton loading when content size/shape is known. Load skeleton components, then fade in components as they become available.
 | Initial page load | Linear page progress | Use when the content to be loaded is of unknown or variable size or quantity. Display a description of the process with a linear progress bar (see pattern below).
-| Full page load or change | Full page [busy indicator](/components/busy-indicator) | Use an overlay to prevent users from interacting with content on a page due to a change, server error, or form submission.
+| Full page load or change | Full page [busy indicator](/components/notifications-and-messages/busy-indicator) | Use an overlay to prevent users from interacting with content on a page due to a change, server error, or form submission.
 | Multiple components | Skeleton + progressive loading | Load skeleton components, then fade in components as they become available.
 | Single component within a page | [Inline circular progress spinner](/components/progress-and-loading/circular-progress) | Use a contextual circular progress spinner to communicate that either a component's state or data is changing.
 

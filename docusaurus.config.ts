@@ -1,16 +1,13 @@
-// @ts-check
+import type { Config } from '@docusaurus/types';
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+export default {
   title: 'Tyler Forge™',
   tagline: 'Enabling design decisions and simplifying consistency.',
   url: 'https://forge.tylertech.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'throw',
   favicon: 'img/favicon.ico',
   stylesheets: [
     'https://cdn.forge.tylertech.com/v1/css/tyler-font.css',
@@ -81,7 +78,6 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           routeBasePath: '/',
@@ -94,6 +90,9 @@ const config = {
           editUrl: 'https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/',
           blogTitle: 'Tyler Forge design system blog',
           blogDescription: 'Blog posts for designers and developers relating to the Tyler Forge design system',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
@@ -106,7 +105,6 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       docs: {
         sidebar: {
@@ -236,11 +234,5 @@ const config = {
           { type: 'search', position: 'right' },
         ],
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
     }),
-};
-
-module.exports = config;
+} satisfies Config;

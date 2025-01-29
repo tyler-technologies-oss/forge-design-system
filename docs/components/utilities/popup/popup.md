@@ -35,7 +35,7 @@ Typically popups are used within other components to help facilitate dropdown li
 
 The popup is used to enable:
 
-* [Menu](/components/menu)
-* [Tooltip](/components/tooltip)
-* [Datepicker](/components/date-picker)
+* [Menu](/components/navigation/menu)
+* [Tooltip](/components/notifications-and-messages/tooltip)
+* [Datepicker](/components/date-and-time/date-picker)
 * [Select](/components/fields/select)

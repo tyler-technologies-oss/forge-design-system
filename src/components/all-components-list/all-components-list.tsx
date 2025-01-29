@@ -1,7 +1,7 @@
 
 import React, { SyntheticEvent, useState } from 'react';
-import clsx from 'clsx';
-import { useDocsSidebar } from '@docusaurus/theme-common/internal';
+import { clsx } from 'clsx';
+import { useDocsSidebar } from '@docusaurus/plugin-content-docs/client';
 import Link from '@docusaurus/Link';
 import styles from './all-components-list.module.css';
 import InputField from '../controls/text-input/text-input';

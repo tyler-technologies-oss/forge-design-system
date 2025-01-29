@@ -13,27 +13,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         env:
           NPM_TOKEN: ${{ secrets.FORGE_NPM_TOKEN }}
         with:
-          node-version: 16
+          node-version: 20
           cache: 'npm'
 
       - name: Cache .docusaurus Directory
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: .cache
           key: ${{ runner.os }}-cache-docusaurus-main
           restore-keys: ${{ runner.os }}-cache-docusaurus-main
 
       - name: Cache build Directory
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: public
           key: ${{ runner.os }}-public-docusaurus-main
@@ -41,7 +41,7 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -56,14 +56,14 @@ jobs:
         run: npm run build
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1-node16
+        uses: aws-actions/configure-aws-credentials
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
-        uses: reggionick/s3-deploy@338f242d6f2aaad0db698d66dffe836a7629b160
+        uses: reggionick/s3-deploy
         with:
           folder: build
           bucket: ${{ secrets.AWS_S3_BUCKET_PROD }}
@@ -73,4 +73,4 @@ jobs:
           delete-removed: true
           no-cache: true
           private: true
-          filesToInclude: ".*/*,*/*,**"
+          files-to-include: ".*/*,*/*,**"
