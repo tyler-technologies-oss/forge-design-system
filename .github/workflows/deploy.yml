@@ -63,7 +63,7 @@ jobs:
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
-        uses: reggionick/s3-deploy@v4
+        uses: reggionick/s3-deploy@1910fd2a0eed328e08a2afd278e1f56d23eaa1f8
         with:
           folder: build
           bucket: ${{ secrets.AWS_S3_BUCKET_PROD }}
