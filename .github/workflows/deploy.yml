@@ -63,14 +63,6 @@ jobs:
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
 
       - name: Deploy AWS
-        uses: reggionick/s3-deploy@1910fd2a0eed328e08a2afd278e1f56d23eaa1f8
-        with:
-          folder: build
-          bucket: ${{ secrets.AWS_S3_BUCKET_PROD }}
-          bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
-          dist-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }}
-          invalidation: /
-          delete-removed: true
-          no-cache: true
-          private: true
-          files-to-include: ".*/*,*/*,**"
+        run: |
+          aws s3 sync build s3://${{ secrets.AWS_S3_BUCKET_PROD }}/ --region ${{ secrets.AWS_S3_BUCKET_REGION }} --delete --cache-control=no-cache,no-store,must-revalidate --acl private
+          aws cloudfront create-invalidation --distribution-id  ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }} --paths "/*"
