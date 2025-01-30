@@ -77,8 +77,8 @@ export default {
 
   presets: [
     [
-      'classic',
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
@@ -97,15 +97,15 @@ export default {
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
         },
-        googleAnalytics: {
-          trackingID: 'UA-136930168-1',
+        gtag: {
+          trackingID: 'G-TJZ8RHYFPE',
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
-    ({
+    {
       docs: {
         sidebar: {
           autoCollapseCategories: true
@@ -234,5 +234,5 @@ export default {
           { type: 'search', position: 'right' },
         ],
       },
-    }),
+    },
 } satisfies Config;
