@@ -79,12 +79,24 @@ Extended to see if there is a component that already exists that you can use. If
 you can contribute to the Forge Extended library by creating a new component and submitting a pull request.
 
 We believe that this will help developers build applications faster and more efficiently, as well improve consistency
-and maintainability across projects.
-
-This new library will be built on top of the primitive components that are already available in Forge v3, and will
-provide a higher level of abstraction to help you build applications more quickly.
+and maintainability across projects. This new library will be built on top of the primitive components that are already
+available in Forge v3, and will provide a higher level of abstraction to help you build applications more quickly.
 
 We're excited to share more details about Forge Extended in the coming months, so stay tuned for updates!
+
+### Blocks
+
+In addition to the new Forge Extended library, we're also planning to introduce a new concept called "Blocks" (formerly
+known as "Recipes") to Forge. Blocks are larger sections of UI that can be easily added to your application to by simply
+copying and pasting the code. This will allow you to quickly add common patterns and components to your application
+without having to build them from scratch, but still provide the flexibility to customize them to fit your needs.
+
+Blocks are made up of both primitive Forge components and native HTML elements + styles, as well as components from the
+Forge Extended library, and will provide a more efficient way to build applications allowing developers to get up and
+running much more quickly.
+
+Blocks will be available in the Forge documentation and will include detailed instructions on how to use them in your
+applications with examples and best practices. We'll release more information about Blocks in the coming months!
 
 ## Lit-based Components
 
@@ -99,6 +111,9 @@ maintainers and ease the barrier to entry for new contributors.
 
 :::note
 This change will be transparent to developers using Forge, and you will not need to make any changes to your code.
+
+You will likely start using the Lit-based components without even realizing it, as we will be gradually introducing
+them into the Forge component library over time.
 :::
 
 [lit]: https://lit.dev/
@@ -129,9 +144,14 @@ Some of the components we're planning to release include:
 - **Virtual Scroller**: A virtual scroller component that can be used to display large lists of items efficiently by
   only rendering the items that are currently visible on the screen.
 
+:::note
+These are just a few examples of the new components we're planning to release in 2025. We're always looking for
+feedback and suggestions from the community, so if there's a component you'd like to see in Forge, please let us know!
+:::
+
 ## Web Features
 
-Forge is constantly evolving, and so are the latest web APIs. We're always looking for ways to improve the
+Forge is constantly evolving, and so are the latest web features and APIs. We're always looking for ways to improve the
 developer experience and provide new features and components.
 
 This is only more true because Forge is built on top of web components, which are a rapidly evolving standard that
@@ -141,9 +161,9 @@ applications.
 
 Some of the features we're looking at for the future include:
 
-- **Custom States**: This new API is available on the `ElementInternals` interface and allows you to define custom
+- **Custom States**: This new API is available on the [`ElementInternals`][mdn-element-internals] interface and allows you to define custom
   states for your custom elements. This provides a more efficient and familiar way to use CSS for state-based
-  customizations via the new `:state(<state name>)` pseudo-class.
+  customizations via the new [`:state(<state name>)`][mdn-states] pseudo-class.
 
   :::note
   This will also affect how we reflect certain JavaScript properties to attributes. We will no longer need to
@@ -152,20 +172,26 @@ Some of the features we're looking at for the future include:
   :::
 
 - **Cross-root ARIA**: Web components that make use of shadow DOM have always had a challenge with ARIA attributes
-  that need to be applied to elements outside of the shadow root. The new Reference Target proposal aims to address
-  this issue by providing a way for developers using web components to apply ARIA attributes to the internals of
-  an element via IDREFs. We're very excited about this proposal and are looking forward to implementing it in Forge
-  once it's supported in all browsers.
+  that need to be applied to elements outside of the shadow root. The new [Reference Target proposal][reference-target]
+  aims to address this issue by providing a way for developers using web components to apply ARIA attributes to the
+  internals of an element via IDREFs. We're very excited about this proposal and are looking forward to implementing it
+  in Forge once it's supported in all browsers.
 
-- **CSS Relative Colors**: This new syntax is already available in browsers and allows you to define colors
+- **CSS Relative Colors**: This [new syntax][mdn-css-rel] is already available in browsers and allows you to define colors
   relative to other colors in varying color formats. This will provide a more flexible and powerful way to theme
   Forge components and create dynamic color schemes that adapt to different contexts and environments.
 
-- **CSS Anchor Positioning**: This is an exciting new feature that will allow us to use pure CSS to position
+- **CSS Anchor Positioning**: This is an [exciting new feature][mdn-css-anchor] that will allow us to use pure CSS to position
   floating elements around an anchor element. This will provide a more efficient and performant way to create
   tooltips, popovers, and other floating elements in Forge without relying on JavaScript for positioning.
 
 and many more!
+
+[mdn-element-internals]: https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals
+[mdn-states]: https://developer.mozilla.org/en-US/docs/Web/CSS/:state
+[mdn-css-rel]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[mdn-css-anchor]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning
+[reference-target]: https://github.com/WICG/webcomponents/issues/1086
 
 ## State of Accessibility
 
@@ -173,7 +199,7 @@ In 2024 Tyler embarked on a journey to improve the accessibility compliance acro
 initiative has been a great success, and we are seeing more and more applications becoming compliant with the
 latest accessibility standards.
 
-Automated scanning tools such as ARC Toolkit and Axe have been instrumental in identifying accessibility
+Automated scanning tools such as ARC Toolkit, Level Access, and Axe have been instrumental in identifying accessibility
 issues and guiding developers on how to fix them.
 
 Forge v3 made significant improvements to accessibility by providing better support for screen readers, keyboard
@@ -182,23 +208,26 @@ ensuring that all applications built with Forge are accessible to everyone.
 
 :::warning
 Keep in mind that automated tools can only catch a portion of accessibility issues, and manual testing is still
-required to ensure that your applications are fully accessible. These tools can also produce false positives, so it's
-important to review the results and verify that the issues are real before making changes.
+required to ensure that your applications are fully accessible. These tools can also produce [false positives][coda-false-positives],
+so it's important to review the results and verify that the issues are real before making changes.
 
 Please reach out to our accessibility experts if you have any questions or need assistance with accessibility in your
 applications.
 :::
 
+[coda-false-positives]: https://coda.io/d/Forge-A11y-False-Positives_dhzVxEyztD2/Forge-A11y-False-Positives_sur_Ga9T#_luAuQKwy
+
 ## Public Forge Website
 
-A longer term goal for the Tyler Forge™ design system has been to make it publicly available to the world. We are excited
-to announce that we are making progress towards this goal and are planning to launch a public Forge website in 2025.
+A longer term goal for the Tyler Forge™ design system has been to make it publicly available to the world. We are
+seeking to further engage in the open-source world and will be transitioning Tyler Forge™ design documentation into
+a publicly available site in 2025!
 
 ### What does this mean for you?
 
 Not much will change for you as a Forge user. The public Forge website will provide much of the same content you're used
-to today, and you will still be able to access documentation, components, patterns, and other resources related to Forge
-but without needing to log in to the Tyler network.
+to today. You will still be able to access documentation, components, patterns, and other resources related to Forge
+but without needing to log in to the Tyler network. 🎉
 
 ### How will this work?
 
