@@ -129,6 +129,11 @@ Some of the components we're planning to release include:
   and collapsible nodes. This component will be highly customizable and provide a flexible way to display complex data
   structures.
 
+- **Meter**: A meter and meter-group component that can be used to represent scalar values within a known range. These
+  components will provide a simple and flexible way to visualize data in a more intuitive and engaging way. Not to be
+  confused with linear progress indicators, meters are used to represent a value within a range (such as a gauge or
+  thermometer), whereas progress indicators are used to represent the completion or busy state of an application task.
+
 - **Breadcrumbs**: A breadcrumbs component that can be used to display a breadcrumb trail for navigation purposes. This
   component will provide a simple and intuitive way to navigate through a hierarchy of pages or sections in your
   application.
@@ -208,8 +213,12 @@ ensuring that all applications built with Forge are accessible to everyone.
 
 :::warning
 Keep in mind that automated tools can only catch a portion of accessibility issues, and manual testing is still
-required to ensure that your applications are fully accessible. These tools can also produce [false positives][coda-false-positives],
-so it's important to review the results and verify that the issues are real before making changes.
+required to ensure that your applications are fully accessible.
+
+These tools can also produce **false positives**, so it's important to review the results and verify that the issues are
+real before making changes. We've started an initiative to document and track these false positives in Coda, and we
+encourage you to **[review this list][coda-false-positives]** and provide feedback if you encounter any false positives
+in your applications.
 
 Please reach out to our accessibility experts if you have any questions or need assistance with accessibility in your
 applications.
