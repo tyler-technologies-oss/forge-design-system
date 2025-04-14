@@ -35,6 +35,10 @@ The toolbar can be used as:
 - headers and footers in [dialogs](/components/notifications-and-messages/dialog).
 - as sections within a [navigation drawer](/components/navigation/drawer).
 
+:::info
+We've also built a responsive toolbar utility component that helps manage how a toolbar is rendered on large and small devices. For more information, check out the [responsive toolbar](https://tyler-technologies-oss.github.io/forge-extended/v1/?path=/docs/components-responsive-toolbar--docs) component in the Forge Extended library.
+:::
+
 ### Recipes
 
 - [Dialog](/recipes/dialog/generic)
