@@ -1,12 +1,9 @@
 .iconGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
   width: calc(100% - 2px);
-  margin-bottom: 1px;
-}
-
-.iconGridHeader {
-  margin-top: 48px;
+  margin-block: 24px;
 }
 
 .loading {
@@ -21,16 +18,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  min-height: 150px;
+  min-height: 100px;
+  border: none;
+}
+
+.iconContainer:hover {
+  cursor: pointer;
 }
 
 .iconLabel {
-  margin: 0;
-  padding: 4px 8px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  margin-block-start: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -56,26 +53,88 @@
   padding-top: 16px;
 }
 
-.iconActions {
-  visibility: hidden;
-  position: absolute;
-  bottom: 0;
-  right: 8px;
+.dialog {
+  --dialog-gap: 24px;
+  --ifm-pre-padding: 8px;
+
+  background-color: var(--forge-theme-surface);
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+  position: relative;
+  max-width: 768px;
 }
 
-.iconActions > button > svg {
-  fill: var(--forge-theme-text-secondary);
-  transition: fill linear 300ms;
-  opacity: 0.5;
-  width: 20px;
-  height: 20px;
+.dialog::backdrop {
+  background: hsl(0 0% 0% / 50%);
 }
 
-.iconActions > button > svg:hover {
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding-inline: 16px;
+  border-bottom: 1px solid var(--forge-theme-border);
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.closeButton {
+  fill: currentColor;
+  height: 28px;
+  width: 28px;
+  margin-inline-end: 4px;
+}
+
+.dialogTitle {
+  margin: 0 !important;
+}
+
+.dialogContainer {
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 24px;
+  padding: 16px;
+}
+
+.dialogIcon {
+  background: repeating-conic-gradient(var(--forge-theme-surface-container-minimum) 0% 25%, transparent 0% 50%) 50% / 20px 20px;
   fill: var(--forge-theme-text-primary);
-  opacity: 1;
+  display: flex;
+  align-items: center;
+  height: fit-content;
 }
 
-.iconContainer:hover .iconActions {
-  visibility: visible;
+.actionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dialog-gap);
+  min-width: 0;
+}
+
+.codeBlockContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--dialog-gap);
+  overflow: auto;
+}
+
+.copyButton {
+  fill: var(--forge-theme-text-secondary);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  place-items: center;
+}
+
+.codeBlock {
+  width: 100%;
+  margin-bottom: 0;
+  min-width: 0;
 }

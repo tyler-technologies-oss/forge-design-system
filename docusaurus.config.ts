@@ -1,4 +1,5 @@
 import type { Config } from '@docusaurus/types';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 export default {
   title: 'Tyler Forge™',
@@ -106,6 +107,11 @@ export default {
 
   themeConfig:
     {
+      prism: {
+        theme: prismThemes.jettwaveLight,
+        darkTheme: prismThemes.vsDark,
+      },
+
       docs: {
         sidebar: {
           autoCollapseCategories: true
