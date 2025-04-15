@@ -57,8 +57,6 @@ Simple dialogs display the same in mobile and desktop contexts.
 To implement the simple dialog, we recommend you use the pre-built [confirmation dialog](https://tyler-technologies-oss.github.io/forge-extended/v1/?path=/docs/components-confirmation-dialog--docs) component from the Forge Extended library. This will handle all of the appropriate functionality, styling, and accessibility for you.
 :::
 
-
-
 <ImageBlock maxWidth="500px" padded={false}> 
 
 ![Image of two simple dialogs: one with a header and one without.](./images/simple-dialog.png)
