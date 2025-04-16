@@ -193,7 +193,7 @@ function IconDialog() {
         <div className={styles.actionsContainer}>
           <CodeBlock language="html" className={styles.codeBlock}>{data}</CodeBlock>
           <CodeBlock language="html" className={styles.codeBlock}>{iconCodeSnippet}</CodeBlock>
-          <CodeBlock copyButton="false" language="html" className={styles.codeBlock}>{iconButtonCodeSnippet}</CodeBlock>
+          <CodeBlock language="html" className={styles.codeBlock}>{iconButtonCodeSnippet}</CodeBlock>
         </div>
       </div>
     </dialog>
