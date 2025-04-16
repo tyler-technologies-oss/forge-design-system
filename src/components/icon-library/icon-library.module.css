@@ -115,7 +115,7 @@
 .dialogInnerContainer {
   display: grid;
   grid-template-columns: 198px 1fr;
-  gap: 24px;
+  gap: var(--dialog-gap);
   padding: 16px;
 }
 
