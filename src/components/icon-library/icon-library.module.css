@@ -44,6 +44,7 @@
 
 .iconContainer:hover {
   cursor: pointer;
+  background-color: var(--forge-theme-surface-container-minimum);
 }
 
 .iconLabel {
@@ -113,7 +114,7 @@
 
 .dialogInnerContainer {
   display: grid;
-  grid-template-columns: 256px 1fr;
+  grid-template-columns: 198px 1fr;
   gap: 24px;
   padding: 16px;
 }
