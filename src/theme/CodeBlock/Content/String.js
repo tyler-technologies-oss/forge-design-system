@@ -93,8 +93,7 @@ export default function CodeBlockString({
               isEnabled={wordWrap.isEnabled}
             />
           )}
-          {/* This is the only modification made after swizzling (hiding the copy button) */}
-          {/* <CopyButton className={styles.codeButton} code={code} /> */}
+          <CopyButton className={styles.codeButton} code={code} />
         </div>
       </div>
     </Container>

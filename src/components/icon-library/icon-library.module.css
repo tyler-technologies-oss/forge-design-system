@@ -78,7 +78,7 @@
   border: 0;
   border-radius: 0.5rem;
   box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
-  position: relative;
+  position: fixed;
   max-width: 768px;
 }
 
@@ -130,11 +130,11 @@
 .actionsContainer {
   display: flex;
   flex-direction: column;
-  gap: var(--dialog-gap);
   min-width: 0;
 }
 
 .codeBlockContainer {
+  --ifm-leading: 0;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -154,4 +154,19 @@
   width: 100%;
   margin-bottom: 0;
   min-width: 0;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: var(--ifm-pre-padding);
+}
+
+.emptyState > svg {
+  fill: var(--forge-theme-text-primary);
+  height: 64px;
+  width: 64px;
 }
