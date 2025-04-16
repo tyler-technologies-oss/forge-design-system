@@ -1,4 +1,4 @@
-import React, { SyntheticEvent, useEffect, useState } from 'react';
+import React, { SyntheticEvent, useEffect, useState, createContext, useContext } from 'react';
 import { useRef } from 'react';
 import InputField from '../controls/text-input/text-input';
 
@@ -9,6 +9,20 @@ import CopyButton from '@site/src/theme/CodeBlock/CopyButton';
 const MORE_ICONS_INCREMENT = 100;
 const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-all.json';
 
+interface IIconContext {
+  currentIcon: IIcon | null;
+  setCurrentIcon: (icon: IIcon | null) => void;
+}
+
+const IconContext = createContext<IIconContext>({
+  currentIcon: null,
+  setCurrentIcon: () => {}
+});
+
+function useIconContext() {
+  return useContext(IconContext);
+}
+
 interface IIcon {
   name: string;
   data: string;
@@ -18,6 +32,7 @@ export default function IconLibrary() {
   const [isLoading, setIsLoading] = useState(true);
   const [filterText, setFilterText] = useState('');
   const [icons, setIcons] = useState([]);
+  const [currentIcon, setCurrentIcon] = useState<IIcon | null>(null); 
 
   const fetchMetadata = async (): Promise<void> => {
     try {
@@ -42,18 +57,19 @@ export default function IconLibrary() {
   }
 
   return (
-    <div>
+    <IconContext.Provider value={{ currentIcon, setCurrentIcon }}>
       <InputField onInput={handleFilter} placeholder="Filter..." />
       {isLoading && <div className={styles.loading}>Loading icons...</div>}
       {!isLoading &&
         <>
-          <IconGrid iconSet={icons} filterText={filterText} />
+          <IconDialog />
+          <IconGrid icons={icons} filterText={filterText} />
         </>}
-    </div>
+    </IconContext.Provider>
   );
 }
 
-function IconGrid({ iconSet, filterText }) {
+function IconGrid({ icons, filterText }) {
   const [visibleIcons, setVisibleIcons] = useState([]);
 
   useEffect(() => {
@@ -75,10 +91,10 @@ function IconGrid({ iconSet, filterText }) {
 
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
-  }, [visibleIcons, iconSet, filterText]);
+  }, [visibleIcons, icons, filterText]);
 
   function calcVisibleIcons(currentIcons) {
-    const filteredIcons = filterIcons(iconSet);
+    const filteredIcons = filterIcons(icons);
     const newLength = Math.min(currentIcons.length + MORE_ICONS_INCREMENT, filteredIcons.length);
     const renderIcons = filteredIcons.slice(0, newLength);
     setVisibleIcons(renderIcons);
@@ -102,60 +118,75 @@ function IconGrid({ iconSet, filterText }) {
   );
 }
 
-function Icon({ name, data }) {
+function IconDialog() {
+  const { currentIcon, setCurrentIcon } = useIconContext();
   const dialogRef = useRef<HTMLDialogElement>(null);
-  const iconCodeSnippet = `<forge-icon name="${name}"></forge-icon>`;
+  const open = !!currentIcon;
+  const name = currentIcon?.name || '';
+  const data = currentIcon?.data || '';
 
+  useEffect(() => {
+    if (open) {
+      dialogRef.current?.showModal();
+    } else {
+      dialogRef.current?.close();
+    }
+  }, [open]);
+
+  const iconCodeSnippet = `<forge-icon name="${name}"></forge-icon>`;
   const iconButtonCodeSnippet = `<forge-icon-button aria-label="Add your label here">
   <forge-icon name="${name}"></forge-icon>
-</forge-icon-button>
-  `;
-
-  function handleClick() {
-    dialogRef.current?.showModal();
-  }
+</forge-icon-button>`;
 
   function closeDialog() {
-    dialogRef.current?.close();
+    setCurrentIcon(null);
   }
-  
+
   return (
-    <>
-      <button className={`card ${styles.iconContainer}`} onClick={handleClick}>
-        <div className={styles.icon} dangerouslySetInnerHTML={{ __html: data }}></div>
-        <div className={styles.iconLabel}>{name}</div>
-      </button>
-      <dialog ref={dialogRef} className={styles.dialog}>
-          <div className={styles.dialogHeader}>
-            <div className={styles.titleContainer}>
-              <h1 className={`${styles.dialogTitle} forge-typography--subtitle1`}>{name}</h1>
-              <CopyButton className={styles.copyButton} code={name} />
-            </div>
-            <button className={`clean-btn ${styles.closeButton}`} onClick={closeDialog} aria-label="Close dialog">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-            </button>
+    <dialog className={styles.dialog} ref={dialogRef}>
+      <div className={styles.dialogHeader}>
+        <div className={styles.titleContainer}>
+          <h1 className={`${styles.dialogTitle} forge-typography--subtitle1`}>{name}</h1>
+          <CopyButton className={styles.copyButton} code={name} />
+        </div>
+        <button className={`clean-btn ${styles.closeButton}`} onClick={closeDialog} aria-label="Close dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+      <div className={styles.dialogContainer}>
+        <div className={`${styles.dialogIcon} card shadow--lw`} dangerouslySetInnerHTML={{ __html: data }}></div>
+        <div className={styles.actionsContainer}>
+          <div className={styles.codeBlockContainer}>
+            <CodeBlock language="html" className={styles.codeBlock}>{data}</CodeBlock>
+            <CopyButton className={styles.copyButton} code={data} />
           </div>
-          <div className={styles.dialogContainer}>
-          <div className={`${styles.dialogIcon} card shadow--lw`} dangerouslySetInnerHTML={{ __html: data }}></div>
-            <div className={`${styles.actionsContainer}`}>
-              <div className={styles.codeBlockContainer}>
-                <CodeBlock language="html" className={styles.codeBlock}>{data}</CodeBlock>
-                <CopyButton className={styles.copyButton} code={data} />
-              </div>
-
-              <div className={styles.codeBlockContainer}>
-                <CodeBlock language="html" className={styles.codeBlock}>{iconCodeSnippet}</CodeBlock>
-                <CopyButton className={styles.copyButton} code={iconCodeSnippet} />
-              </div>
-
-              <div className={styles.codeBlockContainer}>
-                <CodeBlock copyButton="false" language="html" className={styles.codeBlock}>{iconButtonCodeSnippet}</CodeBlock>
-                <CopyButton className={styles.copyButton} code={iconButtonCodeSnippet} />
-              </div>
-
-            </div>
+          <div className={styles.codeBlockContainer}>
+            <CodeBlock language="html" className={styles.codeBlock}>{iconCodeSnippet}</CodeBlock>
+            <CopyButton className={styles.copyButton} code={iconCodeSnippet} />
           </div>
-        </dialog>
-    </>
+          <div className={styles.codeBlockContainer}>
+            <CodeBlock copyButton="false" language="html" className={styles.codeBlock}>{iconButtonCodeSnippet}</CodeBlock>
+            <CopyButton className={styles.copyButton} code={iconButtonCodeSnippet} />
+          </div>
+        </div>
+      </div>
+    </dialog>
+  );
+}
+
+
+
+function Icon({ name, data }) {
+  const { setCurrentIcon } = useIconContext();
+
+  function handleClick() {
+    setCurrentIcon({ name, data });
+  }
+
+  return (
+    <button className={`card ${styles.iconContainer}`} onClick={handleClick}>
+      <div className={styles.icon} dangerouslySetInnerHTML={{ __html: data }}></div>
+      <div className={styles.iconLabel}>{name}</div>
+    </button>
   );
 }
