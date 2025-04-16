@@ -79,7 +79,6 @@
   border-radius: 0.5rem;
   box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
   position: fixed;
-  margin-inline: 16px;
   max-width: 768px;
 }
 
@@ -175,6 +174,7 @@
 @media screen and (max-width: 600px) {
   .dialog {
     max-width: 100%;
+    margin-inline: 16px;
   }
 
   .dialogInnerContainer {
