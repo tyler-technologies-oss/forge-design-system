@@ -139,6 +139,22 @@ function IconDialog() {
   const data = currentIcon?.data || '';
 
   useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        closeDialog();
+      }
+    };
+  
+    if (open) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+  
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [open]);
+  
+  useEffect(() => {
     if (open) {
       dialogRef.current?.showModal();
     } else {
