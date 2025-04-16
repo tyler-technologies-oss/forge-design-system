@@ -79,6 +79,7 @@
   border-radius: 0.5rem;
   box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
   position: fixed;
+  margin-inline: 16px;
   max-width: 768px;
 }
 
@@ -169,4 +170,16 @@
   fill: var(--forge-theme-text-primary);
   height: 64px;
   width: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  .dialog {
+    max-width: 100%;
+  }
+
+  .dialogInnerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
 }
