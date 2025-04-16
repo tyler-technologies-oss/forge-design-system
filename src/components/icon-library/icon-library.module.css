@@ -3,11 +3,31 @@
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 16px;
   width: calc(100% - 2px);
-  margin-block: 24px;
+  margin-block: 16px;
 }
 
-.loading {
-  padding: 16px;
+.skeleton {
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: rgba(130, 130, 130, 0.2);
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(130, 130, 130, 0.2)), color-stop(18%, rgba(130, 130, 130, 0.3)), color-stop(33%, rgba(130, 130, 130, 0.2)));
+  background: linear-gradient(to right, rgba(130, 130, 130, 0.2) 8%, rgba(130, 130, 130, 0.3) 18%, rgba(130, 130, 130, 0.2) 33%);
+  background-size: 800px 100px;
+  animation: wave-squares 2s infinite ease-out;
+}
+
+@keyframes wave-squares {
+  0% {
+      background-position: -468px 0;
+  }
+   100% {
+      background-position: 468px 0;
+  }
 }
 
 .iconContainer {
@@ -28,7 +48,7 @@
 
 .iconLabel {
   margin-block-start: 16px;
-  white-space: nowrap;
+  word-break: break-all;
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--forge-theme-text-secondary);
@@ -47,10 +67,6 @@
   width: 1em;
   display: flex;
   align-items: center;
-}
-
-.buttonContainer {
-  padding-top: 16px;
 }
 
 .dialog {
@@ -84,6 +100,10 @@
   gap: 16px;
 }
 
+.dialogTitle {
+  margin: 0 !important;
+}
+
 .closeButton {
   fill: currentColor;
   height: 28px;
@@ -91,11 +111,7 @@
   margin-inline-end: 4px;
 }
 
-.dialogTitle {
-  margin: 0 !important;
-}
-
-.dialogContainer {
+.dialogInnerContainer {
   display: grid;
   grid-template-columns: 256px 1fr;
   gap: 24px;

@@ -7,6 +7,7 @@ import CodeBlock from '@site/src/theme/CodeBlock';
 import CopyButton from '@site/src/theme/CodeBlock/CopyButton';
 
 const MORE_ICONS_INCREMENT = 100;
+const SCROLL_THRESHOLD = 500;
 const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-all.json';
 
 interface IIconContext {
@@ -59,13 +60,25 @@ export default function IconLibrary() {
   return (
     <IconContext.Provider value={{ currentIcon, setCurrentIcon }}>
       <InputField onInput={handleFilter} placeholder="Filter..." />
-      {isLoading && <div className={styles.loading}>Loading icons...</div>}
+      {isLoading && <div className={styles.loading}>
+        <Loading />
+      </div>}
       {!isLoading &&
         <>
           <IconDialog />
           <IconGrid icons={icons} filterText={filterText} />
         </>}
     </IconContext.Provider>
+  );
+}
+
+function Loading() {
+  return (
+    <div className={styles.iconGrid}>
+      {Array.from({ length: MORE_ICONS_INCREMENT / 2 }).map((_, index) => (
+        <div key={index} className={styles.skeleton}></div>
+      ))}
+    </div>
   );
 }
 
@@ -84,7 +97,7 @@ function IconGrid({ icons, filterText }) {
       const fullHeight = document.documentElement.scrollHeight;
 
       // Trigger when within 300px of bottom
-      if (scrollTop + windowHeight >= fullHeight - 300) {
+      if (scrollTop + windowHeight >= fullHeight - SCROLL_THRESHOLD) {
         calcVisibleIcons(visibleIcons);
       }
     }
@@ -153,7 +166,7 @@ function IconDialog() {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </div>
-      <div className={styles.dialogContainer}>
+      <div className={styles.dialogInnerContainer}>
         <div className={`${styles.dialogIcon} card shadow--lw`} dangerouslySetInnerHTML={{ __html: data }}></div>
         <div className={styles.actionsContainer}>
           <div className={styles.codeBlockContainer}>
