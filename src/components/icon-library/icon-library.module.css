@@ -47,6 +47,10 @@
   background-color: var(--forge-theme-surface-container-minimum);
 }
 
+.iconContainer:focus-within {
+  outline: 2px solid var(--ifm-color-primary);
+}
+
 .iconLabel {
   margin-block-start: 16px;
   word-break: break-all;
