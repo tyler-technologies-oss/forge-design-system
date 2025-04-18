@@ -211,8 +211,10 @@ function Icon({ name, data }) {
 
   return (
     <button className={`card ${styles.iconContainer}`} onClick={handleClick}>
-      <div className={styles.icon} dangerouslySetInnerHTML={{ __html: data }}></div>
-      <div className={styles.iconLabel}>{name}</div>
+      <div className={styles.iconContainerInner}>
+        <div className={styles.icon} dangerouslySetInnerHTML={{ __html: data }}></div>
+        <div className={styles.iconLabel}>{name}</div>
+      </div>
     </button>
   );
 }
