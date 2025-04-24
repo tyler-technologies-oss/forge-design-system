@@ -60,18 +60,12 @@ The Material Design color system uses an organized approach to applying color to
 
 ---
 
-### [Illustrations](/get-started/styles/illustrations)
-
-Illustrations are a key element of the Tyler brand system. Illustrations provide a sense of personality and familiarity and can make complex ideas more accessible. 
-
----
-
 ### [Typography](/styles/typography)
 
 Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations. 
 
 ---
 
-### [Icons](/get-started/styles/icons)
+### [Icons](/assets/icon-library/)
 
-Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations. 
+Forge provides a purposeful set of iconography. Consistent iconography is an expression of brand and creates clear visual patterns and expectations.

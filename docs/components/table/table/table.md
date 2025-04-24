@@ -16,8 +16,6 @@ sidebar_custom_props:
 
 :::note
 The `<forge-table>` provides **basic data display and functionality** such as sorting, filtering, and selecting rows. It is not intended to be comprehensive or fully featured. 
-
-If your team needs extensive data manipulation or editing capability, **a third-party table extension may be more appropriate.** See our guidance on [advanced tables](/assets/external-libraries/#advanced-table) under External library guidance. 
 :::
 
 Tables display information in a way that's easy to scan, so that users can look for patterns and insights. They can be embedded in primary content, such as cards.
