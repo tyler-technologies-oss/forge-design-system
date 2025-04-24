@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Forge 3.0 is now available! | Tyler Forge™</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Forge 3.0 is now available! | Tyler Forge™"><meta data-rh="true" name="description" content="Forge 3.0 is now generally available for all to install and start using."><meta data-rh="true" property="og:description" content="Forge 3.0 is now generally available for all to install and start using."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2024-06-10T00:00:00.000Z"><meta data-rh="true" property="article:author" content="https://github.com/drifty17"><meta data-rh="true" property="article:tag" content="forge,components"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available"><link data-rh="true" rel="alternate" href="https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available" hreflang="en"><link data-rh="true" rel="alternate" href="https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available","mainEntityOfPage":"https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available","url":"https://forge.tylertech.com/blog/2024/06/10/forge-3-generally-available","headline":"Forge 3.0 is now available!","name":"Forge 3.0 is now available!","description":"Forge 3.0 is now generally available for all to install and start using.","datePublished":"2024-06-10T00:00:00.000Z","author":{"@type":"Person","name":"Kieran Nichols","description":"Software Architect","url":"https://github.com/drifty17","image":"https://github.com/drifty17.png"},"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://forge.tylertech.com/blog","name":"Tyler Forge design system blog"}}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Tyler Forge™ RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Tyler Forge™ Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJZ8RHYFPE"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-TJZ8RHYFPE",{})</script>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.forge.tylertech.com/v1/css/tyler-font.css">
+<link rel="stylesheet" href="https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css">
+<link rel="stylesheet" href="https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css"><link rel="stylesheet" href="/assets/css/styles.72133093.css">
+<script src="/assets/js/runtime~main.cf49fcd1.js" defer="defer"></script>
+<script src="/assets/js/main.1f3dd41d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="announcementBar_mb4j" style="background-color:#3D5AFE;color:#ffffff" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✨ Forge components 3.0 is now available! View the <a href="/blog/2024/06/10/forge-3-generally-available">announcement</a> for more info.</div><button type="button" aria-label="Close" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg" alt="Forge logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg" alt="Forge logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Tyler Forge™</b></a><a class="navbar__item navbar__link" href="/get-started">Get started</a><a class="navbar__item navbar__link" href="/styles">Styles</a><a class="navbar__item navbar__link" href="/ux-writing">UX writing</a><a class="navbar__item navbar__link" href="/assets">Assets</a><a class="navbar__item navbar__link" href="/components">Components</a><a class="navbar__item navbar__link" href="/patterns">Patterns</a><a class="navbar__item navbar__link" href="/recipes">Recipes</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/blog">Blog</a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Develop</a><ul class="dropdown__menu"><li class="dropdown-group-header"><b>Current</b></li><li><a href="https://forge.tylerdev.io/" target="_blank" class="dropdown__link">Forge 3.x<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://forge.tylerdev.io/version-2" target="_blank" class="dropdown__link">Forge 2.x<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://tyler-technologies.github.io/forge-internal/" target="_blank" class="dropdown__link">Forge internal (2.x &amp; 3.x)<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class=""><hr class="dropdown-separator"></li><li class="dropdown-group-header"><b>Legacy</b></li><li><a href="https://tyler-technologies.github.io/tyler-components-web/" target="_blank" class="dropdown__link">TCW 1.x<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">All posts</div><div role="group"><h3 class="yearGroupHeading_rMGB">2025</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2025/02/06/forge-2025">Forge 2025 Update</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2024</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/blog/2024/06/10/forge-3-generally-available">Forge 3.0 is now available!</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2024/04/02/forge-3-coming-soon">Forge 3.0 - Coming Soon</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2023</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2023/05/05/adopting-container-queries">Adopting Container Queries</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2023/03/22/angular-proxies">Enhanced Angular Integration</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2023/02/10/split-view-component">Split View Component</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2023/02/03/forge-website-redesign">Forge Website Redesign</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2022</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2022/05/02/upgrade-guide-forge-2">Forge 2.0 Upgrade</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2020</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/2020/05/06/package-dependencies">Forge and package dependencies</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">Forge 3.0 is now available!</h1><div class="container_mt6G margin-vert--md"><time datetime="2024-06-10T00:00:00.000Z">June 10, 2024</time> · <!-- -->17 min read</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_Hf19"><div class="avatar margin-bottom--sm"><a href="https://github.com/drifty17" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_XqGP" src="https://github.com/drifty17.png" alt="Kieran Nichols"></a><div class="avatar__intro authorDetails_lV9A"><div class="avatar__name"><a href="https://github.com/drifty17" target="_blank" rel="noopener noreferrer"><span class="authorName_yefp">Kieran Nichols</span></a></div><small class="authorTitle_nd0D" title="Software Architect">Software Architect</small><div class="authorSocials_rSDt"></div></div></div></div></div></header><div id="__blog-post-container" class="markdown"><p>Today we&#x27;re excited to share the next major version of Tyler Forge™ components! It has been a monumental
+effort, and we&#x27;re extremely happy with where the final product ended up. This new version modernizes the
+library, and opens the door to many new possibilities for developers building applications with Forge.
+We&#x27;re looking forward to seeing what you build with it!</p>
+<p>Key highlights of this release include:</p>
+<ul>
+<li>A focus on core accessibility improvements</li>
+<li>Removal of our dependency on Material</li>
+<li>Revamped theming system</li>
+<li>Uniform typography scale and new type styles</li>
+<li>Introduction of design tokens</li>
+<li>Separation of focus and interaction states</li>
+<li>Usage pattern updates for accessible lists</li>
+<li>Improved dialog implementation</li>
+<li>Button and form control HTML structure updates</li>
+<li>New overlay primitive for all floating elements (popover, tooltip, toast... etc.)</li>
+<li>End of life for TCW 1.x (effective as of 6/10/2024)</li>
+</ul>
+<p>... and much more! 🎉</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>TL;DR</div><div class="admonitionContent_BuS1"><p>This release includes many new features and improvements, as well as some breaking changes. We&#x27;ve done our best to make
+the upgrade process as smooth as possible, but there are some changes that you should be aware of. Please review the full
+list of changes, and let us know if you run into any issues. We&#x27;re here to help!</p><ul>
+<li>Show me how to <a href="#how-do-i-upgrade">upgrade</a>.</li>
+<li>View the upgrade guide <a href="https://github.com/tyler-technologies-oss/forge/wiki/Forge-3.0-Upgrade-Guide" target="_blank" rel="noopener noreferrer">here</a>.</li>
+<li>View the documentation <a href="https://forge.tylerdev.io" target="_blank" rel="noopener noreferrer">here</a>.</li>
+</ul></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="shout-outs">Shout Outs<a href="#shout-outs" class="hash-link" aria-label="Direct link to Shout Outs" title="Direct link to Shout Outs">​</a></h2>
+<p>We&#x27;d like to give a special shout out to the following who have contributed to this release in various ways:</p>
+<ul>
+<li>
+<p><strong>Sam Richardson:</strong>
+We wouldn&#x27;t have been able to make the progress we did without Sam&#x27;s tireless work on refactoring many
+of the core components such as the text field, checkbox, radio, and switch. Sam is also responsible for
+many of the accessibility improvements that have been made in this release, and we&#x27;re extremely grateful
+for his hard work. Sam has been a key contributor to Forge for many years, and we&#x27;re lucky to have him on
+the team.</p>
+</li>
+<li>
+<p><strong>Paul Lapczynski &amp; Derek Moss</strong>
+Documentation is always the most tedious and last thing to get done, but it&#x27;s one of the most important
+aspects of any software project. Paul and Derek volunteered to help rebuild the Forge Storybook documentation
+site, and I&#x27;m sure I can speak for them in saying that it was no small task. They did an amazing job, and we&#x27;re
+hoping this new documentation site will be a valuable resource for developers going forward. More improvements
+to come!</p>
+</li>
+<li>
+<p><strong>Rob Sturgill &amp; Tyler McGowan:</strong>
+Rob and Tyler were extremely helpful in the early stages of the theming and typography updates, as well as the
+introduction of design tokens. They directly influenced many of the great changes that were introduced in these
+areas, and were key to the success of these improvements.</p>
+<p>Rob also maintains the Forge Figma library for designers, and he has been keeping it up to date with the latest
+changes as 3.0 has progressed so that our designers and developers can stay in sync.</p>
+</li>
+<li>
+<p><strong>Nick Andrews, Paul Lapczynski, Ross Blakeney, Jonathan Earl, and Rob Jacobs:</strong>
+These folks volunteered to help test various preview builds of Forge 3.0, and their feedback was invaluable
+in helping us identify and fix issues before the final release. Bugs in software are inevitable, but the work
+of these folks helped us to catch many of them early on.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="governance">Governance<a href="#governance" class="hash-link" aria-label="Direct link to Governance" title="Direct link to Governance">​</a></h3>
+<p>In addition to these folks, we&#x27;d also like to thank the Forge governance committees for their feedback on various
+design and implementation decisions that were made in this release. We&#x27;re hoping to strengthen the governance
+process around Forge in the coming weeks, and we&#x27;re looking forward to getting more folks involved in the
+decision making process.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Get involved!</div><div class="admonitionContent_BuS1"><p>If you&#x27;re interested in getting involved with Forge or joining the governance process to voice your opinion,
+please let us know!</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="accessibility-improvements">Accessibility Improvements<a href="#accessibility-improvements" class="hash-link" aria-label="Direct link to Accessibility Improvements" title="Direct link to Accessibility Improvements">​</a></h2>
+<p>We&#x27;ve made a concerted effort to improve the accessibility of Forge components. This effort included
+a full audit of our components, many structural adjustments, and a focus on ensuring that all components
+come with the necessary ARIA attributes and keyboard interactions while still allowing for customization
+by developers when necessary.</p>
+<p>Accessibility is going to be a key focus for all of Tyler in the coming months, and we want to make sure that
+everyone who uses Forge can do so with confidence that is is accessible to all users. The accessibility
+landscape is vast and complex, and we&#x27;re committed to making sure that we&#x27;re doing our part to make it
+easier for developers to build accessible applications.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>We need your help!</div><div class="admonitionContent_BuS1"><p>Please let us know if you come across any accessibility issues. We&#x27;ll do our best to address them as
+quickly as possible. Accessibility issues are our top priority, and we want to make sure that we&#x27;re
+doing everything we can to make Forge components accessible to all users.</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="material-dependency">Material Dependency<a href="#material-dependency" class="hash-link" aria-label="Direct link to Material Dependency" title="Direct link to Material Dependency">​</a></h2>
+<p>We&#x27;ve removed our dependency on Material in this release. This was a big step for us, and it allowed us
+to make many improvements to the library that we wouldn&#x27;t have been able to do otherwise. We&#x27;re excited
+to see how this change will allow us to move forward with new features and improvements in the future.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="theming-system">Theming System<a href="#theming-system" class="hash-link" aria-label="Direct link to Theming System" title="Direct link to Theming System">​</a></h2>
+<p>The Forge theming system was lacking in many ways, partially due to the Material dependency. With the
+removal of Material, we are now able to provide Forge-named CSS variables for theming, and the core
+theming system across all components has been refactored for deep integration with these design tokens.</p>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/getting-started-theming--docs" target="_blank" rel="noopener noreferrer">Theming</a> docs for
+more information.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="typography">Typography<a href="#typography" class="hash-link" aria-label="Direct link to Typography" title="Direct link to Typography">​</a></h2>
+<p>We&#x27;ve introduced a uniform typography scale and a few new variations on our type styles. This should help
+give your design more consistency, and reduce confusion when choosing the right type style for your content.</p>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/getting-started-typography--docs" target="_blank" rel="noopener noreferrer">Typography</a> docs for
+more information.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="design-tokens">Design Tokens<a href="#design-tokens" class="hash-link" aria-label="Direct link to Design Tokens" title="Direct link to Design Tokens">​</a></h2>
+<p>Design tokens are a new concept for Forge, and they are a key part of the theming and typography systems,
+among other things. Design tokens are a way to define the core/primitive design values of our visual
+design language in a way that can be shared across all components and design tools. This will allow us to
+make changes to our design language in a more consistent and maintainable way between design and development.</p>
+<p>Design tokens allow for consistent design across all components, while enabling branding and customization
+flexibility for those that need it without having to modify the core components. This is a big step forward
+for Forge, and we&#x27;re excited to see how it can be utilized!</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Use with Caution</div><div class="admonitionContent_BuS1"><p>It&#x27;s worth noting that design tokens enable great flexibility and consistency, but they also require careful
+understanding about <em>when</em> to use them. They should not be used to override the core design language of Forge
+components arbitrarily, but instead only when branding or customization is required.</p></div></div>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/design-tokens-introduction--docs" target="_blank" rel="noopener noreferrer">Design Tokens</a> docs
+for more information.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="focus-and-interaction-states">Focus and Interaction States<a href="#focus-and-interaction-states" class="hash-link" aria-label="Direct link to Focus and Interaction States" title="Direct link to Focus and Interaction States">​</a></h2>
+<p>Previous versions of Forge had a single state that was used for both focus and interaction feedback. This
+was implemented following Material&#x27;s &quot;ripple&quot; pattern. In this release, we&#x27;ve separated these states to allow for
+the focus state to act as a &quot;ring&quot; around the element, while the interaction state can be a more subtle effect
+when hovered and pressed. This separation allows for improved accessibility and a more clear delineation between
+focus and interaction states.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Deep Integration</div><div class="admonitionContent_BuS1"><p>The focus indicator and state layer components are now deeply integrated into all Forge components that offer
+user interaction. You will get this for free, but if you need to integrate these components into your own
+custom components, you can do so easily with by utilizing these new primitives.</p></div></div>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/components-focus-indicator--docs" target="_blank" rel="noopener noreferrer">focus indicator</a> and
+<a href="https://forge.tylerdev.io/main/?path=/docs/components-state-layer--docs" target="_blank" rel="noopener noreferrer">state layer</a> docs for more information.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="usage-patterns">Usage Patterns<a href="#usage-patterns" class="hash-link" aria-label="Direct link to Usage Patterns" title="Direct link to Usage Patterns">​</a></h2>
+<p>One of the initial driving factors for this release was to improve the usage patterns of various Forge components.
+The web is an ever evolving platform, and we want to make sure that Forge components are keeping up with the latest
+features and best practices.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="accessible-lists">Accessible Lists<a href="#accessible-lists" class="hash-link" aria-label="Direct link to Accessible Lists" title="Direct link to Accessible Lists">​</a></h3>
+<p>The Forge list and list item components are core to many applications, and we&#x27;ve made some updates to ensure that
+the can be used in a more accessible way, while still allowing for the flexibility that developers need.</p>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/components-list--docs" target="_blank" rel="noopener noreferrer">List</a> docs for more information.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="dialogs">Dialogs<a href="#dialogs" class="hash-link" aria-label="Direct link to Dialogs" title="Direct link to Dialogs">​</a></h3>
+<p>The Forge dialog component has been completely rebuilt from scratch in this release. We&#x27;ve made many improvements
+to the component, most notably in how it uses the native <code>&lt;dialog&gt;</code> element.</p>
+<p>See the <a href="https://forge.tylerdev.io/main/?path=/docs/components-dialog--docs" target="_blank" rel="noopener noreferrer">Dialog</a> docs for more information.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="buttons-and-form-controls">Buttons and Form Controls<a href="#buttons-and-form-controls" class="hash-link" aria-label="Direct link to Buttons and Form Controls" title="Direct link to Buttons and Form Controls">​</a></h3>
+<p>The Forge button, icon button, and floating action button components have been updated to use a new HTML structure.
+This new structure removes the need to supply a native <code>&lt;button&gt;</code> element as a child of the component. In addition
+to this, the API for these components has been altered slightly to make them more consistent and easier to use.</p>
+<p>Much the same as buttons, the Forge form control components checkbox, radio, and switch have been rewritten from the
+ground up and no longer require a native <code>&lt;input&gt;</code> element as a child. These elements will continue to participate
+in HTML forms as expected.</p>
+<p>These components themselves become the interactive and semantic elements, and this is a step in the right direction
+for improving Forge and making it easier to use.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Future</div><div class="admonitionContent_BuS1"><p>This pattern of removing the need to supply a native element as a child of the component is something we&#x27;re looking
+to do across other Forge components in the future such as the text field. This will make using Forge more concise and
+easier to understand by reducing confusion about which elements to interact with.</p></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="overlay">Overlay<a href="#overlay" class="hash-link" aria-label="Direct link to Overlay" title="Direct link to Overlay">​</a></h3>
+<p>We&#x27;ve introduced a new &quot;overlay&quot; primitive that can be used to create floating elements such as popovers, tooltips,
+toasts, etc. This new primitive is a key part of all elements that show dropdowns or other floating content
+on your page. It&#x27;s a simple component, but it&#x27;s a powerful one! This new implementation is built on top of the
+new <a href="https://developer.mozilla.org/en-US/docs/Web/API/Popover_API" target="_blank" rel="noopener noreferrer">Popover API</a> in the browser.</p>
+<p>View the <a href="https://forge.tylerdev.io/main/?path=/docs/components-overlay--docs" target="_blank" rel="noopener noreferrer">Overlay</a> docs for more information.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="how-do-i-upgrade">How do I upgrade?<a href="#how-do-i-upgrade" class="hash-link" aria-label="Direct link to How do I upgrade?" title="Direct link to How do I upgrade?">​</a></h2>
+<p>Alright, let&#x27;s get to the details! We&#x27;ve done our best to make the upgrade process as smooth as possible,
+but there are some breaking changes that you should be aware of. We&#x27;ve documented the process on the Forge
+GitHub wiki, and we&#x27;re here to help if you run into any issues.</p>
+<p>View the <a href="https://github.com/tyler-technologies-oss/forge/wiki/Forge-3.0-Upgrade-Guide" target="_blank" rel="noopener noreferrer">Forge 3.0 Upgrade Guide</a>.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="upgrade-utility">Upgrade Utility<a href="#upgrade-utility" class="hash-link" aria-label="Direct link to Upgrade Utility" title="Direct link to Upgrade Utility">​</a></h3>
+<p>The Forge upgrade utility has been revamped to help you migrate your application to Forge 3.0. We know that
+upgrading to a new version of a UI library can be a daunting task, and we wanted to make an attempt at improving
+this process. The upgrade utility for Forge 3.0 is designed to help you automate as much of the upgrade process
+as possible.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Feedback is Welcome!</div><div class="admonitionContent_BuS1"><p>If you run into any issues with the upgrade utility, find any breaking changes that aren&#x27;t documented or upgraded
+correctly, or have any other feedback on the upgrade process, please let us know!</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="whats-new">What&#x27;s New?<a href="#whats-new" class="hash-link" aria-label="Direct link to What&#x27;s New?" title="Direct link to What&#x27;s New?">​</a></h2>
+<p>Along with the various breaking changes, we&#x27;ve also introduced many new features and improvements in Forge 3.0 that
+we think you&#x27;ll love. Please review the full list of changes in detail to make sure you don&#x27;t miss out on anything!</p>
+<p>Here is a list of some of the key highlights:</p>
+<ul>
+<li>Buttons no longer require a native <code>&lt;button&gt;</code> element as a child<!-- -->
+<ul>
+<li>The button and icon button also offer more variants for different use cases</li>
+</ul>
+</li>
+<li>Checkboxes and radios no longer require a native <code>&lt;input&gt;</code> element as a child</li>
+<li>Button toggles have received a design update to reduce emphasis</li>
+<li>A new <code>&lt;forge-split-button&gt;</code> component has been introduced to facilitate implementing the split button design pattern</li>
+<li>Dialogs have been completely rebuilt from scratch using the native <code>&lt;dialog&gt;</code> element</li>
+<li>Popups have been renamed to popover and have been updated to use the new overlay primitive</li>
+<li>Tabs have been rewritten from scratch for improved accessibility</li>
+<li>The slider has been rewritten from scratch and should now be more stable and accessible</li>
+<li>The list and list item components now require a new HTML structure for improved accessibility and more flexible usage</li>
+<li>Expansion panels no longer use JavaScript-based animations</li>
+<li>Tooltips received a minor design update to improve contrast and readability</li>
+<li>The text field and select components now share the same underlying <code>&lt;forge-field&gt;</code> element for consistency<!-- -->
+<ul>
+<li>These components now also allow for labels outside of the field as well via the <code>labelPosition</code> property.</li>
+</ul>
+</li>
+</ul>
+<p>This is only scratching the surface! There are many more smaller features that have been introduced in this
+release, and the upgrade guide will help you understand how to take advantage of them.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Forge 3.0 is <strong>not</strong> a visual overhaul, but a modernization of the library. We&#x27;ve made many improvements under the hood
+that will affect how you use Forge, but the visual appearance of the components should remain largely the same aside
+from a few small tweaks here and there.</p></div></div>
+<p>View the full list of changes <a href="https://github.com/tyler-technologies-oss/forge/wiki/Forge-3.0-Upgrade-Guide" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="backwards-compatibility">Backwards Compatibility<a href="#backwards-compatibility" class="hash-link" aria-label="Direct link to Backwards Compatibility" title="Direct link to Backwards Compatibility">​</a></h2>
+<p>Forge 3.0 is a major release, and as such there are some breaking changes to be aware of.</p>
+<p>We&#x27;ve done our best to document these changes <a href="https://github.com/tyler-technologies-oss/forge/wiki/Forge-3.0-Upgrade-Guide" target="_blank" rel="noopener noreferrer">here</a>,
+but if there are things that we missed, or if you run into any issues, please let us know so that we can address them
+as quickly as possible.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Please report any issues you find!</div><div class="admonitionContent_BuS1"><p>We&#x27;re committed to making sure that Forge 3.0 is as stable and reliable as possible. If you run into any issues,
+please let us know so that we can address them as quickly as possible. We&#x27;re here to help!</p></div></div>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="contribution">Contribution<a href="#contribution" class="hash-link" aria-label="Direct link to Contribution" title="Direct link to Contribution">​</a></h2>
+<p>We&#x27;re always looking for ways to improve Forge, and we&#x27;re open to contributions from the community. If you have
+an idea for a new feature, or if you&#x27;ve found a bug that you&#x27;d like to fix, please let us know!</p>
+<p>Please use the following resources to get involved:</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="github-issues">GitHub Issues<a href="#github-issues" class="hash-link" aria-label="Direct link to GitHub Issues" title="Direct link to GitHub Issues">​</a></h3>
+<p>If you find a bug in Forge, or if you have an idea for a new feature, please open an issue on the
+<a href="https://github.com/tyler-technologies-oss/forge/issues" target="_blank" rel="noopener noreferrer">Forge GitHub</a>.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pull-requests">Pull Requests<a href="#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h3>
+<p>If you&#x27;d like to contribute to Forge, please open a pull request on the <a href="https://github.com/tyler-technologies-oss/forge/pulls" target="_blank" rel="noopener noreferrer">Forge GitHub</a>.
+We&#x27;re always looking for ways to improve the library, and we&#x27;re open to contributions from the community.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Forking the Repo</div><div class="admonitionContent_BuS1"><p>If you&#x27;d like to contribute to Forge, please fork the repo first and open a pull request with your changes.</p></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="canny">Canny<a href="#canny" class="hash-link" aria-label="Direct link to Canny" title="Direct link to Canny">​</a></h3>
+<p>We&#x27;ve introduced a new Canny board for feature requests and feedback. If you have an idea for a new feature,
+please create a new post on the Canny board so that we can track it, vote on it, and prioritize it accordingly.</p>
+<p>View the <a href="https://tylerforge.canny.io/feature-requests" target="_blank" rel="noopener noreferrer">Forge Canny board</a> for more information.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rfc-process">RFC Process<a href="#rfc-process" class="hash-link" aria-label="Direct link to RFC Process" title="Direct link to RFC Process">​</a></h3>
+<p>We&#x27;re introducing a new RFC (Request for Comments) process for proposing new features and changes to Forge. This
+process is designed to make it easier for developers to contribute to Forge, and to ensure that all changes are
+thoroughly reviewed before they are implemented. If you&#x27;re interested in making Forge better, please consider
+participating in the RFC process!</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="documentation">Documentation<a href="#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation">​</a></h3>
+<p>We&#x27;re always looking for ways to improve the Forge documentation. If you have an idea for a new demo, find a
+typo in the documentation, or find something confusing that needs more context, please let us know so that we
+can address it.</p>
+<p>We&#x27;re still in the process of updating and improving the Forge documentation, and we will continue to do so gradually
+over the coming weeks. If you have any feedback on the new documentation site, please let us know!</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="whats-next">What&#x27;s Next?<a href="#whats-next" class="hash-link" aria-label="Direct link to What&#x27;s Next?" title="Direct link to What&#x27;s Next?">​</a></h2>
+<p>We&#x27;re excited to see what you build with Forge 3.0! We&#x27;ve got many plans to introduce new features and improvements
+over the coming months, and we&#x27;re looking forward to sharing them with you as they become available.</p>
+<p>See the <a href="https://forge.tylerdev.io/main/?path=/docs/about-roadmap--docs" target="_blank" rel="noopener noreferrer">roadmap</a> to stay up to date with what&#x27;s coming next for Forge.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="tcw-1x-end-of-life">TCW 1.x End of Life<a href="#tcw-1x-end-of-life" class="hash-link" aria-label="Direct link to TCW 1.x End of Life" title="Direct link to TCW 1.x End of Life">​</a></h3>
+<p>With the release of Forge 3.0, we&#x27;re also announcing the end of life for TCW 1.x effective as of 6/10/2024. We know that many
+of you have been using TCW 1.x for a long time, and we know it&#x27;s not a trivial task to upgrade to Forge 3.0. TCW 1.x was a step in
+the right direction, but it has many limitations and core flaws, and we&#x27;ve addressed many (if not all) of these between
+Forge 2.x and 3.x.</p>
+<p><strong>Please try to get an upgrade plan in place on your roadmap as soon as possible.</strong></p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Automated Upgrade</div><div class="admonitionContent_BuS1"><p>The Forge upgrade utility is designed to help automate as much of the upgrade process as possible. When upgrading from
+TCW 1.x to Forge 3.0, you&#x27;ll need to upgrade to Forge 2.x <strong>first</strong>, and then to Forge 3.0. <strong>There is not a direct migration
+path in the utility for the direct jump to 3.0</strong>.</p><p>See the <a href="/blog/2022/05/02/upgrade-guide-forge-2">Forge 2.x upgrade guide</a> for more information.</p><p>Please use <a href="https://github.com/tyler-technologies/forge-upgrade" target="_blank" rel="noopener noreferrer">this tool</a> to help you migrate your applications and
+libraries to Forge 3.0, and reach out to us if you have any questions or need assistance.</p></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="whats-happening-to-forge-2x">What&#x27;s happening to Forge 2.x?<a href="#whats-happening-to-forge-2x" class="hash-link" aria-label="Direct link to What&#x27;s happening to Forge 2.x?" title="Direct link to What&#x27;s happening to Forge 2.x?">​</a></h3>
+<p>Forge 2.x will continue to be maintained for the foreseeable future, but we will not be adding any new features or
+improvements to it. We recommend that you upgrade to Forge 3.0 as soon as possible to take advantage of the latest
+changes.</p>
+<p>We want to eventually reach the point where we can push out new features and improvements to Forge on a more regular
+basis without breaking your code. The faster we can get everyone on the same version, the faster we can achieve this
+goal.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Legacy Documentation</div><div class="admonitionContent_BuS1"><p>You can now view the legacy Forge 2.x Storybook documentation <a href="https://forge.tylerdev.io/version-2" target="_blank" rel="noopener noreferrer">here</a>.</p></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="goals">Goals<a href="#goals" class="hash-link" aria-label="Direct link to Goals" title="Direct link to Goals">​</a></h3>
+<p>As we continue to evolve Forge, we have a few key goals in mind:</p>
+<ul>
+<li>
+<p>Solidify APIs, usage patterns, and implementation to reduce breaking changes in future versions. We want to get
+to a point where you can upgrade Forge easily with confidence that your application will continue to work as expected.</p>
+</li>
+<li>
+<p>Improve accessibility across all components. This is a key focus for us, and we want to make sure that all Forge
+components are accessible to all users.</p>
+</li>
+<li>
+<p>Introduce new components and features that make it easier to build applications with Forge. We&#x27;re always looking
+for ways to improve the developer experience, and we&#x27;re excited to see what new features we can introduce in the
+near future.</p>
+</li>
+<li>
+<p>Cultivate a strong community around Forge. We want to make sure that developers have the resources they need to
+build amazing applications with Forge, and we&#x27;re always open to contribution and feedback from the community.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h3>
+<p>We know many of you have been waiting a long time for this release, and we&#x27;re extremely grateful for your patience
+and support. We had originally intended for this project to be released much sooner, but due to the complexity of
+the changes that were made, many roadblocks along the way, and the sheer amount of work that needed to be done, we
+ended up taking a bit longer but we&#x27;re extremely happy with where we ended up.</p>
+<p>We hope the upgrade process goes smoothly for you, and we&#x27;re here to help if you run into any issues. We&#x27;re excited
+to see what you build with Forge 3.0, and we&#x27;re looking forward to sharing more updates with you in the coming months!</p>
+<p>Alright, that&#x27;s all for now. Thanks for reading, and happy coding! 🚀</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/forge">forge</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/components">components</a></li></ul></div></div><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><a href="https://pr.new/github.com/tyler-technologies-oss/forge-design-system/edit/main/blog/2024-06-10-forge-3-generally-available/index.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/blog/2025/02/06/forge-2025"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Forge 2025 Update</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/blog/2024/04/02/forge-3-coming-soon"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Forge 3.0 - Coming Soon</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#shout-outs" class="table-of-contents__link toc-highlight">Shout Outs</a><ul><li><a href="#governance" class="table-of-contents__link toc-highlight">Governance</a></li></ul></li><li><a href="#accessibility-improvements" class="table-of-contents__link toc-highlight">Accessibility Improvements</a></li><li><a href="#material-dependency" class="table-of-contents__link toc-highlight">Material Dependency</a></li><li><a href="#theming-system" class="table-of-contents__link toc-highlight">Theming System</a></li><li><a href="#typography" class="table-of-contents__link toc-highlight">Typography</a></li><li><a href="#design-tokens" class="table-of-contents__link toc-highlight">Design Tokens</a></li><li><a href="#focus-and-interaction-states" class="table-of-contents__link toc-highlight">Focus and Interaction States</a></li><li><a href="#usage-patterns" class="table-of-contents__link toc-highlight">Usage Patterns</a><ul><li><a href="#accessible-lists" class="table-of-contents__link toc-highlight">Accessible Lists</a></li><li><a href="#dialogs" class="table-of-contents__link toc-highlight">Dialogs</a></li><li><a href="#buttons-and-form-controls" class="table-of-contents__link toc-highlight">Buttons and Form Controls</a></li><li><a href="#overlay" class="table-of-contents__link toc-highlight">Overlay</a></li></ul></li><li><a href="#how-do-i-upgrade" class="table-of-contents__link toc-highlight">How do I upgrade?</a><ul><li><a href="#upgrade-utility" class="table-of-contents__link toc-highlight">Upgrade Utility</a></li></ul></li><li><a href="#whats-new" class="table-of-contents__link toc-highlight">What&#39;s New?</a></li><li><a href="#backwards-compatibility" class="table-of-contents__link toc-highlight">Backwards Compatibility</a></li><li><a href="#contribution" class="table-of-contents__link toc-highlight">Contribution</a><ul><li><a href="#github-issues" class="table-of-contents__link toc-highlight">GitHub Issues</a></li><li><a href="#pull-requests" class="table-of-contents__link toc-highlight">Pull Requests</a></li><li><a href="#canny" class="table-of-contents__link toc-highlight">Canny</a></li><li><a href="#rfc-process" class="table-of-contents__link toc-highlight">RFC Process</a></li><li><a href="#documentation" class="table-of-contents__link toc-highlight">Documentation</a></li></ul></li><li><a href="#whats-next" class="table-of-contents__link toc-highlight">What&#39;s Next?</a><ul><li><a href="#tcw-1x-end-of-life" class="table-of-contents__link toc-highlight">TCW 1.x End of Life</a></li><li><a href="#whats-happening-to-forge-2x" class="table-of-contents__link toc-highlight">What&#39;s happening to Forge 2.x?</a></li><li><a href="#goals" class="table-of-contents__link toc-highlight">Goals</a></li><li><a href="#conclusion" class="table-of-contents__link toc-highlight">Conclusion</a></li></ul></li></ul></div></div></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Learn</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://forge.tylerdev.io/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Component docs<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Code</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/tyler-technologies-oss/forge/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Components<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/tyler-technologies-oss/forge-design-system/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Design System<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/assets/illustration-library">Illustrations</a></li><li class="footer__item"><a class="footer__link-item" href="/assets/icon-library">Icons</a></li><li class="footer__item"><a class="footer__link-item" href="/recipes">Recipes</a></li></ul></div><div class="col footer__col"><div class="footer__title">Legal</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/tyler-technologies-oss/forge-design-system/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer" class="footer__link-item">License<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><img src="https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg" alt="Tyler Forge™ Design System Logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE"><img src="https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg" alt="Tyler Forge™ Design System Logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU"></div><div class="footer__copyright">Copyright © 2025 Tyler Technologies, Inc.<br><small>Licensed under CC BY 4.0</small></div></div></div></footer></div>
+</body>
+</html>
