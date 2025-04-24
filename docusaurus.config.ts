@@ -33,33 +33,6 @@ export default {
   plugins: [
     'docusaurus-plugin-sass',
     'plugin-image-zoom',
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          { from: '/resources/upgrade-guides/forge-2-0', to: '/blog/2022/05/02/upgrade-guide-forge-2' },
-          { from: '/resources/package-dependency', to: '/blog/2020/05/06/package-dependencies' },
-          { from: '/resources/cdn', to: '/assets/cdn/overview/' },
-          { from: '/core', to: '/get-started' },
-          { from: '/core-components/illustrations/library', to: '/assets/illustration-library/' },
-          { from: '/core-components/iconography/library', to: '/assets/icon-library/' },
-        ],
-        createRedirects(existingPath) {
-          // Creates redirects for all old component pages
-          if (existingPath.startsWith('/components/')) {
-            const parts = existingPath.split('/').filter(part => !!part.trim());
-            if (parts.length !== 3) {
-              return undefined;
-            }
-
-            const componentName = parts[2];
-            const subRoutes = ['guidance', 'development', 'accessibility'].map(oldPath => `/components/${componentName}/${oldPath}`);
-            return [`/components/${componentName}`, ...subRoutes];
-          }
-          return undefined;
-        },
-      },
-    ],
   ],
   
   themes: [
@@ -162,7 +135,6 @@ export default {
           {
             title: 'More',
             items: [
-              { label: 'Illustrations', href: '/assets/illustration-library' },
               { label: 'Icons', href: '/assets/icon-library' },
               { label: 'Recipes', href: '/recipes' },
             ]
