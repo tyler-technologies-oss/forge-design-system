@@ -18,7 +18,3 @@ For an overview of the color palette used in the calendar, check out the followi
 
 <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="910" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwF374tcYJHbFqKxvVx9fkV%2FForge-Calendar-palettes%3Fnode-id%3D0%253A1" allowFullScreen></iframe>
 
-
-### Examples
-- See a responsive, Forge-skinned Full Calendar example in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
-- The calendar component is currently used in <a href="https://confl.tylertech.com/display/TMM/TMM" target="_blank" rel="noreferrer noopener">Tyler Meeting Manager</a>. For additional questions, reach out to designer <a href="mailto:morgan.keenan@tylertech.com">Morgan Keenan</a>.

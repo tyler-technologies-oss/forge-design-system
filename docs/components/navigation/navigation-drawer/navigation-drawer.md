@@ -98,8 +98,6 @@ A mini navigation drawer may be used when the main content of an desktop applica
 ![Image of a collapsed and expanded mini nav.](./images/mini-nav.png)
 </ImageBlock>
 
-See the mini nav in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
-
 --- 
 
 ## Long navigation lists
@@ -231,7 +229,3 @@ For apps with fewer than five primary destinations, use:
 ### Patterns
 
 - [Navigation](/patterns/navigation/primary)
-
-### Examples
-
-- See the mini nav in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).

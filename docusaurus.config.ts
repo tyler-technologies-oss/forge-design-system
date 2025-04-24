@@ -186,7 +186,7 @@ export default {
         items: [
           { label: 'Get started', to: '/get-started' },
           { label: 'Styles', to: '/styles' },
-          { label: 'UX writing', to: '/ux-writing' },
+          { label: 'Content', to: '/content' },
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },

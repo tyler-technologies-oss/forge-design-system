@@ -22,10 +22,6 @@ The page state component is a wrapper component facilitates full page states suc
 
 Use an empty state when an item's content can't be shown, or there's no data to show. Check out the empty state [recipes](/recipes/empty-state/no-search-result).
 
-### Examples
-
-- See an empty state in action in the [Employee Access Calendar case study](/get-started/other/case-studies/ess-calendar).
-
 ### Parts
 
 <ImageBlock padded={false}>
@@ -52,7 +48,6 @@ Mini empty states should be used when an empty state is needed inside of a card,
 - If a screen contains many colors, a greyscale illustration is recommended.
 - In regards to size of the illustration, teams will need to use judgment depending on allocated space.
 - Mini empty states within a card should use SPOT illustrations.
-- Mini empty states within a side sheet/panel should use either SPOT or SPOT HERO [illustrations](/get-started/styles/illustrations). (Dealer's choice)
 
 **Examples**
 

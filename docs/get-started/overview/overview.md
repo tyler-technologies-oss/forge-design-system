@@ -47,7 +47,6 @@ The scaffold is the foundation of layout in Forge apps. The scaffold places the 
 - [Omnibar](/components/omni/omnibar) (required)
 - [Navigation drawer](/components/navigation/navigation-drawer) (optional)
 - Page title (required)
-- Footer (optional): [workforce apps](/get-started/branding-workforce#3-footer-optional), [community apps](/get-started/branding-community#4-footer-optional)
 
 To learn more about using and implementing the scaffold, check out the component page [here](/components/layouts/scaffold).
 

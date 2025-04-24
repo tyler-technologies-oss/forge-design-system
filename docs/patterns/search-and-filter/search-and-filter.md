@@ -8,11 +8,6 @@ Search & filter can help users locate a specific record or create a set of relat
 
 The search process is comprised of five steps: 1. Initiate, 2. Show results, 3. Refine, 4. View details, 5. Return to results.
 
-**Examples**
-- See advanced search in action in the [Resident Access case study](/get-started/other/case-studies/resident-access).
-- See advanced search in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
-- See a local search in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
-
 ---
 
 ## Steps 
@@ -59,8 +54,6 @@ Help users understand what they can find.
 ![ALt text](./images/advanced-search.png)
 
 </ImageBlock>
-
-See advanced search in action in the [Resident Access case study](/get-started/other/case-studies/resident-access)!
 
 ---
 

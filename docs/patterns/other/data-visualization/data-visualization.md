@@ -42,8 +42,6 @@ Use the following steps to approach data visualizations.
 
 ## Parts
 
-If your team is starting with data viz, you may benefit from a Forge consulting session! [Request low or medium engagement consulting](/get-started/more-guidance/consulting/) and mention "data viz" in your request. We can help you apply best practices to share a clear story around your data.
-
 Forge does not provide a component for charts, but we recommend using one of the following libraries.
 
 Although apps may choose different charting libraries to meet different needs, charts can be given a cohesive look and feel by using consistent color palettes and typography. Check out our <a href="https://www.figma.com/file/rP8Of8bjVJUMpJIBFUJqQ3/Data-Viz?node-id=0%3A1">Data Viz theming guidance</a> in Figma or reach out to <a href="mailto:eric.wayne@tylertech.com">Eric Wayne</a> or <a href="mailto:mariah.kim@tylertech.com">Mariah Kim</a> for more information around theming charts. 

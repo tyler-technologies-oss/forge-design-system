@@ -30,10 +30,6 @@ Inline messages are persistent and appear inside a component, such as a [card](/
 - Displaying information that will be used once and dismissed, such as announcements or new features. Use a [banner](/components/notifications-and-messages/banner) instead.
 - Displaying information that pertains to the full page. Use a [banner](/components/notifications-and-messages/banner) instead.
 
-### Examples
-
-- See an example of an inlined message in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-
 ---
 
 ## Parts 
@@ -78,5 +74,3 @@ The inline notification supports four modes: informational, warning, success, da
 
 - [System communication](/patterns/other/system-communication)
 
-### Examples 
-- See an example of an inlined message in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!

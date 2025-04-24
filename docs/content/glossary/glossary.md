@@ -1,5 +1,7 @@
 ---
 toc_max_heading_level: 2
+title: Glossary
+sidebar_position: 2
 ---
 
 # Glossary
