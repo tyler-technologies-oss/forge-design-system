@@ -9,7 +9,7 @@ Below is Tyler's glossary of approved terms to be used in action buttons and fie
 
 ## A
 
-### Add
+<GlossaryItemHeader title="Add" icon="add"></GlossaryItemHeader>
 Takes an existing object and uses it in a new context.
 
 > **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.    
