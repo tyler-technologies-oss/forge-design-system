@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.imageWrapper {
+  margin: 0 auto;
+}
+
+.imageWrapper p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.captionContainer {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  background-color: var(--forge-theme-image-background);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+}
+
+.imageContainer > span {
+  width: 100%;
+}
+
+.imageContainerPadded {
+  padding: 8px 8px;
+}
+
+.imageContainerStretch {
+  width: 100%;
+}
+
+.caption {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: var(--forge-theme-text-secondary);
+  font-family: Roboto,sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: .01786em;
+  line-height: 1.25rem;
+  text-decoration: inherit;
+  text-transform: inherit;
+}

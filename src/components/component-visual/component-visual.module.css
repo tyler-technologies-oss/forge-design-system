@@ -1,0 +1,29 @@
+.frame {
+  border: 1px solid var(--forge-theme-border);
+  border-radius: 4px;
+  width: 100%;
+  min-height: auto;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: -12px;
+  bottom: -32px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  border-radius: 4px;
+}

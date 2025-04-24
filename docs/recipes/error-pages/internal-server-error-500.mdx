@@ -1,0 +1,20 @@
+---
+sidebar_label: Internal server error (500)
+---
+
+# Recipe: Internal server error (500)
+
+An unhandled problem occurred on the server that prevents the request from being fulfilled.
+
+Examples where this could apply:
+
+- When the server fails to process a request due to some internal error
+- The request handler threw an exception
+- The process responsible for handling the request terminated unexpectedly
+
+:::note
+This error is distinguished from 400-series errors in that 500-series errors indicate a problem occurred on the server, whereas 400-series errors
+indicate a problem with the request to the server, which is a problem on the client (browser) side.
+:::
+
+<RecipeDemo initialpath="/recipes/error-pages/internal-server-error-500.html" />
