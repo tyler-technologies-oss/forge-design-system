@@ -16,6 +16,7 @@ import ToneDef from '@site/src/components/tone-def/tone-def';
 import CheckboxListItem from '@site/src/components/utils/checkbox-list-item';
 import ServicesBlock from '@site/src/components/services-block/services-block';
 import RecipeDemo from '@site/src/components/recipe-demo/recipe-demo';
+import GlossaryItemHeader from '@site/src/components/glossary-item-header/glossary-item-header';
 
 export default {
   ...MDXComponents,
@@ -38,4 +39,5 @@ export default {
   CheckboxListItem,
   ServicesBlock,
   RecipeDemo,
+  GlossaryItemHeader
 };

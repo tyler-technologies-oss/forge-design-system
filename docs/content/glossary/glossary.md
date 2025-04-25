@@ -6,12 +6,12 @@ sidebar_position: 2
 
 # Glossary
 
-Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. 
+Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. For terms that are often used with icons, the recommended icon is shown.
 
 
 ## A
 
-### Add
+<GlossaryItemHeader title="Add" icon="add"></GlossaryItemHeader>
 Takes an existing object and uses it in a new context.
 
 > **Ex.** Add labor, Add asset to a work order, Add proposal line, Add records to batch.    
@@ -63,10 +63,11 @@ Allows the user to preview their changes without saving them.
 
 ## B
 
-### Back
-Returns user to the previous step in a sequence of steps, such as a wizard.
+<GlossaryItemHeader title="Back" icon="arrow_back"></GlossaryItemHeader>
+Allows the user to navigate to the previous page, view or state.
 
-> **Do not use:** *Previous*, *Return*  
+> **Compare with:** [*Previous*](/content/glossary/#preview)   
+> **Do not use:** *Return*  
 
 ---
 
@@ -88,7 +89,7 @@ Stops the current action and closes the [dialog](/components/notifications-and-m
 
 ---
 
-### Close
+<GlossaryItemHeader title="Close" icon="close"></GlossaryItemHeader>
 Closes the current page or window.  
 Use when there's no current action in window. Use in conjunction with the "X" or "cancel" for ADA compliance.
 
@@ -96,7 +97,7 @@ Use when there's no current action in window. Use in conjunction with the "X" or
 
 ---
 
-### Copy
+<GlossaryItemHeader title="Copy" icon="content_copy"></GlossaryItemHeader>
 Creates new instances of the selected object(s).
 
 > **Ex.** Copy record, Copy proposal line  
@@ -124,7 +125,7 @@ An organized collection of data.
 
 ---
 
-### Delete
+<GlossaryItemHeader title="Delete" icon="delete"></GlossaryItemHeader>
 Destroys an existing object so that it no longer exists.  
 
 > **Ex.** Deletes a file from a directory, deletes a value from a table cell  
@@ -140,7 +141,7 @@ Indicates the user does not approve. In a business process, typically blocks the
 
 ---
 
-### Download
+<GlossaryItemHeader title="Download" icon="download"></GlossaryItemHeader>
 Transfers a file from a remote system to a local system.
 
 > **Compare with:** [*Export*](/content/glossary/#export)
@@ -150,11 +151,11 @@ Transfers a file from a remote system to a local system.
 
 ## E
 
-### Edit
+<GlossaryItemHeader title="Edit" icon="edit"></GlossaryItemHeader>
 Use when changing existing data or values on a screen. Use "mass edit" when editing multiple records.
 
-> **Ex.** Edit an employee address, Edit a budget amount 
-> **Compare with** [*Update*](/content/glossary/#update), [*Upgrade*](/content/glossary/#upgrade)  
+> **Ex.** Edit an employee address, Edit a budget amount   
+> **Compare with:** [*Update*](/content/glossary/#update), [*Upgrade*](/content/glossary/#upgrade)   
 > **Do not use:** *Change*
 
 ---
@@ -175,8 +176,8 @@ A system communication informing users that the action they took cannot be compl
 
 ---
 
-### Export
-Creates a data file in a different format (.xls, .csv, .doc, .pdf).
+<GlossaryItemHeader title="Export" icon="export"></GlossaryItemHeader>
+Transfers data out of a system or application into a file type (.xls, .csv, .doc, .pdf).
 
 > **Compare with:** [*Download*](/content/glossary/#download), [*Import*](/content/glossary/#import)
 
@@ -185,7 +186,7 @@ Creates a data file in a different format (.xls, .csv, .doc, .pdf).
 
 ## F
 
-### Filter
+<GlossaryItemHeader title="Filter" icon="filter_list"></GlossaryItemHeader>
 Shortens a list of objects that match the filter criteria.
 
 > **Compare with:** [*Search*](/content/glossary/#search), [*Sort*](/content/glossary/#sort)
@@ -200,7 +201,7 @@ Indicates completion of a series of steps, such as a wizard.
 
 ## H
 
-### Help
+<GlossaryItemHeader title="Help" icon="help_outline"></GlossaryItemHeader>
 Umbrella term for additional assistance in an application.
 
 ---
@@ -216,8 +217,8 @@ Conceals an element on screen.
 
 ## I
 
-### Import
-Brings in data or objects from an external source. 
+<GlossaryItemHeader title="Import" icon="import"></GlossaryItemHeader>
+Transfers external data or objects into an internal system. 
 
 > **Ex.** Importing budget data from another system into a Tyler ERP.  
 > **Compare with:** [*Add*](/content/glossary/#add), [*Export*](/content/glossary/#export), [*Insert*](/content/glossary/#insert)
@@ -294,7 +295,14 @@ Shows how an object or content will appear with formatting applied before the co
 
 ---
 
-### Print
+### Previous
+Returns user to the prior step in a sequence of steps, such as a wizard.
+
+> **Compare with:** [*Back*](/content/glossary/#back)
+
+---
+
+<GlossaryItemHeader title="Print" icon="print"></GlossaryItemHeader>
 Sends a copy of the currently selected object or the object in view to the printer.
 
 ---
@@ -309,7 +317,7 @@ Make information viewable to others.
 
 ## R
 
-### Redo
+<GlossaryItemHeader title="Redo" icon="redo"></GlossaryItemHeader>
 Redoes an undo action.  
 Likely used only as a tooltip on an icon button.
 
@@ -357,7 +365,7 @@ Initiates a procedure or program.
 
 ## S
 
-### Save
+<GlossaryItemHeader title="Save" icon="content_save"></GlossaryItemHeader>
 Saves pending modifications made to a file or document or record or screen.
 
 > **Compare with:** [*Apply*](/content/glossary/#apply), [*Publish*](/content/glossary/#publish)
@@ -376,7 +384,7 @@ Same use case as [*Save*](/content/glossary/#save), keeps data entry dialog open
 
 ---
 
-### Search
+<GlossaryItemHeader title="Search" icon="search"></GlossaryItemHeader>
 Returns all objects within a defined set that match some specified criteria.
 
 > **Ex.** 
@@ -443,7 +451,7 @@ Register to receive regular communication. For example, alerts, communications, 
 
 ## U
 
-### Undo
+<GlossaryItemHeader title="Undo" icon="undo"></GlossaryItemHeader>
 Reverts to the state before the most recent changes made by the user. Repeated use successively reverts to prior states in reverse chronological order. Applies to changes in data and not to changes made to the view.  
 Not all actions, such as Save, can be undone.
 
@@ -456,6 +464,11 @@ Use to install a software fix.
 
 > **Compare with:** [*Edit*](/content/glossary/#edit), [*Upgrade*](/content/glossary/#upgrade)  
 > **Do not use:** *Change*
+
+---
+
+<GlossaryItemHeader title="Upload" icon="upload"></GlossaryItemHeader>
+Transfers a file from a local system to a remote system
 
 ---
 
@@ -479,7 +492,7 @@ Presents additional information.
 
 ## W
 
-### Warning
+<GlossaryItemHeader title="Warning" icon="warning"></GlossaryItemHeader>
 A system communication used to inform users that they may be taking an action that could have unexpected results. They are used to help users prevent errors.  
 
 > **Ex.** A user’s budget is out of balance so they receive a warning but can still proceed with the action.  
