@@ -16,7 +16,7 @@ const GlossaryItemHeader = ({ title, icon }) => {
 
   return (
     <div className={styles.container}>
-      <h3>{title}</h3>
+      <h3 id={title.toLowerCase()}>{title}</h3>
       {svgContent && (
         <div
           className={styles.icon}
