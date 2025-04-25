@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Glossary
 
-Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. 
+Below is Tyler's glossary of approved terms to be used in action buttons and fields labels. For terms that are often used with icons, the recommended icon is shown.
 
 
 ## A
@@ -154,8 +154,8 @@ Transfers a file from a remote system to a local system.
 <GlossaryItemHeader title="Edit" icon="edit"></GlossaryItemHeader>
 Use when changing existing data or values on a screen. Use "mass edit" when editing multiple records.
 
-> **Ex.** Edit an employee address, Edit a budget amount 
-> **Compare with** [*Update*](/content/glossary/#update), [*Upgrade*](/content/glossary/#upgrade)  
+> **Ex.** Edit an employee address, Edit a budget amount   
+> **Compare with:** [*Update*](/content/glossary/#update), [*Upgrade*](/content/glossary/#upgrade)   
 > **Do not use:** *Change*
 
 ---
