@@ -64,7 +64,7 @@ Allows the user to preview their changes without saving them.
 <GlossaryItemHeader title="Back" icon="arrow_back"></GlossaryItemHeader>
 Allows the user to navigate to the previous page, view or state.
 
-> **Compare with:** [*Previous*](/ux-writing/glossary/#preview) 
+> **Compare with:** [*Previous*](/ux-writing/glossary/#preview)   
 > **Do not use:** *Return*  
 
 ---
