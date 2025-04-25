@@ -10,19 +10,6 @@ Build beautiful and accessible experiences that express Tyler's core values usin
 
 Figma is a collaborative interface design tool that is entirely browser-based, and therefore works not only on Macs, but also on PCs running Windows or Linux, and even on Chromebooks. Figma is the preferred design tool for teams using Forge. Use our Figma library of components that match our Forge components to spec. 
 
-Figma viewer accounts are free but editor accounts require a paid subscription. To request editor rights, please contact <a href="mailto:arleigh.hays@tylertech.com">Arleigh Hays</a> with the following information:
-- Name
-- Email
-- Role
-- Direct manager for billing purposes
-- The request should include a purchase approval statement
-
-**Note:** The Editor subscription cost has been provisionally approved by funding manager pending the submission of PO. Requesting team will be charged $15 per user/per month through June 3, 2022. At that time, monthly users will be added to the annual subscription.
-
-To request a viewer account, [submit a request](/get-started/more-guidance/consulting/) for "Low engagement consulting" from the Forge team and mention a "Figma viewer account" in your request. 
-
-Once you have a Figma account, get started with Figma below!
-
 :::info
 Click "Getting started" in the preview below to open the project in Figma!
 :::

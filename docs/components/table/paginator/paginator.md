@@ -16,8 +16,6 @@ sidebar_custom_props:
 
 Use pagination when records are sorted in a logical way (ie, chronologically or alphabetically). Pagination allows users to mentally bookmark or orient where they are in an ordered result set. Pagination can be used with collections: tables, lists, and cards. 
 
-- See an example of a paginator in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-
 ### Infinite scroll vs pagination 
 
 Infinite scroll is best used to encourage discovery or exploration when users are casually browsing content. Infinite scroll may also be a better option for mobile contexts. By contrast, pagination is best used for datasets that have been sorted in a logical way, as it allows users to jump to a specific page or mentally orient where they are in a set. 
@@ -49,8 +47,5 @@ A paginator may be used with:
 - [Table](/components/table/table)
 - [List](/components/lists/list) 
 
-### Examples
-
-- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 
 

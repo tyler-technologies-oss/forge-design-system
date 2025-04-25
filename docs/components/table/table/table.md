@@ -38,10 +38,6 @@ Data tables can include:
 - Users search and filter across multiple attributes. 
 - Displaying data primarily on mobile. 
 
-### Examples
-
-- See the table in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
-
 ---
 
 ## Parts
@@ -454,10 +450,6 @@ Use instead of a table
 ### Recipes
 
 - [Table](/recipes)
-
-### Examples
-
-- See a table with filtering and customizable columns in action in the [Asset Registry case study](/get-started/other/case-studies/asset-registry).
 
 ---
 

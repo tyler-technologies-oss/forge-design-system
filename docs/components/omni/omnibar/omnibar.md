@@ -174,8 +174,6 @@ The omnibar is not responsive by default, instead will need to be configured to 
 
 In mobile contexts, the omnibar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the omnibar. Display up to three actions or two actions and an overflow menu in this space. 
 
-See the responsive omnibar in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [Tyler Bus](/get-started/other/case-studies/resident-access) case studies!
-
 <ImageBlock maxWidth="600px">
 
 ![Diagram of omni on mobile.](./images/mobile-omni-diagram.png)
@@ -262,6 +260,3 @@ The omnibar is used with
 
 - The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/patterns/layout/introduction)
 
-### Examples
-
-- See the responsive omnibar in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [Tyler Bus](/get-started/other/case-studies/tyler-bus) case studies.

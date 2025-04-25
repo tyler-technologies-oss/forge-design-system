@@ -28,10 +28,6 @@ Time pickers allow users to enter a specific time value. They can be used for a 
 - Users can only select from time descriptions (ie, "now," "in thirty minnutes," "in an hour"). Use a [select](/components/fields/select) instead.
 - Users can enter text or times. Use a [text field](/components/fields/text-field) instead.
 
-:::info
-Refer to the [data formatting guidance](/ux-writing/style-guide/dates-and-times) if using a custom mask. Both 12-hour and 24-hour time systems are allowed.
-:::
-
 ---
 
 ## Variants

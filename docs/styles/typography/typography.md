@@ -8,8 +8,6 @@ Tyler Forge provides a purposeful set of typographic styles. Consistently tying 
 
 Roboto features friendly and open curves and allows letters to be settled into their natural width. This makes for a natural reading rhythm more commonly found in humanist and serif types.
 
-See an example of typography in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
-
 ### Accessibility
 
 To ensure proper screen reader navigation, use the native HTML semantic headers. Screen readers use an accessibility tree to read through a page, so they’ll follow the logical header order (H1 through H6) instead of the order seen visually on a page. Use headings to reflect page hierarchies, sections, and parent-child relationships, instead of for styling purposes. 

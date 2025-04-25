@@ -30,10 +30,6 @@ Guided steppers provide a clear path to completion. Offering users a clear idea 
 
 - Don't use steppers for familiar or repetitive tasks; use a form instead.  
 
-### Examples
-
-- See steppers in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps) case studies.
-
 ---
 
 ## Types 
@@ -192,7 +188,3 @@ Steppers are comprised of:
 - [Buttons](/components/buttons/button)
 - [Toolbar](/components/page/toolbar)
 - [Dialog](/components/notifications-and-messages/dialog)
-
-### Examples
-
-- See steppers in action in the [Resident Access](/get-started/other/case-studies/resident-access) and [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps) case studies.

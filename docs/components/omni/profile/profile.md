@@ -40,6 +40,3 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 - [Omnibar](/components/omni/omnibar)
 
-### Patterns
-
-- For community apps, refer to the [branding](/get-started/branding-community) guidance.

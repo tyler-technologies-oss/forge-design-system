@@ -62,8 +62,6 @@ Numeric badges should be used to highlight new items, such as notifications or n
 
 Text badges are used to communicate a status or description. Badges may be used to add visual prominence to an important attribute of a specific record. At most, one badge should be used per record.
 
-- See an example of badges used in a list the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-
 #### Palettes
 
 Text badges are either **muted** or **bold** and use color to indicate meanings that users can learn and recognize across products. Use muted badges by default. In cases where more visual emphasis is needed, use bold badges instead. In general, only pages where just a few badges are used should use the bold style.
@@ -117,8 +115,3 @@ Badges may be used with:
 - [Lists](/components/lists/list)
 - [Table](/components/table/table)
 - [Tabs](/components/navigation/tabs)
-
-### Examples 
-
-- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-

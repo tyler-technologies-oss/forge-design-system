@@ -823,8 +823,6 @@ the icon within the `IconRegistry`. Note: This version is set as a dependency of
 For those of you that have been using the TCW Snippet extension for VS Code, you'll be happy to know that we have also created a new version of the extension for 
 the Forge 2.0 components!
 
-To install the new extension, please click [here](/assets/cdn/files).
-
 ---
 
 ## Open source

@@ -80,10 +80,6 @@ Task cards are cards with a title and supporting data displayed as label value p
 
 - Displaying content where images are important.
 
-### Examples 
-
-- See an example of a complex list in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-
 ---
 
 ## 4. Table 
@@ -104,10 +100,6 @@ Task cards are cards with a title and supporting data displayed as label value p
 ### Don't use when 
 
 - Displaying content where images are important.
-
-### Examples
-
-- See an example of a table list in the [Asset Registry case study](/get-started/other/case-studies/asset-registry)!
 
 ---
 

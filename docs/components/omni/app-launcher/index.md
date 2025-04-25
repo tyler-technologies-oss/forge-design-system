@@ -18,8 +18,6 @@ App launcher is a persistent navigation component for users to switch context. I
 
 Apps opened by the app launcher replace the current app in the same tab. Apps should not open in a new window.
 
-See an example of the app launcher in use in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
-
 ---
 
 ## Parts 
@@ -118,7 +116,4 @@ This feature is currently in flight. Check out our project [timeline](#) to get 
 
 - [Omnibar](/components/omni/omnibar)
 
-### Examples
-
-- See an example of the app launcher in use in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps)!
 

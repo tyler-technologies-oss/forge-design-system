@@ -46,8 +46,6 @@ Movement from a **child** screen (lower level of hierarchy) to a **parent** scre
 ### Components to use 
 - For detail screens, use a [toolbar](/components/page/toolbar/) and back arrow to allow for upward navigation. 
 
-See the upward navigation pattern in action in the [TCP Manager Apps case study](/get-started/other/case-studies/manager-apps).
-
 :::info
 The back arrow pattern should only be used for upward navigation within an app. Use native browser or mobile back functionality to allow users to move **chronologically** through their recent screen history.
 :::
