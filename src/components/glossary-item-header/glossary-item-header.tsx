@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import styles from './glossary-item-header.module.css';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 
 const GlossaryItemHeader = ({ title, icon }) => {
   const [svgContent, setSvgContent] = useState('');
+
+  useBrokenLinks().collectAnchor(title.toLowerCase());
 
   useEffect(() => {
     if (icon) {
@@ -16,7 +19,7 @@ const GlossaryItemHeader = ({ title, icon }) => {
 
   return (
     <div className={styles.container}>
-      <h3 id={title.toLowerCase()}>{title}</h3>
+      <h3 id={title.toLowerCase()} style={{ scrollMarginTop: '0.5rem' }}>{title}</h3>
       {svgContent && (
         <div
           className={styles.icon}
