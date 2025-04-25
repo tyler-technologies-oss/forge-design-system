@@ -114,8 +114,18 @@ function IconGrid({ icons, filterText }) {
   }
 
   function filterIcons(icons) {
-    return icons.filter(i => i.name.trim().toLowerCase().includes(filterText.trim().toLowerCase()));
+    const lowerCaseFilterText = filterText.trim().toLowerCase();
+  
+    return icons.filter(icon => {
+      const nameMatches = icon.name?.trim().toLowerCase().includes(lowerCaseFilterText);
+      const keywordsMatch = icon.keywords?.some(kw =>
+        kw.trim().toLowerCase().includes(lowerCaseFilterText)
+      );
+  
+      return nameMatches || keywordsMatch;
+    });
   }
+  
 
   return (
     <>
