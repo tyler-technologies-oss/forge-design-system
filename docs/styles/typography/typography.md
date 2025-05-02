@@ -4,9 +4,13 @@
 
 Tyler Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations.
 
-<p className="forge-typography--headline4">This is Roboto, our Tyler Forge typeface.</p>
+Tyler Forge uses Roboto as its primary typeface and it is used throughout the entire component library.
 
-Roboto features friendly and open curves and allows letters to be settled into their natural width. This makes for a natural reading rhythm more commonly found in humanist and serif types.
+<ImageBlock padded={false} max-width="650px">
+
+![The full alphabet including some special characters shown in Roboto](./images/full-alphabet-header.png)
+
+</ImageBlock>
 
 ### Accessibility
 
@@ -14,9 +18,51 @@ To ensure proper screen reader navigation, use the native HTML semantic headers.
 
 **Do not use semantic headings for stylistic purposes.** Instead, use semantic headings to create a logical hierarchy on the page, and use the Forge typography classes to style your text. The code snippets below include semantic headings as examples only; they’re not meant to be prescriptive. Be sure to use semantic headings that reflect your app’s logical hierarchy. 
 
+
 ---
 
-## Parts 
+### Styles
+
+#### Display
+Display styles are used for large, prominent text such as page titles and headings.
+
+<ImageBlock padded={false} max-width="100px">
+
+![A vertical list showing examples of each of the Display styles](./images/waterfall-display.png)
+
+</ImageBlock>
+
+#### Heading
+Heading styles are used for page titles and section headings.
+
+
+#### Subheading
+Subheading styles are used for section subheadings.
+
+
+#### Body
+Body styles are used for paragraph text and general content text.
+
+
+#### Label
+Label styles are used for small text such as form labels and captions.
+
+
+#### Button
+Button styles are used for button text.
+
+
+### Overline
+Overline styles are used for small, uppercase text such as section headers.
+
+
+
+
+
+
+---
+
+## Styles
 
 Select from the following typography styles for your application. By default, type will inherit the body color Black at 87% opacity. For text that should have less visual emphasis, use Black at 54%.
 
@@ -28,23 +74,18 @@ Use these for titles and subsection titles within your app.
 
 <LeftColumn>
 
-<div className="forge-typography--title">Title</div>
-
-Used for page titles.
+<div className="forge-typography--title">Display</div>
+Display styles are used for large, prominent text such as page titles and headings.
 
 </LeftColumn>
 
 <RightColumn>
 
-Size: 20px / 1.25rem
+<ImageBlock padded={false} max-width="100px">
 
-Line-height: 32px / 2rem
+![A vertical list showing examples of each of the Display styles](./images/waterfall-display.png)
 
-Weight: 400 / regular
-
-Letter-spacing: 0.25px / .0125em
-
-Color: rgba(0,0,0,0.87)
+</ImageBlock>
 
 </RightColumn>
 
