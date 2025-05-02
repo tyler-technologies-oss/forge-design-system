@@ -6,11 +6,13 @@ Tyler Forge provides a purposeful set of typographic styles. Consistently tying 
 
 Tyler Forge uses Roboto as its primary typeface and it is used throughout the entire component library.
 
-<ImageBlock padded={false} max-width="650px">
 
-![The full alphabet including some special characters shown in Roboto](./images/full-alphabet-header.png)
+<p className="forge-typography--heading8">
+Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp   
+Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz   
+0123456789 !@#$%^&*()[]{}
+</p>
 
-</ImageBlock>
 
 ### Accessibility
 
@@ -24,440 +26,188 @@ To ensure proper screen reader navigation, use the native HTML semantic headers.
 ### Styles
 
 #### Display
+
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Display styles are used for large, prominent text such as page titles and headings.
 
-<ImageBlock padded={false} max-width="100px">
+</LeftColumn>
 
-![A vertical list showing examples of each of the Display styles](./images/waterfall-display.png)
+<RightColumn>
+<div className="forge-typography--display1">Display 1</div>
+<div className="forge-typography--display2">Display 2</div>
+<div className="forge-typography--display3">Display 3</div>
+<div className="forge-typography--display4">Display 4</div>
+<div className="forge-typography--display5">Display 5</div>
+<div className="forge-typography--display6">Display 6</div>
+<div className="forge-typography--display7">Display 7</div>
+<div className="forge-typography--display8">Display 8</div>
+</RightColumn>
 
-</ImageBlock>
+</Columns>
+
+
 
 #### Heading
+
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Heading styles are used for page titles and section headings.
+
+</LeftColumn>
+
+<RightColumn>
+
+<div className="forge-typography--heading1">Heading 1</div>
+<div className="forge-typography--heading2">Heading 2</div>
+<div className="forge-typography--heading3">Heading 3</div>
+<div className="forge-typography--heading4">Heading 4</div>
+<div className="forge-typography--heading5">Heading 5</div>
+<div className="forge-typography--heading6">Heading 6</div>
+<div className="forge-typography--heading7">Heading 7</div>
+<div className="forge-typography--heading8">Heading 8</div>
+
+</RightColumn>
+
+</Columns>
 
 
 #### Subheading
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Subheading styles are used for section subheadings.
+
+</LeftColumn>
+
+<RightColumn>
+
+<div className="forge-typography--subheading1">Subeading 1</div>
+<div className="forge-typography--subheading2">Subheading 2</div>
+<div className="forge-typography--subheading3">Subheading 3</div>
+<div className="forge-typography--subheading4">Subheading 4</div>
+<div className="forge-typography--subheading5">Subheading 5</div>
+<div className="forge-typography--subheading6">Subheading 6</div>
+<div className="forge-typography--subheading7">Subheading 7</div>
+<div className="forge-typography--subheading8">Subheading 8</div>
+
+</RightColumn>
+
+</Columns>
 
 
 #### Body
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Body styles are used for paragraph text and general content text.
+
+</LeftColumn>
+
+<RightColumn>
+
+<div className="forge-typography--body1">Body 1</div>
+<div className="forge-typography--body2">Body 2</div>
+<div className="forge-typography--body3">Body 3</div>
+<div className="forge-typography--body4">Body 4</div>
+
+</RightColumn>
+
+</Columns>
 
 
 #### Label
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Label styles are used for small text such as form labels and captions.
+
+</LeftColumn>
+
+<RightColumn>
+
+<div className="forge-typography--label1">Label 1</div>
+<div className="forge-typography--label2">Label 2</div>
+<div className="forge-typography--label3">Label 3</div>
+
+</RightColumn>
+
+</Columns>
 
 
 #### Button
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Button styles are used for button text.
+
+</LeftColumn>
+
+<RightColumn>
+
+<div className="forge-typography--button">Button</div>
+
+</RightColumn>
+
+</Columns>
 
 
 ### Overline
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
 Overline styles are used for small, uppercase text such as section headers.
 
-
-
-
-
-
----
-
-## Styles
-
-Select from the following typography styles for your application. By default, type will inherit the body color Black at 87% opacity. For text that should have less visual emphasis, use Black at 54%.
-
-## Header styles 
-
-Use these for titles and subsection titles within your app. 
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--title">Display</div>
-Display styles are used for large, prominent text such as page titles and headings.
-
 </LeftColumn>
 
 <RightColumn>
 
-<ImageBlock padded={false} max-width="100px">
-
-![A vertical list showing examples of each of the Display styles](./images/waterfall-display.png)
-
-</ImageBlock>
+<div className="forge-typography--overline">Overline</div>
 
 </RightColumn>
 
 </Columns>
 
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--headline5">Headline 5</div>
-
-Used for the app name in the omnibar, primary page headers, card headers, and dialog headers.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 20px / 1.25rem
-
-Line-height: 32px / 2rem
-
-Weight: 500 / medium
-
-Letter-spacing: 0.25px / .0125em
-
-Color: rgba(0,0,0,.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--subtitle1">Subtitle 1</div>
-
-Used for page subsections and sections within cards.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 16px / 1rem
-
-Line-height:  28px / 1.75rem
-
-Weight: 400 / medium
-
-Letter-spacing: 0.15px / .009375em
-
-Color: rgba(0,0,0, 0.54)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--subtitle1-secondary">Subtitle 1, secondary</div>
-
-A visually heavier alternative to the default subtitle1 style.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 16px / 1rem
-
-Line-height:  28px / 1.75rem
-
-Weight: 500 / medium
-
-Letter-spacing: 0.15px / .009375em
-
-Color: rgba(0,0,0, 0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--subtitle2">Subtitle 2</div>
-
-Used for third-level page sections and subsections within cards.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 14px / .875rem
-
-Line-height: 22px / 1.375rem
-
-Weight: 500 / medium
-
-Letter-spacing: .1px / .0071428571em
-
-Color: rgba(0,0,0,0.54)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--subtitle2-secondary">Subtitle 2, secondary</div>
-
-A visually lighter alternative to the default subtitle2.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 14px / .875rem
-
-Line-height: 22px / 1.375rem
-
-Weight: 400 / regular
-
-Letter-spacing: .1px / .0071428571em
-
-Color: rgba(0,0,0,0.54)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn typeName="OVERLINE" typeClass="forge-typography--overline">
-
-<div className="forge-typography--overline">OVERLINE</div>
-
-Used as an alternate for sections within cards or navigation drawers. Use it for short titles or headers.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 12px / .75rem
-
-Line-height: 32px / 2rem
-
-Weight: 500 / medium
-
-Letter-spacing: 2px / .167em
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-## Body text
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--body1">Body 1</div>
-
-Used for primary body text.
-
-Use black at 54% opacity for content that is less important or needs less emphasis.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 16px / 1rem
-
-Line-height: 24px / 1.5rem
-
-Weight: 400 / regular
-
-Letter-spacing: 0.5px / .03125em
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--body2">Body 2</div>
-
-Used for secondary text, primarily as part of multi-line lists or less important body text.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 14px / .875rem
-
-Line-height: 20px / 1.25rem
-
-Weight: 400 / regular
-
-Letter-spacing: 0.25px / .0178571429em
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-## Additional styles
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--caption">Caption</div>
-
-Used for secondary text, primarily as part of multi-line lists or less important body text.
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 12px / .75rem
-
-Line-height: 20px / 1.25rem
-
-Weight: 400 / regular 
-
-Letter-spacing: 0.533px / .0333333333em
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-## Display styles
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--headline1">Headline 1</div>
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 48px / 3rem 
-
-Line-height: 48px / 3rem 
-
-Weight: 300 / light
-
-Letter-spacing: -1.5 / -.01563em 
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--headline2">Headline 2</div>
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 48px / 3rem
-
-Line-height: 48px / 3rem
-
-Weight: 400 / regular
-
-Letter-spacing: normal
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--headline3">Headline 3</div>
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 34px / 2.125rem
-
-Line-height: 34px / 2.125rem
-
-Weight: 400 / regular
-
-Letter-spacing: 0.25 / 0.015625em
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
-
----
-
-<Columns type="equal" columns="two">
-
-<LeftColumn>
-
-<div className="forge-typography--headline4">Headline 4</div>
-
-</LeftColumn>
-
-<RightColumn>
-
-Size: 24px / 1.5rem
-
-Line-height: 24px / 1.5rem
-
-Weight: 400 / regular
-
-Letter-spacing: normal
-
-Color: rgba(0,0,0,0.87)
-
-</RightColumn>
-
-</Columns>
 
 ---
 
 ## Best practices 
+
+For desktop apps, setting a max to line length helps create a better reading experience for the user. If a line of text is too long, it can become difficult for the user to follow from the end of a line to the beginning of the next vertically. Use a max line-length of 75 characters to facilitate optimal reading patterns. You can center your content or use columns to constrain content width. On mobile, use a max line-length of 35 characters.
+
+<ImageBlock padded={false} max-width="650px">
+
+![Image of typography in a Tyler app](./images/character-length-desktop.png)
+
+</ImageBlock>
+
+<ImageBlock padded={false} max-width="650px">
+
+![Image of typography in a Tyler app](./images/character-length-mobile.png)
+
+</ImageBlock>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <DoDontGrid>
   <DoDontRow>
