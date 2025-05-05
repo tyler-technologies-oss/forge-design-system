@@ -184,75 +184,26 @@ Overline styles are used for small, uppercase text such as section headers.
 
 For desktop apps, setting a max to line length helps create a better reading experience for the user. If a line of text is too long, it can become difficult for the user to follow from the end of a line to the beginning of the next vertically. Use a max line-length of 75 characters to facilitate optimal reading patterns. You can center your content or use columns to constrain content width. On mobile, use a max line-length of 35 characters.
 
-<ImageBlock padded={false} max-width="650px">
+<Columns type="equal" columns="two">
+
+<LeftColumn>
+
+<ImageBlock padded={false} max-width="650px" caption="On desktop, aim to have your line length wrap at around 75 characters, including spaces.">
 
 ![Image of typography in a Tyler app](./images/character-length-desktop.png)
 
 </ImageBlock>
 
-<ImageBlock padded={false} max-width="650px">
+</LeftColumn>
+
+<RightColumn>
+
+<ImageBlock padded={false} max-width="650px" caption="For mobile, aim to have your line length wrap at around 35 characters, including spaces.">
 
 ![Image of typography in a Tyler app](./images/character-length-mobile.png)
 
 </ImageBlock>
 
+</RightColumn>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<DoDontGrid>
-  <DoDontRow>
-  <DoDontImage>
-
-![Image of a page with a text block centered on the page, with an appropriate line length.](./images/line-length-do.png)
-
-  </DoDontImage>
-  <DoDontImage>
-
-![Image of a page with a text block that extends the full width of the page.](./images/line-length-dont.png)
-
-  </DoDontImage>
-
-  </DoDontRow>
-  <DoDontRow>
-    <DoDont type="do">For desktop apps, use a max line-length of 75 characters to facilitate optimal reading patterns. Center your content or use columns to constrain content width. On mobile, use a max line-length of 35 characters. </DoDont>
-    <DoDont type="dont">Avoid text that wraps the full width of a desktop app, as it can become hard to read.</DoDont>
-  </DoDontRow>
-</DoDontGrid>
-
----
-
-## Examples
-
-<ImageBlock padded={false} max-width="650px">
-
-![Image of typography in a Tyler app](./images/display-example-1.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false} max-width="650px">
-
-![Image of typography in a Tyler app](./images/display-example-2.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false} max-width="650px">
-
-![Image of typography in a Tyler app](./images/display-example-5.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false} max-width="650px">
-
-![Image of typography in a Tyler app](./images/display-example-3.png)
-
-</ImageBlock>
+</Columns>
