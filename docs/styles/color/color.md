@@ -88,3 +88,7 @@ The following components have their own color palettes:
 ### Patterns
 
 Coming soon...
+
+
+
+
