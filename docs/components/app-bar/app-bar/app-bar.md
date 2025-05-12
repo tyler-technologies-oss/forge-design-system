@@ -1,10 +1,10 @@
 ---
 sidebar_custom_props:
-  shortDescription: The omnibar is the header for applications. It houses navigation items and tools related to the app.
+  shortDescription: The app bar is the header for applications. It houses navigation items and tools related to the app.
   thumbnail: ./img/all-components/app-bar-mini.png
 ---
 
-# Omnibar
+# App bar
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar--docs">
 
@@ -14,19 +14,19 @@ sidebar_custom_props:
 
 ## Overview
 
-The omnibar is a user's personal navigation kit. It holds everything a user needs to navigate the app they're currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
+The app bar is a user's personal navigation kit. It holds everything a user needs to navigate the app they're currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
 
-The omnibar is included in all applications and serves as a strong visual cue for the Tyler brand. 
+The app bar is included in all applications and serves as a strong visual cue for the Tyler brand. 
 
 ---
 
 ## Parts 
 
-The omnibar is composed of five sections.
+The app bar is composed of five sections.
 
 <ImageBlock padded={false} maxWidth="650px">
 
-![Image of the omnibar with labeled sections.](./images/omni-parts-diagram.png)
+![Image of the app bar with labeled sections.](./images/omni-parts-diagram.png)
 
 </ImageBlock>
 
@@ -36,19 +36,19 @@ Apps using a dismissible [navigation drawer](/components/navigation/navigation-d
 
 ## 2. Branding and app title
 
-The omnibar in workforce apps features the Tyler Talking T's logo and the app name, in title case (“General Ledger,” not “General ledger”). Branding guidance for public facing apps is pending.
+The app bar in workforce apps features the Tyler Talking T's logo and the app name, in title case (“General Ledger,” not “General ledger”). Branding guidance for public facing apps is pending.
 
 <ImageBlock max-width="450px">
 
-![Image of an omnibar with with a logo and title.](./images/omni-branding-logo.png)
+![Image of an app bar with with a logo and title.](./images/omni-branding-logo.png)
 
 </ImageBlock>
 
 ## 3. Search (optional)
 
-Omnibar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on. For more information, check out our search gallery examples.
+App bar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on. For more information, check out our search gallery examples.
 
-The omnibar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
+The app bar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
 
 <ImageBlock>
 
@@ -56,35 +56,35 @@ Interactive demo coming soon...
 
 </ImageBlock>
 
-For more information, check out the [omnibar: search](/components/omni/search) guidance. 
+For more information, check out the [app bar: search](/components/app-bar/search) guidance. 
 
 ---
 
 ## 4. Action items 
 
-Up to three global actions maybe be placed in the “Action items” section. Actions belong to the app omnibar if they affect the application or record as a whole. Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect. 
+Up to three global actions maybe be placed in the “Action items” section. Actions belong to the app app bar if they affect the application or record as a whole. Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect. 
 
 Select from the following common actions such as “Shopping cart” and “Export all.” Additionally teams can create custom actions to meet specific business needs such as “Print package,” etc.
 
-If your applications has more than three action items, place the two primary actions in the omnibar and the additional actions in an overflow menu. 
+If your applications has more than three action items, place the two primary actions in the app bar and the additional actions in an overflow menu. 
 
 For examples of action items used in live applications, check out our gallery examples. 
 
 <ImageBlock>
 
-![Image of three actions within the omnibar.](./images/omni-action-items.png)
+![Image of three actions within the app bar.](./images/omni-action-items.png)
 
 </ImageBlock>
 
 <ImageBlock caption="Additional action items may be placed in an overflow menu.">
 
-![Image of actions in an overflow menu within the omnibar.](./images/omni-action-items-overflow.png)
+![Image of actions in an overflow menu within the app bar.](./images/omni-action-items-overflow.png)
 
 </ImageBlock>
 
 ## 5. User information
 
-The final section of the omnibar contains information and actions pertinent to a specific user. User information consists of sections: 1. Help & About 2. Notifications, 3.App launcher, 4. Avatar & profile card.
+The final section of the app bar contains information and actions pertinent to a specific user. User information consists of sections: 1. Help & About 2. Notifications, 3.App launcher, 4. Avatar & profile card.
 
 <ImageBlock maxWidth="350px">
 
@@ -98,7 +98,7 @@ The help menu is standard across apps and consists of a variety of resources, ra
 
 <ImageBlock maxWidth="600px" padded={false}>
 
-![Image of three actions within the omnibar.](./images/omni-desktop-help.png)
+![Image of three actions within the app bar.](./images/omni-desktop-help.png)
 
 </ImageBlock>
 
@@ -132,7 +132,7 @@ Interactive demo coming soon...
 
 ### 3. App launcher (required)
 
-App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/omni/app-launcher).
+App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/app-bar/app-launcher).
 
 
 ### 4. Avatar and profile card 
@@ -142,7 +142,7 @@ For information about public facing profile patterns, check out this guidance.
 
 <ImageBlock maxWidth="600px">
 
-![Image of three actions within the omnibar.](./images/omni-desktop-profile-card.png)
+![Image of three actions within the app bar.](./images/omni-desktop-profile-card.png)
 
 </ImageBlock>
 
@@ -150,7 +150,7 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 <ImageBlock maxWidth="600px">
 
-![Image of an omnibar with option to login.](./images/desktop-unauthenticated.png)
+![Image of an app bar with option to login.](./images/desktop-unauthenticated.png)
 
 </ImageBlock>
 
@@ -158,11 +158,11 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 ## Variations 
 
-Top tabs can be placed within the omnibar as primary navigation when the navigation drawer is not being used. Use 128px height app bar, with tabs placed along the bottom edge.
+Top tabs can be placed within the app bar as primary navigation when the navigation drawer is not being used. Use 128px height app bar, with tabs placed along the bottom edge.
 
 <ImageBlock>
 
-![Image of an omnibar with tabs inside.](./images/omni-tabs-variant.png)
+![Image of an app bar with tabs inside.](./images/omni-tabs-variant.png)
 
 </ImageBlock>
 
@@ -170,9 +170,9 @@ Top tabs can be placed within the omnibar as primary navigation when the navigat
 
 ## Responsive
 
-The omnibar is not responsive by default, instead will need to be configured to meet app needs. 
+The app bar is not responsive by default, instead will need to be configured to meet app needs. 
 
-In mobile contexts, the omnibar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the omnibar. Display up to three actions or two actions and an overflow menu in this space. 
+In mobile contexts, the app bar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the app bar. Display up to three actions or two actions and an overflow menu in this space. 
 
 <ImageBlock maxWidth="600px">
 
@@ -182,7 +182,7 @@ In mobile contexts, the omnibar displays the internal menu (optional) and app ti
 
 **Extended**
 
-For apps with a long title, use an extended omnibar by default, with the full title displayed. On scroll, omnibar collapses to its default height. Use a shorter name for your app; don't truncate the name or use smaller a smaller font size. 
+For apps with a long title, use an extended app bar by default, with the full title displayed. On scroll, app bar collapses to its default height. Use a shorter name for your app; don't truncate the name or use smaller a smaller font size. 
 
 <ImageBlock maxWidth="600px">
 
@@ -190,7 +190,7 @@ For apps with a long title, use an extended omnibar by default, with the full ti
 
 </ImageBlock>
 
-<ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended omnibar.<br/> When scrolling up, the omnibar transforms and condenses to its default height and the app name is shortened. The omnibar should not return to extended mode until the user scrolls back to the top of the page.">
+<ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended app bar.<br/> When scrolling up, the app bar transforms and condenses to its default height and the app name is shortened. The app bar should not return to extended mode until the user scrolls back to the top of the page.">
 
 ![Mobile omni on scroll.](./images/omni-scroll.gif)
 
@@ -218,10 +218,10 @@ If the internal navigation drawer is opened while the overflow dropdown is open,
 
 **Search**
 
-On mobile, search is accessed by tapping the search icon. Search takes over the omnibar.
+On mobile, search is accessed by tapping the search icon. Search takes over the app bar.
 
-- The "arrow_back" icon closes the search and restores the default omnibar.
-- If the search field is empty and users tap outside of it, the search is closed and default omnibar is restored.
+- The "arrow_back" icon closes the search and restores the default app bar.
+- If the search field is empty and users tap outside of it, the search is closed and default app bar is restored.
 - Once input has been entered into the search field, the X icon appears. Tapping the X icon clears the search, but doesn't close the search. 
 - Once input has been entered into the search, it persists until it is closed by the X icon or a user taps the "arrow_back" icon.
 
@@ -237,10 +237,10 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 <DoDontGrid>
   <DoDontTextSection>
-    <DoDontText type="dont">Don't place links in the omnibar.</DoDontText>
-    <DoDontText type="dont">Don't place tabs in a standard height omnibar - use the tabs variation instead.</DoDontText>
-    <DoDontText type="dont">On mobile, don't truncate app title text. Use an extended omnibar instead.</DoDontText>
-    <DoDontText type="dont">On mobile, don't shrink the fontsize of an app title or wrap title text. Use an extended omnibar instead.</DoDontText>
+    <DoDontText type="dont">Don't place links in the app bar.</DoDontText>
+    <DoDontText type="dont">Don't place tabs in a standard height app bar - use the tabs variation instead.</DoDontText>
+    <DoDontText type="dont">On mobile, don't truncate app title text. Use an extended app bar instead.</DoDontText>
+    <DoDontText type="dont">On mobile, don't shrink the fontsize of an app title or wrap title text. Use an extended app bar instead.</DoDontText>
   </DoDontTextSection>
 </DoDontGrid>
 
@@ -250,13 +250,13 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
 
 ### Components
 
-The omnibar is used with
+The app bar is used with
 
-- The [app launcher](/components/omni/app-launcher)
+- The [app launcher](/components/app-bar/app-launcher)
 - [Navigation drawer](/components/navigation/navigation-drawer)
 - The [scaffold](/components/layouts/scaffold) for page layout
 
 ### Patterns
 
-- The omnibar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/patterns/layout/introduction)
+- The app bar should resize based on the device context in which it's displayed; check out examples in our [Page layouts](/patterns/layout/introduction)
 

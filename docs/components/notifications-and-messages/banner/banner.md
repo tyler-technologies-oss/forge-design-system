@@ -16,7 +16,7 @@ sidebar_custom_props:
 
 A banner displays an important, succinct message, and provides actions for users to address (or dismiss the banner). It requires a user action to be dismissed.
 
-Banners should be displayed at the top of the screen, below the omnibar. The banner displays a short amount of information, but may be clicked to launch a dialog with rich text information including text, illustrations, or media.
+Banners should be displayed at the top of the screen, below the app bar. The banner displays a short amount of information, but may be clicked to launch a dialog with rich text information including text, illustrations, or media.
 
 The banner is dismissed by a dismiss icon or once a user opens it to view a dialog. 
 

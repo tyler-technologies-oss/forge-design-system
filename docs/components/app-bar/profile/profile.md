@@ -5,7 +5,7 @@ sidebar_custom_props:
   thumbnail: ./img/all-components/app-bar-profile-mini.png
 ---
 
-# Omnibar profile
+# App bar profile
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-profile--docs">
 
@@ -20,7 +20,7 @@ For information about public facing profile patterns, check out this guidance.
 
 <ImageBlock maxWidth="600px">
 
-![Image of three actions within the omnibar.](./images/desktop-omni-profile-card.png)
+![Image of three actions within the app bar.](./images/desktop-omni-profile-card.png)
 
 </ImageBlock>
 
@@ -28,7 +28,7 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 <ImageBlock maxWidth="600px">
 
-![Image of an omnibar with option to login.](./images/desktop-unauthenticated.png)
+![Image of an app bar with option to login.](./images/desktop-unauthenticated.png)
 
 </ImageBlock>
 
@@ -38,5 +38,5 @@ For **unauthenticated users,** the avatar is replaced by a “sign in” button.
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 

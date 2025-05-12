@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the Tyler ecosystem. It lives in the  user information section of omnibar and is represented by the Apps icon.
+App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the Tyler ecosystem. It lives in the  user information section of app bar and is represented by the Apps icon.
 
 Apps opened by the app launcher replace the current app in the same tab. Apps should not open in a new window.
 
@@ -101,7 +101,7 @@ This feature is currently in flight. Check out our project [timeline](#) to get 
 ### Components
 
 - The app launcher is comprised of product and application icons.
-- The app launcher is part of the [omnibar](/components/omni/omnibar)
+- The app launcher is part of the [app bar](/components/app-bar/app-bar)
 - Use a [navigation drawer](/components/navigation/drawer) to display internal destinations
 
 ### Patterns
@@ -114,6 +114,6 @@ This feature is currently in flight. Check out our project [timeline](#) to get 
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 
 

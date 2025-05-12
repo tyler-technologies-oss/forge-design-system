@@ -68,9 +68,9 @@ A standard navigation drawer is the recommended default for desktop. It isn't su
 
 The standard navigation drawer is visible by default and is pinned to the left edge, at the same elevation as the content or background.
 
-A standard navigation drawer may be dismissible. If dismissed, the navigation drawer slides off screen and can be reopened with a hamburger menu in the omnibar. If the drawer is not dismissible, no hamburger menu is needed. 
+A standard navigation drawer may be dismissible. If dismissed, the navigation drawer slides off screen and can be reopened with a hamburger menu in the app bar. If the drawer is not dismissible, no hamburger menu is needed. 
 
-<ImageBlock padded={false} caption="1. The standard drawer is open by default.<br>2. A dismissible drawer may be dismissed by tapping the menu icon in the omnibar. Content shifts left to fill the extra space. It may be accessed again from the hamburger menu icon button."> 
+<ImageBlock padded={false} caption="1. The standard drawer is open by default.<br>2. A dismissible drawer may be dismissed by tapping the menu icon in the app bar. Content shifts left to fill the extra space. It may be accessed again from the hamburger menu icon button."> 
 
 ![Image of two options for a navigation drawer: opened and dismissed.](./images/lh-nav-dismissible.png)
 </ImageBlock>
@@ -83,7 +83,7 @@ A modal navigation drawer blocks interaction with the rest of an app’s content
 
 Modal navigation drawers are primarily for use on mobile where screen space is limited, and can be replaced by standard drawers on tablet and desktop.
 
-<ImageBlock padded={false} caption="1. The modal drawer is closed by default.<br>2. The modal drawer may be opened by tapping the menu icon button in the omnibar. A scrim blocks interaction with the rest of the application.">
+<ImageBlock padded={false} caption="1. The modal drawer is closed by default.<br>2. The modal drawer may be opened by tapping the menu icon button in the app bar. A scrim blocks interaction with the rest of the application.">
 
 ![Image of an open and closed modal navigation drawer.](./images/lh-nav-modal.png)
 
@@ -214,7 +214,7 @@ For more complex navigation structures, breadcrumbs may also be used to provide 
 
 The navigation drawer is used with:
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 - [Scaffold](/components/layouts/scaffold)
 
 For apps with fewer than five primary destinations, use:

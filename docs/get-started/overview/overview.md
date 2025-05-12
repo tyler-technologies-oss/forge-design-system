@@ -20,15 +20,15 @@ Use these key features for "out-of-the-box" consistency across applications.
 
 All Tyler apps require the following visual elements. 
 
-### [Omnibar](/components/omni/omnibar)
+### [App bar](/components/app-bar/app-bar)
 
-The omnibar is a user’s personal navigation kit. It holds everything a user needs to navigate the app they’re currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
+The app bar is a user’s personal navigation kit. It holds everything a user needs to navigate the app they’re currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
 
 ---
 
-### [App launcher](/components/omni/app-launcher)
+### [App launcher](/components/app-bar/app-launcher)
 
-App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the Tyler ecosystem. It lives in the  user information section of omnibar and is represented by the Apps icon. 
+App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the Tyler ecosystem. It lives in the  user information section of app bar and is represented by the Apps icon. 
 
 ---
 
@@ -44,7 +44,7 @@ The scaffold provides the basic page layout for Tyler apps.
 
 The scaffold is the foundation of layout in Forge apps. The scaffold places the main content of the page:
 
-- [Omnibar](/components/omni/omnibar) (required)
+- [App bar](/components/app-bar/app-bar) (required)
 - [Navigation drawer](/components/navigation/navigation-drawer) (optional)
 - Page title (required)
 

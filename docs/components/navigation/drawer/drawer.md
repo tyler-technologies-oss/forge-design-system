@@ -82,7 +82,7 @@ A detail panel may show addiitonal information about a record or section. Detail
 
 The navigation drawer is used with:
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 - [Scaffold](/components/layouts/scaffold)
 
 For apps with fewer than five primary destinations, use:

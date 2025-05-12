@@ -1,11 +1,11 @@
 ---
 title: Menu button
 sidebar_custom_props:
-  shortDescription: The Menu Button is used in the omnibar to control the visibility of the navigation drawer.
+  shortDescription: The Menu Button is used in the app bar to control the visibility of the navigation drawer.
   thumbnail: ./img/all-components/app-bar-menu-button-mini.png
 ---
 
-# Omnibar menu button
+# App bar menu button
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-menu-button--docs">
 
@@ -23,7 +23,7 @@ Apps using a dismissible [navigation drawer](/components/navigation/navigation-d
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 
 ### Patterns
 

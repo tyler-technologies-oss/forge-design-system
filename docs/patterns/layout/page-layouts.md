@@ -26,7 +26,7 @@ Pages should be be laid out in predictable ways depending on what kind of naviga
 
 Page layouts with a lefthand drawer (either navigation or filters on the left) should contain:
 
-1. [Omnibar](/components/omni/omnibar/) with hamburger menu icon
+1. [App bar](/components/app-bar/app-bar/) with hamburger menu icon
 2. Page title in a [toolbar](/components/page/toolbar/)
 3. Main content 
 4. Lefthand navigation [drawer](/components/navigation/navigation-drawer) filters
@@ -48,7 +48,7 @@ Page layouts with a lefthand drawer (either navigation or filters on the left) s
 
 **Tablet**
 
-<ImageBlock padded={false} caption="On tablet portrait, the lefthand navigation is closed by default and may be accessed by tapping the hamburger icon in the omnibar. In landscape mode, the navigation is open by default; the hambuger menu may be tapped to dismiss the menu.">
+<ImageBlock padded={false} caption="On tablet portrait, the lefthand navigation is closed by default and may be accessed by tapping the hamburger icon in the app bar. In landscape mode, the navigation is open by default; the hambuger menu may be tapped to dismiss the menu.">
 
 ![Tablet page layout](./images/tablet-lh-nav.png)
 
@@ -68,7 +68,7 @@ Page layouts with a lefthand drawer (either navigation or filters on the left) s
 
 Layouts using a lefthand drawer may also use a righthand sidesheet for filters or detail information. If dismissible, the sidesheet is toggled by an icon (use 'filter' for filters or an appropriate icon for detail information).
 
-1. [Omnibar](/components/omni/omnibar/) with hamburger menu icon
+1. [App bar](/components/app-bar/app-bar/) with hamburger menu icon
 2. Page title in a [toolbar](/components/page/toolbar/)
 3. Main content 
 4. Lefthand navigation [drawer](/components/navigation/navigation-drawer) filters
@@ -106,7 +106,7 @@ Layouts using a lefthand drawer may also use a righthand sidesheet for filters o
 
 Apps with fewer than five primary destinations should use top tabs. [Learn more](/patterns/navigation/primary). These layouts should contain:
 
-1. Omnibar 
+1. App bar 
 2. Top navigation 
 3. Main content with title
 4. Background color of #fafafa
@@ -121,7 +121,7 @@ Apps with fewer than five primary destinations should use top tabs. [Learn more]
 
 **Tablet**
 
-<ImageBlock caption="On tablet, top tabs are displayed in the omnibar. Tabs may overflow horizontally, accessible by swiping left.">
+<ImageBlock caption="On tablet, top tabs are displayed in the app bar. Tabs may overflow horizontally, accessible by swiping left.">
 
 ![Tablet layout with top tabs](./images/tablet-tabs.png)
 
@@ -129,7 +129,7 @@ Apps with fewer than five primary destinations should use top tabs. [Learn more]
 
 **Mobile**
 
-<ImageBlock padded={false} caption="On mobile, top tabs are displayed in the omnibar. Tabs may overflow horizontally, accessible by swiping left.">
+<ImageBlock padded={false} caption="On mobile, top tabs are displayed in the app bar. Tabs may overflow horizontally, accessible by swiping left.">
 
 ![Mobile layout with top tabs.](./images/mobile-tabs.png)
 
@@ -141,7 +141,7 @@ Apps with fewer than five primary destinations should use top tabs. [Learn more]
 
 Apps that navigate to a detail page with sub-tabs may use tabs within a toolbar.  These layouts should contain:
 
-1. Omnibar 
+1. App bar 
 2. Page title (aligned with main page content)
 3. Detail tabs (aligned with main page content)
 4. Background color of #fafafa
@@ -164,7 +164,7 @@ Apps that navigate to a detail page with sub-tabs may use tabs within a toolbar.
 
 **Mobile**
 
-<ImageBlock padded={false} caption="On mobile, apps with detail tabs display title and tab text that is left aligned the app title in the omnibar. Tabs may scroll horizontally off screen.">
+<ImageBlock padded={false} caption="On mobile, apps with detail tabs display title and tab text that is left aligned the app title in the app bar. Tabs may scroll horizontally off screen.">
 
 ![Mobile layout with detail tabs.](./images/mobile-center-tabs.png)
 
@@ -178,7 +178,7 @@ Single page apps with no navigation should use a centered card with a max width 
 
 These layouts contain:
 
-1. Omnibar with no hamburger menu icon.
+1. App bar with no hamburger menu icon.
 2. Main content on a card with a title, centered and using an appropriate max width.
 3. A background color of #fafafa.
 

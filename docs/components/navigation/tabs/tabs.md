@@ -16,7 +16,7 @@ sidebar_custom_props:
 
 Tabs are used to group different but related pieces of content in one area without having to navigate to new pages. They can be used in various different locations and scenarios such as in cards, dialogs, tables, or side panels, or can also be used as navigation for an app. Tab label text should clearly and succinctly describe the content it represents while tab content should contain a cohesive set of items that share a common characteristic.
 
-Tabs may be paired with components like the [omnibar](/components/omni/omnibar/), or nested in components like [cards](/components/cards/card/), [dialogs](/components/notifications-and-messages/dialog/), or [sidesheets](/components/navigation/drawer/#3-detail-panel). 
+Tabs may be paired with components like the [app bar](/components/app-bar/app-bar/), or nested in components like [cards](/components/cards/card/), [dialogs](/components/notifications-and-messages/dialog/), or [sidesheets](/components/navigation/drawer/#3-detail-panel). 
 
 
 
@@ -46,12 +46,12 @@ When used as secondary navigation specifically, expanders in the navigation shou
 
 ### Primary navigation
 
-Tabs can be used as the main navigation of an app if there are a limited amount of destinations. With this, the tabs appear in the omnibar itself extending it to twice its height. If your app has more than five primary destinations, use a [navigation drawer](/components/navigation/drawer). Otherwise, tabs may be used in the omnibar.
+Tabs can be used as the main navigation of an app if there are a limited amount of destinations. With this, the tabs appear in the app bar itself extending it to twice its height. If your app has more than five primary destinations, use a [navigation drawer](/components/navigation/drawer). Otherwise, tabs may be used in the app bar.
 
 
-<ImageBlock max-width="600px" padded={false} caption="Tabs in the omnibar may be used as primary navigation when there are fewer than five primary destinations.">
+<ImageBlock max-width="600px" padded={false} caption="Tabs in the app bar may be used as primary navigation when there are fewer than five primary destinations.">
 
-![Image of the omnibar with tabs inside.](./images/omni-tabs.png)
+![Image of the app bar with tabs inside.](./images/omni-tabs.png)
 
 </ImageBlock>
 
@@ -132,7 +132,7 @@ Tabs may scroll horizontally on mobile. The tab bar should be fixed but should a
 ### Components 
 
 - Use [expansion panels](/components/page/expansion-panel) to group content that needs to be compared between groups.
-- Tabs may be used inside the [omnibar](/components/omni/omnibar).
+- Tabs may be used inside the [app bar](/components/app-bar/app-bar).
 - Tabs may be used with [dialogs](/components/notifications-and-messages/dialog), [cards](/components/cards/card), or sidesheets(coming soon!). 
 - Page level tabs may be placed with the [scaffold](/components/layouts/scaffold).
 

@@ -1,11 +1,11 @@
 ---
 title: Search
 sidebar_custom_props:
-  shortDescription: The omnibar Search provides a familiar search experience for users across programs.
+  shortDescription: The app bar Search provides a familiar search experience for users across programs.
   thumbnail: ./img/all-components/app-bar-search-mini.png
 ---
 
-# Omnibar search
+# App bar search
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-search--docs">
 
@@ -15,9 +15,9 @@ sidebar_custom_props:
 
 ## Overview
 
-Omnibar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it's performed on. For more information, check out our search gallery examples.
+App bar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it's performed on. For more information, check out our search gallery examples.
 
-The omnibar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
+The app bar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
 
 ---
 
@@ -27,7 +27,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with no search.](./images/omni-no-search.png)
+![Image of the app bar with no search.](./images/omni-no-search.png)
 
 </ImageBlock>
 
@@ -35,7 +35,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with global search option.](./images/omni-global-search.png)
+![Image of the app bar with global search option.](./images/omni-global-search.png)
 
 </ImageBlock>
 
@@ -43,7 +43,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with an internal search option.](./images/omni-contextual-search.png)
+![Image of the app bar with an internal search option.](./images/omni-contextual-search.png)
 
 </ImageBlock>
 
@@ -51,7 +51,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with a combined search option.](./images/omni-combined-search.png)
+![Image of the app bar with a combined search option.](./images/omni-combined-search.png)
 
 </ImageBlock>
 
@@ -59,11 +59,11 @@ The omnibar provides a number of options for search depending on the scope neede
 
 ## Search input type
 
-**One search input:** Default search state for the omnibar. Use in most cases.
+**One search input:** Default search state for the app bar. Use in most cases.
 
 <ImageBlock>
 
-![Image of the omnibar with one search field.](./images/omni-one-search.png)
+![Image of the app bar with one search field.](./images/omni-one-search.png)
 
 </ImageBlock>
 
@@ -71,7 +71,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with multiple search fields.](./images/omni-multi-search.png)
+![Image of the app bar with multiple search fields.](./images/omni-multi-search.png)
 
 </ImageBlock>
 
@@ -79,7 +79,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with multiple search fields.](./images/omni-advanced-search.png)
+![Image of the app bar with multiple search fields.](./images/omni-advanced-search.png)
 
 </ImageBlock>
 
@@ -90,7 +90,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with autocomplete search suggestions.](./images/omni-autocomplete.png)
+![Image of the app bar with autocomplete search suggestions.](./images/omni-autocomplete.png)
 
 </ImageBlock>
 
@@ -98,7 +98,7 @@ The omnibar provides a number of options for search depending on the scope neede
 
 <ImageBlock>
 
-![Image of the omnibar with prefiltered search suggestions.](./images/omni-prefilter.png)
+![Image of the app bar with prefiltered search suggestions.](./images/omni-prefilter.png)
 
 </ImageBlock>
 
@@ -108,4 +108,4 @@ The omnibar provides a number of options for search depending on the scope neede
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)

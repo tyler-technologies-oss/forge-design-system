@@ -118,6 +118,6 @@ Method of meeting WCAG 2 Criteria 2.4.1: Bypass Blocks.
 
 <ImageBlock maxWidth="600px">
 
-![Image of a skip link contained in the omnibar.](./images/skip-link.png)
+![Image of a skip link contained in the app bar.](./images/skip-link.png)
 
 </ImageBlock>
