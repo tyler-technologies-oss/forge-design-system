@@ -176,7 +176,7 @@ In mobile contexts, the app bar displays the internal menu (optional) and app ti
 
 <ImageBlock maxWidth="600px">
 
-![Diagram of omni on mobile.](./images/mobile-omni-diagram.png)
+![Diagram of app bar on mobile.](./images/mobile-omni-diagram.png)
 
 </ImageBlock>
 
@@ -186,19 +186,19 @@ For apps with a long title, use an extended app bar by default, with the full ti
 
 <ImageBlock maxWidth="600px">
 
-![Default and extended omni.](./images/omni-extended.png)
+![Default and extended app bar.](./images/omni-extended.png)
 
 </ImageBlock>
 
 <ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended app bar.<br/> When scrolling up, the app bar transforms and condenses to its default height and the app name is shortened. The app bar should not return to extended mode until the user scrolls back to the top of the page.">
 
-![Mobile omni on scroll.](./images/omni-scroll.gif)
+![Mobile app bar on scroll.](./images/omni-scroll.gif)
 
 </ImageBlock>
 
 **Overflow actions**
 
-Up to three actions or two actions and an overflow manu are displayed at the end of omni. An overflow menu displays a full page dropdown that displays actions and user information. 
+Up to three actions or two actions and an overflow manu are displayed at the end of the app bar. An overflow menu displays a full page dropdown that displays actions and user information. 
 
 <ImageBlock padded={false} maxWidth="600px" caption="App actions and user information are tucked into the overflow menu. When tapped, it displays a full width card.">
 
