@@ -14,7 +14,7 @@ sidebar_custom_props:
 
 ## Overview
 
-The toolbar spans 100% width, uses a border to separate the toolbar from the content area, and has slots for placing any content at the start, center, and end. It can be used below the omnibar to display a page title and actions, within a nav drawer as a section, as a footer, or as header & footer in dialogs.
+The toolbar spans 100% width, uses a border to separate the toolbar from the content area, and has slots for placing any content at the start, center, and end. It can be used below the app bar to display a page title and actions, within a nav drawer as a section, as a footer, or as header & footer in dialogs.
 
 :::info
 To see various common examples of the toolbar in action with code snippets, see the [toolbar recipes page](/recipes/toolbar/secondary).

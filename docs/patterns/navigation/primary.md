@@ -25,13 +25,13 @@ Users will navigate an app with:
 
 ### Components to use
 
-Use top [tabs](/components/omni/omnibar#variations) to display navigation for apps with fewer than 5 primary destinations.
+Use top [tabs](/components/app-bar/app-bar#variations) to display navigation for apps with fewer than 5 primary destinations.
 
 Tabs take up less vertical space than a navigation drawer, but can easily overflow their container if too many destinations are displayed.
 
-<ImageBlock padded={false} caption="Apps with fewer than 5 primary destinations use top tabs in the omnibar. No hamburger menu icon is displayed. On mobile, tabs scroll horizontally.">
+<ImageBlock padded={false} caption="Apps with fewer than 5 primary destinations use top tabs in the app bar. No hamburger menu icon is displayed. On mobile, tabs scroll horizontally.">
 
-![Omnibar with top tabs](./images/omni-tabs.png)
+![App bar with top tabs](./images/omni-tabs.png)
 
 </ImageBlock>
 
@@ -49,7 +49,7 @@ Use a [navigation drawer](/components/navigation/navigation-drawer) to display p
 
 A standard navigation drawer stays open by default, and while it takes up additional horizontal screen real estate, it provides persistent access to primary destinations.
 
-<ImageBlock caption="1. The standard drawer is open by default. <br>2. A dismissible drawer may be dismissed by tapping the menu icon in the omnibar. Content shifts left to fill the extra space. It may be accessed again from the hamburger menu icon button." padded={false}>
+<ImageBlock caption="1. The standard drawer is open by default. <br>2. A dismissible drawer may be dismissed by tapping the menu icon in the app bar. Content shifts left to fill the extra space. It may be accessed again from the hamburger menu icon button." padded={false}>
 
 ![Image of two options for a navigation drawer: opened and dismissed.](./images/lh-nav-dismissible.png)
 
@@ -127,7 +127,7 @@ For widescreen apps with dashboards or complex displays, maximizing screen real 
 | [Modal drawer](/components/navigation/navigation-drawer#2-modal)       | Maximize screen real estate, especially for tablet and mobile sizes.    | Less discoverable and doesn't provide persistent access to primary destinations in the app. 
 | [Mini nav](/components/navigation/navigation-drawer#3-mini)         | Balance screen real estate with discoverability; optimized for desktop and tablet.   | Primary destinations are not labeled. 
 
-<ImageBlock padded={false} caption="1. The modal drawer is closed by default.<br>2. The modal drawer may be opened by tapping the menu icon button in the omnibar. A scrim blocks interaction with the rest of the application.">
+<ImageBlock padded={false} caption="1. The modal drawer is closed by default.<br>2. The modal drawer may be opened by tapping the menu icon button in the app bar. A scrim blocks interaction with the rest of the application.">
 
 ![Image of an open and closed modal navigation drawer.](./images/lh-nav-modal.png)
 

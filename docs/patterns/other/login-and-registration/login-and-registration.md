@@ -44,7 +44,7 @@ Some apps may not allow users to self register; they may need to be added as a u
 
 ## 2. Sign in 
 
-Users are routed to a separate page to log in to Tyler apps. Sign in pages do not display the omnibar. They are not tenant branded nor do they display a background image. 
+Users are routed to a separate page to log in to Tyler apps. Sign in pages do not display the app bar. They are not tenant branded nor do they display a background image. 
 
 <ImageBlock padded={false} caption="Users register with the provided TID screen.">
 

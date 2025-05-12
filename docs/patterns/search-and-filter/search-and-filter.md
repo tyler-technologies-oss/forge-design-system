@@ -22,7 +22,7 @@ Help users understand what they can find.
 
 | Component       | Intent                                                        | Tradeoff
 | --------------- | ------------------------------------------------------------- | ----------
-| Omnibar search  | Use for searching the full app.                               | Broad scope. 
+| App bar search  | Use for searching the full app.                               | Broad scope. 
 | Local search    | Use for searching with in a page or section.                  | Limited scope 
 | Category search | Communicates what can be searched.                            | More decisions about category to use. 
 | Advanced search | Finding a specific record. Communicates what can be searched. | More decisions about which field to use. 
@@ -31,7 +31,7 @@ Help users understand what they can find.
 **Advanced search and filtering should NOT be used together.** An advanced search allows users to locate a specific, known result. Search + filter allows users to start with a broad search query and iteratively filter down their filter set, using the results themselves to better understand the domain.
 :::
 
-<ImageBlock max-width="750px" caption="The Forge site uses an <b>omnibar search</b> to allow users to search the full site.">
+<ImageBlock max-width="750px" caption="The Forge site uses an <b>app bar search</b> to allow users to search the full site.">
 
 ![Alt text](./images/omni-search.png)
 

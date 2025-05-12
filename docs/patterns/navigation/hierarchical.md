@@ -52,7 +52,7 @@ The back arrow pattern should only be used for upward navigation within an app. 
 
 <ImageBlock padded={false} caption="Use a back arrow to indicate upward navigation.<br>
 1. On desktop, use a toolbar and back arrow to indicate navigating up one level.<br>
-2. On native mobile apps, use a back arrow in the omnibar to indicate navigating up one level.">
+2. On native mobile apps, use a back arrow in the app bar to indicate navigating up one level.">
 
 ![Use a back arrow to indicate upward navigation. Cards or lists may be used to facilitate downward navigation.](./images/hierarchical-navigation-types.png)
 

@@ -46,7 +46,7 @@ Use the scaffold to lay out a full page, with a left hand nav and / or sidesheet
 
 The scaffold is the foundation of layout in Forge apps. The scaffold places the main content of the page:
 
-- [Omnibar](/components/omni/omnibar) (required)
+- [App bar](/components/app-bar/app-bar) (required)
 - [Lefthand navigation](/components/navigation/navigation-drawer) (optional)
 - Page title (required)
 

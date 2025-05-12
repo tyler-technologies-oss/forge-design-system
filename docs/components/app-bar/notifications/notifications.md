@@ -1,11 +1,11 @@
 ---
 title: Notifications
 sidebar_custom_props:
-  shortDescription: Notifications is used in the omnibar to show various system notifications for the user.
+  shortDescription: Notifications is used in the app bar to show various system notifications for the user.
   thumbnail: ./img/all-components/app-bar-notifications-mini.png
 ---
 
-# Omnibar notifications
+# App bar notifications
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-notifications--docs">
 
@@ -31,19 +31,19 @@ Dot and numeric badges should use the secondary color when placed on an indigo b
 
 <ImageBlock maxWidth="600px">
 
-![All notifications in the omnibar".](./images/notification-anatomy.png)
+![All notifications in the app bar".](./images/notification-anatomy.png)
 
 </ImageBlock>
 
 <ImageBlock maxWidth="450px" caption="The notification dropdown displays a tab for all a user's notifications.">
 
-!["My" notifications in the omnibar".](./images/desktop-omni-notifications-mine.png)
+!["My" notifications in the app bar".](./images/desktop-omni-notifications-mine.png)
 
 </ImageBlock>
 
 <ImageBlock maxWidth="450px" caption="The notification dropdown displays a tab for all notifications in the app a user is currently working in.">
 
-![All notifications in the omnibar".](./images/desktop-omni-notifications-this-app.png)
+![All notifications in the app bar".](./images/desktop-omni-notifications-this-app.png)
 
 </ImageBlock>
 
@@ -53,7 +53,7 @@ Dot and numeric badges should use the secondary color when placed on an indigo b
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 
 ### Patterns
 

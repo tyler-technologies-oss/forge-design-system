@@ -1,11 +1,11 @@
 ---
 title: Help button
 sidebar_custom_props:
-  shortDescription: The Help Button is used in the omnibar as a gateway to various help and informational options for the user.
+  shortDescription: The Help Button is used in the app bar as a gateway to various help and informational options for the user.
   thumbnail: ./img/all-components/app-bar-help-button-mini.png
 ---
 
-# Omnibar help button
+# App bar help button
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-help-button--docs">
 
@@ -19,7 +19,7 @@ The help menu is standard across apps and consists of a variety of resources, ra
 
 <ImageBlock maxWidth="600px" padded={false}>
 
-![Image of three actions within the omnibar.](./images/omni-desktop-help.png)
+![Image of three actions within the app bar.](./images/omni-desktop-help.png)
 
 </ImageBlock>
 
@@ -27,7 +27,7 @@ The help menu is standard across apps and consists of a variety of resources, ra
 
 In order to help clients accurately report the version number of the application when submitting support tickets, be sure the version number is easily accessible from your app’s help dialog. See more examples in our gallery examples. 
 
-See the [recipes](/recipes/omni-about/complex) for the "About" section. 
+See the [recipes](/recipes/app-bar-about/complex) for the "About" section. 
 
 --- 
 
@@ -35,8 +35,8 @@ See the [recipes](/recipes/omni-about/complex) for the "About" section.
 
 ### Components
 
-- [Omnibar](/components/omni/omnibar)
+- [App bar](/components/app-bar/app-bar)
 
 ### Recipes
 
-- [Omnibar: about recipes](/recipes/omni-about/complex)
+- [App bar: about recipes](/recipes/app-bar-about/complex)
