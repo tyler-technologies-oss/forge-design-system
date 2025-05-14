@@ -55,7 +55,7 @@ function HomepageHero() {
 
 function HomepageCard({ title, path, description, imagePath }) {
   return (
-    <Link className={styles.quickLinkAnchor} to={path}>
+    <Link className={clsx(styles.quickLinkAnchor, styles.homeCardAnchor)} to={path}>
       <div className={clsx(styles.homeCard, 'card card--outlined')}>
         <div className={clsx(styles.homeCardIllo)}>
           <img src={imagePath} alt="" />

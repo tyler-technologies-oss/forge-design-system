@@ -104,6 +104,14 @@
   margin: 0;
 }
 
+.homeCardAnchor {
+  color: var(--forge-theme-text-high);
+}
+
+.homeCardAnchor:hover {
+  text-decoration: none;
+}
+
 .homeCard h2 {
   font-size: 24px;
   font-weight: 400;
