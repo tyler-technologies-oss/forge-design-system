@@ -1,318 +1,132 @@
-.bg {
-  background-color: #e8eaf6;
-}
-
-dialog {
- padding: 0;
-}
-
-.surveyDialog[open] {
- display: relative;
- color: var(--ifm-heading-color);
- border-radius: 24px;
- border: 0;
- background-color: #fff;
- width: 40vw;
- height: min-content;
- display: grid;
- grid-template-columns: 4fr 8fr;
-}
-
-.surveyDialogCloseButton {
- position: absolute;
- top: 16px;
- right: 16px;
- height: 48px;
- width: 48px;
- z-index: 20;
- border-radius: 100%;
- background-color: transparent;
- color: var(--ifm-heading-color);
- font-weight: 500;
- font-size: 32px;
- border: none;
- box-sizing: border-box;
- display: grid;
- place-content: center;
-}
-
-.surveyDialogCloseButton:hover {
-  background-color: var(--forge-theme-background);
-  cursor: pointer;
-  border: 2px solid black;
-}
-
-.surveyDialogLeftColumn {
-  display: grid;
-  grid-template-rows: 1fr;
-  place-content: center;
-  justify-content: center;
+.hero {
+  --hero-gradient-light: #50577C;
+  --hero-gradient-dark: #213189;
+  --hero-gradient-darkest: #222C62;
+  display: flex;
   align-items: center;
-  height: 100%;
-  background-image: url("https://cdn.forge.tylertech.com/v1/images/spot-hero/feedback-spot-hero.svg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: var(--forge-theme-background);
-}
-
-.surveyDialogRightColumn {
-  background-color: var(--forge-theme-surface);
-  display: grid;
-  grid-template-rows: 1fr auto;
-  height:100%;
-  place-content: center;
-}
-
-.surveyDialogRightColumnInfo {
- padding: 56px;
-}
-
-.fs16 {
- font-size: 16px;
-}
-
-.surveyButton {
- justify-content: center;
-}
-
-.formContainer {
- display: grid;
- gap: 8px;
-}
-
-.checkbox {
- display: flex;
- align-items: center;
- justify-content: end;
- gap: 8px;
- padding-inline: 56px;
- margin-block-end: 24px;
-}
-
-.checkbox input {
- height: 20px;
- width: 20px;
-}
-
-.surveyDialog::backdrop {
- background: rgba(0, 0, 0, 0.65);
-}
-
-@media screen and (min-width: 1920px) {
- .surveyDialog[open] {
-  width: 40vw;
-  background: white;
- }
-}
-
-@media screen and (max-width: 1600px) {
- .surveyDialog[open] {
-  width: 60vw;
-  background: white;
- }
- 
- .surveyDialogRightColumn {
-  padding: 16px;
- }
-}
-
-@media screen and (max-width: 960px) {
- .surveyDialog[open]  {
-  width: 90vw;
- }
-}
-
-@media screen and (max-width: 700px) {
- .surveyDialog[open]  {
-  width: 90vw;
-  grid-template-columns: 1fr;
- }
-
- .surveyDialogLeftColumn {
-  display: none;
- }
-
- .surveyDialogRightColumnInfo {
-  padding: 24px;
- }
-
- .checkbox {
-  padding: 0;  
-  margin-block-end: 0;
-  justify-content: center;
- }
-}
-
-.gridContainer {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 275px));
-  gap: 24px;
-}
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
-  overflow: hidden;
-  background-image: url("/img/forge-home-hero.png");
+  height: 550px;
+  padding: 48px;
+  background: url("/img/forge-home-hero.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.quickLinksContainer {
-  padding: 2rem 0;
+.hero::before {
+  position: absolute;
+  inset: 0;
+  content: '';
+  opacity: 0.9;
+  background: radial-gradient(117.16% 87.62% at 117.54% 50%, var(--forge-theme-primary, #3F51B5) 0%, var(--forge-theme-on-primary-container, #222C62) 100%);
 }
 
-.quickLinkGridItem {
+[data-theme='dark'] .hero::before {
+  background: radial-gradient(117.16% 87.62% at 117.54% 50%, #50577C 0%, #303134 100%);
+}
+
+.heroTitleContainer {
   display: grid;
-  gap: 24px;
-}
-
-.quickLinkCard {
-  padding: 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 16px;
+  z-index: 1;
+  color: var(--forge-theme-text-high-hero);
+  max-width: 550px;
 }
 
-.quickLinkCard i {
-  color: var(--forge-theme-text-secondary);
+.customBadge {
+  color: #213189;
+  background-color: #D0D7FF;
+  border: none;
 }
 
-.quickLinkCard:hover {
-  outline: 1px solid var(--ifm-color-primary);
+[data-theme='dark'] .customBadge {
+  color: #FFEEBC;
+  background-color: #5F5741;
+  border: none;
 }
 
-.quickLinkCard h2 {
+.heroTitleContainer p {
+  padding: 0;
   margin: 0;
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
 }
 
-.quickLinkAnchor {
-  color: unset;
-}
-.quickLinkAnchor:hover {
-  color: unset;
-  text-decoration: none;
+.heroTitleContainer a {
+  width: fit-content;
 }
 
-.heroCard {
-  padding: 16px;
-  box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.925);
-}
-
-.heroCardInner {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(360px, 360px) );
   align-items: center;
-  height: 100%;
-}
-
-.heroCard h2 {
-  font-size: 1rem;
-  text-align: left;
-  margin: 0;
-}
-
-.contributionCard img,
-.heroCard img {
-  height: 75px;
-}
-
-.contributionCard p,
-.heroCard p {
-  font-size: 0.875rem;
-  margin: 0;
-  flex: 1;
-}
-
-.linkButton {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.linkButton > svg {
-  height: 16px;
-  width: 16px;
-  fill: #ffffff;
-}
-
-.contributionCategories {
-  text-align: center;
-  padding: 0 16px 48px;
-}
-
-.contributionCategoriesContainer {
-  display: flex;
   justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 64px;
+  padding: 64px;
 }
 
-.contributionCard {
-  width: 300px;
-  padding: 16px;
+.homeCard {
+  width: 360px;
+}
+
+.homeCardIllo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  place-content: center;
+  place-items: center;
+  height: 264px;
+  background-color: var(--forge-theme-tertiary-container-minimum);
+}
+
+[data-theme='dark'] .homeCardIllo  {
+  background-color: #34332f;
+}
+
+.homeCardIllo img {
+  height: 220px;
+  width: 220px;
+}
+
+[data-theme='dark'] .homeCardIllo img  {
+  mix-blend-mode: difference;
+}
+
+[data-theme='dark'] .homeCardIllo img {
+  filter: grayscale(50%);
+}
+
+.homeCardInnerContent {
+  padding: 16px;
+  display: grid;
   gap: 16px;
 }
 
-.contributionCard h2 {
-  align-self: start;
-  margin: 0;
-  font-size: 1rem;
+.homeCardInnerContent p,h2 {
   margin: 0;
 }
 
-[data-theme='dark'] .bg {
-  background-color: #424242;
+.homeCard h2 {
+  font-size: 24px;
+  font-weight: 400;
 }
 
-[data-theme='dark'] .heroCard {
-  background-color: rgba(0, 0, 0, 0.9);
+.homeCard p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--forge-theme-text-high);
 }
 
-[data-theme='dark'] .linkButton > svg {
-  fill: #000000;
+.fitContent {
+  width: fit-content;
 }
 
-@media screen and (max-width: 1186px) {
-  .heroBanner {
-    padding: 1rem;
+@media screen and (max-width: 640px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
   }
 
-  .gridContainer > div:first-child {
-    grid-column: 1 / -1;
-  }
-}
-
-@media screen and (max-width: 952px) {
-  .heroBanner {
-    background-image: none;
-  }
-
-  .quickLinksContainer {
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 662px) {
-  .contributionCard {
+  .homeCard {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .gridContainer {
-    grid-template-columns: repeat(auto-fit, 100%);
   }
 }
