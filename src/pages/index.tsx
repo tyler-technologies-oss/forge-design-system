@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
             title="Figma"
             description="Our Figma library mirrors our design system components, making it easy for designers to create consistent, on-brand interfaces."
             imagePath="https://cdn.forge.tylertech.com/v1/images/spot-hero/page-layout-spot-hero.svg"
-            path="https://www.figma.com"
+            path="https://www.figma.com/@tylertech"
           />  
         </div>
       </main>
@@ -46,7 +46,7 @@ function HomepageHero() {
       <div className={clsx(styles.heroTitleContainer, styles.fitContent)}>
         <span className={clsx(styles.fitContent, styles.customBadge, `badge badge--primary`)}>Forge Design System</span>
         <p>{siteConfig.tagline}</p> 
-        <a className="button button--secondary" href="#url">Get started</a>
+        <a className="button button--secondary" href="/get-started">Get started</a>
       </div>
     </div>
 
