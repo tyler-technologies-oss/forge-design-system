@@ -32,15 +32,9 @@ App launcher is a persistent navigation component for users to switch context. I
 
 ---
 
-### Scaffold
+### [Scaffold](/components/layouts/scaffold)
 
 The scaffold provides the basic page layout for Forge apps.
-
-<ImageBlock>
-
-![Image of the scaffold overlaid on a default Forge app page layout.](./images/scaffold-layout.png)
-
-</ImageBlock>
 
 The scaffold is the foundation of layout in Forge apps. The scaffold places the main content of the page:
 
