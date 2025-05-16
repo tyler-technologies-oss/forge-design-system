@@ -16,8 +16,6 @@ sidebar_custom_props:
 
 The app bar is a user's personal navigation kit. It holds everything a user needs to navigate the app they're currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
 
-The app bar is included in all applications and serves as a strong visual cue for the Tyler brand. 
-
 ---
 
 ## Parts 
@@ -30,13 +28,13 @@ The app bar is composed of five sections.
 
 </ImageBlock>
 
-## 1. Internal navigation (optional)
+## 1. Internal navigation
 
-Apps using a dismissible [navigation drawer](/components/navigation/navigation-drawer) display a hamburger menu to open and close the menu. For these apps, the menu icon should always be visible, even as the screen scales to fit different device contexts. 
+Apps using a dismissible [navigation drawer](/components/navigation/navigation-drawer) display a hamburger menu to open and close the menu. For these apps, the menu icon should always be visible, even as the screen scales to fit different device contexts.
 
 ## 2. Branding and app title
 
-The app bar in workforce apps features the Tyler Talking T's logo and the app name, in title case (“General Ledger,” not “General ledger”). Branding guidance for public facing apps is pending.
+The app bar in workforce apps features the brand logo and the app name, in title case (“App Name” not “App name”). 
 
 <ImageBlock max-width="450px">
 
@@ -44,17 +42,11 @@ The app bar in workforce apps features the Tyler Talking T's logo and the app na
 
 </ImageBlock>
 
-## 3. Search (optional)
+## 3. Search
 
-App bar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on. For more information, check out our search gallery examples.
+App bar search is optional, but should be used for apps that are primarily search driven. In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on.    
 
 The app bar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
-
-<ImageBlock>
-
-Interactive demo coming soon... 
-
-</ImageBlock>
 
 For more information, check out the [app bar: search](/components/app-bar/search) guidance. 
 
@@ -62,13 +54,11 @@ For more information, check out the [app bar: search](/components/app-bar/search
 
 ## 4. Action items 
 
-Up to three global actions maybe be placed in the “Action items” section. Actions belong to the app app bar if they affect the application or record as a whole. Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect. 
+Up to three global actions maybe be placed in the “Action items” section. Actions belong to the app bar if they affect the application or record as a whole. Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect.
 
-Select from the following common actions such as “Shopping cart” and “Export all.” Additionally teams can create custom actions to meet specific business needs such as “Print package,” etc.
+Select from the following common actions such as “Shopping cart” and “Export all.” Additionally you can create custom actions to meet specific business needs such as “Print package,” etc.
 
-If your applications has more than three action items, place the two primary actions in the app bar and the additional actions in an overflow menu. 
-
-For examples of action items used in live applications, check out our gallery examples. 
+If your applications has more than three action items, place the two primary actions in the app bar and the additional actions in an overflow menu.
 
 <ImageBlock>
 
@@ -92,9 +82,9 @@ The final section of the app bar contains information and actions pertinent to a
 
 </ImageBlock>
 
-### 1. Help (required)
+### 1. Help
 
-The help menu is standard across apps and consists of a variety of resources, ranging from help specific to the user’s current app to the broad range of resources available on Tyler Community. 
+The help menu is standard across apps and can consist of a variety of resources, ranging from help specific to the user’s current app to the broad range of resources available in a suite of apps.
 
 <ImageBlock maxWidth="600px" padded={false}>
 
@@ -102,9 +92,9 @@ The help menu is standard across apps and consists of a variety of resources, ra
 
 </ImageBlock>
 
-**Apps should provide an “About” section** consisting of (but not limited to) versioning, system information, user information, and terms & conditions. The About section may use a simple dialog or a tabbed dialog with the appropriate sections. 
+**Apps should provide an “About” section** consisting of (but not limited to) versioning, system information, user information, and terms & conditions. The About section may use a simple dialog or a tabbed dialog with the appropriate sections.
 
-In order to help clients accurately report the version number of the application when submitting support tickets, be sure the version number is easily accessible from your app’s help dialog. See more examples in our gallery examples. 
+In order to help clients accurately report the version number of the application when submitting support tickets, be sure the version number is easily accessible from your app’s help dialog. See more examples in our gallery examples.
 
 <ImageBlock>
 
@@ -112,33 +102,26 @@ Interactive demo coming soon...
 
 </ImageBlock>
 
-### 2. Notifications (optional)
+### 2. Notifications
 
-Notifications are standard across apps, and use tabs to display notifications from the current app as well as a summary of notifications from all apps. 
+Notifications are standard across apps, and use tabs to display notifications from the current app as well as a summary of notifications from all apps.
 
 Example notifications include: “New time off request to approve,” “New package rejected,” “Time off request approved,” “Your bill is due in 5 days.”
 
-A badge displays the total number of unread notifications individual to the user. Notifications are considered “read” when they have been clicked.  
+A badge displays the total number of unread notifications individual to the user. Notifications are considered “read” when they have been clicked.
 
-Notifications may be clickable. Clickable notifications may deep link within an app or may link to an external resource such as a Tyler Community article. Read notifications should persist only for 14 days unless otherwise specified by a business requirement. 
+Notifications may be clickable. Clickable notifications may deep link within an app or may link to an external resource. Read notifications should persist only for 14 days unless otherwise specified by a business requirement.
 
-Check out notifications in action in our gallery examples.
+### 3. App launcher
 
-<ImageBlock>
+The app launcher is used to switch between context or between different applications in an ecosystem.
 
-Interactive demo coming soon...
-
-</ImageBlock>
-
-### 3. App launcher (required)
-
-App launcher is required for workforce guidance. See our guidance on the [app launcher page](/components/app-bar/app-launcher).
+See our guidance on the [app launcher page](/components/app-bar/app-launcher).
 
 
 ### 4. Avatar and profile card 
 
-The profile card features a user's personalized avatar if they've set one, their full name, and the email used to sign up with the app. Additionally, the card features a “Sign out” option as well as a link to their profile, if applicable.
-For information about public facing profile patterns, check out this guidance. 
+The profile card features a user's personalized avatar if they've set one, their full name, and the email used to sign up with the app. Additionally, the card features a “Sign out” option as well as a link to their profile, if applicable. 
 
 <ImageBlock maxWidth="600px">
 
@@ -170,9 +153,9 @@ Top tabs can be placed within the app bar as primary navigation when the navigat
 
 ## Responsive
 
-The app bar is not responsive by default, instead will need to be configured to meet app needs. 
+The app bar is not responsive by default, instead will need to be configured to meet app needs.
 
-In mobile contexts, the app bar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the app bar. Display up to three actions or two actions and an overflow menu in this space. 
+In mobile contexts, the app bar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the app bar. Display up to three actions or two actions and an overflow menu in this space.
 
 <ImageBlock maxWidth="600px">
 
@@ -182,7 +165,7 @@ In mobile contexts, the app bar displays the internal menu (optional) and app ti
 
 **Extended**
 
-For apps with a long title, use an extended app bar by default, with the full title displayed. On scroll, app bar collapses to its default height. Use a shorter name for your app; don't truncate the name or use smaller a smaller font size. 
+For apps with a long title, use an extended app bar by default, with the full title displayed. On scroll, app bar collapses to its default height. Use a shorter name for your app; don't truncate the name or use smaller a smaller font size.
 
 <ImageBlock maxWidth="600px">
 
@@ -190,7 +173,7 @@ For apps with a long title, use an extended app bar by default, with the full ti
 
 </ImageBlock>
 
-<ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended app bar.<br/> When scrolling up, the app bar transforms and condenses to its default height and the app name is shortened. The app bar should not return to extended mode until the user scrolls back to the top of the page.">
+<ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended app bar. When scrolling up, the app bar transforms and condenses to its default height and the app name is shortened. The app bar should not return to extended mode until the user scrolls back to the top of the page.">
 
 ![Mobile app bar on scroll.](./images/omni-scroll.gif)
 
@@ -198,7 +181,7 @@ For apps with a long title, use an extended app bar by default, with the full ti
 
 **Overflow actions**
 
-Up to three actions or two actions and an overflow manu are displayed at the end of the app bar. An overflow menu displays a full page dropdown that displays actions and user information. 
+Up to three actions or two actions and an overflow menu are displayed at the end of the app bar. An overflow menu displays a full page dropdown that displays actions and user information.
 
 <ImageBlock padded={false} maxWidth="600px" caption="App actions and user information are tucked into the overflow menu. When tapped, it displays a full width card.">
 
