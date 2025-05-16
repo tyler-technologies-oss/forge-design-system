@@ -20,7 +20,7 @@ The app bar is a user's personal navigation kit. It holds everything a user need
 
 ## Parts 
 
-The app bar is composed of five sections.
+The app bar is composed of four sections.
 
 <ImageBlock padded={false} maxWidth="650px">
 
@@ -28,9 +28,13 @@ The app bar is composed of five sections.
 
 </ImageBlock>
 
+---
+
 ## 1. Internal navigation
 
-Apps using a dismissible [navigation drawer](/components/navigation/navigation-drawer) display a hamburger menu to open and close the menu. For these apps, the menu icon should always be visible, even as the screen scales to fit different device contexts.
+Apps using a dismissible [navigation drawer](/components/navigation/navigation-drawer) display a hamburger menu to open and close the menu. For these apps, the menu icon should always be visible, even as the screen scales to fit different device contexts.   
+
+---
 
 ## 2. Branding and app title
 
@@ -42,6 +46,8 @@ The app bar in workforce apps features the brand logo and the app name, in title
 
 </ImageBlock>
 
+---
+
 ## 3. Search
 
 App bar search is optional, but should be used for apps that are primarily search driven. In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on.    
@@ -52,29 +58,15 @@ For more information, check out the [app bar: search](/components/app-bar/search
 
 ---
 
-## 4. Action items 
+## 4. Action items and user information
 
-Up to three global actions maybe be placed in the “Action items” section. Actions belong to the app bar if they affect the application or record as a whole. Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect.
+The fourth section of the app bar contains actions related to the application as a whole and information pertaining to the user. 
 
-Select from the following common actions such as “Shopping cart” and “Export all.” Additionally you can create custom actions to meet specific business needs such as “Print package,” etc.
+:::note
+Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect, rather than in the app bar.
+:::
 
-If your applications has more than three action items, place the two primary actions in the app bar and the additional actions in an overflow menu.
-
-<ImageBlock>
-
-![Image of three actions within the app bar.](./images/omni-action-items.png)
-
-</ImageBlock>
-
-<ImageBlock caption="Additional action items may be placed in an overflow menu.">
-
-![Image of actions in an overflow menu within the app bar.](./images/omni-action-items-overflow.png)
-
-</ImageBlock>
-
-## 5. User information
-
-The final section of the app bar contains information and actions pertinent to a specific user. User information consists of sections: 1. Help & About 2. Notifications, 3.App launcher, 4. Avatar & profile card.
+User information consists of sections: 1. Help & About 2. Notifications, 3. App launcher, 4. Avatar & profile card.
 
 <ImageBlock maxWidth="350px">
 
