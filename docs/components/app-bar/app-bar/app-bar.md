@@ -20,35 +20,61 @@ The app bar is a user's personal navigation kit. It holds everything a user need
 
 ## Parts 
 
-The app bar is composed of four sections.
+The app bar is composed of five sections.
 
-<ImageBlock padded={false} maxWidth="650px">
+<ImageBlock>
 
-![Image of the app bar with labeled sections.](./images/omni-parts-diagram.png)
+![Image of the app bar with labeled sections.](./images/app-bar-parts.png)
 
 </ImageBlock>
 
 ---
 
-## 1. Internal navigation
+## 1. Start
+
+<ImageBlock max-width="450px">
+
+![Image of an app bar with with a logo and title, with the number 1 focusing on the start section.](./images/app-bar-start.png)
+
+</ImageBlock>
+
+The start slot places content at the beginning of the app bar.   
 
 Apps using a dismissible [navigation drawer](/components/navigation/navigation-drawer) display a hamburger menu to open and close the menu. For these apps, the menu icon should always be visible, even as the screen scales to fit different device contexts.   
 
 ---
 
-## 2. Branding and app title
-
-The app bar in workforce apps features the brand logo and the app name, in title case (“App Name” not “App name”). 
+## 2. Logo
 
 <ImageBlock max-width="450px">
 
-![Image of an app bar with with a logo and title.](./images/omni-branding-logo.png)
+![Image of an app bar with with a logo and title, with the number 2 focusing on the logo section.](./images/app-bar-logo.png)
 
 </ImageBlock>
 
+The second slot is used to display a logo for the application.
+
+## 3. Title
+
+<ImageBlock max-width="450px">
+
+![Image of an app bar with with a logo and title, with the number 3 focusing on the title section.](./images/app-bar-title.png)
+
+</ImageBlock>
+
+The title slot is designed to house the title of your application. 
+
 ---
 
-## 3. Search
+## 4. Center
+
+<ImageBlock>
+
+![Image of an app bar with with a logo and title, with the number 4 focusing on the center section.](./images/app-bar-center.png)
+
+</ImageBlock>
+
+The center slot places content in the center of the app bar and is generally used to house the search functionality of the application.   
 
 App bar search is optional, but should be used for apps that are primarily search driven. In cases where the search may be local to a single component on the page, place the search closest to the component it’s performed on.    
 
@@ -58,41 +84,37 @@ For more information, check out the [app bar: search](/components/app-bar/search
 
 ---
 
-## 4. Action items and user information
+## 5. End
 
-The fourth section of the app bar contains actions related to the application as a whole and information pertaining to the user. 
+<ImageBlock max-width="450px">
+
+![Image of an app bar with with a logo and title, with the number 5 focusing on the end section.](./images/app-bar-end.png)
+
+</ImageBlock>
+
+The fifth section of the app bar is the end slot and contains actions related to the application as a whole and information pertaining to the user. 
 
 :::note
 Actions that affect a single item or a piece of the application should be placed in context, close to the part they affect, rather than in the app bar.
 :::
 
-User information consists of sections: 1. Help & About 2. Notifications, 3. App launcher, 4. Avatar & profile card.
+User information consists of sections: 1. Help & About, 2. Notifications, 3. App launcher, 4. Avatar & profile card.
 
 <ImageBlock maxWidth="350px">
 
-![Image of the user profile card.](./images/omni-user-info.png)
+![Image of the end slot of the app bar showing the parts that can be included in that section.](./images/app-bar-end-parts.png)
 
 </ImageBlock>
+
 
 ### 1. Help
 
 The help menu is standard across apps and can consist of a variety of resources, ranging from help specific to the user’s current app to the broad range of resources available in a suite of apps.
 
-<ImageBlock maxWidth="600px" padded={false}>
-
-![Image of three actions within the app bar.](./images/omni-desktop-help.png)
-
-</ImageBlock>
-
 **Apps should provide an “About” section** consisting of (but not limited to) versioning, system information, user information, and terms & conditions. The About section may use a simple dialog or a tabbed dialog with the appropriate sections.
 
 In order to help clients accurately report the version number of the application when submitting support tickets, be sure the version number is easily accessible from your app’s help dialog. See more examples in our gallery examples.
 
-<ImageBlock>
-
-Interactive demo coming soon...
-
-</ImageBlock>
 
 ### 2. Notifications
 
@@ -103,6 +125,7 @@ Example notifications include: “New time off request to approve,” “New pac
 A badge displays the total number of unread notifications individual to the user. Notifications are considered “read” when they have been clicked.
 
 Notifications may be clickable. Clickable notifications may deep link within an app or may link to an external resource. Read notifications should persist only for 14 days unless otherwise specified by a business requirement.
+
 
 ### 3. App launcher
 
@@ -115,17 +138,17 @@ See our guidance on the [app launcher page](/components/app-bar/app-launcher).
 
 The profile card features a user's personalized avatar if they've set one, their full name, and the email used to sign up with the app. Additionally, the card features a “Sign out” option as well as a link to their profile, if applicable. 
 
-<ImageBlock maxWidth="600px">
+<ImageBlock maxWidth="450px">
 
-![Image of three actions within the app bar.](./images/omni-desktop-profile-card.png)
+![Image of the end slot showing the profile card open.](./images/app-bar-profile-card.png)
 
 </ImageBlock>
 
 For **unauthenticated users,** the avatar is replaced by a “sign in” button. Notifications are hidden; the help menu and app launcher remain.
 
-<ImageBlock maxWidth="600px">
+<ImageBlock maxWidth="450px">
 
-![Image of an app bar with option to login.](./images/desktop-unauthenticated.png)
+![Image of the end slot of the app bar with option to login.](./images/app-bar-logged-out.png)
 
 </ImageBlock>
 
@@ -137,72 +160,7 @@ Top tabs can be placed within the app bar as primary navigation when the navigat
 
 <ImageBlock>
 
-![Image of an app bar with tabs inside.](./images/omni-tabs-variant.png)
-
-</ImageBlock>
-
----
-
-## Responsive
-
-The app bar is not responsive by default, instead will need to be configured to meet app needs.
-
-In mobile contexts, the app bar displays the internal menu (optional) and app title. Search, actions, and user information are condensed into a section in the trailing slot of the app bar. Display up to three actions or two actions and an overflow menu in this space.
-
-<ImageBlock maxWidth="600px">
-
-![Diagram of app bar on mobile.](./images/mobile-omni-diagram.png)
-
-</ImageBlock>
-
-**Extended**
-
-For apps with a long title, use an extended app bar by default, with the full title displayed. On scroll, app bar collapses to its default height. Use a shorter name for your app; don't truncate the name or use smaller a smaller font size.
-
-<ImageBlock maxWidth="600px">
-
-![Default and extended app bar.](./images/omni-extended.png)
-
-</ImageBlock>
-
-<ImageBlock maxWidth="350px" caption="Apps with long titles may use an extended app bar. When scrolling up, the app bar transforms and condenses to its default height and the app name is shortened. The app bar should not return to extended mode until the user scrolls back to the top of the page.">
-
-![Mobile app bar on scroll.](./images/omni-scroll.gif)
-
-</ImageBlock>
-
-**Overflow actions**
-
-Up to three actions or two actions and an overflow menu are displayed at the end of the app bar. An overflow menu displays a full page dropdown that displays actions and user information.
-
-<ImageBlock padded={false} maxWidth="600px" caption="App actions and user information are tucked into the overflow menu. When tapped, it displays a full width card.">
-
-![Overflow menu.](./images/omni-overflow.png)
-
-</ImageBlock>
-
-<ImageBlock maxWidth="350px" caption="Tapping an item in the overflow menu reveals its children.">
-
-![Items are tapped to reveal their children.](./images/omni-overflow.gif)
-
-</ImageBlock>
-
-:::info
-If the internal navigation drawer is opened while the overflow dropdown is open, the navigation drawer displays on top, with a scrim behind. The overflow menu stays open unless a user navigates to a new page.
-:::
-
-**Search**
-
-On mobile, search is accessed by tapping the search icon. Search takes over the app bar.
-
-- The "arrow_back" icon closes the search and restores the default app bar.
-- If the search field is empty and users tap outside of it, the search is closed and default app bar is restored.
-- Once input has been entered into the search field, the X icon appears. Tapping the X icon clears the search, but doesn't close the search. 
-- Once input has been entered into the search, it persists until it is closed by the X icon or a user taps the "arrow_back" icon.
-
-<ImageBlock maxWidth="350px">
-
-![Tap the search icon to reveal search.](./images/omni-mobile-search.gif)
+![Image of an app bar with tabs inside.](./images/app-bar-tabs.png)
 
 </ImageBlock>
 
@@ -214,8 +172,6 @@ On mobile, search is accessed by tapping the search icon. Search takes over the 
   <DoDontTextSection>
     <DoDontText type="dont">Don't place links in the app bar.</DoDontText>
     <DoDontText type="dont">Don't place tabs in a standard height app bar - use the tabs variation instead.</DoDontText>
-    <DoDontText type="dont">On mobile, don't truncate app title text. Use an extended app bar instead.</DoDontText>
-    <DoDontText type="dont">On mobile, don't shrink the fontsize of an app title or wrap title text. Use an extended app bar instead.</DoDontText>
   </DoDontTextSection>
 </DoDontGrid>
 
