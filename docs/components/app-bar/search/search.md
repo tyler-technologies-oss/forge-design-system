@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-search--docs">
 
-![](./images/app-bar-search.png)
+![](./images/app-bar-search-header.png)
 
 </ComponentVisual>
 
