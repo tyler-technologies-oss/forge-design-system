@@ -21,68 +21,60 @@ It's easily customizable and depending on your needs it can provide a number of 
 
 ---
 
-## Search scope
+## Search examples
 
-**No search:** Use when an app doesn't have a use case to search for data and global search doesn't need to be supported.
+### No search
+Use when an app doesn't have a use case to search for data and global search doesn't need to be supported.
 
 <ImageBlock>
 
-![Image of the app bar with no search.](./images/omni-no-search.png)
+![Image of the app bar with no search.](./images/app-bar-no-search.png)
 
 </ImageBlock>    
 
-**Internal app search:** Use when searches within a page, app or product suite are needed. Common examples include: searching for a user, record, incident, case, or setting. Use placeholder text to indicate that the search is contextual within the app.
+
+### Default app search
+This is the standard search used in the app bar. It's used for searches within a page, app, or product suite. Common examples include: searching for a user, record, incident, case, or setting. If the search is contextual within the app, be sure to use placeholder text to clearly indicate the context.
 
 <ImageBlock>
 
-![Image of the app bar with an internal search option.](./images/omni-contextual-search.png)
+![Image of the app bar with an internal search option.](./images/app-bar-search.png)
 
 </ImageBlock>
 
-**Combined search:** Use this to allow searches at multiple levels - within a page, app, product suite, OR within an ecosystem. Use placeholder text to indicate where the search will occur.
-
-<ImageBlock>
-
-![Image of the app bar with a combined search option.](./images/omni-combined-search.png)
-
-</ImageBlock>
 
 ---
 
 ## Search input type
 
-**One search input:** Default search state for the app bar. Use in most cases.
+### Advanced search
+When a more advanced search is needed, such as a large form with individual records to search on, it's recommended to add a secondary advanced search button next to the standard search. This can then launch your advanced search functionality if needed by the user.
 
 <ImageBlock>
 
-![Image of the app bar with one search field.](./images/omni-one-search.png)
-
-</ImageBlock>
-
-**Advanced search:** Use when a more advanced search is required for more than 30% of searches.
-
-<ImageBlock>
-
-![Image of the app bar with multiple search fields.](./images/omni-advanced-search.png)
+![Image of the app bar with multiple search fields.](./images/app-bar-search-adv.png)
 
 </ImageBlock>
 
 ---
 
 ## Pre-filtering and autocomplete
-**Autocomplete:** Use to suggest exact results or suggested search queries.
+
+### Autocomplete
+Use to suggest exact results or suggested search queries.
 
 <ImageBlock>
 
-![Image of the app bar with autocomplete search suggestions.](./images/omni-autocomplete.png)
+![Image of the app bar with autocomplete search suggestions.](./images/app-bar-search-auto.png)
 
 </ImageBlock>
 
-**Prefilter:** Use to help users search on specific categories or to improve performance time for global searches.
+### Prefilter
+Use to help users search on specific categories or to improve performance time for global searches.
 
 <ImageBlock>
 
-![Image of the app bar with prefiltered search suggestions.](./images/omni-prefilter.png)
+![Image of the app bar with prefiltered search suggestions.](./images/app-bar-search-filter.png)
 
 </ImageBlock>
 
