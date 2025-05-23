@@ -14,6 +14,8 @@ that were previously organized by a specific icon set name such as "standard", "
 :::info tl;dr
 This is great and all, but since both the 1.x and 2.x versions are compatible with the Forge `IconRegistry` and `<forge-icon>` component,
 just show me what I need to do to [update my code](#how-to-update).
+
+Keep in mind this updating is **not required** because the new package is backwards compatible, but [we recommend it](#what-happens-if-i-dont-update) to ensure you stay up to date.
 :::
 
 ## Acknowledgements
@@ -45,6 +47,10 @@ The icon library viewer has also been updated to reflect the new organization. T
 search for icons by name without worrying about which icon set they belong to. Additionally, we have also added
 keywords to the icons to make it easier to find what you're looking for!
 
+Other new features include:
+- **Performance improvements**: The new viewer is faster and more responsive than the old one, making it easier to browse through the icons.
+- **Copy code snippets**: You can now copy various code snippets for the icon you are viewing by selecting an icon from the list.
+
 View the new icon library here: [Tyler Icons Library](/assets/icon-library)
 
 ## What has changed?
@@ -57,11 +63,10 @@ View the new icon library here: [Tyler Icons Library](/assets/icon-library)
   ```
 
 - **Updated documentation**: The documentation has been updated to reflect the new icon set organization.
-- **New icons**: We updated the icon library to include new icons that were not previously available in the
+- **Added over 1000 new icons**: We updated the icon library to include new icons that were not previously available in the
   old icon sets. This means that you can now use the latest and greatest icons!
-- **No more duplicates**: The new icon set has been cleaned up to remove any duplicate icons that
-  existed across the old icon sets. This means that you can now use the same icon name without worrying
-  about which icon set it belongs to.
+- **Reduced duplicates**: The icons have been cleaned up to reduce duplicates. This means that you can now use the same icon
+  name without worrying about which icon set it belongs to.
 - **Forge Core Library**: The core Tyler Forge component library has been updated to use the new
   consolidated icon set.
 
@@ -70,13 +75,13 @@ There are some icons that may look slightly different than they did in the old i
 icon where there were multiple icons with the same name. The changes are very minimal, and you likely won't even notice. We tried to
 choose the most commonly used icon, but if you find an icon that you think should be updated, please let us know!
 
-You can view the full list of icons that have changed [here](https://www.figma.com/design/2EaaEb2SPlhtYXUHOkM0P3/branch/N4WQhSTCOkrku5Eaq8hgPj/Forge-Icons-v1.18.1?node-id=4865-18&p=f&t=uAR8ks9nzEH3qu3C-0).
+You can view the full list of icons that have changed [here](https://www.figma.com/design/pnXaylvjo7RwaMDEKVueMM/Forge-Icons-v2.x?node-id=2048-51).
 :::
 
 ## What happens if I don't update?
 
 If you don't update your code to use the new consolidated icon set, everything will continue to work
-as it did before. However, we recommend that you update your code over time to take advantage of any
+as it did before. However, we recommend that you update your code if possible to take advantage of any
 new icons we add in the future, and to ensure that you don't end up loading multiple versions of the
 Tyler Icons library in your project.
 
@@ -117,30 +122,29 @@ To update your code to use the new consolidated icon set, you will need to do th
    import { tylIconForgeLogo, tylIconCode } from '@tylertech/tyler-icons';
    ```
 
-To quickly find and replace all instances of the old icon set imports in your code, you can use
-a tool like [VSCode's Find and Replace](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) 
-by enabling the regular expression matching to search for the old import statements and replace them with
-the new ones.
-
-For example, you can search for the following pattern:
-
-```bash
-(['"]@tylertech\/tyler-icons)\/(?:standard|extended|custom)(['"];)
-```
-
-And replace it with:
-
-```bash
-$1$2
-```
-
-This will replace **all** instances of the old import statements with the new ones.
-
-
-:::note
-Keep in mind that this will **not** group the imports into a single import statement. You will need to manually
-combine the imports if that is important to you.
-:::
+   To quickly find and replace all instances of the old icon set imports in your code, you can use
+   a tool like [VSCode's Find and Replace](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) 
+   by enabling the regular expression matching to search for the old import statements and replace them with
+   the new ones.
+   
+   For example, you can search for the following pattern:
+   
+   ```bash
+   (['"]@tylertech\/tyler-icons)\/(?:standard|extended|custom)(['"];)
+   ```
+   
+   And replace it with:
+   
+   ```bash
+   $1$2
+   ```
+   
+   This will replace **all** instances of the old import statements with the new ones.
+   
+   :::note
+   Keep in mind that this will **not** group the imports into a single import statement. You will need to manually
+   combine the imports if that is important to you.
+   :::
 
 ## Update Forge components
 
