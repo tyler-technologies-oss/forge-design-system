@@ -34,7 +34,7 @@ Use when an app doesn't have a use case to search for data and global search doe
 
 
 ### Default app search
-This is the standard search used in the app bar. It's used for searches within a page, app, or product suite. Common examples include: searching for a user, record, incident, case, or setting. If the search is contextual within the app, be sure to use placeholder text to clearly indicate the context.
+This is the standard search used in the app bar. It's used for searches within an app or product suite. Common examples include: searching for a user, record, incident, case, or setting. If the search is contextual within the app, be sure to use placeholder text to clearly indicate the context.
 
 <ImageBlock>
 
@@ -52,29 +52,28 @@ When a more advanced search is needed, such as a large form with individual reco
 
 <ImageBlock>
 
-![Image of the app bar with multiple search fields.](./images/app-bar-search-adv.png)
+![Image of the app bar with search and a text button next to the search input for an advanced search.](./images/app-bar-search-adv.png)
+
+</ImageBlock>
+
+
+If space is constrained, an icon button can be used to show the advanced search option. Be sure to include a tooltip when using an icon button.
+
+<ImageBlock>
+
+![Image of the app bar with search and an icon button next to the search input for an advanced search.](./images/app-bar-search-adv-alt.png)
 
 </ImageBlock>
 
 ---
 
-## Pre-filtering and autocomplete
+## Autocomplete
 
-### Autocomplete
 Use to suggest exact results or suggested search queries.
 
 <ImageBlock>
 
 ![Image of the app bar with autocomplete search suggestions.](./images/app-bar-search-auto.png)
-
-</ImageBlock>
-
-### Prefilter
-Use to help users search on specific categories or to improve performance time for global searches.
-
-<ImageBlock>
-
-![Image of the app bar with prefiltered search suggestions.](./images/app-bar-search-filter.png)
 
 </ImageBlock>
 
