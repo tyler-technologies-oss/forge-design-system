@@ -15,7 +15,7 @@ that were previously organized by a specific icon set name such as "standard", "
 This is great and all, but since both the 1.x and 2.x versions are compatible with the Forge `IconRegistry` and `<forge-icon>` component,
 just show me what I need to do to [update my code](#how-to-update).
 
-Keep in mind this updating is **not required** because the new package is backwards compatible, but [we recommend it](#what-happens-if-i-dont-update) to ensure you stay up to date.
+Keep in mind that updating is **not required** because the new package is backwards compatible, but [we recommend it](#what-happens-if-i-dont-update) to ensure you stay up to date.
 :::
 
 ## Acknowledgements
