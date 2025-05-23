@@ -9,96 +9,71 @@ sidebar_custom_props:
 
 <ComponentVisual storybookUrl="https://forge.tylerdev.io/main/?path=/docs/components-app-bar-search--docs">
 
-![](./images/app-bar-search.png)
+![](./images/app-bar-search-header.png)
 
 </ComponentVisual>
 
 ## Overview
 
-App bar search is optional, but should be used for apps that are primarily search driven (case management apps, mapping apps, etc). In cases where the search may be local to a single component on the page, place the search closest to the component it's performed on. For more information, check out our search gallery examples.
+App bar search is an optional feature that sits in the center slot of the app bar component. It's primarily used as the default search location for an application. In cases where the search may be local to a single component on the page, place the search closest to the component it's performed on.
 
-The app bar provides a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
+It's easily customizable and depending on your needs it can provide a number of options for search depending on the scope needed, input type, and autocomplete suggestions.
 
 ---
 
-## Search scope
+## Search examples
 
-**No search:** Use when an app doesn't have a use case to search for data and global search doesn't need to be supported.
-
-<ImageBlock>
-
-![Image of the app bar with no search.](./images/omni-no-search.png)
-
-</ImageBlock>
-
-**Global search:** Use when there's no use case to search for data within the app, but users may need to search for something within the Tyler ecosystem. Include the “global icon” at the end of the search.
+### No search
+Use when an app doesn't have a use case to search for data and global search doesn't need to be supported.
 
 <ImageBlock>
 
-![Image of the app bar with global search option.](./images/omni-global-search.png)
+![Image of the app bar with no search.](./images/app-bar-no-search.png)
 
-</ImageBlock>
+</ImageBlock>    
 
-**Internal app search:** Use when searches within a page, app or product suite are needed. Common examples include: searching for a user, record, incident, case, or setting. Use placeholder text to indicate that the search is contextual within the app.
 
-<ImageBlock>
-
-![Image of the app bar with an internal search option.](./images/omni-contextual-search.png)
-
-</ImageBlock>
-
-**Combined search:** Use this to allow searches at multiple levels - within a page, app, product suite, OR within the Tyler Ecosystem. Use placeholder text to indicate where the search will occur.
+### Default app search
+This is the standard search used in the app bar. It's used for searches within an app or product suite. Common examples include: searching for a user, record, incident, case, or setting. If the search is contextual within the app, be sure to use placeholder text to clearly indicate the context.
 
 <ImageBlock>
 
-![Image of the app bar with a combined search option.](./images/omni-combined-search.png)
+![Image of the app bar with an internal search option.](./images/app-bar-search.png)
 
 </ImageBlock>
+
 
 ---
 
 ## Search input type
 
-**One search input:** Default search state for the app bar. Use in most cases.
+### Advanced search
+When a more advanced search is needed, such as a large form with individual records to search on, it's recommended to add a secondary advanced search button next to the standard search. This can then launch your advanced search functionality if needed by the user.
 
 <ImageBlock>
 
-![Image of the app bar with one search field.](./images/omni-one-search.png)
+![Image of the app bar with search and a text button next to the search input for an advanced search.](./images/app-bar-search-adv.png)
 
 </ImageBlock>
 
-**Multi-search input:** Use where multiple fields are required to run a single search.
+
+If space is constrained, an icon button can be used to show the advanced search option. Be sure to include a tooltip when using an icon button.
 
 <ImageBlock>
 
-![Image of the app bar with multiple search fields.](./images/omni-multi-search.png)
-
-</ImageBlock>
-
-**Advanced search:** Use when a more advanced search is required for more than 30% of searches.
-
-<ImageBlock>
-
-![Image of the app bar with multiple search fields.](./images/omni-advanced-search.png)
+![Image of the app bar with search and an icon button next to the search input for an advanced search.](./images/app-bar-search-adv-alt.png)
 
 </ImageBlock>
 
 ---
 
-## Pre-filtering and autocomplete
-**Autocomplete:** Use to suggest exact results or suggested search queries.
+## Autocomplete
+
+Use to suggest exact results or suggested search queries.
 
 <ImageBlock>
 
-![Image of the app bar with autocomplete search suggestions.](./images/omni-autocomplete.png)
-
-</ImageBlock>
-
-**Prefilter:** Use to help users search on specific categories or to improve performance time for global searches.
-
-<ImageBlock>
-
-![Image of the app bar with prefiltered search suggestions.](./images/omni-prefilter.png)
+![Image of the app bar with autocomplete search suggestions.](./images/app-bar-search-auto.png)
 
 </ImageBlock>
 
