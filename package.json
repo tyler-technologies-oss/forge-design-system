@@ -17,27 +17,27 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.7.0",
-    "@docusaurus/plugin-client-redirects": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0",
-    "@easyops-cn/docusaurus-search-local": "^0.48.4",
+    "@docusaurus/core": "^3.8.0",
+    "@docusaurus/plugin-client-redirects": "^3.8.0",
+    "@docusaurus/preset-classic": "^3.8.0",
+    "@easyops-cn/docusaurus-search-local": "^0.49.2",
     "@mdx-js/react": "^3.1.0",
     "clsx": "^2.1.1",
     "docusaurus-plugin-sass": "^0.2.6",
     "plugin-image-zoom": "^1.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sass": "^1.83.4"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sass": "^1.89.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@docusaurus/module-type-aliases": "^3.7.0",
-    "@docusaurus/tsconfig": "^3.7.0",
-    "@types/react": "^18.3.18",
-    "commitlint": "^19.6.1",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@docusaurus/module-type-aliases": "^3.8.0",
+    "@docusaurus/tsconfig": "^3.8.0",
+    "@types/react": "^19.1.5",
+    "commitlint": "^19.8.1",
     "husky": "^9.1.7",
-    "typescript": "~5.2.2"
+    "typescript": "~5.8.3"
   },
   "browserslist": {
     "production": [
