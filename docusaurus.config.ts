@@ -6,7 +6,7 @@ export default {
   tagline: 'Enabling design decisions and simplifying consistency.',
   url: 'https://forge.tylertech.com/',
   // FOR GH-PAGES DEPLOYMENT:
-  baseUrl: '/forge-design-system/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
