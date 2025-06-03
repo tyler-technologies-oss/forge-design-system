@@ -5,7 +5,8 @@ export default {
   title: 'Tyler Forge™',
   tagline: 'Enabling design decisions and simplifying consistency.',
   url: 'https://forge.tylertech.com/',
-  baseUrl: '/',
+  // FOR GH-PAGES DEPLOYMENT:
+  baseUrl: '/forge-design-system/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
