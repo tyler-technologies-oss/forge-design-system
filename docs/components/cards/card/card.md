@@ -31,112 +31,73 @@ They should be easy to scan for relevant and actionable information. Elements, l
 - Scannability is key.
 - Comparing or ordering homogenous data is important. 
 
-:::info
-Cards should use the default 1dp elevation, for consistency and better usability.
+---
 
-[Read more](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/) from NN Group on how flat design can attract less attention and cause uncertainty.
+## Styling
+
+### Basic
+
+Being containers for objects on your page, the content in cards can be styled in a multitude of ways, but the card itself generally remains consistent.
+
+<ImageBlock>
+
+![Image of the app bar with labeled sections.](./images/simple-card.png)
+
+</ImageBlock>
+
+<ImageBlock>
+
+![Image of the app bar with labeled sections.](./images/simple-card-margin.png)
+
+</ImageBlock>
+
+:::note 
+Cards apply a padding of 16px to the entire internal container by default.
 :::
+
+### Complex
+
+Card content can be as simple or as complex as needed. A common example of a more complext card follows a style with a header (including actionable icon buttons), body content, and footer for primary actions. These are all optional and dependant on the needs of your design and application.
+
+<ImageBlock>
+
+![Image of the app bar with labeled sections.](./images/styled-card.png)
+
+</ImageBlock>
 
 ---
 
-## Types
-
-There are two types of cards: 1. Simple and 2. Complex
-
-## 1. Simple 
-
-Simple cards cards display summary or teaser content that may link to additional detail. Examples include: displaying data on dashboards, displaying employee profile summaries that link to a full detail record, displaying options for starting a new service order. 
-
-Simple cards generally include a title, spot illustration, content, and one to two actions.
-
-<ImageBlock caption="Simple cards may be used provide summary information that navigates to a full detail record.">
-
-![ Summary cards.](./images/dashboard-cards.png)
-
-</ImageBlock>
-
-<ImageBlock caption="Simple cards may be used to indicate choices in a guided process.">
-
-![ Choice cards.](./images/selection-cards.png)
-
-</ImageBlock>
-
-<ImageBlock caption="Simple cards may be used on dashboards to provide summary data.">
-
-![ Coming soon!](#)
-
-</ImageBlock>
-
-## 2. Complex 
-
-Complex cards are used to group related content. They may contain data, tables, or lists. 
-
-Complex cards include a header with a divider to differentiate it from the body content. The header includes the card title (1) and may include actions that pertain to the card content (2), such as export, download, filter, etc. Complex cards may also include a footer, which containers navigation or confirming actions, such as "View more", "Save," "Cancel," "Next," "Finish."
-
-<ImageBlock caption="Complex cards are comprised of five parts." padded={false}>
-
-![ Anatomy of a complex card.](./images/complex-card-anatomy.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false}>
-
-![ Anatomy of a complex card.](./images/complex-cards-1.png)
-
-</ImageBlock>
-
-<ImageBlock padded={false}>
-
-![ Anatomy of a complex card.](./images/complex-cards-2.png)
-
-</ImageBlock>
-
---- 
-
 ## Best practices 
 
+
 <DoDontGrid>
-  <DoDontRow>
-  <DoDontImage>
-
-![Card with centered content.](./images/card-align-do.png)
-
-  </DoDontImage>
-  <DoDontImage>
-
-![Card with misaligned content.](./images/card-align-dont.png)
-
-  </DoDontImage>
-  <DoDontImage>
-
-![Card with misaligned content.](./images/card-do-interaction.png)
-
-  </DoDontImage>
-  </DoDontRow>
-  <DoDontRow>
-    <DoDont type="do">Center or left align content within a simple card.</DoDont>
-    <DoDont type="dont">Don't use inconsistent alignment for content within a simple card. Center or left align it instead.</DoDont>
-    <DoDont type="caution">If a card is interactive (clickable or draggable) use the appropriate interaction state on hover to indicate interactibility.</DoDont>
-  </DoDontRow>
+  <DoDontTextSection>
+    <DoDontText type="dont">Don't use inconsistent alignment for content within a card. Center or left align it instead.</DoDontText>
+  </DoDontTextSection>
+    <DoDontTextSection>
+    <DoDontText type="caution">If a card is interactive (clickable or draggable) use the appropriate interaction state on hover to indicate interactibility.</DoDontText>
+  </DoDontTextSection>
 </DoDontGrid>
 
 ---
 
-## Specs
+## Examples
 
-By default, cards in workforce apps have 16px of padding. 
+<ImageBlock padded={false} caption="Left: An example of cards being used as informational tiles. <br>Right: Cards are used to show quick information for different sources of information.">
 
-<ImageBlock padded={false} caption="1. Cards in workforce apps have 16px of internal padding. <br>2. Default grid gutter is 16px in workforce apps.">
-
-![ Card and grid with padding.](./images/workforce-padding.png)
+![Two images of app layouts utilizing cards to display information to the user.](./images/cards-example-1.png)
 
 </ImageBlock>
 
-By default cards in community apps have 24px padding. 
+<ImageBlock padded={false} caption="A card can be used to house large amounts of data, in this case housing a data table.">
 
-<ImageBlock padded={false} caption="1. Cards in community apps have 24px of internal padding. <br>2. Default grid gutter is 24px in community apps.">
+![ Card and grid with padding.](./images/cards-example-2.png)
 
-![ Card and grid with padding.](./images/community-padding.png)
+</ImageBlock>
+
+<ImageBlock padded={false} caption="Cards can contain any other components and can be styled in a multitude of ways. Here it includes a toolbar with a tab structure inside, as well as more details under it consisting of label value pairs.">
+
+![ Card and grid with padding.](./images/cards-example-3.png)
 
 </ImageBlock>
 
@@ -153,6 +114,3 @@ By default cards in community apps have 24px padding.
 
 - [Card recipes](/recipes/card/generic)
 
-### Patterns 
-
-Coming soon!

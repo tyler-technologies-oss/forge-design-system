@@ -92,12 +92,12 @@ Loading a card.
   <DoDontRow>
   <DoDontImage>
 
-![Forge logo](./images/single-element-load.png)
+![An image of a circular progress loader inside of a single card on a full page layout.](./images/single-element-load.png)
 
   </DoDontImage>
   <DoDontImage>
 
-![Forge logo](./images/multiple-spinners.gif)
+![An image of cirulcar progress loaders at the beginning of list items showing that each of them are loading at the same time.](./images/multiple-spinners.gif)
 
   </DoDontImage>
   </DoDontRow> 
