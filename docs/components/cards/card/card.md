@@ -35,6 +35,8 @@ They should be easy to scan for relevant and actionable information. Elements, l
 
 ## Styling
 
+### Basic
+
 Being containers for objects on your page, the content in cards can be styled in a multitude of ways, but the card itself generally remains consistent.
 
 <ImageBlock>
@@ -43,19 +45,19 @@ Being containers for objects on your page, the content in cards can be styled in
 
 </ImageBlock>
 
-:::note 
-Cards apply a padding of 16px to the entire internal container by default.
-:::
-
 <ImageBlock>
 
 ![Image of the app bar with labeled sections.](./images/simple-card-margin.png)
 
 </ImageBlock>
 
+:::note 
+Cards apply a padding of 16px to the entire internal container by default.
+:::
+
 ### Complex
 
-More complex cards usually follow the same content style with a header, body content, and footer for actions. These are all optional and dependant on the needs of your design and application.
+Card content can be as simple or as complex as needed. A common example of a more complext card follows a style with a header (including actionable icon buttons), body content, and footer for primary actions. These are all optional and dependant on the needs of your design and application.
 
 <ImageBlock>
 
@@ -67,48 +69,35 @@ More complex cards usually follow the same content style with a header, body con
 
 ## Best practices 
 
+
 <DoDontGrid>
-  <DoDontRow>
-  <DoDontImage>
-
-![Card with centered content.](./images/card-align-do.png)
-
-  </DoDontImage>
-  <DoDontImage>
-
-![Card with misaligned content.](./images/card-align-dont.png)
-
-  </DoDontImage>
-  <DoDontImage>
-
-![Card with misaligned content.](./images/card-do-interaction.png)
-
-  </DoDontImage>
-  </DoDontRow>
-  <DoDontRow>
-    <DoDont type="do">Center or left align content within a simple card.</DoDont>
-    <DoDont type="dont">Don't use inconsistent alignment for content within a simple card. Center or left align it instead.</DoDont>
-    <DoDont type="caution">If a card is interactive (clickable or draggable) use the appropriate interaction state on hover to indicate interactibility.</DoDont>
-  </DoDontRow>
+  <DoDontTextSection>
+    <DoDontText type="dont">Don't use inconsistent alignment for content within a card. Center or left align it instead.</DoDontText>
+  </DoDontTextSection>
+    <DoDontTextSection>
+    <DoDontText type="caution">If a card is interactive (clickable or draggable) use the appropriate interaction state on hover to indicate interactibility.</DoDontText>
+  </DoDontTextSection>
 </DoDontGrid>
 
 ---
 
-## Specs
+## Examples
 
-By default, cards in workforce apps have 16px of padding. 
+<ImageBlock padded={false} caption="Left: An example of cards being used as informational tiles. <br>Right: Cards are used to show quick information for different sources of information.">
 
-<ImageBlock padded={false} caption="1. Cards in workforce apps have 16px of internal padding. <br>2. Default grid gutter is 16px in workforce apps.">
-
-![ Card and grid with padding.](./images/workforce-padding.png)
+![Two images of app layouts utilizing cards to display information to the user.](./images/cards-example-1.png)
 
 </ImageBlock>
 
-By default cards in community apps have 24px padding. 
+<ImageBlock padded={false} caption="A card can be used to house large amounts of data, in this case housing a data table.">
 
-<ImageBlock padded={false} caption="1. Cards in community apps have 24px of internal padding. <br>2. Default grid gutter is 24px in community apps.">
+![ Card and grid with padding.](./images/cards-example-2.png)
 
-![ Card and grid with padding.](./images/community-padding.png)
+</ImageBlock>
+
+<ImageBlock padded={false} caption="Cards can contain any other components and can be styled in a multitude of ways. Here it includes a toolbar with a tab structure inside, as well as more details under it consisting of label value pairs.">
+
+![ Card and grid with padding.](./images/cards-example-3.png)
 
 </ImageBlock>
 
@@ -125,6 +114,3 @@ By default cards in community apps have 24px padding.
 
 - [Card recipes](/recipes/card/generic)
 
-### Patterns 
-
-Coming soon!
