@@ -62,16 +62,24 @@ Stay tuned for updates on these components as we continue to develop and refine 
 
 ## Governance
 
-Each of these components are reviewed by the Tyler Forge frontend governance board, which is responsible for approving new components and patterns for inclusion in the Forge ecosystem. The governance board is made up of frequent contributors to Tyler Forge, as well as representatives from divisions across the company who have demonstrated a commitment to the project and its goals.
+Tyler Forge has two governance boards, one for the design system, and one for the frontend component library. The design board is responsible for the
+visual and interaction design aspects of Forge, while the frontend board is responsible for the implementation of the components and other general
+frontend topics.
 
-If you're interested in influencing the direction of Forge, we encourage you to get involved with the frontend governance board. You can do this by participating in discussions, providing feedback on proposed components, and contributing to the development of new components. We meet regularly to
-discuss the direction of Forge, review proposed components, and discuss other general frontend development topics. If you're interested in getting involved, please reach out to us on Teams or via email, and we'll be happy to add you to the board.
+Both of these governance boards are made up of frequent contributors to Tyler Forge, as well as representatives from divisions across the company who
+have demonstrated a commitment to the project and its goals. Each of the extended components are reviewed and approved by the governance board members
+prior to being added to the library, ensuring that they meet the design and implementation standards of Tyler Forge.
+
+:::info Get Involved
+If you're interested in influencing the direction of Forge, we encourage you to get involved with either of these governance boards. You can do this by participating in discussions, providing feedback on proposed components, and contributing to the development of new components. We meet regularly to
+discuss the direction of Forge, review new ideas, and discuss other general design and development topics. If you're interested in getting involved, please reach out to us on Teams or via email, and we'll be happy to help you get started.
+:::
 
 ## Contributing
 
-We welcome contributions to Forge Extended! If you have a pattern or component that you think would be a good fit for the library, please open a GitHub issue or pull request. We can work together to get it approved by the governance board and added to the library.
+We welcome contributions to Forge Extended! If you have a pattern or component that you think would be a good fit for the library, please open a GitHub issue or pull request. We can work together to get it approved by the governance boards and added to the library.
 
-We want this library to be community-driven, so we encourage you to contribute your ideas and components!
+We want this library to be community-driven, we encourage you to contribute your ideas and components!
 
 ## Blocks
 
