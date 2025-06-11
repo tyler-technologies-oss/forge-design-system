@@ -6,8 +6,9 @@ tags: [forge, extended, patterns, components]
 ---
 
 We are excited to announce the release of **Forge Extended**, a new library of prebuilt Forge patterns as components for Tyler Forge!
-This new library of components is designed to help you build applications faster and more efficiently by providing a set of prebuilt components
-that can easily be integrated into your projects. Forge Extended will help to reduce development time and effort, while increasing consistency and quality.
+This new library of components is designed to help you build applications faster and more efficiently by providing extended components
+that are composed of existing Forge components, and can easily be integrated into your projects. Forge Extended will help to reduce
+development time and effort, while increasing consistency and quality.
 
 <!-- truncate -->
 
@@ -37,7 +38,7 @@ Some of the components available initially include:
 - **Busy Indicator**: Displays a loading indicator dialog while the application is performing long running operations.
 - **Confirmation Dialog**: A standardized dialog for confirming or canceling an action.
 - **Quantity Field**: Allows users to input a quantity alongside built-in increment and decrement buttons.
-- **Responsive Toolbar**: Built on top of the Forge toolbar component, this component provides responsive features for adapting the layout and slotted content based on the available space in the layout.
+- **Responsive Toolbar**: Built on top of the Forge toolbar component, this component provides responsive features for adapting the layout of slotted content based on the available space in the layout.
 
 ### Accessibility
 
@@ -61,9 +62,10 @@ Stay tuned for updates on these components as we continue to develop and refine 
 
 ## Governance
 
-Each of these components are reviewed by the Tyler Forge governance board, which is responsible for approving new components and patterns for inclusion in the Forge ecosystem. The governance board is made up of members of the Tyler Forge core team, as well as representatives from divisions across the company who have demonstrated a commitment to the project and its goals.
+Each of these components are reviewed by the Tyler Forge frontend governance board, which is responsible for approving new components and patterns for inclusion in the Forge ecosystem. The governance board is made up of frequent contributors to Tyler Forge, as well as representatives from divisions across the company who have demonstrated a commitment to the project and its goals.
 
-If you're interested in influencing the direction of Forge, we encourage you to get involved with the governance board. You can do this by participating in discussions, providing feedback on proposed components, and contributing to the development of new components.
+If you're interested in influencing the direction of Forge, we encourage you to get involved with the frontend governance board. You can do this by participating in discussions, providing feedback on proposed components, and contributing to the development of new components. We meet regularly to
+discuss the direction of Forge, review proposed components, and discuss other general frontend development topics. If you're interested in getting involved, please reach out to us on Teams or via email, and we'll be happy to add you to the board.
 
 ## Contributing
 
@@ -76,7 +78,7 @@ We want this library to be community-driven, so we encourage you to contribute y
 In addition to Forge Extended, we are also working on a new "blocks" concept (formerly known as "recipes"). You can think of blocks as code snippets, examples, and demos of larger chunks of UI or even full application layouts with a high level of volatility. The idea behind blocks is to create a
 repository of common patterns and layouts that can easily be adapted and molded to your application's needs with minimal effort.
 
-Blocks are not intended to be full blown components, or a final product, but rather a starting point for which you can modify and adapt to your needs.
+Blocks are not intended to be full blown components, or a final product, but rather a starting point which you can modify and adapt to your needs.
 We'll have more information on blocks in a future blog post, but we wanted to mention it here as Forge Extended will be used within blocks to encapsulate redundant design patterns!
 
 ## Conclusion
