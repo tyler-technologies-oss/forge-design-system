@@ -17,17 +17,17 @@ In order to get started with Figma, you'll need to begin a request to gain acces
 
 To request Figma for yourself or your staff, use the Request access to applications or licenses form in the JSM Help Center. You can find the<a href="https://help.center.tylertech.com/servicedesk/customer/portals" target="_blank" rel="noopener noreferrer"> request form here</a>.
 
-From there, follow: Help Center > Tyler Internal Support (IT) > Request access to applications or licenses
+From there, follow: **Help Center > Tyler Internal Support (IT) > Request access to applications or licenses**
 
 
-**On the Request access to applications or licenses form, include the following information:**
+On the **Request access to applications or licenses** form, include the following information:
 
-- Are you submitting this on behalf of someone else (Yes or No)
-- Add additional users for visibility (optional)
-- What can we help you with? For example, enter Figma Subscription(s) for Name(s)
-- Which application(s) do you need access to? Start typing the name of the product rather than scrolling and select the appropriate subscription.
-- Quantity of Licenses Requested. Enter the number of licenses needed.
-- Please provide any additional details that may be relevant. Add relevant information here regarding users who will need the license, etc.
+- **Are you submitting this on behalf of someone else** (Yes or No)
+- **Add additional users for visibility** (optional)
+- **What can we help you with?** For example, enter **Figma Subscription(s) for Name(s)**
+- **Which application(s) do you need access to?** Start typing the name of the product rather than scrolling and select the appropriate subscription.
+- **Quantity of Licenses Requested.** Enter the number of licenses needed.
+- **Please provide any additional details that may be relevant.** Add relevant information here regarding users who will need the license, etc.
 
 Once the ticket is submitted, the requests for paid subscriptions will go to the user’s manager for approval. Once approved, they will head to Licensing for provisioning.
 
