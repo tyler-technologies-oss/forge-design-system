@@ -52,7 +52,7 @@ Key points:
 - We cannot downgrade users prior to true up and upgrade them after. This is violation of the SLA. There will likely be some exceptions around role change, interns, rehires etc. which we will address as they arise.
 
 
-Once you have a Figma account, you're good to go! 
+Once you have a Figma account, sign in with your Tyler SSO and you're good to go! 
 
 If you're having troubles with Figma, or want to learn more about what you can do with it, be sure to check out their <a href="https://help.figma.com/hc/en-us" target="_blank" rel="noopener noreferrer">help docs</a>.
 
