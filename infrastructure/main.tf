@@ -137,7 +137,7 @@ module "forward_index_lambda" {
   }
 }
 
-module "forget_docs_spa" {
+module "forge_docs_spa" {
   source  = "app.terraform.io/tyler-corp/cloudfront/tyl//modules/spa-s3"
   version = "0.8.3"
 
@@ -262,8 +262,8 @@ data "aws_iam_policy_document" "github_oidc_s3_cloudfront" {
     ]
     effect    = "Allow"
     resources = [
-      module.forget_docs_spa.s3_default_bucket_arn,
-      "${module.forget_docs_spa.s3_default_bucket_arn}/*"
+      module.forge_docs_spa.s3_default_bucket_arn,
+      "${module.forge_docs_spa.s3_default_bucket_arn}/*"
     ]
   }
   statement {
@@ -274,7 +274,7 @@ data "aws_iam_policy_document" "github_oidc_s3_cloudfront" {
       "cloudfront:ListInvalidations"
     ]
     effect    = "Allow"
-    resources = [module.forget_docs_spa.cloudfront_distribution_arn]
+    resources = [module.forge_docs_spa.cloudfront_distribution_arn]
   }
 }
 
@@ -295,13 +295,13 @@ resource "aws_iam_role_policy" "github_oidc_s3_cloudfront" {
 resource "github_actions_variable" "doc_s3_bucket" {
   repository      = local.repo
   variable_name   = "AWS_S3_BUCKET_PROD"
-  value           = module.forget_docs_spa.s3_default_bucket_id
+  value           = module.forge_docs_spa.s3_default_bucket_id
 }
 
 resource "github_actions_variable" "doc_distribution_id" {
   repository      = local.repo
   variable_name   = "AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD"
-  value           = module.forget_docs_spa.cloudfront_distribution_id
+  value           = module.forge_docs_spa.cloudfront_distribution_id
 }
 
 resource "github_actions_variable" "doc_bucket-region" {
