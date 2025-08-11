@@ -9,14 +9,14 @@ name: Build and upload to Terraform Cloud
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'infrastructure/**'
       - 'lambda_functions/**'
 
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - 'infrastructure/**'
       - 'lambda_functions/**'
