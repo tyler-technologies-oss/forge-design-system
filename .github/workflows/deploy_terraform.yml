@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       WORKER_DIR: ./infrastructure
-      TF_VAR_auth_secret_arn: "arn:aws:iam::505039608154:role/svc/tfcloud/tcp-app-corpdev-infra-forge-docs-prod-default"
+      TF_VAR_auth_secret_arn: "arn:aws:secretsmanager:us-east-1:505039608154:secret:forge-new/prod/lambda/auth-dGisrk"
     steps:
       - uses: hashicorp/setup-terraform@v1
         name: Setup Terraform
