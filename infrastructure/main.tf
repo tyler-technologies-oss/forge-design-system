@@ -350,23 +350,12 @@ module "forge_cdn_spa" {
   default_root_object = "index.html"
   cloudfront_enabled  = true
   http_version        = "http2"
+  
   default_s3_origin_bucket_names = {
-    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${var.region}"
-    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${var.region}-failover"
+    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-cdn-${var.region}"
+    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-cdn-${var.region}-failover"
   }
 
-  # Keep your existing Lambda@Edge auth on DEFAULT behavior (SPA),
-  # but make assets (fonts/images/metadata) bypass auth.
-  default_behavior_lambda_function_association = {
-    "viewer-request" = {
-      lambda_arn   = module.auth_lambda.lambda_function_qualified_arn
-      include_body = false
-    }
-    "origin-request" = {
-      lambda_arn   = module.forward_index_lambda.lambda_function_qualified_arn
-      include_body = false
-    }
-  }
 
   # Ordered behaviors: put the specific asset paths BEFORE the catch-all "*.*"
   ordered_cache_behavior = [
@@ -416,12 +405,6 @@ module "forge_cdn_spa" {
       forwarded_values = {
         query_string = false
         cookies      = { forward = "none" }
-      }
-      lambda_function_association = {
-        "viewer-request" = {
-          lambda_arn   = module.auth_lambda.lambda_function_qualified_arn
-          include_body = false
-        }
       }
     }
   ]
