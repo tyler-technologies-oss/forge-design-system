@@ -31,7 +31,7 @@ provider "aws" {
 
 provider "github" {
   token = var.GITHUB_TOKEN
-  owner = "tyler-technologies"
+  owner = "tyler-technologies-oss"
 }
 
 data "aws_caller_identity" "current" {}
@@ -226,6 +226,7 @@ module "forge_docs_spa" {
   # Tags
   tags = local.tags
 }
+
 #################################################
 ### ADD OIDC Github action
 data "aws_iam_openid_connect_provider" "github" {
@@ -291,6 +292,7 @@ resource "aws_iam_role_policy" "github_oidc_s3_cloudfront" {
   policy = data.aws_iam_policy_document.github_oidc_s3_cloudfront.json
 }
 
+/*
 ### Githbub variables and secrets
 resource "github_actions_variable" "doc_s3_bucket" {
   repository      = local.repo
@@ -321,6 +323,7 @@ resource "github_actions_secret" "aws_account_id" {
   secret_name = "AWS_ACCOUNT_ID"
   plaintext_value = data.aws_caller_identity.current.account_id
 }
+*/
 
 ##### add CDN domain
 module "forge_cdn_spa" {
