@@ -340,7 +340,7 @@ module "forge_cdn_spa" {
   # and var.domain_name = "forge.tylertech.com")
   route53_root_domain       = var.cdn_parent_zone_name
   # Keep the original hostname AND add the CDN alias on the same distribution.
-  route53_subdomains        = [var.cdn_domain_name]
+  route53_subdomains        = [var.cdn_domain_name,"${var.domain_name}.${var.cdn_domain_name}"]
   alias_route53_root_domain = false
 
   # ACM / TLS
