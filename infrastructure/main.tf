@@ -31,7 +31,7 @@ provider "aws" {
 
 provider "github" {
   token = var.GITHUB_TOKEN
-  owner = "tyler-technologies-oss"
+  owner = local.github_org
 }
 
 data "aws_caller_identity" "current" {}
@@ -41,7 +41,8 @@ data "aws_caller_identity" "current" {}
 #################################################
 
 locals {
-  repo = "forge-docs"
+  github_org = "tyler-technologies-oss"
+  repo       = "forge-design-system/"
   tags = {
     environment = "forge-docs"
     product     = "forge-website"
@@ -249,7 +250,7 @@ data "aws_iam_policy_document" "github_oidc_assume_role" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:tyler-technologies/${local.repo}:*"]
+      values   = ["repo:${local.github_org}/${local.repo}:*"]
     }
   }
 }
