@@ -9,7 +9,7 @@ import { computeStringSimilarity, debounce } from '../utils/utils';
 
 const MORE_ICONS_INCREMENT = 100;
 const SCROLL_THRESHOLD = 500;
-const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-all.json';
+const METADATA_URI = 'https://cdn-new.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-all.json';
 
 type MatchType = 
   | 'exact_name'

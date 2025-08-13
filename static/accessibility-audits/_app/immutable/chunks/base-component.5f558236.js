@@ -12,7 +12,7 @@ function D(e=5){return Math.random().toString(36).substring(2,2+e)}function N(e)
  * @license
  * Copyright 2023 Tyler Technologies, Inc. 
  * License: Apache-2.0
- */const G="forge-",J="tyler-icons",X="https://cdn.forge.tylertech.com/",Y=A(),V=Symbol("ElementInternals"),Q=Symbol("isFocusable"),Z=Symbol("setDefaultAria");/**
+ */const G="forge-",J="tyler-icons",X="https://cdn-new.forge.tylertech.com/",Y=A(),V=Symbol("ElementInternals"),Q=Symbol("isFocusable"),Z=Symbol("setDefaultAria");/**
  * @license
  * Copyright 2023 Tyler Technologies, Inc. 
  * License: Apache-2.0
