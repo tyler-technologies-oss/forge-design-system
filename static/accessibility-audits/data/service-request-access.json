@@ -2449,7 +2449,7 @@
                     "width": 150,
                     "height": 150
                   },
-                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/clipboard-spot.svg\" class=\"report-image-large\">",
+                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/clipboard-spot.svg\" class=\"report-image-large\">",
                   "nodeLabel": "div > div.list-left > div > img.report-image-large",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }
@@ -2468,7 +2468,7 @@
                     "width": 96,
                     "height": 96
                   },
-                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/no-search-results-spot.svg\" class=\"report-image\">",
+                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/no-search-results-spot.svg\" class=\"report-image\">",
                   "nodeLabel": "tcw-card.single-card > div.alginLayout > div > img.report-image",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }
@@ -2487,7 +2487,7 @@
                     "width": 96,
                     "height": 96
                   },
-                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/id-spot.svg\" class=\"report-image\">",
+                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/id-spot.svg\" class=\"report-image\">",
                   "nodeLabel": "div > div.alginLayout > div > img.report-image",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }
@@ -2506,7 +2506,7 @@
                     "width": 96,
                     "height": 96
                   },
-                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/phone-spot.svg\" class=\"report-image\">",
+                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/phone-spot.svg\" class=\"report-image\">",
                   "nodeLabel": "div > div.alginLayout > div > img.report-image",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }
@@ -2525,7 +2525,7 @@
                     "width": 96,
                     "height": 96
                   },
-                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/mobile-app-spot.svg\" class=\"report-image\">",
+                  "snippet": "<img _ngcontent-dep-c154=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/mobile-app-spot.svg\" class=\"report-image\">",
                   "nodeLabel": "div > div.alginLayout > div > img.report-image",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }

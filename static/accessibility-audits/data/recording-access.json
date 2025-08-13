@@ -2355,7 +2355,7 @@
                     "width": 114,
                     "height": 114
                   },
-                  "snippet": "<img _ngcontent-ng-c2942071162=\"\" height=\"114px\" width=\"114px\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/house-spot.svg\">",
+                  "snippet": "<img _ngcontent-ng-c2942071162=\"\" height=\"114px\" width=\"114px\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/house-spot.svg\">",
                   "nodeLabel": "div.content-container > div.container > div.centered > img",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }
@@ -4316,7 +4316,7 @@
                     "width": 114,
                     "height": 114
                   },
-                  "snippet": "<img _ngcontent-ng-c4174076076=\"\" height=\"114px\" width=\"114px\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/house-spot.svg\">",
+                  "snippet": "<img _ngcontent-ng-c4174076076=\"\" height=\"114px\" width=\"114px\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/house-spot.svg\">",
                   "nodeLabel": "div.content-container > div.container > div.centered > img",
                   "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
                 }

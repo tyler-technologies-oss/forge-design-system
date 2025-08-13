@@ -10935,7 +10935,7 @@
 										"width": 72,
 										"height": 72
 									},
-									"snippet": "<img _ngcontent-jcr-c53=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/no-apps-spot.svg\" width=\"11%\" height=\"11%\">",
+									"snippet": "<img _ngcontent-jcr-c53=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/no-apps-spot.svg\" width=\"11%\" height=\"11%\">",
 									"nodeLabel": "tcw-card.main-container > div.column > div.centered > img",
 									"explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
 								}
@@ -15020,7 +15020,7 @@
 										"width": 48,
 										"height": 48
 									},
-									"snippet": "<img _ngcontent-icv-c49=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/bill-pay-spot.svg\" alt=\"Submit invoice\">",
+									"snippet": "<img _ngcontent-icv-c49=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/bill-pay-spot.svg\" alt=\"Submit invoice\">",
 									"nodeLabel": "Submit invoice",
 									"explanation": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
 								}
@@ -15039,7 +15039,7 @@
 										"width": 48,
 										"height": 48
 									},
-									"snippet": "<img _ngcontent-icv-c49=\"\" src=\"https://cdn.forge.tylertech.com/v1/images/spot/calendar-2-spot.svg\" alt=\"Submit a bid\">",
+									"snippet": "<img _ngcontent-icv-c49=\"\" src=\"https://cdn-new.forge.tylertech.com/v1/images/spot/calendar-2-spot.svg\" alt=\"Submit a bid\">",
 									"nodeLabel": "Submit a bid",
 									"explanation": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
 								}

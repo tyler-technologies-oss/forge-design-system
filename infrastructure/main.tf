@@ -361,7 +361,7 @@ module "forge_cdn_spa" {
 
 
   # Ordered behaviors: put the specific asset paths BEFORE the catch-all "*.*"
-  ordered_cache_behavior = [
+ ordered_cache_behavior = [
     {
       path_pattern           = "*/fonts/*"
       viewer_protocol_policy = "redirect-to-https"
@@ -370,7 +370,7 @@ module "forge_cdn_spa" {
       compress               = true
       forwarded_values = {
         query_string = false
-        headers      = ["Origin", "Access-Control-Request-Headers", "Access-Control-Request-Method"]
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
         cookies      = { forward = "none" }
       }
     },
@@ -382,7 +382,7 @@ module "forge_cdn_spa" {
       compress               = true
       forwarded_values = {
         query_string = false
-        headers      = ["Origin", "Access-Control-Request-Headers", "Access-Control-Request-Method"]
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
         cookies      = { forward = "none" }
       }
     },
@@ -394,12 +394,48 @@ module "forge_cdn_spa" {
       compress               = true
       forwarded_values = {
         query_string = false
-        headers      = ["Origin", "Access-Control-Request-Headers", "Access-Control-Request-Method"]
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
         cookies      = { forward = "none" }
       }
     },
     {
-      # Catch-all for direct file hits; keep auth here if you still want it on non-asset files.
+      path_pattern           = "*/icons/*"
+      viewer_protocol_policy = "redirect-to-https"
+      allowed_methods        = ["GET", "HEAD", "OPTIONS"]
+      cached_methods         = ["GET", "HEAD", "OPTIONS"]
+      compress               = true
+      forwarded_values = {
+        query_string = false
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+        cookies      = { forward = "none" }
+      }
+    },
+    {
+      path_pattern           = "*/libs/*"
+      viewer_protocol_policy = "redirect-to-https"
+      allowed_methods        = ["GET", "HEAD", "OPTIONS"]
+      cached_methods         = ["GET", "HEAD", "OPTIONS"]
+      compress               = true
+      forwarded_values = {
+        query_string = false
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+        cookies      = { forward = "none" }
+      }
+    },
+    {
+      path_pattern           = "*/css/*"
+      viewer_protocol_policy = "redirect-to-https"
+      allowed_methods        = ["GET", "HEAD", "OPTIONS"]
+      cached_methods         = ["GET", "HEAD", "OPTIONS"]
+      compress               = true
+      forwarded_values = {
+        query_string = false
+        headers      = ["Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+        cookies      = { forward = "none" }
+      }
+    },
+    {
+      # Catch-all
       path_pattern           = "*.*"
       viewer_protocol_policy = "redirect-to-https"
       allowed_methods        = ["GET", "HEAD"]
