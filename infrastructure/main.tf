@@ -42,7 +42,7 @@ data "aws_caller_identity" "current" {}
 
 locals {
   github_org = "tyler-technologies-oss"
-  repo       = "forge-design-system/"
+  repo       = "forge-design-system"
   tags = {
     environment = "forge-docs"
     product     = "forge-website"
