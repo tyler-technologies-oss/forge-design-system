@@ -329,10 +329,10 @@ module "forge_cdn_spa" {
     aws.failover   = aws.failover
   }
 
-  route53_root_domain       = var.parent_zone_name
-  # Keep the original hostname AND add the CDN alias on the same distribution.
-  route53_subdomains        = [var.cdn_domain_name]
-  alias_route53_root_domain = true
+  route53_root_domain       = "forge.tylertech.com"
+  route53_subdomains        = ["cdn"]
+
+  alias_route53_root_domain = false
 
   # ACM / TLS
   create_acm_cert                     = true
