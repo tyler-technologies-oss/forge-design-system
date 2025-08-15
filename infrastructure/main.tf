@@ -84,7 +84,7 @@ module "auth_lambda" {
   timeout       = 5
 
   create_role = true
-  role_name   = "${var.domain_name}-authlambdaServiceRole"
+  role_name   = "${var.domain_name}-authlambdaServiceRole-${var.environment}-${var.region}"
   attach_policy_json = true
   policy_json = jsonencode({
     Version = "2012-10-17"
@@ -125,7 +125,7 @@ module "forward_index_lambda" {
   timeout       = 5
 
   create_role = true
-  role_name   = "${var.domain_name}-forwardindexlambdaServiceRole"
+  role_name   = "${var.domain_name}-forwardindexlambdaServiceRole-${var.environment}-${var.region}"
 
   create_package         = false
   local_existing_package = data.archive_file.forward_index_zip.output_path
@@ -281,14 +281,14 @@ data "aws_iam_policy_document" "github_oidc_s3_cloudfront" {
 }
 
 resource "aws_iam_role" "github_oidc" {
-  name                 = "${var.domain_name}-github-oidc"
+  name                 = "${var.domain_name}-github-oidc-${var.environment}-${var.region}"
   assume_role_policy   = data.aws_iam_policy_document.github_oidc_assume_role.json
   max_session_duration = 3600
   tags                 = merge(local.tags, { component = "github-oidc-role" })
 }
 
 resource "aws_iam_role_policy" "github_oidc_s3_cloudfront" {
-  name   = "${var.domain_name}-github-oidc-s3-cloudfront"
+  name   = "${var.domain_name}-github-oidc-s3-cloudfront-${var.environment}-${var.region}"
   role   = aws_iam_role.github_oidc.id
   policy = data.aws_iam_policy_document.github_oidc_s3_cloudfront.json
 }
@@ -329,9 +329,9 @@ module "forge_cdn_spa" {
     aws.failover   = aws.failover
   }
 
-  route53_root_domain       = "forge.tylertech.com"
-  route53_subdomains        = ["cdn"]
-
+  route53_root_domain       = var.parent_zone_name
+  # Keep the original hostname AND add the CDN alias on the same distribution.
+  route53_subdomains        = [var.cdn_domain_name]
   alias_route53_root_domain = false
 
   # ACM / TLS

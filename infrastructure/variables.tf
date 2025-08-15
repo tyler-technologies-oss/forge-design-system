@@ -54,3 +54,10 @@ variable "GITHUB_TOKEN" {
   sensitive   = true
   default     = ""
 }
+
+variable "environment" {
+  description = "Current environment"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
