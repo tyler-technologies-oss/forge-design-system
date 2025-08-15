@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       WORKER_DIR: ./infrastructure
-      TF_VAR_auth_secret_arn: "arn:aws:secretsmanager:us-east-1:505039608154:secret:forge-new/prod/lambda/auth-dGisrk"
+      TF_VAR_auth_secret_arn: "arn:aws:secretsmanager:us-east-1:505039608154:secret:forge/prod/lambda/auth-fTrftP"
     steps:
       - uses: hashicorp/setup-terraform@v1
         name: Setup Terraform
@@ -144,5 +144,5 @@ jobs:
       # Terraform Apply (Runs only on the main branch for pushes)
       - name: Terraform Apply
         working-directory: ${{ env.WORKER_DIR }}
-        #if: github.ref == 'refs/heads/main' && contains(fromJson('["push", "workflow_dispatch"]'), github.event_name)
+        if: github.ref == 'refs/heads/main' && contains(fromJson('["push", "workflow_dispatch"]'), github.event_name)
         run: terraform apply -auto-approve

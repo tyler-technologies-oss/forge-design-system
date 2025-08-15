@@ -11,9 +11,9 @@ export default {
   onBrokenAnchors: 'throw',
   favicon: 'img/favicon.ico',
   stylesheets: [
-    'https://cdn-new.forge.tylertech.com/v1/css/tyler-font.css',
-    'https://cdn-new.forge.tylertech.com/v1/css/tyler-icons-standard.css',
-    'https://cdn-new.forge.tylertech.com/v1/css/tyler-icons-extended.css',
+    'https://cdn.forge.tylertech.com/v1/css/tyler-font.css',
+    'https://cdn.forge.tylertech.com/v1/css/tyler-icons-standard.css',
+    'https://cdn.forge.tylertech.com/v1/css/tyler-icons-extended.css',
   ],
 
   
@@ -145,7 +145,7 @@ export default {
       footer: {
         style: 'light',
         copyright: `Copyright © ${new Date().getFullYear()} Tyler Technologies, Inc.<br/><small>Licensed under CC BY 4.0</small>`,
-        logo: { alt: 'Tyler Forge™ Design System Logo', src: 'https://cdn-new.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg' },
+        logo: { alt: 'Tyler Forge™ Design System Logo', src: 'https://cdn.forge.tylertech.com/v1/images/branding/forge/forge-logo-full-color.svg' },
         links: [
           {
             title: 'Learn',
@@ -183,7 +183,7 @@ export default {
         title: 'Tyler Forge™',
         logo: {
           alt: 'Forge logo',
-          src: 'https://cdn-new.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
+          src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
         },
         items: [
           { label: 'Get started', to: '/get-started' },

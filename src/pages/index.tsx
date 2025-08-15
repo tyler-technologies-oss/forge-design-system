@@ -30,19 +30,19 @@ function HomepageHero() {
       </HeroCard>
 
       <HeroCard title="Figma">
-        <img src="https://cdn-new.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
+        <img src="https://cdn.forge.tylertech.com/v1/images/spot/web-components-spot.svg" alt="" />
         <p>Explore, build, and prototype with our components using the Figma library.</p>
         <LinkButton href="https://www.figma.com/files/team/656897661529540916/Tyler-Tech---Tyler-Team?fuid=865239178726812151">Figma library</LinkButton>
       </HeroCard>
 
       <HeroCard title="Storybook">
-        <img src="https://cdn-new.forge.tylertech.com/v1/images/spot/layout-spot.svg" alt="" />
+        <img src="https://cdn.forge.tylertech.com/v1/images/spot/layout-spot.svg" alt="" />
         <p>Developer guides, component documentation, live demos, and contribution details.</p>
         <LinkButton href="https://forge.tylerdev.io">Storybook</LinkButton>
       </HeroCard>
 
       <HeroCard title="Code">
-      <img src="https://cdn-new.forge.tylertech.com/v1/images/spot/developer-spot.svg" alt="" />
+      <img src="https://cdn.forge.tylertech.com/v1/images/spot/developer-spot.svg" alt="" />
         <p>Clone the Forge component library, create pull requests, and browse the library file structure.</p>
         <LinkButton href="https://github.com/tyler-technologies-oss/forge">Code</LinkButton>
       </HeroCard>
@@ -119,7 +119,7 @@ function ContributionCategories() {
       <div className={styles.contributionCategoriesContainer}>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
           <h2>Designers</h2>
-          <img src="https://cdn-new.forge.tylertech.com/v1/images/spot/pencil-spot.svg" alt="" />
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/pencil-spot.svg" alt="" />
           <p>Do you have some ideas on how various components or layouts look and feel?</p>
           <Link to="/assets/designer-assets/figma">
             <button type="button" className="button button--primary">Contribute as a designer</button>
@@ -127,7 +127,7 @@ function ContributionCategories() {
         </div>
         <div className={clsx('card card--outlined', styles.contributionCard)}>
           <h2>Developers</h2>
-          <img src="https://cdn-new.forge.tylertech.com/v1/images/spot/blueprints-spot.svg" alt="" />
+          <img src="https://cdn.forge.tylertech.com/v1/images/spot/blueprints-spot.svg" alt="" />
           <p>Have you or your team created something new with our components and want to share it with Forge?</p>
           <LinkButton href="https://forge.tylerdev.io/main/?path=/docs/guides-getting-started--page">Contribute as a developer</LinkButton>
         </div>

@@ -3,7 +3,7 @@ import InputField from '../controls/text-input/text-input';
 import styles from './illustration-library.module.css';
 
 const MORE_ILLUSTRATIONS_INCREMENT = 24;
-const METADATA_URI = 'https://cdn-new.forge.tylertech.com/v1/metadata/illustrations/illustration-metadata.json';
+const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/illustrations/illustration-metadata.json';
 
 interface IIllustration {
   name: string;

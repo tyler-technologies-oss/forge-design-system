@@ -9,7 +9,6 @@ on:
   push:
     branches:
       - main
-      - chore/migrate-to-terraform
     paths-ignore:
       - 'infrastructure/**'
       - 'lambda_functions/**'
@@ -67,9 +66,9 @@ jobs:
       - name: Configure AWS Credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::505039608154:role/forge-new-github-oidc
+          role-to-assume: ${{ secrets.AWS_GITHUB_ODIC_ROLE_ARN }}
           aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
       - name: Deploy AWS
         run: |
-          aws s3 sync build s3://forge-docs-assets-forge-new-us-east-1/ --region ${{ secrets.AWS_S3_BUCKET_REGION }} --delete --cache-control=no-cache,no-store,must-revalidate --acl private
-          aws cloudfront create-invalidation --distribution-id EZG282H6PA8GQ --paths "/*"
+          aws s3 sync build s3://${{ secrets.AWS_S3_BUCKET_PROD }} --region ${{ secrets.AWS_S3_BUCKET_REGION }} --delete --cache-control=no-cache,no-store,must-revalidate --acl private
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_S3_BUCKET_PRODAWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }} --paths "/*"

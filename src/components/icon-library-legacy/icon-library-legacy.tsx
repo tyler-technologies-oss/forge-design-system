@@ -3,7 +3,7 @@ import InputField from '../controls/text-input/text-input';
 import styles from './icon-library-legacy.module.css';
 
 const MORE_ICONS_INCREMENT = 80;
-const METADATA_URI = 'https://cdn-new.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-svg.v1.json';
+const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-svg.v1.json';
 
 interface IIconSet {
   identifier: string;

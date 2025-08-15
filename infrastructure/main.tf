@@ -293,7 +293,7 @@ resource "aws_iam_role_policy" "github_oidc_s3_cloudfront" {
   policy = data.aws_iam_policy_document.github_oidc_s3_cloudfront.json
 }
 
-/*
+/
 ### Githbub variables and secrets
 resource "github_actions_variable" "doc_s3_bucket" {
   repository      = local.repo
@@ -315,16 +315,11 @@ resource "github_actions_variable" "doc_bucket-region" {
 
 resource "github_actions_variable" "aws_github_oidc_role" {
   repository      = local.repo
-  variable_name   = "AWS_GITHUB_OIDC_ROLE"
-  value           = aws_iam_role.github_oidc.name
+  variable_name   = "AWS_GITHUB_OIDC_ROLE_ARN"
+  value           = aws_iam_role.github_oidc.arn
 }
 
-resource "github_actions_secret" "aws_account_id" {
-  repository  = local.repo
-  secret_name = "AWS_ACCOUNT_ID"
-  plaintext_value = data.aws_caller_identity.current.account_id
-}
-*/
+
 
 ##### add CDN domain
 module "forge_cdn_spa" {
