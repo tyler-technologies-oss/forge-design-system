@@ -140,7 +140,7 @@ module "forward_index_lambda" {
 
 module "forge_docs_spa" {
   source  = "app.terraform.io/tyler-corp/cloudfront/tyl//modules/spa-s3"
-  version = "0.8.3"
+  version = "0.8.4"
 
   providers = {
     aws.cloudfront = aws.cloudfront
@@ -250,7 +250,7 @@ data "aws_iam_policy_document" "github_oidc_assume_role" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${local.github_org}/${local.repo}:*"]
+      values   = ["repo:${local.github_org}/*:*"]
     }
   }
 }
@@ -321,7 +321,7 @@ resource "github_actions_variable" "aws_github_oidc_role" {
 ##### add CDN domain
 module "forge_cdn_spa" {
   source  = "app.terraform.io/tyler-corp/cloudfront/tyl//modules/spa-s3"
-  version = "0.8.3"
+  version = "0.8.4"
 
   providers = {
     aws.cloudfront = aws.cloudfront
