@@ -157,8 +157,8 @@ module "forge_docs_spa" {
 
   # Domain setup
   route53_root_domain       = var.parent_zone_name
-  route53_subdomains        = [var.domain_name]
-  alias_route53_root_domain = false
+  route53_subdomains        = []
+  alias_route53_root_domain = true
 
   # ACM and SSL
   create_acm_cert                     = true
