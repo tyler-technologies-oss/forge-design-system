@@ -274,7 +274,9 @@ data "aws_iam_policy_document" "github_oidc_s3_cloudfront" {
     effect    = "Allow"
     resources = [
       module.forge_docs_spa.s3_default_bucket_arn,
-      "${module.forge_docs_spa.s3_default_bucket_arn}/*"
+      "${module.forge_docs_spa.s3_default_bucket_arn}/*",
+      module.forge_cdn_spa.s3_default_bucket_arn,
+      "${module.forge_cdn_spa.s3_default_bucket_arn}/*"
     ]
   }
   statement {
