@@ -22,6 +22,13 @@ variable "cdn_domain_name" {
   default     = ""
 }
 
+variable "parent_cdn_zone_name" {
+  description = "The root Route 53 zone to use for CDN DNS records"
+  type        = string
+  default     = ""
+}
+
+
 variable "s3_docs_bucket_name_prefix" {
   description = "S3 bucket name for the documentation"
   type        = string
