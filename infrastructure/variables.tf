@@ -68,3 +68,8 @@ variable "environment" {
   sensitive   = true
   default     = ""
 }
+
+variable "namespace" {
+  type        = string
+  description = "Namespace or environment name"
+}
