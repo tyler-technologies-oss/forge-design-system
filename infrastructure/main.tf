@@ -165,8 +165,8 @@ module "forge_docs_spa" {
   http_version        = "http2"
 
   default_s3_origin_bucket_names = {
-    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${var.region}"
-    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${var.region}-failover"
+    primary_bucket_name  = "forge-website-prod-s3assets51e60022-kjsov7sodjij"
+    failover_bucket_name = "forge-website-prod-s3assets51e60022-kjsov7sodjij-failover"
   }
 
   # Lambda@Edge for default cache behavior
@@ -346,8 +346,8 @@ module "forge_cdn_spa" {
   http_version        = "http2"
   
   default_s3_origin_bucket_names = {
-    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-cdn-${var.region}"
-    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-cdn-${var.region}-failover"
+    primary_bucket_name  = "tylerforge-s3assets51e60022-1ols9p4m4dr5y"
+    failover_bucket_name = "tylerforge-s3assets51e60022-1ols9p4m4dr5y-failover"
   }
 
 
