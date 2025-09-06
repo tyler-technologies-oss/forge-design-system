@@ -9,7 +9,6 @@ on:
   push:
     branches:
       - main
-      #- chore/migrate-cdk-to-terraform
     paths-ignore:
       - 'infrastructure/**'
       - 'lambda_functions/**'

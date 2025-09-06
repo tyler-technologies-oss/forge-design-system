@@ -144,5 +144,5 @@ jobs:
       # Terraform Apply (Runs only on the main branch for pushes)
       - name: Terraform Apply
         working-directory: ${{ env.WORKER_DIR }}
-        #if: github.ref == 'refs/heads/main' && contains(fromJson('["push", "workflow_dispatch"]'), github.event_name)
+        if: github.ref == 'refs/heads/main' && contains(fromJson('["push", "workflow_dispatch"]'), github.event_name)
         run: terraform apply -auto-approve
