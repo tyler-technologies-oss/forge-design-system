@@ -138,6 +138,13 @@ module "forward_index_lambda" {
   }
 }
 
+resource "random_string" "docs_bucket_suffix" {
+  length  = 6
+  upper   = false
+  numeric = true
+  special = false
+}
+
 module "forge_docs_spa" {
   source  = "app.terraform.io/tyler-corp/cloudfront/tyl//modules/spa-s3"
   version = "0.8.4"
@@ -165,8 +172,8 @@ module "forge_docs_spa" {
   http_version        = "http2"
 
   default_s3_origin_bucket_names = {
-    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}"
-    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-failover"
+    primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${random_string.docs_bucket_suffix.result}"
+    failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${random_string.docs_bucket_suffix.result}-failover"
   }
 
   # Lambda@Edge for default cache behavior
@@ -319,6 +326,14 @@ resource "github_actions_variable" "aws_github_oidc_role" {
 }
 
 ##### add CDN domain
+resource "random_string" "cdn_bucket_suffix" {
+  length  = 6
+  upper   = false
+  numeric = true
+  special = false
+}
+
+
 module "forge_cdn_spa" {
   source  = "app.terraform.io/tyler-corp/cloudfront/tyl//modules/spa-s3"
   version = "0.8.4"
@@ -346,8 +361,8 @@ module "forge_cdn_spa" {
   http_version        = "http2"
   
   default_s3_origin_bucket_names = {
-    primary_bucket_name  = "tylerforge-s3asset-${var.domain_name}-cdn"
-    failover_bucket_name = "tylerforge-s3asset-${var.domain_name}-cdn-failover"
+    primary_bucket_name  = "tylerforge-s3asset-${var.domain_name}-${random_string.cdn_bucket_suffix.result}-cdn"
+    failover_bucket_name = "tylerforge-s3asset-${var.domain_name}-${random_string.cdn_bucket_suffix.result}-cdn-failover"
   }
 
 
