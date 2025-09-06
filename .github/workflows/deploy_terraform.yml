@@ -1,0 +1,148 @@
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read  # This is required for actions/checkout
+  issues: write
+  pull-requests: write
+
+name: Build and upload to Terraform Cloud
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'infrastructure/**'
+      - 'lambda_functions/**'
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'infrastructure/**'
+      - 'lambda_functions/**'
+
+jobs:
+  build-deploy-lambda:
+    name: Build and Deploy Lambda Functions with Terraform
+    runs-on: ubuntu-latest
+    env:
+      WORKER_DIR: ./infrastructure
+      TF_VAR_auth_secret_arn: "arn:aws:secretsmanager:us-east-1:505039608154:secret:forge/prod/lambda/auth-fTrftP"
+    steps:
+      - uses: hashicorp/setup-terraform@v1
+        name: Setup Terraform
+        with:
+          cli_config_credentials_token: ${{ secrets.FORGE_DOCS_TERRAFORM_TOKEN }}
+
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Build auth Lambda Package
+        run: |
+          cd ./lambda_functions/auth && npm install && npm run build && mkdir ../../infrastructure/auth && cp dist/index.js ../../infrastructure/auth/index.js
+
+      - name: Build forward_index Lambda Package
+        run: |
+          cd ./lambda_functions/forward_index && npm install && npm run build && mkdir ../../infrastructure/forward_index && cp dist/index.js ../../infrastructure/forward_index/index.js
+        
+      # Terraform Init (Always runs)
+      - name: Terraform Init
+        working-directory: ${{ env.WORKER_DIR }}
+        id: init
+        run: terraform init
+
+      # Terraform Plan (Always runs)
+      - name: Terraform Plan
+        working-directory: ${{ env.WORKER_DIR }}
+        id: plan
+        if: contains(fromJson('["pull_request", "workflow_dispatch"]'), github.event_name) 
+        run: |
+          terraform plan -no-color 2>&1 | tee /tmp/plan.txt
+          sed -i '/Refreshing state.../d' /tmp/plan.txt
+          sed -i '/::debug::/d' /tmp/plan.txt
+          sed -i '/::set-output/d' /tmp/plan.txt
+        continue-on-error: true
+
+      - name: Terraform Plan Upload
+        id: plan-upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: terraform-plan
+          path: /tmp/plan.txt
+
+      - name: Terraform Plan Output
+        id: plan-out
+        uses: actions/github-script@v4
+        if: contains(fromJson('["pull_request"]'), github.event_name)
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Split long plans into multiple chunks for appropriate comment sizes
+            function chunkSubstr(str, size) {
+              const numChunks = Math.ceil(str.length / size)
+              const chunks = new Array(numChunks)
+              for (let i = 0, o = 0; i < numChunks; ++i, o += size) {
+                chunks[i] = str.substr(o, size)
+              }
+              return chunks
+            }
+
+            // Check if plan was successful
+            var planOutcome;
+            switch (${{ steps.plan.outputs.exitcode }}) {
+              case 0:
+                planOutcome = 'success'
+                break;
+              default:
+                planOutcome = 'failure'
+            }
+
+            // read plan file and chunk plan output into blocks of 60k chars max due to github comment length limits.
+            const fs = require("fs");
+            const plan = chunkSubstr(fs.readFileSync("/tmp/plan.txt", "utf8"), 60000);
+
+            // primary plan comment output for first pr comment on long/short plans.
+            var commentHeader = `#### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`\n#### Terraform Plan 📖\`${planOutcome}\`\n`
+            var summaryTitle = `Show Plan`
+            var longPlan = ((plan.length > 1) ? '\nPlan output continued below...' : '')
+
+            // loop through chunked plan output and generate a comment for each 'chunk'
+            for (let i = 0, output = ""; i < plan.length; ++i) {
+              // long plan comment output for subsequent comments on long plans.
+              if (i > 0) {
+                commentHeader = `#### ...continued\n`
+                summaryTitle = `Show Plan Continuation...`
+                if (i == plan.length - 1) {
+                  longPlan = ''
+                }
+              }
+              output = `${commentHeader}
+              <details><summary>${summaryTitle}</summary>\n
+
+              \`\`\`\n
+              ${plan[i]}
+              \`\`\`
+
+              </details>\n
+
+              *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*
+              ${longPlan}`;
+
+              await github.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: output
+              })
+            }
+
+      - name: Terraform Plan Status
+        working-directory: ${{ env.WORKER_DIR }}
+        if: steps.plan.outputs.exitcode != 0
+        run: exit 1
+
+      # Terraform Apply (Runs only on the main branch for pushes)
+      - name: Terraform Apply
+        working-directory: ${{ env.WORKER_DIR }}
+        if: github.ref == 'refs/heads/main' && contains(fromJson('["push", "workflow_dispatch"]'), github.event_name)
+        run: terraform apply -auto-approve

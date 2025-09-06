@@ -1,0 +1,17 @@
+{
+  "name": "forward_index",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && esbuild ./index.js --bundle --platform=node --target=es2022 --outfile=dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.25.6",
+    "rimraf": "^6.0.1"
+  }
+}

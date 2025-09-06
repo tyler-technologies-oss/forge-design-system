@@ -1,0 +1,39 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run typecheck && npm run bundle",
+    "typecheck": "tsc --noEmit",
+    "bundle": "esbuild ./index.ts --bundle --platform=node --target=es2022 --tsconfig=./tsconfig.json --define:process.env.AUTH_SECRET_ARN=\\\"${TF_VAR_auth_secret_arn}\\\" --outfile=dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.150",
+    "@types/cookie": "^0.6.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/jwk-to-pem": "^2.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "esbuild": "^0.25.6",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  },
+  "include": [
+    "*.ts"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.848.0",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.11.0",
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.7"
+  }
+}

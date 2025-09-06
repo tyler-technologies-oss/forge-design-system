@@ -1,9 +1,17 @@
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read  # This is required for actions/checkout
+  issues: write
+  pull-requests: write
 name: Deploy
 
 on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'infrastructure/**'
+      - 'lambda_functions/**'
   workflow_dispatch:
 
 concurrency: deploy-${{ github.ref }}
@@ -55,14 +63,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Configure AWS Credentials
+      - name: Configure AWS Credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
-          aws-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
-
+          role-to-assume: ${{ vars.AWS_GITHUB_ODIC_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_S3_BUCKET_REGION }}
       - name: Deploy AWS
         run: |
-          aws s3 sync build s3://${{ secrets.AWS_S3_BUCKET_PROD }}/ --region ${{ secrets.AWS_S3_BUCKET_REGION }} --delete --cache-control=no-cache,no-store,must-revalidate --acl private
-          aws cloudfront create-invalidation --distribution-id  ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }} --paths "/*"
+          aws s3 sync build s3://${{ vars.AWS_S3_BUCKET_PROD }}/ --region ${{ vars.AWS_S3_BUCKET_REGION }} --delete --cache-control=no-cache,no-store,must-revalidate --acl private
+          aws cloudfront create-invalidation --distribution-id  ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROD }} --paths "/*"
