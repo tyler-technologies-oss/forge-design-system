@@ -171,6 +171,8 @@ module "forge_docs_spa" {
   cloudfront_enabled  = true
   http_version        = "http2"
 
+  s3_deploy_oidc_role_arn = aws_iam_role.github_oidc.arn
+
   default_s3_origin_bucket_names = {
     primary_bucket_name  = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${random_string.docs_bucket_suffix.result}"
     failover_bucket_name = "${var.s3_docs_bucket_name_prefix}-${var.domain_name}-${random_string.docs_bucket_suffix.result}-failover"
@@ -360,6 +362,8 @@ module "forge_cdn_spa" {
   default_root_object = "index.html"
   cloudfront_enabled  = true
   http_version        = "http2"
+
+  s3_deploy_oidc_role_arn = aws_iam_role.github_oidc.arn
   
   default_s3_origin_bucket_names = {
     primary_bucket_name  = "tylerforge-s3asset-${var.domain_name}-${random_string.cdn_bucket_suffix.result}-cdn"
