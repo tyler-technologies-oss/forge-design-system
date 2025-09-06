@@ -28,12 +28,12 @@ provider "aws" {
     tags = local.tags
   }
 }
-
+/*
 provider "github" {
   token = var.GITHUB_TOKEN
   owner = local.github_org
 }
-
+*/
 data "aws_caller_identity" "current" {}
 
 #################################################
@@ -301,6 +301,7 @@ resource "aws_iam_role_policy" "github_oidc_s3_cloudfront" {
 }
 
 ### Githbub variables and secrets
+/*
 resource "github_actions_variable" "doc_s3_bucket" {
   repository      = local.repo
   variable_name   = "AWS_S3_BUCKET_PROD"
@@ -324,7 +325,7 @@ resource "github_actions_variable" "aws_github_oidc_role" {
   variable_name   = "AWS_GITHUB_OIDC_ROLE_ARN"
   value           = aws_iam_role.github_oidc.arn
 }
-
+*/
 ##### add CDN domain
 resource "random_string" "cdn_bucket_suffix" {
   length  = 6
