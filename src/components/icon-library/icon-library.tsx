@@ -5,10 +5,32 @@ import InputField from '../controls/text-input/text-input';
 import styles from './icon-library.module.css';
 import CodeBlock from '@site/src/theme/CodeBlock';
 import CopyButton from '@site/src/theme/CodeBlock/CopyButton';
+import { computeStringSimilarity, debounce } from '../utils/utils';
 
 const MORE_ICONS_INCREMENT = 100;
 const SCROLL_THRESHOLD = 500;
 const METADATA_URI = 'https://cdn.forge.tylertech.com/v1/metadata/icons/tyler-icons-metadata-all.json';
+
+type MatchType = 
+  | 'exact_name'
+  | 'name_prefix' 
+  | 'name_contains'
+  | 'name_fuzzy'
+  | 'exact_keyword'
+  | 'keyword_prefix'
+  | 'keyword_contains'
+  | 'keyword_fuzzy';
+
+const MATCH_TYPE_PRIORITY: Record<MatchType, number> = {
+  'exact_name': 1,
+  'name_prefix': 2,
+  'name_contains': 3,
+  'name_fuzzy': 4,
+  'exact_keyword': 5,
+  'keyword_prefix': 6,
+  'keyword_contains': 7,
+  'keyword_fuzzy': 8
+} as const;
 
 interface IIconContext {
   currentIcon: IIcon | null;
@@ -59,7 +81,7 @@ export default function IconLibrary() {
 
   return (
     <IconContext.Provider value={{ currentIcon, setCurrentIcon }}>
-      <InputField onInput={handleFilter} placeholder="Filter..." />
+      <InputField onInput={debounce(handleFilter)} placeholder="Filter..." />
       {isLoading && <div className={styles.loading}>
         <Loading />
       </div>}
@@ -114,18 +136,96 @@ function IconGrid({ icons, filterText }) {
   }
 
   function filterIcons(icons) {
-    const lowerCaseFilterText = filterText.trim().toLowerCase();
-  
-    return icons.filter(icon => {
-      const nameMatches = icon.name?.trim().toLowerCase().includes(lowerCaseFilterText);
-      const keywordsMatch = icon.keywords?.some(kw =>
-        kw.trim().toLowerCase().includes(lowerCaseFilterText)
-      );
-  
-      return nameMatches || keywordsMatch;
+    if (!filterText?.trim()) {
+      return icons;
+    }
+    
+    const query = filterText.trim().toLowerCase();
+    const results = [];
+    
+    for (const icon of icons) {
+      const iconName = icon.name?.trim().toLowerCase() || '';
+      const keywords = icon.keywords?.map(kw => kw.trim().toLowerCase()) || [];
+      
+      let bestMatch = {
+        icon,
+        score: 0,
+        matchType: 'none',
+        matchedTerm: ''
+      };
+      
+      // 1. Check for exact name match (highest priority)
+      if (iconName === query) {
+        bestMatch = { icon, score: 1, matchType: 'exact_name', matchedTerm: iconName };
+      }
+      // 2. Check if name starts with query
+      else if (iconName.startsWith(query)) {
+        bestMatch = { icon, score: 0.9, matchType: 'name_prefix', matchedTerm: iconName };
+      }
+      // 3. Check if name contains query
+      else if (iconName.includes(query)) {
+        bestMatch = { icon, score: 0.8, matchType: 'name_contains', matchedTerm: iconName };
+      }
+      // 4. Check fuzzy name match (for typos)
+      else if (iconName.length > 0) {
+        const nameSimilarity = computeStringSimilarity(iconName, query);
+        if (nameSimilarity >= 0.6) { // Adjust threshold as needed
+          bestMatch = { icon, score: nameSimilarity * 0.7, matchType: 'name_fuzzy', matchedTerm: iconName };
+        }
+      }
+      
+      // 5. Check keyword matches (lower priority than name matches)
+      for (const keyword of keywords) {
+        let keywordScore = 0;
+        let keywordMatchType = 'none';
+        
+        if (keyword === query) {
+          keywordScore = 0.6; // Lower than name matches
+          keywordMatchType = 'exact_keyword';
+        } else if (keyword.startsWith(query)) {
+          keywordScore = 0.5;
+          keywordMatchType = 'keyword_prefix';
+        } else if (keyword.includes(query)) {
+          keywordScore = 0.4;
+          keywordMatchType = 'keyword_contains';
+        } else {
+          const keywordSimilarity = computeStringSimilarity(keyword, query);
+          if (keywordSimilarity >= 0.7) {
+            keywordScore = keywordSimilarity * 0.3;
+            keywordMatchType = 'keyword_fuzzy';
+          }
+        }
+        
+        // Update best match if this keyword scores higher
+        if (keywordScore > bestMatch.score) {
+          bestMatch = { icon, score: keywordScore, matchType: keywordMatchType, matchedTerm: keyword };
+        }
+      }
+      
+      // Only include icons with meaningful matches
+      if (bestMatch.score > 0) {
+        results.push(bestMatch);
+      }
+    }
+    
+    // Sort by score (descending), then by match type priority, then alphabetically    
+    results.sort((a, b) => {
+      // First sort by score
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+
+      // Then by match type priority
+      if (MATCH_TYPE_PRIORITY[a.matchType] !== MATCH_TYPE_PRIORITY[b.matchType]) {
+        return MATCH_TYPE_PRIORITY[a.matchType] - MATCH_TYPE_PRIORITY[b.matchType];
+      }
+
+      // Finally alphabetically by icon name
+      return (a.icon.name || '').localeCompare(b.icon.name || '');
     });
-  }
-  
+    
+    return results.map(result => result.icon);
+  } 
 
   return (
     <>
