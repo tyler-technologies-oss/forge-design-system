@@ -1,0 +1,23 @@
+.container {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.doDontContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.doDontTitle {
+  color: var(--forge-theme-text-secondary);
+  font-size: 14px;
+}
+
+.doDont {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 16px;
+}

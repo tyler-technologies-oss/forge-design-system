@@ -1,0 +1,94 @@
+.empty {
+  padding: 16px;
+}
+
+.group {
+  margin-bottom: 48px;
+}
+
+.group > h2 {
+  margin: 16px 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 290px));
+  gap: 16px;
+}
+
+.itemAnchor {
+  color: var(--ifm-heading-color);
+}
+
+.itemAnchor:hover {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+  outline: 2px solid var(--ifm-color-primary);
+  border-radius: 2px;
+}
+
+.componentCard {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  height: 130px;
+}
+
+.descriptionContainer {
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.headerText {
+  font-weight: bold;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 2px;
+}
+
+.descriptionContainerText {
+  flex: 1;
+  font-size: 12px;
+  line-height: 0.875rem;
+}
+
+.thumbnail {
+  flex: 1;
+  height: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1620px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* when the drawer collapses */
+@media screen and (max-width: 997px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 660px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}

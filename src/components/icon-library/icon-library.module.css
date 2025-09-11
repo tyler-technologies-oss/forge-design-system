@@ -1,0 +1,195 @@
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+  width: calc(100% - 2px);
+  margin-block: 16px;
+}
+
+.skeleton {
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: rgba(130, 130, 130, 0.2);
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(130, 130, 130, 0.2)), color-stop(18%, rgba(130, 130, 130, 0.3)), color-stop(33%, rgba(130, 130, 130, 0.2)));
+  background: linear-gradient(to right, rgba(130, 130, 130, 0.2) 8%, rgba(130, 130, 130, 0.3) 18%, rgba(130, 130, 130, 0.2) 33%);
+  background-size: 800px 100px;
+  animation: wave-squares 2s infinite ease-out;
+}
+
+@keyframes wave-squares {
+  0% {
+      background-position: -468px 0;
+  }
+   100% {
+      background-position: 468px 0;
+  }
+}
+
+.iconContainer {
+  background-color: var(--forge-theme-surface);
+  outline: 1px solid var(--forge-theme-border);
+  margin-left: 1px;
+  display: grid;
+  place-content: center;
+  height:100%;
+  min-height: 100px;
+  border: none;
+}
+
+.iconContainer:hover {
+  cursor: pointer;
+  background-color: var(--forge-theme-surface-container-minimum);
+}
+
+.iconContainer:focus-within {
+  outline: 2px solid var(--ifm-color-primary);
+}
+
+.iconContainerInner {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 16px;
+}
+
+
+.icon {
+  color: var(--forge-theme-text-primary);
+  font-size: 32px;
+  justify-self: center;
+}
+
+.icon > svg {
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.iconLabel {
+  color: var(--forge-theme-text-secondary);
+  font-size: 12px;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.dialog {
+  --dialog-gap: 24px;
+  --ifm-pre-padding: 8px;
+
+  background-color: var(--forge-theme-surface);
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+  position: fixed;
+  max-width: 768px;
+}
+
+.dialog::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding-inline: 16px;
+  border-bottom: 1px solid var(--forge-theme-border);
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.dialogTitle {
+  margin: 0 !important;
+}
+
+.closeButton {
+  fill: currentColor;
+  height: 28px;
+  width: 28px;
+  margin-inline-end: 4px;
+}
+
+.dialogInnerContainer {
+  display: grid;
+  grid-template-columns: 198px 1fr;
+  gap: var(--dialog-gap);
+  padding: 16px;
+}
+
+.dialogIcon {
+  background: repeating-conic-gradient(var(--forge-theme-surface-container-minimum) 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+  fill: var(--forge-theme-text-primary);
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.actionsContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.codeBlockContainer {
+  --ifm-leading: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--dialog-gap);
+  overflow: auto;
+}
+
+.copyButton {
+  fill: var(--forge-theme-text-secondary);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  place-items: center;
+}
+
+.codeBlock {
+  width: 100%;
+  margin-bottom: 0;
+  min-width: 0;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: var(--ifm-pre-padding);
+}
+
+.emptyState > svg {
+  fill: var(--forge-theme-text-primary);
+  height: 64px;
+  width: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  .dialog {
+    max-width: 100%;
+    margin-inline: 16px;
+  }
+
+  .dialogInnerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+}

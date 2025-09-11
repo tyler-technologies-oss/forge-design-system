@@ -1,0 +1,19 @@
+.recipeDemoIframe {
+  border: 1px solid var(--forge-theme-border);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.demoContainer {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.componentList {
+  margin: 16px 0;
+}
+
+.componentList a {
+  text-transform: capitalize;
+}

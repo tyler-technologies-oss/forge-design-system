@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconLabel {
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.iconDo {
+  color: var(--forge-theme-success);
+}
+
+.iconDont {
+  color: var(--forge-theme-danger);
+}
+
+.iconCaution {
+  color: var(--forge-theme-text-secondary);
+}
+
+.iconContainerHorizontal {
+  display: flex;
+}
+
+.iconHorizontal {
+  margin-right: 16px;
+  align-self: flex-start;
+}
+
+.captionTitle {
+  margin: 8px 0;
+}
+
+.caption {
+  color: var(--forge-theme-text-secondary);
+  margin: 8px 0;
+}
+
+.captionHorizontal {
+  margin: 0;
+}

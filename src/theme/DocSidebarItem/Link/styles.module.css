@@ -1,0 +1,20 @@
+/**
+ * Swizzle: added container for recipe badge
+ */
+
+.menuExternalLink {
+  align-items: center;
+}
+
+.menuExternalLinkContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 4px;
+}
+
+.menuExternalLinkEndContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

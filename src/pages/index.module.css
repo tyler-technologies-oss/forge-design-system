@@ -1,0 +1,140 @@
+.hero {
+  --hero-gradient-light: #50577C;
+  --hero-gradient-dark: #213189;
+  --hero-gradient-darkest: #222C62;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 400px;
+  padding: 48px;
+  background: url("/img/forge-home-hero.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before {
+  position: absolute;
+  inset: 0;
+  content: '';
+  opacity: 0.9;
+  background: radial-gradient(117.16% 87.62% at 117.54% 50%, var(--forge-theme-primary, #3F51B5) 0%, var(--forge-theme-on-primary-container, #222C62) 100%);
+}
+
+[data-theme='dark'] .hero::before {
+  background: radial-gradient(117.16% 87.62% at 117.54% 50%, #50577C 0%, #303134 100%);
+}
+
+.heroTitleContainer {
+  display: grid;
+  gap: 16px;
+  z-index: 1;
+  color: var(--forge-theme-text-high-hero);
+  max-width: 550px;
+}
+
+.customBadge {
+  color: #213189;
+  background-color: #D0D7FF;
+  border: none;
+}
+
+[data-theme='dark'] .customBadge {
+  color: #FFEEBC;
+  background-color: #5F5741;
+  border: none;
+}
+
+.heroTitleContainer p {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.heroTitleContainer a {
+  width: fit-content;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(360px, 360px) );
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px;
+}
+
+.homeCard {
+  width: 360px;
+}
+
+.homeCardIllo {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  height: 264px;
+  background-color: var(--forge-theme-tertiary-container-minimum);
+}
+
+[data-theme='dark'] .homeCardIllo  {
+  background-color: #34332f;
+}
+
+.homeCardIllo img {
+  height: 220px;
+  width: 220px;
+}
+
+[data-theme='dark'] .homeCardIllo img  {
+  mix-blend-mode: difference;
+}
+
+[data-theme='dark'] .homeCardIllo img {
+  filter: grayscale(50%);
+}
+
+.homeCardInnerContent {
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.homeCardInnerContent p,h2 {
+  margin: 0;
+}
+
+.homeCardAnchor {
+  color: var(--forge-theme-text-high);
+}
+
+.homeCardAnchor:hover {
+  text-decoration: none;
+}
+
+.homeCard h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.homeCard p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--forge-theme-text-high);
+}
+
+.fitContent {
+  width: fit-content;
+}
+
+@media screen and (max-width: 640px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .homeCard {
+    width: 100%;
+  }
+}

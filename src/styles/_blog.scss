@@ -1,0 +1,26 @@
+.blog-wrapper {
+  .container {
+    margin: 0 auto;
+    background-color: var(--forge-theme-surface);
+    box-shadow: var(--forge-theme-card-shadow);
+    border-radius: 4px;
+    padding: 24px 16px;
+    position: relative;
+    padding-top: 56px;
+    margin-top: -4px !important;
+  }
+
+  nav[class^=sidebar] {
+    top: calc(var(--ifm-navbar-height)) !important;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .blog-wrapper {
+    .container {
+      box-shadow: none;
+      padding: 24px;
+    }
+  }
+}
+

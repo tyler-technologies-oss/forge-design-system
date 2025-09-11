@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  margin: 16px 0;
+}
+
+.header {
+  margin: 0;
+}

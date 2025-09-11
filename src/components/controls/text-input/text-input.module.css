@@ -1,0 +1,16 @@
+.input {
+  border: 1px solid var(--forge-theme-text-secondary);
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.input:hover {
+  border-color: var(--forge-theme-text-primary);
+}
+
+.input::placeholder {
+  color: var(--forge-theme-text-secondary);
+}

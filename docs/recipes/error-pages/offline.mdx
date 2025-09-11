@@ -1,0 +1,20 @@
+---
+sidebar_label: Offline
+---
+
+# Recipe: Offline error
+
+This is used when a client application fails to make an asynchronous request to the server due to network connectivity issues.
+
+Examples where this could apply:
+
+- the local network is down
+- a network between the client and server is down
+- a VPN connection is not running, or not working properly
+
+:::note
+This is usually only applicable when your client-side application is handling the request (such as with an XMLHttpRequest or Javascript fetch() call).
+Normal page navigation while offline will result in the browser displaying its own internal error page.
+:::
+
+<RecipeDemo initialpath="/recipes/error-pages/offline.html" />

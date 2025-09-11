@@ -1,0 +1,45 @@
+kieran.nichols:
+  name: Kieran Nichols
+  title: Software Architect
+  url: https://github.com/drifty17
+  image_url: https://github.com/drifty17.png
+
+nick.andrews:
+  name: Nick Andrews
+  title: Senior UX Designer
+  url: https://github.com/nickonometry
+  image_url: https://github.com/nickonometry.png
+
+jay.mccormick:
+  name: Jay McCormick
+  title: Senior Product Owner
+  url: https://github.com/jayexprs
+  image_url: https://github.com/jayexprs.png
+
+eric.wayne:
+  name: Eric Wayne
+  title: Senior UX Designer
+  image_url: https://cdn.forge.tylertech.com/v1/icons/svg/standard/account_circle.svg
+
+kathy.wolf:
+  name: Kathy Wolf
+  title: UX Director
+  image_url: https://cdn.forge.tylertech.com/v1/icons/svg/standard/account_circle.svg
+
+ross.blakeney:
+  name: Ross Blakeney
+  title: Lead Software Engineer
+  url: https://github.com/Ross-Blakeney
+  image_url: https://github.com/Ross-Blakeney.png
+
+sam.richardson:
+  name: Sam Richardson
+  title: Senior Front End Software Engineer
+  url: https://github.com/samrichardsontylertech
+  image_url: https://github.com/samrichardsontylertech.png
+
+mike.matuszak:
+  name: Mike Matuszak
+  title: Front End Architect
+  url: https://github.com/mikematusz
+  image_url: https://github.com/mikematusz.png
