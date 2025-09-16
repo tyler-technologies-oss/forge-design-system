@@ -2,10 +2,9 @@
 
 ## Overview
 
-Tyler Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations.
+Tyler Forge provides a purposeful set of typographic styles designed to create clear visual hierarchy and improve readability across applications. Consistently applying typographic styles to appropriate sections and functions creates familiar patterns and user expectations, enhancing the overall user experience.   
 
-Tyler Forge uses Roboto as its primary typeface and it is used throughout the entire component library.
-
+Forge uses Roboto as its primary typeface throughout the entire component library. Roboto was chosen for its excellent readability across different screen sizes and devices, making it ideal for both digital interfaces and accessibility requirements.
 
 <p className="forge-typography--heading8">
 Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp   
@@ -13,25 +12,19 @@ Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
 0123456789 !@#$%^&*()[]{}
 </p>
 
-
-### Accessibility
-
-To ensure proper screen reader navigation, use the native HTML semantic headers. Screen readers use an accessibility tree to read through a page, so they’ll follow the logical header order (H1 through H6) instead of the order seen visually on a page. Use headings to reflect page hierarchies, sections, and parent-child relationships, instead of for styling purposes. 
-
-**Do not use semantic headings for stylistic purposes.** Instead, use semantic headings to create a logical hierarchy on the page, and use the Forge typography classes to style your text. The code snippets below include semantic headings as examples only; they’re not meant to be prescriptive. Be sure to use semantic headings that reflect your app’s logical hierarchy. 
-
-
 ---
 
-### Styles
+## Styles
 
-#### Display
+The Forge typography system includes multiple style categories, each serving specific interface needs.
+
+### Display
 
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Display styles are used for large, prominent text such as page titles and headings.
+Large, prominent text for major headings, hero sections, and key messaging. Use sparingly for maximum impact.
 
 </LeftColumn>
 
@@ -50,13 +43,13 @@ Display styles are used for large, prominent text such as page titles and headin
 
 
 
-#### Heading
+### Heading
 
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Heading styles are used for page titles and section headings.
+These are standard headings for page titles and section organization. These create the primary content hierarchy.
 
 </LeftColumn>
 
@@ -76,12 +69,12 @@ Heading styles are used for page titles and section headings.
 </Columns>
 
 
-#### Subheading
+### Subheading
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Subheading styles are used for section subheadings.
+Subheadings are secondary headings that support main headings and create subsection organization.
 
 </LeftColumn>
 
@@ -101,12 +94,12 @@ Subheading styles are used for section subheadings.
 </Columns>
 
 
-#### Body
+### Body
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Body styles are used for paragraph text and general content text.
+Standard text for paragraphs, descriptions, and general content reading.
 
 </LeftColumn>
 
@@ -122,12 +115,12 @@ Body styles are used for paragraph text and general content text.
 </Columns>
 
 
-#### Label
+### Label
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Label styles are used for small text such as form labels and captions.
+Small text for form labels, captions, and supplementary information.
 
 </LeftColumn>
 
@@ -142,12 +135,12 @@ Label styles are used for small text such as form labels and captions.
 </Columns>
 
 
-#### Button
+### Button
 <Columns type="equal" columns="two">
 
 <LeftColumn>
 
-Button styles are used for button text.
+Specialized text styling optimized for interactive button elements.
 
 </LeftColumn>
 
@@ -165,7 +158,7 @@ Button styles are used for button text.
 
 <LeftColumn>
 
-Overline styles are used for small, uppercase text such as section headers.
+Small, uppercase text for section headers and categorical labels.
 
 </LeftColumn>
 
@@ -177,33 +170,88 @@ Overline styles are used for small, uppercase text such as section headers.
 
 </Columns>
 
+---
+
+## Accessibility
+
+Proper typography implementation is crucial for accessibility and screen reader navigation.
+
+**Semantic HTML structure**
+
+- Use native HTML semantic headers (H1-H6) for proper screen reader navigation.
+- Follow logical header hierarchy to create an accessible content structure.
+- Reflect page relationships through heading levels rather than visual styling alone.
+
+**Separation of structure and style**
+
+- Don't use semantic headings for styling purposes - use them for logical content hierarchy.
+- Apply Forge typography classes for visual styling while maintaining semantic structure.
+- Ensure heading order follows content importance, not visual appearance.
+
+```
+<!-- Semantic structure -->
+<h1>Main Page Title</h1>
+<h2>Section Heading</h2>
+<h3>Subsection Heading</h3>
+
+<!-- With Forge styling -->
+<h1 class="forge-typography--display-2">Main Page Title</h1>
+<h2 class="forge-typography--heading-3">Section Heading</h2>
+<h3 class="forge-typography--subheading-1">Subsection Heading</h3>
+```
 
 ---
 
-## Best practices 
+## Readability guidelines
 
-For desktop apps, setting a max to line length helps create a better reading experience for the user. If a line of text is too long, it can become difficult for the user to follow from the end of a line to the beginning of the next vertically. Use a max line-length of 75 characters to facilitate optimal reading patterns. You can center your content or use columns to constrain content width. On mobile, use a max line-length of 35 characters.
+### Line length optimization
+Proper line length improves reading comprehension and reduces eye strain.
 
-<Columns type="equal" columns="two">
-
-<LeftColumn>
+#### Desktop applications:
 
 <ImageBlock padded={false} max-width="650px" caption="On desktop, aim to have your line length wrap at around 75 characters, including spaces.">
 
-![Image of typography in a Tyler app](./images/character-length-desktop.png)
+![Image of typography in a Forge app](./images/character-length-desktop.png)
 
 </ImageBlock>
 
-</LeftColumn>
+- Maximum line length: 75 characters (including spaces).
+- Implementation: Use content containers, columns, or max-width properties.
+- Benefits: Easier eye tracking from line end to beginning of next line.   
 
-<RightColumn>
+#### Mobile applications:
 
 <ImageBlock padded={false} max-width="650px" caption="For mobile, aim to have your line length wrap at around 35 characters, including spaces.">
 
-![Image of typography in a Tyler app](./images/character-length-mobile.png)
+![Image of typography in a Forge app](./images/character-length-mobile.png)
 
 </ImageBlock>
 
-</RightColumn>
+- Maximum line length: 35 characters (including spaces).
+- Implementation: Responsive typography that adapts to smaller screens.
+- Benefits: Improved readability on narrow viewports.
 
-</Columns>
+### Content organization
+- Center content or use column layouts to constrain text width.
+- Use white space effectively to separate content sections.
+- Consider responsive behavior when setting line length constraints.
+
+---
+
+## Best practices
+
+<DoDontGrid>
+  <DoDontTextSection>
+    <DoDontText type="do">Use semantic HTML headings to create logical content hierarchy.</DoDontText>
+    <DoDontText type="do">Apply Forge typography classes for consistent visual styling.</DoDontText>
+    <DoDontText type="do">Maintain appropriate line lengths for optimal readability.</DoDontText>
+    <DoDontText type="do">Test typography across different screen sizes and devices.</DoDontText>
+    <DoDontText type="do">Consider accessibility in all typography decisions.</DoDontText>
+    <DoDontText type="do">Test with screen readers and accessibility tools.</DoDontText>
+    <DoDontText type="do">Use typography hierarchy to guide user attention and content flow.</DoDontText>
+  </DoDontTextSection>
+  <DoDontTextSection>
+    <DoDontText type="dont">Don’t use headings for styling purposes without considering semantic meaning.</DoDontText>
+    <DoDontText type="dont">Don’t mix typography styles inconsistently across similar content types.</DoDontText>
+  </DoDontTextSection>
+</DoDontGrid>
