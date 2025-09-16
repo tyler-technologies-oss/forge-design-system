@@ -1,14 +1,52 @@
 ---
 sidebar_position: 1
-title: Core features
+title: Get started
 slug: /get-started
 ---
 
-# Core features for all Forge applications
+# Get started with Tyler Forge™
 
-The core components serve as the visual foundation for consistency for Forge applications and are the components every app should include.
+## What is Tyler Forge?
+Tyler Forge is a comprehensive design system and component library that provides a unified set of design principles, components, patterns, and guidelines to ensure consistency, accessibility, and usability across applications. Originally developed by Tyler Technologies, Forge is now available as an open-source design system.
 
-Use these key features for "out-of-the-box" consistency across applications.
+Forge serves as the foundation for creating cohesive user experiences that feel familiar and intuitive to users. By providing standardized components and patterns, Forge enables development teams to build applications more efficiently while maintaining high design quality.
+
+### Who should use Tyler Forge?
+
+Tyler Forge is designed for teams building modern web applications:
+
+- Product teams developing new applications
+- Development teams maintaining existing software
+- Design teams creating user interfaces
+- UX professionals working on application experiences
+- Open-source contributors extending the design system
+
+
+### Types of applications
+
+Tyler Forge supports various application categories:
+
+**Workforce applications:**
+- Internal tools and systems used by employees and staff:
+- Administrative dashboards and management systems
+- Data entry and processing applications
+- Internal reporting and analytics tools
+- Employee-facing productivity applications
+
+**Community applications:**
+- Public-facing applications used by citizens and community members:
+- Citizen portals and self-service applications
+- Public information and transparency tools
+- Community engagement platforms
+- Service request and management systems
+
+---
+
+## Core components
+
+The core components serve as the visual foundation for consistency across Forge applications and represent the essential elements most applications should include.
+
+Use these key components for "out-of-the-box" consistency across applications, ensuring users have familiar navigation and interaction patterns.
 
 <ImageBlock fullWidth={true} padded={false}>
 
@@ -16,49 +54,90 @@ Use these key features for "out-of-the-box" consistency across applications.
 
 </ImageBlock>
 
-## Parts
-
-All Forge apps require the following visual elements.
-
-### [App bar](/components/app-bar/app-bar)
-
-The app bar is a user’s personal navigation kit. It holds everything a user needs to navigate the app they’re currently in, apps they typically go to, and apps they might need, as well tools to customize their navigation experience through notifications, language options, and help resources.
-
----
-
-### [App launcher](/components/app-bar/app-launcher)
-
-App launcher is a persistent navigation component for users to switch context. It is a personal local map to navigate the ecosystem of your apps. It lives in the user information section of app bar and is represented by the Apps icon.
-
----
 
 ### [Scaffold](/components/layouts/scaffold)
 
-The scaffold provides the basic page layout for Forge apps.
+The foundational layout structure that provides consistent page organization across all Forge applications.
 
-The scaffold is the foundation of layout in Forge apps. The scaffold places the main content of the page:
+**Required elements:**
+- App bar: Primary navigation and application identification
+- Page title: Clear identification of current page or section
+- Main content area: Primary application functionality and information
 
-- [App bar](/components/app-bar/app-bar) (required)
-- [Navigation drawer](/components/navigation/navigation-drawer) (optional)
-- Page title (required)
+**Optional elements:**
+- Navigation drawer: Secondary navigation for complex applications
+- Side panels: Contextual tools or supplementary information
 
-To learn more about using and implementing the scaffold, check out the component page [here](/components/layouts/scaffold).
+**Benefits:**
+- Ensures consistent layout patterns across applications
+- Provides predictable navigation structure
+- Supports responsive design across different screen sizes
 
 
----
+### [App bar](/components/app-bar/app-bar)
+
+The app bar serves as the user's primary navigation hub, containing everything needed to navigate within the current application and access key functionality.
+
+**Key features:**
+- Current application identification and branding
+- Primary navigation elements
+- User account and profile access
+- Notifications and alerts
+- Settings and configuration options
+- Help and support resources
+
+
+### [App launcher](/components/app-bar/app-launcher)
+
+The app launcher is a navigation component that enables users to switch between different applications or sections seamlessly. Typically located within the app bar and represented by an Apps or menu icon.
+
+**Purpose:**
+- Provides navigation between related applications or modules
+- Maintains context while allowing application switching
+- Reduces friction when users need to access multiple tools
+
 
 ### [Color](/styles/color)
 
-The Forge color system uses an organized approach to applying color to your UI. In this system, a dedicated brand color, along with a primary and secondary color, are used to represent your brand.
+Forge uses an organized approach to color application that supports brand consistency and accessibility.
 
----
+**Color structure:**
+- Brand color: Represents your organization's identity
+- Primary color: Main interactive elements and key actions
+- Secondary color: Supporting elements and secondary actions
+- System colors: Status indicators, alerts, and feedback
+
+**Benefits:**
+- Maintains visual consistency across applications
+- Enables flexible theming while preserving brand identity
+
 
 ### [Typography](/styles/typography)
 
-Forge provides a purposeful set of typographic styles. Consistently tying typographic styles to appropriate sections and functions in an interface creates clear visual patterns and expectations.
+A purposeful set of typographic styles that create clear visual hierarchy and improve readability.
 
----
+**Typography system**
+- Heading styles: Multiple levels for content organization
+- Body text: Optimized for readability across different contexts
+- UI text: Specialized styles for interface elements
+- Display text: Prominent text for key messaging
 
-### [Icons](/assets/icon-library/)
+**Benefits:**
+- Creates clear visual patterns and user expectations
+- Improves content scannability and comprehension
+- Ensures consistent text treatment across applications
 
-Forge provides a purposeful set of iconography. Consistent iconography is an expression of brand and creates clear visual patterns and expectations.
+### [Iconography](/assets/icon-library/)
+
+Forge provides a comprehensive icon library that offers consistent visual communication across applications.
+
+**Icon categories**
+- Navigation icons: Wayfinding and menu elements
+- Action icons: Interactive elements and user controls
+- Status icons: System feedback and state indicators
+- Content icons: Representing different types of information
+
+**Benefits:**
+- Establishes clear visual language and brand expression
+- Improves user interface comprehension and usability
+- Reduces cognitive load through familiar symbol recognition
