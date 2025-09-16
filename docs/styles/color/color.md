@@ -1,57 +1,102 @@
 # Color
 
-The Forge color system serves as a meaningful expression of our brand.
-
 ## Overview 
 
-Color serves as a strong visual indicator of consistency across products that use Tyler Forge.
+The Forge color system serves as a meaningful expression of brand identity and provides visual consistency across applications. Color serves as a strong indicator of cohesion between products that use Forge components.
 
-Tyler is committed to meeting AA WCAG contrast ratios. To this end, we've chosen a primary, secondary, and tertiary colors that support usability across a variety of experiences. Our primary and secondary color support our Tyler brand and our tertiary color is chosen specifically for controls in order to ensure sufficient contrast so that users with low vision can use our products well.
+Forge is committed to meeting WCAG level AA contrast ratios for accessibility. The primary, secondary, and tertiary colors are chosen to support usability across a variety of experiences, ensuring users with low vision can effectively use applications built with Forge.
 
 ---
 
 ## Parts 
 
-The Tyler Forge color system is comprised of three parts: 1. Main palette, 2. Surface colors, 3. Informational colors.
+The Forge color system is comprised of three main parts that work together to create accessible, branded experiences: main palette, surface colors, and informational colors.
 
-### 1. Main palette 
+### Main palette 
 
 ![The four main palette colors are shown left to right: Primary, Secondary, Tertiary, and Branding.](./images/colors-header.png)
 
-The main palette is used to establish Tyler’s theme and primary look & feel. The Forge components at their core use these primary, secondary, and tertiary colors, along with a brand color. In general, the Forge components are already themed correctly to provide the appropriate colors needed.   
+The main palette consists of the foundation colors that establish the primary theme and visual identity:
 
-### 2. Surface colors
+- **Primary:** Main interactive elements and key actions.
+- **Secondary:** Supporting elements and secondary actions.
+- **Tertiary:** Specifically chosen for controls to ensure sufficient contrast and accessibility.
+- **Brand:** Represents organizational identity and branding.
+
+The main palette establishes the core theme and primary look and feel. Forge components use these colors by default and are already themed to provide appropriate color application.
+
+### Surface colors
 
 ![An example of the surface color overlaid on the background color is shown in light mode on the left half of the image, and in dark mode on the right half.](./images/surface-colors.png)
 
-Surface colors are intended to provide contrast against the content that sits on them. Tyler Forge uses a light grey on app backgrounds to provide contrast to white surfaces that contain content. Surfaces containing text are generally white to create sufficient contrast against black text.   
+Background and container colors that provide proper contrast for content:
 
-### 3. Informational colors
+- **Background colors:** Light grey used on app backgrounds to provide contrast against white content surfaces.
+- **Surface colors:** Generally white containers that hold content, creating sufficient contrast against dark text.
+- **Contrast considerations:** Surface colors are specifically chosen to support readability and visual hierarchy.
+
+Surface colors adapt between light and dark themes to maintain appropriate contrast ratios in different viewing contexts.   
+
+### Informational colors
 
 ![The four informational colors are shown left to right: Success, Warning, Error, and Info.](./images/colors-informational.png)
 
-Informational colors communicate additional information and should be used somewhat sparingly. The most common use cases for these informational colors are with certain components, such as the banner, badges, and inline messages, though they can be used elsewhere when needed.
+Semantic colors that communicate system states and feedback:
 
-There are 4 informational colors:
+- **Success:** Positive outcomes and completed actions.
+- **Warning:** Caution states and items requiring attention.
+- **Error:** Problems, failures, and critical issues.
+- **Info:** General information and neutral status updates.
 
-Success, Error, Warning, and Info.
+**Usage guidelines**
 
-All four are semantic colors and generally used as indicators for various workflow states or in badges to communicate statuses. Error is also used by default in the error state on inputs.
+- Use informational colors somewhat sparingly for maximum impact.
+- Commonly applied in banners, badges, inline messages, and form validation.
+- Error color is used by default for input field error states.
 
 :::info
-To be ADA compliant, statuses such as “success,” “warning,” and “error” should not be communicated by color only. Use text in addition to color, or an icon in addition to color to communicate these states.
+To meet ADA compliance, statuses like "success," "warning," and "error" should not be communicated by color alone. Always include text labels or icons alongside color to ensure all users can understand the meaning.
 :::
 
 ---
 
 ## Additional palettes
 
-Sometimes more colors are needed in various designs. These additional colors are used when necessary and specifically with certain components: badges, inline messages, and page banners. While these components have their own palettes to communicate specific statuses, sometimes more colors are needed for various reasons.
+Additional colors are available when the main system colors are insufficient for specific design needs.
 
-Colors may be used in additional parts of Tyler apps. Specifically, [badges](/components/notifications-and-messages/badge), [inline messages](/components/notifications-and-messages/inline-message), and [page banners](/components/notifications-and-messages/banner) have their own palettes to communicate specific statues. Additionally, data visualization uses its own palettes to ensure ADA compliance. 
+**Component-specific palettes**
+Certain components have expanded color options:
+
+- Badges: Extended palette for various status and category indicators.
+- Inline messages: Additional colors for different message types.
+- Page banners: Broader color range for different announcement types.
+
+**Data visualization palettes**
+Specialized color sets designed for charts and data representation.
+
+- Categorical colors: Distinct colors for different data categories.
+- Sequential colors: Gradual color progressions for ordered data.
+- Accessibility-compliant: All visualization colors meet contrast requirements.
 
 ---
 
 ## Themes 
 
-Forge components support theming through the use of its token structure. Currently only light and dark themes are built in to the components. This allows users to easily switch between dark and light versions of their applications depending on what they enjoy using more. With the structure of the Forge components, it's easily possible to add you own custom branding themes for your use cases. 
+Forge components support flexible theming through a structured token system.
+
+**Built-in themes**
+- Light theme: Standard light background with dark text.
+- Dark theme: Dark background with light text for reduced eye strain.
+
+**Custom theming**
+The token structure enables easy creation of custom branded themes.
+
+- Brand customization: Apply organizational colors while maintaining accessibility.
+- Flexible implementation: Modify colors without breaking component functionality.
+- Consistent application: Themes apply systematically across all Forge components.
+
+**Benefits**
+
+- Users can switch between light and dark modes based on preference.
+- Organizations can implement custom branding while maintaining usability.
+- Consistent theming across all application components. 
