@@ -106,13 +106,13 @@ export default {
         respectPrefersColorScheme: true
       },
 
-      announcementBar: {
-        id: 'welcome',
-        content: '✨ Forge components 3.0 is now available! View the <a href="/blog/2024/06/10/forge-3-generally-available">announcement</a> for more info.',
-        isCloseable: true,
-        backgroundColor: '#3D5AFE',
-        textColor: '#ffffff'
-      },
+      // announcementBar: {
+      //   id: 'welcome',
+      //   content: '',
+      //   isCloseable: true,
+      //   backgroundColor: '#3D5AFE',
+      //   textColor: '#ffffff'
+      // },
 
       footer: {
         style: 'light',
