@@ -38,7 +38,7 @@ Breadcrumbs are a secondary navigation item that show the current location of th
 3. **Overflow menu:** When a layout becomes condensed due to screen size or content amount, the crumbs can collapse down into an overflow menu. The user can then click to open the overflow, which will show the hidden crumbs. 
 4. **Leading icon (Optional):** Leading icons can be used to help indicate what a crumb level represents, if needed. 
 5. **Secondary text (Optional):** Secondary text can be used to help further explain what a crumb represents or what is contained in that area of the application.
-6. **Crumb overflow (Optional):** This overflow differs from the default. This menu is tied to a specific crumb, and can be used with extremely dense navigation where one crumb, or application page, might have many children pages to navigate back to.
+6. **Crumb overflow (Optional):** This overflow differs from the default. This menu is tied to a specific crumb, and can be used to navigate to sibling pages at the same hierarchical level. For example, if you're viewing "Products > Laptops," the overflow on "Laptops" would show other product categories like "Desktops," "Tablets," and "Monitors," allowing quick lateral navigation without going back up the hierarchy.
 
 ---
 
