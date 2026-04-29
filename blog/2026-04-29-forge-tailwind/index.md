@@ -150,6 +150,38 @@ Grid layouts showcase this best. A card grid that adapts from one column on mobi
 
 The gap scales with the viewport. Items reflow naturally. This pattern — which traditionally requires a CSS file with media queries — is now a single line of utility classes.
 
+## Pre-Built Forge Utilities
+
+Beyond the standard Tailwind mappings, the Forge team is building a collection of **pre-built combination utility classes** for common patterns across Tyler products. These encapsulate best practices into single, reusable classes.
+
+One example is a truly responsive grid that doesn't need breakpoints at all:
+
+```css
+.grid-min-320 {
+  @apply grid grid-cols-[repeat(auto-fill,minmax(min(320px,100%),1fr))] gap-medium;
+}
+```
+
+This creates a grid where:
+
+- Items are **at least 320px wide** (or 100% if the container is smaller than 320px)
+- Items **automatically wrap** to the next row when they can't fit
+- The grid **fills available space** by stretching items equally
+- Spacing uses Forge's `gap-medium` token
+
+The magic is in `auto-fill` and `minmax()`. Instead of manually specifying "1 column on mobile, 2 on tablet, 3 on desktop," the browser figures it out based on available space. A 1000px container fits 3 items. A 700px container fits 2. A 400px container fits 1. No breakpoints, no media queries — just CSS that adapts to its container.
+
+```html
+<div class="grid-min-320">
+  <forge-card>Adapts automatically</forge-card>
+  <forge-card>No breakpoints needed</forge-card>
+  <forge-card>Items wrap naturally</forge-card>
+  <forge-card>Fills available space</forge-card>
+</div>
+```
+
+We'll be adding more of these Forge-specific utilities over time — patterns we see repeated across products, distilled into single classes that teams can use without reinventing the wheel.
+
 ## A Complete Layout Example
 
 Here's a realistic page layout combining these patterns:
@@ -168,8 +200,8 @@ Here's a realistic page layout combining these patterns:
     <forge-button variant="raised">New Project</forge-button>
   </div>
 
-  <!-- Project grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
+  <!-- Project grid - auto-responsive! -->
+  <div class="grid-min-320">
     <forge-card>...</forge-card>
     <forge-card>...</forge-card>
     <forge-card>...</forge-card>
@@ -177,7 +209,7 @@ Here's a realistic page layout combining these patterns:
 </main>
 ```
 
-This layout is fully responsive, uses Forge components for interactive elements, and relies on Tailwind purely for structure and spacing. Every spacing value is a Forge token.
+This layout is fully responsive, uses Forge components for interactive elements, and relies on Tailwind purely for structure and spacing. The grid adapts to any container width without a single media query.
 
 ## The Compound Effect
 
