@@ -136,19 +136,30 @@ Responsive behavior becomes declarative. Instead of writing media queries, you p
 
 On mobile: compact 16px padding, smaller heading. On medium screens: 24px padding, larger heading. On large screens: 32px padding, largest heading. No CSS files to maintain — just declare your intent.
 
-## Responsive Grids
+## Responsive Layouts
 
-Grid layouts showcase this best. A card grid that adapts from one column on mobile to three on desktop:
+Breakpoints shine when you need to change the *structure* of a layout, not just scale values. A common example: an illustration alongside content that stacks on mobile.
 
 ```html
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-  <forge-card>...</forge-card>
-  <forge-card>...</forge-card>
-  <forge-card>...</forge-card>
+<div class="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+  <!-- Illustration -->
+  <div class="w-full md:w-1/2">
+    <img src="forge-illustration.svg" alt="" class="w-full" />
+  </div>
+
+  <!-- Content -->
+  <div class="w-full md:w-1/2 space-y-4">
+    <h2 class="text-heading3">Build faster with Forge</h2>
+    <p class="text-body2 text-medium">
+      Forge provides the building blocks you need to create
+      consistent, accessible experiences across Tyler products.
+    </p>
+    <forge-button variant="raised">Get Started</forge-button>
+  </div>
 </div>
 ```
 
-The gap scales with the viewport. Items reflow naturally. This pattern — which traditionally requires a CSS file with media queries — is now a single line of utility classes.
+On mobile, the illustration and content stack vertically. On medium screens and up, they sit side-by-side at equal widths. One set of utility classes, two completely different layouts — no CSS file required.
 
 ## Pre-Built Forge Utilities
 
