@@ -11,7 +11,7 @@ We're excited to announce **@tylertech/forge-tailwind**, a new Tailwind CSS v4 t
 
 ## The Consistency Challenge
 
-Across Tyler, teams build similar layouts every day: card grids, form sections, page scaffolds, sidebars with content areas. Each team writes their own CSS. Each team makes their own spacing decisions. And despite everyone's best intentions, inconsistencies creep in.
+Across Tyler, teams build similar layouts every day: card grids, form sections, page scaffolds, sidebars with content areas. Each team writes their own CSS. Each team makes their own design decisions. And despite everyone's best intentions, inconsistencies creep in.
 
 One product uses 16px gaps between cards. Another uses 20px. A third uses 24px but only on desktop. None of these are wrong — but they're not the same, and users notice.
 
