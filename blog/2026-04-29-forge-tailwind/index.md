@@ -106,15 +106,13 @@ The `space-y-*` utility adds consistent spacing between child elements without w
 
 ## Responsive Design Without Media Queries
 
-Responsive behavior becomes declarative. Instead of writing media queries, you prefix utilities with breakpoint modifiers:
+Responsive behavior becomes declarative using container queries. The `@container` class establishes a query context, and `@min-[500px]:block` shows the third box only when the container reaches 500px wide—responding to the component's size rather than the viewport:
 
 <iframe
   src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
   height="450"
 ></iframe>
-
-On mobile, the 3rd striped box is hidden
 
 ## Pre-Built Forge Utilities
 
