@@ -162,8 +162,6 @@ We recommend using Tailwind primarily for **layout** concerns:
 - **Responsive design** — `sm:`, `md:`, `lg:` breakpoint prefixes
 - **Typography** — `text-heading1`, `text-body1`, `text-label2`
 
-The `forge-tailwind` package also provides utility classes for background colors and typography, keeping your styling consistent with the design system while maintaining the flexibility of utility-first CSS.
-
 ## Looking Ahead: Blocks
 
 This package is the foundation for something bigger. We're building a library of **blocks** — shareable layout patterns and code snippets that teams can drop into their projects.
