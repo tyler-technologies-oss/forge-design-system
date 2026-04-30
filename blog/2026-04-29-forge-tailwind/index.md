@@ -101,7 +101,7 @@ Forge's type scale is available as utility classes like `text-heading1`, `text-b
 <iframe
   src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-typography--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
-  height="450"
+  height="780"
 ></iframe>
 
 ## Vertical Rhythm with space-y
@@ -121,7 +121,7 @@ Responsive behavior becomes declarative using container queries. The `@container
 <iframe
   src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
-  height="450"
+  height="340"
 ></iframe>
 
 ## Pre-Built Forge Utilities
@@ -133,7 +133,7 @@ One example is `.grid-min-120`—a truly responsive grid that doesn't need break
 <iframe
   src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-grid-min--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
-  height="450"
+  height="360"
 ></iframe>
 
 We'll be adding more of these Forge-specific utilities over time—patterns we see repeated across products, distilled into single classes that teams can use without reinventing the wheel.
