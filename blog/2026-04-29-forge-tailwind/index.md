@@ -99,7 +99,7 @@ No CSS file needed. The layout is declared right in the markup. And every value 
 Forge's type scale is available as utility classes like `text-heading1`, `text-body1`, and `text-label2`. Each class applies the complete typographic style—font size, line height, and weight—ensuring consistent text rendering across your application:
 
 <iframe
-  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-typography--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  src="https://forge.tylerdev.io/forge/v3/iframe.html?id=recipes-tailwind-layouts-typography--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
   height="780"
 ></iframe>
@@ -109,7 +109,7 @@ Forge's type scale is available as utility classes like `text-heading1`, `text-b
 The `space-y-*` utility adds consistent spacing between child elements without wrapper components. Use numeric values like `space-y-6` or semantic names like `space-y-large` — both resolve to the same Forge token.
 
 <iframe
-  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-vertical-rhythm--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  src="https://forge.tylerdev.io/forge/v3/iframe.html?id=recipes-tailwind-layouts-vertical-rhythm--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
   height="450"
 ></iframe>
@@ -119,7 +119,7 @@ The `space-y-*` utility adds consistent spacing between child elements without w
 Responsive behavior becomes declarative using container queries. The `@container` class establishes a query context, and `@min-[500px]:block` shows the third box only when the container reaches 500px wide—responding to the component's size rather than the viewport. Resize your browser window to see the third box appear and disappear:
 
 <iframe
-  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  src="https://forge.tylerdev.io/forge/v3/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
   height="340"
 ></iframe>
@@ -131,7 +131,7 @@ Beyond the standard Tailwind mappings, the Forge team is building a collection o
 One example is `.grid-min-120`—a truly responsive grid that doesn't need breakpoints at all. Items are at least 120px wide (or 100% if the container is smaller), automatically wrap when they can't fit, and stretch equally to fill available space. The magic is in `auto-fill` and `minmax()`: instead of manually specifying column counts at different breakpoints, the browser figures it out based on available space. Resize your browser window to see the grid adapt:
 
 <iframe
-  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-grid-min--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  src="https://forge.tylerdev.io/forge/v3/iframe.html?id=recipes-tailwind-layouts-grid-min--docs&viewMode=docs&shortcuts=false&singleStory=true"
   width="100%"
   height="360"
 ></iframe>
