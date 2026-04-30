@@ -96,70 +96,25 @@ No CSS file needed. The layout is declared right in the markup. And every value 
 
 ## Vertical Rhythm with space-y
 
-The `space-y-*` utility is particularly useful. It adds consistent spacing between child elements without wrapper components:
+The `space-y-*` utility adds consistent spacing between child elements without wrapper components. Use numeric values like `space-y-6` or semantic names like `space-y-large` — both resolve to the same Forge token.
 
-```html
-<div class="space-y-4">
-  <forge-card>First item</forge-card>
-  <forge-card>Second item</forge-card>
-  <forge-card>Third item</forge-card>
-</div>
-```
-
-This adds 16px of vertical space between each card. Clean, predictable, and token-aligned.
-
-You can also use semantic naming if your team prefers explicit token references:
-
-```html
-<div class="space-y-medium">
-  ...
-</div>
-```
-
-Both `space-y-4` and `space-y-medium` resolve to the same Forge token.
+<iframe
+  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-vertical-rhythm--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  width="100%"
+  height="450"
+></iframe>
 
 ## Responsive Design Without Media Queries
 
 Responsive behavior becomes declarative. Instead of writing media queries, you prefix utilities with breakpoint modifiers:
 
-```html
-<div class="p-4 md:p-6 lg:p-8">
-  <h1 class="text-heading5 md:text-heading4 lg:text-heading3">
-    Dashboard
-  </h1>
+<iframe
+  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  width="100%"
+  height="450"
+></iframe>
 
-  <div class="space-y-4 md:space-y-6">
-    <!-- Content that breathes more on larger screens -->
-  </div>
-</div>
-```
-
-On mobile: compact 16px padding, smaller heading. On medium screens: 24px padding, larger heading. On large screens: 32px padding, largest heading. No CSS files to maintain — just declare your intent.
-
-## Responsive Layouts
-
-Breakpoints shine when you need to change the *structure* of a layout, not just scale values. A common example: an illustration alongside content that stacks on mobile.
-
-```html
-<div class="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
-  <!-- Illustration -->
-  <div class="w-full md:w-1/2">
-    <img src="forge-illustration.svg" alt="" class="w-full" />
-  </div>
-
-  <!-- Content -->
-  <div class="w-full md:w-1/2 space-y-4">
-    <h2 class="text-heading3">Build faster with Forge</h2>
-    <p class="text-body2 text-medium">
-      Forge provides the building blocks you need to create
-      consistent, accessible experiences across Tyler products.
-    </p>
-    <forge-button variant="raised">Get Started</forge-button>
-  </div>
-</div>
-```
-
-On mobile, the illustration and content stack vertically. On medium screens and up, they sit side-by-side at equal widths. One set of utility classes, two completely different layouts — no CSS file required.
+On mobile, the 3rd striped box is hidden
 
 ## Pre-Built Forge Utilities
 
@@ -206,7 +161,8 @@ Here's a realistic page layout combining these patterns:
   </header>
 
   <!-- Action bar -->
-  <div class="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
+  <div
+    class="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
     <forge-text-field placeholder="Search projects..."></forge-text-field>
     <forge-button variant="raised">New Project</forge-button>
   </div>
