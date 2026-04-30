@@ -15,7 +15,7 @@ Across Tyler, teams build similar layouts every day: card grids, form sections, 
 
 One product uses 16px gaps between cards. Another uses 20px. A third uses 24px but only on desktop. None of these are wrong — but they're not the same, and users notice.
 
-The problem isn't lack of skill. It's that writing layout CSS from scratch every time invites variation. When you're focused on shipping features, it's easy to eyeball a margin value or round to a convenient number.
+The problem isn't lack of skill. It's that writing CSS from scratch every time invites variation. When you're focused on shipping features, it's easy to eyeball a margin value or round to a convenient number.
 
 ## Utility-First: A Different Approach
 
