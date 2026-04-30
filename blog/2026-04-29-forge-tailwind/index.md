@@ -94,6 +94,16 @@ Consider a common pattern: a section with a heading and a list of cards.
 
 No CSS file needed. The layout is declared right in the markup. And every value maps to a Forge token — there's no way to accidentally use 13px instead of 12px.
 
+## Typography Utilities
+
+Forge's type scale is available as utility classes like `text-heading1`, `text-body1`, and `text-label2`. Each class applies the complete typographic style—font size, line height, and weight—ensuring consistent text rendering across your application:
+
+<iframe
+  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-typography--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  width="100%"
+  height="450"
+></iframe>
+
 ## Vertical Rhythm with space-y
 
 The `space-y-*` utility adds consistent spacing between child elements without wrapper components. Use numeric values like `space-y-6` or semantic names like `space-y-large` — both resolve to the same Forge token.
@@ -104,9 +114,9 @@ The `space-y-*` utility adds consistent spacing between child elements without w
   height="450"
 ></iframe>
 
-## Responsive Design Without Media Queries
+## Responsive Design with Container Queries
 
-Responsive behavior becomes declarative using container queries. The `@container` class establishes a query context, and `@min-[500px]:block` shows the third box only when the container reaches 500px wide—responding to the component's size rather than the viewport:
+Responsive behavior becomes declarative using container queries. The `@container` class establishes a query context, and `@min-[500px]:block` shows the third box only when the container reaches 500px wide—responding to the component's size rather than the viewport. Resize your browser window to see the third box appear and disappear:
 
 <iframe
   src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-responsive-breakpoints--docs&viewMode=docs&shortcuts=false&singleStory=true"
@@ -118,63 +128,15 @@ Responsive behavior becomes declarative using container queries. The `@container
 
 Beyond the standard Tailwind mappings, the Forge team is building a collection of **pre-built combination utility classes** for common patterns across Tyler products. These encapsulate best practices into single, reusable classes.
 
-One example is a truly responsive grid that doesn't need breakpoints at all:
+One example is `.grid-min-120`—a truly responsive grid that doesn't need breakpoints at all. Items are at least 120px wide (or 100% if the container is smaller), automatically wrap when they can't fit, and stretch equally to fill available space. The magic is in `auto-fill` and `minmax()`: instead of manually specifying column counts at different breakpoints, the browser figures it out based on available space. Resize your browser window to see the grid adapt:
 
-```css
-.grid-min-320 {
-  @apply grid grid-cols-[repeat(auto-fill,minmax(min(320px,100%),1fr))] gap-medium;
-}
-```
+<iframe
+  src="https://forge.tylerdev.io/forge/pr-1141/iframe.html?id=recipes-tailwind-layouts-grid-min--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  width="100%"
+  height="450"
+></iframe>
 
-This creates a grid where:
-
-- Items are **at least 320px wide** (or 100% if the container is smaller than 320px)
-- Items **automatically wrap** to the next row when they can't fit
-- The grid **fills available space** by stretching items equally
-- Spacing uses Forge's `gap-medium` token
-
-The magic is in `auto-fill` and `minmax()`. Instead of manually specifying "1 column on mobile, 2 on tablet, 3 on desktop," the browser figures it out based on available space. A 1000px container fits 3 items. A 700px container fits 2. A 400px container fits 1. No breakpoints, no media queries — just CSS that adapts to its container.
-
-```html
-<div class="grid-min-320">
-  <forge-card>Adapts automatically</forge-card>
-  <forge-card>No breakpoints needed</forge-card>
-  <forge-card>Items wrap naturally</forge-card>
-  <forge-card>Fills available space</forge-card>
-</div>
-```
-
-We'll be adding more of these Forge-specific utilities over time — patterns we see repeated across products, distilled into single classes that teams can use without reinventing the wheel.
-
-## A Complete Layout Example
-
-Here's a realistic page layout combining these patterns:
-
-```html
-<main class="p-4 md:p-8 space-y-6 md:space-y-8">
-  <!-- Page header -->
-  <header class="space-y-2">
-    <h1 class="text-heading3 md:text-heading2">Projects</h1>
-    <p class="text-body2 text-medium">Manage your active projects</p>
-  </header>
-
-  <!-- Action bar -->
-  <div
-    class="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
-    <forge-text-field placeholder="Search projects..."></forge-text-field>
-    <forge-button variant="raised">New Project</forge-button>
-  </div>
-
-  <!-- Project grid - auto-responsive! -->
-  <div class="grid-min-320">
-    <forge-card>...</forge-card>
-    <forge-card>...</forge-card>
-    <forge-card>...</forge-card>
-  </div>
-</main>
-```
-
-This layout is fully responsive, uses Forge components for interactive elements, and relies on Tailwind purely for structure and spacing. The grid adapts to any container width without a single media query.
+We'll be adding more of these Forge-specific utilities over time—patterns we see repeated across products, distilled into single classes that teams can use without reinventing the wheel.
 
 ## The Compound Effect
 
