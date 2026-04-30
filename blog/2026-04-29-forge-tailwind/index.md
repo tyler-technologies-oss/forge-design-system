@@ -160,8 +160,9 @@ We recommend using Tailwind primarily for **layout** concerns:
 - **Sizing** — `w-*`, `h-*`, `max-w-*`, `min-h-*`
 - **Positioning** — `absolute`, `relative`, `top-*`, `left-*`
 - **Responsive design** — `sm:`, `md:`, `lg:` breakpoint prefixes
+- **Typography** — `text-heading1`, `text-body1`, `text-label2`
 
-For colors, typography, and component styling, continue using Forge components and CSS custom properties directly. This separation keeps your layouts portable and your styling consistent with the design system.
+The `forge-tailwind` package also provides utility classes for background colors and typography, keeping your styling consistent with the design system while maintaining the flexibility of utility-first CSS.
 
 ## Looking Ahead: Blocks
 
