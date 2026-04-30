@@ -162,6 +162,17 @@ We recommend using Tailwind primarily for **layout** concerns:
 - **Responsive design** — `sm:`, `md:`, `lg:` breakpoint prefixes
 - **Typography** — `text-heading1`, `text-body1`, `text-label2`
 
+## What to Avoid
+
+To stay within the design system, watch out for these patterns:
+
+- **Arbitrary values** — Tailwind's `p-[13px]` or `text-[#ff0000]` syntax bypasses tokens entirely. If you're reaching for square brackets, you're going off-system.
+- **Default Tailwind colors** — Using `bg-red-500` or `text-blue-600` instead of the Forge-mapped color utilities breaks visual consistency.
+- **Overriding Forge components** — Fighting the design system by stacking Tailwind classes to override component internals (padding on buttons, colors on inputs, etc.).
+- **Mixing spacing systems** — Combining Forge CSS custom properties in some places and Tailwind utilities in others for the same concern creates confusion and maintenance headaches.
+
+When in doubt, ask: "Is this value coming from a Forge token?" If not, reconsider.
+
 ## Looking Ahead: Blocks
 
 This package is the foundation for something bigger. We're building a library of **blocks** — shareable layout patterns and code snippets that teams can drop into their projects.
