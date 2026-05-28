@@ -17,6 +17,7 @@ import CheckboxListItem from '@site/src/components/utils/checkbox-list-item';
 import ServicesBlock from '@site/src/components/services-block/services-block';
 import RecipeDemo from '@site/src/components/recipe-demo/recipe-demo';
 import GlossaryItemHeader from '@site/src/components/glossary-item-header/glossary-item-header';
+import AllBlocks from '@site/src/components/all-blocks/all-blocks';
 
 export default {
   ...MDXComponents,
@@ -39,5 +40,6 @@ export default {
   CheckboxListItem,
   ServicesBlock,
   RecipeDemo,
-  GlossaryItemHeader
+  GlossaryItemHeader,
+  AllBlocks
 };

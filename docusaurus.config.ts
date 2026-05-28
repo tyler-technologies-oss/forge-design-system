@@ -34,6 +34,7 @@ export default {
   plugins: [
     'docusaurus-plugin-sass',
     'plugin-image-zoom',
+    './plugins/docusaurus-plugin-blocks',
   ],
   
   themes: [
@@ -163,6 +164,7 @@ export default {
           { label: 'Assets', to: '/assets' },
           { label: 'Components', to: '/components' },
           { label: 'Patterns', to: '/patterns' },
+          { label: 'Blocks', to: '/blocks' },
           { label: 'Recipes', to: '/recipes'},
           { label: 'Blog', to: '/blog', },
           {
