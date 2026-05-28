@@ -71,9 +71,9 @@ export default {
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),
         },
-        gtag: {
+        gtag: process.env.NODE_ENV === 'production' ? {
           trackingID: 'G-TJZ8RHYFPE',
-        },
+        } : undefined,
       },
     ],
   ],
