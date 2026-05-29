@@ -74,8 +74,7 @@ function BlockCard({ block }: { block: Block }): JSX.Element {
   );
 }
 
-function groupBlocksByCategory(blocks: Block[], categories: Category[]): GroupedBlocks[] {
-  const categoryOrder = categories.map(c => c.name);
+function groupBlocksByCategory(blocks: Block[]): GroupedBlocks[] {
   const grouped: Record<string, Block[]> = {};
 
   blocks.forEach(block => {
@@ -85,11 +84,11 @@ function groupBlocksByCategory(blocks: Block[], categories: Category[]): Grouped
     grouped[block.category].push(block);
   });
 
-  return categoryOrder
-    .filter(category => grouped[category]?.length > 0)
-    .map(category => ({
+  return Object.entries(grouped)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([category, items]) => ({
       label: category,
-      items: grouped[category]
+      items
     }));
 }
 
@@ -146,7 +145,7 @@ export default function AllBlocks(): JSX.Element {
     return <div className={styles.empty}>No blocks data available.</div>;
   }
 
-  const groups = groupBlocksByCategory(manifest.blocks, manifest.categories);
+  const groups = groupBlocksByCategory(manifest.blocks);
   const filteredGroups = filterText.trim().length ? filterGroups(groups, filterText) : groups;
 
   return (
