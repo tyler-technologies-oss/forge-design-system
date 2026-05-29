@@ -40,7 +40,9 @@
   cursor: pointer;
   font-size: 0.8125rem;
   color: var(--ifm-color-emphasis-600);
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .viewModeButton:last-child {
@@ -82,7 +84,9 @@
   background: var(--ifm-background-color);
   cursor: pointer;
   color: var(--ifm-color-emphasis-600);
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .viewportButton:last-child {
@@ -119,13 +123,18 @@
 }
 
 .iframeContainer {
+  --iframe-height: 700px;
   background-color: var(--ifm-color-emphasis-100);
-  background-image: radial-gradient(circle, var(--ifm-color-emphasis-300) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    var(--ifm-color-emphasis-300) 1px,
+    transparent 1px
+  );
   background-size: 20px 20px;
   display: flex;
   justify-content: center;
   padding: 1rem;
-  min-height: 600px;
+  min-height: var(--iframe-height);
 }
 
 .iframeWrapper {
@@ -138,7 +147,7 @@
 
 .iframe {
   width: 100%;
-  height: 600px;
+  height: var(--iframe-height);
   border: none;
   display: block;
 }
@@ -171,7 +180,7 @@
 }
 
 .sourceContainer {
-  min-height: 600px;
+  min-height: var(--iframe-height);
   overflow: auto;
 }
 
@@ -181,7 +190,7 @@
 }
 
 .codeBlockWrapper pre {
-  max-height: 600px;
+  max-height: var(--iframe-height);
   border-radius: 0;
 }
 
@@ -189,7 +198,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: var(--iframe-height);
   color: var(--ifm-color-emphasis-600);
   background-color: var(--ifm-pre-background);
 }

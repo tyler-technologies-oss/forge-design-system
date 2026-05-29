@@ -19,7 +19,7 @@ interface Props {
 }
 
 export default function BlockPage({ blockData }: Props): JSX.Element {
-  const { name, description, tags, iframeUrl } = blockData;
+  const { name, description, iframeUrl } = blockData;
 
   return (
     <Layout title={name} description={description}>
@@ -33,13 +33,6 @@ export default function BlockPage({ blockData }: Props): JSX.Element {
               <h1>{name}</h1>
             </div>
             <p className={styles.description}>{description}</p>
-            {tags.length > 0 && (
-              <div className={styles.tags}>
-                {tags.map(tag => (
-                  <span key={tag} className={styles.tag}>{tag}</span>
-                ))}
-              </div>
-            )}
           </header>
 
           <section className={styles.preview}>

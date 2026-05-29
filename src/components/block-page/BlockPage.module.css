@@ -8,12 +8,12 @@
 .article {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 24px;
 }
 
-.header {
-  border-bottom: 1px solid var(--ifm-color-emphasis-300);
-  padding-bottom: 1.5rem;
+.header p {
+  padding: 0;
+  margin: 0;
 }
 
 .titleRow {
