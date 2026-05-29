@@ -15,6 +15,38 @@
   padding-bottom: 1.5rem;
 }
 
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.titleRow h1 {
+  margin: 0;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  color: var(--ifm-color-emphasis-700);
+  transition: background-color 0.2s;
+}
+
+.backLink:hover {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
+  text-decoration: none;
+}
+
+.backArrow {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
 .header h1 {
   margin-bottom: 0.5rem;
 }

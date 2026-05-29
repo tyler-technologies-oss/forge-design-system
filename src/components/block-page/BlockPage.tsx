@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import styles from './BlockPage.module.css';
 
 interface BlockData {
@@ -24,7 +25,12 @@ export default function BlockPage({ blockData }: Props): JSX.Element {
       <main className={styles.container}>
         <article className={styles.article}>
           <header className={styles.header}>
-            <h1>{name}</h1>
+            <div className={styles.titleRow}>
+              <Link to="/blocks" className={styles.backLink} aria-label="Back to all blocks">
+                <span className={styles.backArrow}>←</span>
+              </Link>
+              <h1>{name}</h1>
+            </div>
             <p className={styles.description}>{description}</p>
             {tags.length > 0 && (
               <div className={styles.tags}>

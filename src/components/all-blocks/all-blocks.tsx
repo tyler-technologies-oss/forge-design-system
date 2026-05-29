@@ -5,7 +5,7 @@ import styles from './all-blocks.module.css';
 import InputField from '../controls/text-input/text-input';
 
 const MANIFEST_URL = 'https://forge.tylerdev.io/forge/pr-1145/blocks/manifest.json';
-const BLOCKS_BASE_URL = 'https://forge.tylerdev.io/forge/pr-1145/blocks/src/blocks';
+const BLOCKS_BASE_URL = 'https://forge.tylerdev.io/forge/pr-1145/blocks';
 const MAX_DESC_CHAR_COUNT = 135;
 
 interface Block {
@@ -14,7 +14,7 @@ interface Block {
   description: string;
   tags: string[];
   file: string;
-  screenshot: string;
+  category: string;
 }
 
 interface Category {
@@ -48,13 +48,13 @@ function BlockCard({ block }: { block: Block }): JSX.Element {
   }
 
   const blockPath = getBlockPath(block.id);
-  const screenshotUrl = `${BLOCKS_BASE_URL}/${block.screenshot}`;
+  const screenshotUrl = `${BLOCKS_BASE_URL}/${block.file.replace('.html', '.webp')}`;
 
   return (
     <Link to={blockPath} className={styles.itemAnchor}>
       <div className={clsx('card', 'card--outlined', styles.blockCard)}>
         <div className={styles.thumbnailContainer}>
-          <img src={screenshotUrl} alt={`${block.name} preview`} className={styles.thumbnail} loading="lazy" />
+          <img src={screenshotUrl} alt="" className={styles.thumbnail} loading="lazy" />
         </div>
         <div className={styles.cardContent}>
           <div className={clsx(styles.headerText)}>{block.name}</div>
@@ -74,34 +74,21 @@ function BlockCard({ block }: { block: Block }): JSX.Element {
   );
 }
 
-function formatCategoryLabel(category: string): string {
-  return category
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
-}
-
-function getCategoryFromId(id: string): string {
-  const parts = id.split('/');
-  return parts.length > 1 ? parts[1] : 'other';
-}
-
 function groupBlocksByCategory(blocks: Block[], categories: Category[]): GroupedBlocks[] {
   const categoryOrder = categories.map(c => c.name);
   const grouped: Record<string, Block[]> = {};
 
   blocks.forEach(block => {
-    const category = getCategoryFromId(block.id);
-    if (!grouped[category]) {
-      grouped[category] = [];
+    if (!grouped[block.category]) {
+      grouped[block.category] = [];
     }
-    grouped[category].push(block);
+    grouped[block.category].push(block);
   });
 
   return categoryOrder
     .filter(category => grouped[category]?.length > 0)
     .map(category => ({
-      label: formatCategoryLabel(category),
+      label: category,
       items: grouped[category]
     }));
 }
