@@ -13,10 +13,48 @@
   border-bottom: 1px solid var(--ifm-color-emphasis-300);
 }
 
+.toolbarLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .title {
   font-weight: 600;
   font-size: 0.875rem;
   color: var(--ifm-color-emphasis-800);
+}
+
+.viewModeToggle {
+  display: flex;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.viewModeButton {
+  padding: 0.375rem 0.75rem;
+  border: none;
+  border-right: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  cursor: pointer;
+  font-size: 0.8125rem;
+  color: var(--ifm-color-emphasis-600);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.viewModeButton:last-child {
+  border-right: none;
+}
+
+.viewModeButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+}
+
+.viewModeButton.active {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
 }
 
 .toolbarActions {
@@ -108,4 +146,28 @@
   .iframe {
     height: 400px;
   }
+}
+
+.sourceContainer {
+  min-height: 600px;
+  overflow: auto;
+}
+
+.codeBlockWrapper > div {
+  margin: 0;
+  border-radius: 0;
+}
+
+.codeBlockWrapper pre {
+  max-height: 600px;
+  border-radius: 0;
+}
+
+.sourceLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  color: var(--ifm-color-emphasis-600);
+  background-color: var(--ifm-pre-background);
 }
