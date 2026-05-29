@@ -71,24 +71,6 @@
   color: var(--ifm-color-emphasis-700);
 }
 
-.preview h2 {
-  margin-bottom: 1rem;
-}
-
-.iframeContainer {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-.iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-  display: block;
-}
-
 .openLink {
   display: inline-block;
   margin-top: 1rem;
@@ -98,9 +80,5 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 1rem;
-  }
-
-  .iframe {
-    height: 400px;
   }
 }

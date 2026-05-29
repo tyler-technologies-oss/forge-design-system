@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import BlockViewer from '../block-viewer/BlockViewer';
 import styles from './BlockPage.module.css';
 
 interface BlockData {
@@ -42,14 +43,7 @@ export default function BlockPage({ blockData }: Props): JSX.Element {
           </header>
 
           <section className={styles.preview}>
-            <h2>Preview</h2>
-            <div className={styles.iframeContainer}>
-              <iframe
-                src={iframeUrl}
-                title={`${name} preview`}
-                className={styles.iframe}
-              />
-            </div>
+            <BlockViewer title={name} iframeUrl={iframeUrl} />
             <a
               href={iframeUrl}
               target="_blank"
