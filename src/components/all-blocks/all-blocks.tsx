@@ -88,7 +88,7 @@ function groupBlocksByCategory(blocks: Block[]): GroupedBlocks[] {
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([category, items]) => ({
       label: category,
-      items
+      items: items.sort((a, b) => a.name.localeCompare(b.name))
     }));
 }
 
