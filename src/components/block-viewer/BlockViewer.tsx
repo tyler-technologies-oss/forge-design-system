@@ -1,4 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 import CodeBlock from '@theme/CodeBlock';
 import styles from './BlockViewer.module.css';
 
@@ -19,11 +20,28 @@ interface BlockViewerProps {
 
 export default function BlockViewer({ title, iframeUrl }: BlockViewerProps): JSX.Element {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const { colorMode, setColorMode } = useColorMode();
   const [viewport, setViewport] = useState<Viewport>('desktop');
   const [viewMode, setViewMode] = useState<ViewMode>('preview');
   const [sourceCode, setSourceCode] = useState<string>('');
   const [sourceLoading, setSourceLoading] = useState(false);
+
+  const sendThemeToIframe = useCallback((theme: 'light' | 'dark') => {
+    iframeRef.current?.contentWindow?.postMessage(
+      { type: 'forge-theme-change', theme },
+      '*'
+    );
+  }, []);
+
+  // Sync iframe theme when Docusaurus colorMode changes
+  useEffect(() => {
+    sendThemeToIframe(colorMode);
+  }, [colorMode, sendThemeToIframe]);
+
+  // Send theme to iframe when it loads
+  const handleIframeLoad = useCallback(() => {
+    sendThemeToIframe(colorMode);
+  }, [colorMode, sendThemeToIframe]);
 
   useEffect(() => {
     if (viewMode === 'source' && !sourceCode) {
@@ -44,12 +62,7 @@ export default function BlockViewer({ title, iframeUrl }: BlockViewerProps): JSX
   }, [viewMode, iframeUrl, sourceCode]);
 
   const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    iframeRef.current?.contentWindow?.postMessage(
-      { type: 'forge-theme-change', theme: newTheme },
-      '*'
-    );
+    setColorMode(colorMode === 'light' ? 'dark' : 'light');
   };
 
   const reloadIframe = () => {
@@ -145,9 +158,9 @@ export default function BlockViewer({ title, iframeUrl }: BlockViewerProps): JSX
             <button
               onClick={toggleTheme}
               className={styles.themeToggle}
-              aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
+              aria-label={`Switch to ${colorMode === 'light' ? 'dark' : 'light'} theme`}
             >
-              {theme === 'light' ? (
+              {colorMode === 'light' ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                 </svg>
@@ -179,6 +192,7 @@ export default function BlockViewer({ title, iframeUrl }: BlockViewerProps): JSX
               src={iframeUrl}
               title={`${title} preview`}
               className={styles.iframe}
+              onLoad={handleIframeLoad}
             />
           </div>
         </div>
