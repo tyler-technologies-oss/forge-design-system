@@ -150,7 +150,7 @@ export default {
       },
 
       navbar: {
-        hideOnScroll: true,
+        hideOnScroll: false,
         title: 'Tyler Forge™',
         logo: {
           alt: 'Forge logo',
@@ -158,12 +158,12 @@ export default {
         },
         items: [
           { label: 'Get started', to: '/get-started' },
-          { label: 'Styles', to: '/styles' },
-          { label: 'Content', to: '/content' },
-          { label: 'Assets', to: '/assets' },
+          { label: 'Tokens', to: '/tokens' },
           { label: 'Components', to: '/components' },
-          { label: 'Patterns', to: '/patterns' },
-          { label: 'Recipes', to: '/recipes'},
+          { label: 'Blocks', to: '/blocks' },
+          { label: 'Layouts', to: '/layouts' },
+          { label: 'Icons', to: '/icons' },
+          { label: 'Illustrations', to: '/illustrations' },
           { label: 'Blog', to: '/blog', },
           {
             label: 'Develop',
