@@ -86,7 +86,7 @@ export default {
 
       docs: {
         sidebar: {
-          autoCollapseCategories: true
+          autoCollapseCategories: false
         },
       },
 

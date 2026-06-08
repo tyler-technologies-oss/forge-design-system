@@ -78,13 +78,13 @@ html, body {
 }
 
 /// Override the content sub-container to use a card design
-div[class^=docItemContainer] {
-  background-color: var(--forge-theme-surface);
-  box-shadow: var(--forge-theme-card-shadow);
-  border-radius: 4px;
-  padding: 24px;
-  position: relative;
-}
+/// div[class^=docItemContainer] {
+///  background-color: var(--forge-theme-surface);
+///  box-shadow: var(--forge-theme-card-shadow);
+///  border-radius: 4px;
+///  padding: 24px;
+///  position: relative;
+///}
 
 .navbar__item {
   white-space: nowrap;
