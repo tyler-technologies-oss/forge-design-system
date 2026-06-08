@@ -129,8 +129,8 @@ export default {
           {
             title: 'Code',
             items: [
-              { label: 'Components', href: 'https://github.com/tyler-technologies-oss/forge/' },
-              { label: 'Design System', href: 'https://github.com/tyler-technologies-oss/forge-design-system/' },
+              { label: 'GitHub', href: 'https://github.com/tyler-technologies-oss/forge/' },
+              { label: 'Doc. site repo', href: 'https://github.com/tyler-technologies-oss/forge-design-system/' },
             ]
           },
           {
