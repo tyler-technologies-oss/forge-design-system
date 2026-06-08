@@ -161,7 +161,6 @@ export default {
           { label: 'Tokens', to: '/tokens' },
           { label: 'Components', to: '/components' },
           { label: 'Blocks', to: '/blocks' },
-          { label: 'Layouts', to: '/layouts' },
           { label: 'Icons', to: '/icons' },
           { label: 'Illustrations', to: '/illustrations' },
           { label: 'Blog', to: '/blog', },
