@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Get started
+title: "Get started"
 slug: /get-started
 ---
 
@@ -47,12 +47,6 @@ Tyler Forge supports various application categories:
 The core components serve as the visual foundation for consistency across Forge applications and represent the essential elements most applications should include.
 
 Use these key components for "out-of-the-box" consistency across applications, ensuring users have familiar navigation and interaction patterns.
-
-<ImageBlock fullWidth={true} padded={false}>
-
-![Image of the core components as demonstrated in a Forge app.](./images/core-components-diagram.png)
-
-</ImageBlock>
 
 
 ### [Scaffold](/components/layouts/scaffold)

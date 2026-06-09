@@ -157,12 +157,7 @@ export default {
           src: 'https://cdn.forge.tylertech.com/v1/icons/svg/custom/forge_logo.svg'
         },
         items: [
-          { label: 'Get started', to: '/get-started' },
-          { label: 'Tokens', to: '/tokens' },
-          { label: 'Components', to: '/components' },
-          { label: 'Blocks', to: '/blocks' },
-          { label: 'Icons', to: '/icons' },
-          { label: 'Illustrations', to: '/illustrations' },
+          { label: 'Docs', to: '/get-started' },
           { label: 'Blog', to: '/blog', },
           {
             label: 'Develop',
