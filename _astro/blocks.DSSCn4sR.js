@@ -1,0 +1,1 @@
+var e=`https://forge.tylerdev.io/blocks/v1`;function t(e){return e.replace(/\.js$/,`.source.js`)}export{t as n,e as t};
