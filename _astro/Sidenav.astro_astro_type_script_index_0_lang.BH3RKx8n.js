@@ -1,0 +1,1 @@
+import{r as e,t}from"./theme.Ddy6VPsJ.js";var n=document.querySelectorAll(`[data-theme-toggle]`),r=()=>{n.forEach(e=>{e.pressed=t()===`dark`})};n.forEach(t=>{t.addEventListener(`forge-icon-button-toggle`,({detail:t})=>{e(t?`dark`:`light`)})}),new MutationObserver(r).observe(document.documentElement,{attributes:!0,attributeFilter:[`data-forge-theme`]}),r();
