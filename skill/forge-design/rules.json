@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "subpathOnlyComponents": [
+    "forge-app-launcher",
+    "forge-app-layout",
+    "forge-busy-indicator",
+    "forge-confirmation-dialog",
+    "forge-content-scaffold",
+    "forge-count-card",
+    "forge-footer",
+    "forge-multi-select-header",
+    "forge-quantity-field",
+    "forge-responsive-toolbar",
+    "forge-structured-card",
+    "forge-theme-toggle",
+    "forge-user-profile"
+  ]
+}
