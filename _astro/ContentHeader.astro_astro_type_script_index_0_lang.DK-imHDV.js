@@ -1,0 +1,1 @@
+import{t as e}from"./client.C5tmiID1.js";document.addEventListener(`astro:page-load`,()=>{document.querySelectorAll(`forge-icon-button[data-back]`).forEach(t=>{t.addEventListener(`click`,()=>{let{backHref:n}=t.dataset;n?e(n):history.back()})})});

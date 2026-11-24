@@ -1,0 +1,118 @@
+# Tyler Forge Design System
+
+> Tyler Forge is Tyler Technologies' design system: web components (`@tylertech/forge`), design tokens, and pre-built blocks. Build Forge UI with the Forge MCP server (`@tylertech/forge-mcp`); these pages are the same guidance it serves.
+
+- [Rules and workflow](https://tylerforge.design/skill/forge-design/rules.md): the rules that always apply and the step-by-step workflow for building Forge UI.
+
+## Guides
+
+- [Forge UI anti-patterns](https://tylerforge.design/skill/forge-design/references/anti-patterns.md): Patterns to avoid, each with the Forge-native alternative.
+- [UI plan contract](https://tylerforge.design/skill/forge-design/references/ui-plan.md): The UI plan contract for generate_ui_plan and validate_ui_plan.
+
+## Components
+
+- [Accordion](https://tylerforge.design/skill/forge-design/references/components/accordion.md): Wraps a set of expansion panels so that opening one automatically closes any other open panel.
+- [App Bar](https://tylerforge.design/skill/forge-design/references/components/app-bar.md): App bars are headers used to display branding, navigation, and actions at the top of an application.
+- [App Launcher](https://tylerforge.design/skill/forge-design/references/components/app-launcher.md): The app launcher lets a user switch between related apps, browse every available app, and jump to custom links, from the app bar's end slot.
+- [App Layout](https://tylerforge.design/skill/forge-design/references/components/app-layout.md): The app layout provides a complete application shell with an app bar, responsive navigation drawer, and a body area for page content.
+- [Autocomplete](https://tylerforge.design/skill/forge-design/references/components/autocomplete.md): Autocomplete components provide real-time typeahead suggestions as users type in a text field.
+- [Avatar](https://tylerforge.design/skill/forge-design/references/components/avatar.md): A non-interactive circle that represents an entity — with an image, initials, or an icon.
+- [Badge](https://tylerforge.design/skill/forge-design/references/components/badge.md): Badges display small amounts of non-interactive information like counts, status indicators, or notifications.
+- [Banner](https://tylerforge.design/skill/forge-design/references/components/banner.md): Banners inform users of important, page-level information — such as errors, warnings, or success messages — without interrupting their workflow.
+- [Breadcrumb](https://tylerforge.design/skill/forge-design/references/components/breadcrumb.md): Breadcrumbs show the user's location within a hierarchy and provide links back to parent pages.
+- [Busy Indicator](https://tylerforge.design/skill/forge-design/references/components/busy-indicator.md): A busy indicator blocks interaction with a fullscreen or inline region while a longer-running process completes.
+- [Button](https://tylerforge.design/skill/forge-design/references/components/button.md): Buttons allow users to take actions and make choices with a single tap.
+- [Button Area](https://tylerforge.design/skill/forge-design/references/components/button-area.md): Makes an entire region of content — like a card — behave as a single clickable control, backed by a real button or link underneath.
+- [Button Toggle](https://tylerforge.design/skill/forge-design/references/components/button-toggle.md): Button toggles allow users to select from a group of choices with single or multiple selection.
+- [Calendar](https://tylerforge.design/skill/forge-design/references/components/calendar.md): A flexible calendar component for date selection with support for single dates, ranges, multiple selections, and extensive customization options.
+- [Card](https://tylerforge.design/skill/forge-design/references/components/card.md): Cards group related content and actions about a single topic into one surface.
+- [Checkbox](https://tylerforge.design/skill/forge-design/references/components/checkbox.md): Checkboxes allow for selecting multiple options from a set.
+- [Chip](https://tylerforge.design/skill/forge-design/references/components/chip.md): A compact, interactive element that represents an entity, action, or attribute with support for selection, removal, and various styling options.
+- [Chip Field](https://tylerforge.design/skill/forge-design/references/components/chip-field.md): A specialized input field that lets users create and manage a collection of chips representing freeform text values or selections.
+- [Circular Progress](https://tylerforge.design/skill/forge-design/references/components/circular-progress.md): Circular progress indicators display progress along a circular track, for both determinate and indeterminate waits.
+- [Color Picker](https://tylerforge.design/skill/forge-design/references/components/color-picker.md): An interactive color selection component with support for multiple color formats (hex, RGB, HSV) and optional opacity control.
+- [Confirmation Dialog](https://tylerforge.design/skill/forge-design/references/components/confirmation-dialog.md): A confirmation dialog is a modal that presents a brief message or alert and asks the user to make a primary or secondary decision.
+- [Count Card](https://tylerforge.design/skill/forge-design/references/components/count-card.md): A count card displays a count or key metric with an icon and label, for dashboards and summary views.
+- [Date Picker](https://tylerforge.design/skill/forge-design/references/components/date-picker.md): A date input component with an integrated calendar popup for selecting single dates.
+- [Date Range Picker](https://tylerforge.design/skill/forge-design/references/components/date-range-picker.md): A date input component with an integrated calendar popup for selecting date ranges with separate "from" and "to" date values.
+- [Dialog](https://tylerforge.design/skill/forge-design/references/components/dialog.md): Dialogs are modal windows that interrupt the user to convey critical information or request a decision.
+- [Divider](https://tylerforge.design/skill/forge-design/references/components/divider.md): A thin line that visually separates groups of related content, horizontally or vertically.
+- [Drawer](https://tylerforge.design/skill/forge-design/references/components/drawer.md): Drawers support persistent navigation or supplementary content pinned to the left or right edge of the screen.
+- [Expansion Panel](https://tylerforge.design/skill/forge-design/references/components/expansion-panel.md): Expansion panels show summary content and reveal additional detail on tap, for progressive disclosure inside a card, list, or table.
+- [File Picker](https://tylerforge.design/skill/forge-design/references/components/file-picker.md): Lets a user upload one or more files via drag-and-drop or a system file chooser, with visual cues for valid and invalid drops.
+- [Floating Action Button](https://tylerforge.design/skill/forge-design/references/components/fab.md): Floating action buttons represent the single most important action on a page, positioned above other content to draw attention to it.
+- [Footer](https://tylerforge.design/skill/forge-design/references/components/footer.md): Footers display secondary links, legal text, and branding at the bottom of an app or page.
+- [Icon](https://tylerforge.design/skill/forge-design/references/components/icon.md): Icons render a registered SVG from the Tyler Forge icon library, or a custom source, to represent information or reinforce an action.
+- [Icon Button](https://tylerforge.design/skill/forge-design/references/components/icon-button.md): Icon buttons are buttons that contain only an icon, and are used to represent actions or commands.
+- [Inline Message](https://tylerforge.design/skill/forge-design/references/components/inline-message.md): Inline messages provide contextual feedback about a specific action or state, inside the component they refer to.
+- [Kbd](https://tylerforge.design/skill/forge-design/references/components/kbd.md): Kbd displays a keyboard key combination, such as a shortcut in documentation or a hint within the UI.
+- [Key](https://tylerforge.design/skill/forge-design/references/components/key.md): Keys label the meaning of colors or values in a chart or data visualization, such as which color in a grouped meter represents which series.
+- [Keyboard Shortcut](https://tylerforge.design/skill/forge-design/references/components/keyboard-shortcut.md): Attaches a keyboard shortcut to an element, or the whole page, without any visible UI of its own.
+- [Label](https://tylerforge.design/skill/forge-design/references/components/label.md): Labels attach an accessible caption and Forge typography to a specific set of label-aware Forge components, in place of a plain HTML label element.
+- [Label Value](https://tylerforge.design/skill/forge-design/references/components/label-value.md): Label values display a label and value pair in a compact format with the proper typography and spacing styles applied.
+- [Linear Progress](https://tylerforge.design/skill/forge-design/references/components/linear-progress.md): Linear progress indicators display progress by animating along a horizontal track, for both determinate and indeterminate waits.
+- [List](https://tylerforge.design/skill/forge-design/references/components/list.md): Lists present a vertical, scannable group of related items, from plain text rows to full navigation menus.
+- [Listbox](https://tylerforge.design/skill/forge-design/references/components/listbox.md): Listboxes display a persistent list of options from which users select one or more.
+- [Menu](https://tylerforge.design/skill/forge-design/references/components/menu.md): Menus display a list of contextual actions or options in a popup, triggered from a button, icon, or list item.
+- [Meter](https://tylerforge.design/skill/forge-design/references/components/meter.md): Meters display a scalar value within a known range, using color to signal whether it's optimal, suboptimal, or least optimal.
+- [Page State](https://tylerforge.design/skill/forge-design/references/components/page-state.md): Page state displays a full-height message — for an empty result, an error, or general information — with an optional graphic and actions.
+- [Paginator](https://tylerforge.design/skill/forge-design/references/components/paginator.md): The paginator divides a logically sorted collection into pages, so users can navigate and mentally orient within the set.
+- [Popover](https://tylerforge.design/skill/forge-design/references/components/popover.md): A popover floats content above the page, positioned relative to the trigger element that anchors it.
+- [Process Stepper](https://tylerforge.design/skill/forge-design/references/components/process-stepper.md): Process steppers display progress through a multi-step process and let users move to a step.
+- [Quantity Field](https://tylerforge.design/skill/forge-design/references/components/quantity-field.md): The quantity field pairs a numeric input with increment and decrement buttons so users can adjust a quantity with a click or by typing.
+- [Radio](https://tylerforge.design/skill/forge-design/references/components/radio.md): The Forge Radio component is used to create a form input where only one out of a set of values should be selected.
+- [Responsive Toolbar](https://tylerforge.design/skill/forge-design/references/components/responsive-toolbar.md): The responsive toolbar switches between two sets of end actions, such as inline buttons and an overflow menu, depending on whether its title leaves enough room.
+- [Scaffold](https://tylerforge.design/skill/forge-design/references/components/scaffold.md): The scaffold lays out a header, scrollable body, and footer using named slots, for full pages or smaller sections alike.
+- [Secret](https://tylerforge.design/skill/forge-design/references/components/secret.md): Conceals sensitive content with a blur, mask, or noise effect, revealing it on user interaction.
+- [Select](https://tylerforge.design/skill/forge-design/references/components/select.md): Select components are comboboxes that present a list of options to users for single or multi-selection.
+- [Skeleton](https://tylerforge.design/skill/forge-design/references/components/skeleton.md): A skeleton screen is a low-fidelity placeholder that gradually loads into real content, giving users a visual cue that content is on its way.
+- [Skip Link](https://tylerforge.design/skill/forge-design/references/components/skip-link.md): Skip links let a user bypass repetitive content and navigate directly to a section of the page, meeting WCAG's bypass-blocks requirement.
+- [Slider](https://tylerforge.design/skill/forge-design/references/components/slider.md): Sliders allow users to make selections from a range of values.
+- [Split Button](https://tylerforge.design/skill/forge-design/references/components/split-button.md): Splits an action into two parts — typically a primary action and a secondary action that opens a menu or performs an alternative action.
+- [Split View](https://tylerforge.design/skill/forge-design/references/components/split-view.md): Split view lays out two or more panels side by side, at least one of which a user can resize by dragging.
+- [Stack](https://tylerforge.design/skill/forge-design/references/components/stack.md): A layout utility that manages spacing and alignment of its immediate children along a single vertical or horizontal axis.
+- [Stepper](https://tylerforge.design/skill/forge-design/references/components/stepper.md): Steppers break a multi-step process into a numbered sequence, showing progress toward completion.
+- [Structured Card](https://tylerforge.design/skill/forge-design/references/components/structured-card.md): Structured cards provide a pre-configured card layout with dedicated slots for a title, header actions, body content, and footer actions.
+- [Switch](https://tylerforge.design/skill/forge-design/references/components/switch.md): Switches toggle the state of a single setting on or off.
+- [Table](https://tylerforge.design/skill/forge-design/references/components/table.md): Tables display sets of data in sortable, filterable, selectable rows and columns, configured through data and column definitions.
+- [Tabs](https://tylerforge.design/skill/forge-design/references/components/tabs.md): Tabs organize and switch between groups of related content that sit at the same level of hierarchy.
+- [Text Field](https://tylerforge.design/skill/forge-design/references/components/text-field.md): An input field used to capture user text input, with an optional label, helper text, and validation state.
+- [Time Picker](https://tylerforge.design/skill/forge-design/references/components/time-picker.md): A time input component with an integrated dropdown for selecting time values, with support for various formats, masking, and validation.
+- [Timeline](https://tylerforge.design/skill/forge-design/references/components/timeline.md): Timelines display a list of events in chronological order, showing the sequence and relationship between events over time.
+- [Timestamp](https://tylerforge.design/skill/forge-design/references/components/timestamp.md): Timestamps display a formatted, localized date, time, or duration value using the native time element.
+- [Toast](https://tylerforge.design/skill/forge-design/references/components/toast.md): Toasts are brief, non-modal notifications that confirm a user's action and disappear automatically.
+- [Toolbar](https://tylerforge.design/skill/forge-design/references/components/toolbar.md): Toolbars align a title and actions inside a full-width container, most often as a header or footer for another surface.
+- [Tooltip](https://tylerforge.design/skill/forge-design/references/components/tooltip.md): Tooltips display a short text label for an element when the user hovers, focuses, or long-presses it.
+- [Tree](https://tylerforge.design/skill/forge-design/references/components/tree.md): Trees are interactive lists that allow users to navigate through hierarchical data.
+- [User Profile](https://tylerforge.design/skill/forge-design/references/components/user-profile.md): The user profile shows a sign-in button when signed out, or an avatar that opens a popover with the user's details, links, and sign-out action when signed in.
+- [View Switcher](https://tylerforge.design/skill/forge-design/references/components/view-switcher.md): A view switcher shows one of several views at a time, animating between them along a shared axis as the active index changes.
+
+## Design
+
+- [Color System](https://tylerforge.design/skill/forge-design/references/design/color.md): Guidance for using Tyler Forge's color system in your designs.
+- [Getting Started](https://tylerforge.design/skill/forge-design/references/design/getting-started.md): Start here for an overview of designing with Tyler Forge.
+- [Iconography](https://tylerforge.design/skill/forge-design/references/design/iconography.md): Guidance for using Tyler Forge icons in your designs.
+- [Layout](https://tylerforge.design/skill/forge-design/references/design/layout.md): The anatomy, dimensions, and page patterns of a Forge application, for designers building screens by hand.
+- [Spacing](https://tylerforge.design/skill/forge-design/references/design/spacing.md): How to apply Tyler Forge's spacing scale so hand-built designs match what Forge components and blocks produce in code.
+- [Typography](https://tylerforge.design/skill/forge-design/references/design/typography.md): Guidance for using Tyler Forge's typography system in your designs.
+
+## Development
+
+- [Accessibility](https://tylerforge.design/skill/forge-design/references/development/accessibility.md): An introduction to web accessibility, tools, and best practices as they relate to Forge.
+- [Angular](https://tylerforge.design/skill/forge-design/references/development/frameworks/angular.md): Using Tyler Forge with Angular.
+- [Blazor](https://tylerforge.design/skill/forge-design/references/development/frameworks/blazor.md): Using Tyler Forge with Blazor.
+- [CSS-Only Components](https://tylerforge.design/skill/forge-design/references/development/css-only-components.md): An experimental, framework-agnostic alternative to Forge's Web Components using only CSS classes.
+- [Forge MCP Server](https://tylerforge.design/skill/forge-design/references/development/mcp-server.md): Give AI clients direct access to Forge component documentation, design tokens, and code generation.
+- [Forms](https://tylerforge.design/skill/forge-design/references/development/forms.md): How Forge's form-associated components participate in native form submission and validation.
+- [Global Configuration](https://tylerforge.design/skill/forge-design/references/development/global-configuration.md): Overriding default component state application-wide via a global configuration object.
+- [Icons](https://tylerforge.design/skill/forge-design/references/development/icons.md): How to install and use the Tyler icons library with the Forge icon component.
+- [Illustrations](https://tylerforge.design/skill/forge-design/references/development/illustrations.md): Using Tyler Forge illustrations in your application.
+- [Installation](https://tylerforge.design/skill/forge-design/references/development/installation.md): How to install Tyler Forge via npm or CDN.
+- [React](https://tylerforge.design/skill/forge-design/references/development/frameworks/react.md): Using Tyler Forge with React.
+- [Sass Library](https://tylerforge.design/skill/forge-design/references/development/sass-library.md): Using Forge's internal Sass files, mixins, and variables in your own application or library.
+- [Svelte](https://tylerforge.design/skill/forge-design/references/development/frameworks/svelte.md): Using Tyler Forge with Svelte.
+- [Tailwind CSS](https://tylerforge.design/skill/forge-design/references/development/tailwind.md): An optional Tailwind CSS v4 theme that maps Tailwind utilities to Forge design tokens.
+- [Theming](https://tylerforge.design/skill/forge-design/references/development/theming.md): How to customize Forge's colors and theme via CSS custom properties and Sass mixins.
+- [Typography](https://tylerforge.design/skill/forge-design/references/development/typography.md): Forge's typography font, stylesheet, and typographic scale.
+- [Usage](https://tylerforge.design/skill/forge-design/references/development/usage.md): How Tyler Forge components work as Web Components — properties, events, methods, slots, and more.
+- [Vue](https://tylerforge.design/skill/forge-design/references/development/frameworks/vue.md): Using Tyler Forge with Vue.
